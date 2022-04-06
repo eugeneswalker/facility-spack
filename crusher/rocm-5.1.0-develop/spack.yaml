@@ -352,7 +352,7 @@ spack:
 
   - rocm_specs:
     - amrex +rocm amdgpu_target=gfx908
-    - arborx +rocm ^kokkos +rocm amdgpu_target=gfx908 # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
+    - arborx +rocm ^kokkos +rocm amdgpu_target=gfx908 # Not ROCmPackage
     - chai ~benchmarks +rocm amdgpu_target=gfx908
     - heffte +rocm amdgpu_target=gfx908
     - kokkos +rocm amdgpu_target=gfx908
@@ -365,13 +365,13 @@ spack:
     # - hpctoolkit +rocm # Not ROCmPackage
     # - papi +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27898
     # BROKEN
-    # - strumpack ~slate +rocm amdgpu_target=gfx908
-    # - slepc +rocm amdgpu_target=gfx908 ^petsc +rocm amdgpu_target=gfx908
+    # - cabana +rocm # https://github.com/spack/spack/issues/27967
     # - ginkgo +rocm amdgpu_target=gfx908
-    # - slate +rocm amdgpu_target=gfx908
     # - hpx +rocm amdgpu_target=gfx908
     # - petsc +rocm amdgpu_target=gfx908
-    # - cabana +rocm # https://github.com/spack/spack/issues/27967
+    # - slate +rocm amdgpu_target=gfx908
+    # - slepc +rocm amdgpu_target=gfx908 ^petsc +rocm amdgpu_target=gfx908
+    # - strumpack ~slate +rocm amdgpu_target=gfx908
     # - sundials +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/29526
     # - tasmanian +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27896
     # - vtk-m +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/29527
