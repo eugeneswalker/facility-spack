@@ -1,11 +1,9 @@
 spack:
   view: false
   concretization: separately
-
   config:
     build_stage: $spack/var/spack/stage
     misc_cache: $spack/var/spack/misc_cache
-
   compilers:
   - compiler:
       spec: gcc@7.5.0
@@ -32,7 +30,6 @@ spack:
       - PrgEnv-gnu
       - gcc/11.2.0
       extra_rpaths: []
-
   definitions:
   - gcc_compilers: ['%gcc@11.2.0']
   - gcc_specs:
@@ -65,7 +62,10 @@ spack:
     - swig@4.0.2
     - sz@2.1.12
     - tau +mpi +python
-    - trilinos@13.0.1 +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
+    - trilinos@13.0.1 +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext
+      +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu
+      +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos
+      +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     - umap@2.1.0
     - upcxx@2021.9.0 +gasnet +mpi
     #- warpx dims=2
@@ -84,7 +84,8 @@ spack:
     - hpx +cuda cuda_arch=80
     - hypre +cuda cuda_arch=80
     - kokkos +openmp +wrapper +cuda cuda_arch=80
-    - kokkos-kernels +openmp +cuda cuda_arch=80 ^kokkos@3.5.00 +openmp +wrapper +cuda cuda_arch=80
+    - kokkos-kernels +openmp +cuda cuda_arch=80 ^kokkos@3.5.00 +openmp +wrapper +cuda
+      cuda_arch=80
     - magma +cuda cuda_arch=80
     - mfem +cuda cuda_arch=80
     - papi +cuda # not CudaPackage
@@ -117,7 +118,6 @@ spack:
   - matrix:
     - [$cuda_specs]
     - [$gcc_compilers]
-
   packages:
     all:
       compiler:
@@ -127,7 +127,6 @@ spack:
         - cray-libsci
         - openblas
         mpi: [cray-mpich]
-
     cray-libsci:
       buildable: false
       externals:
@@ -142,6 +141,7 @@ spack:
         prefix: /opt/cray/pe/mpich/8.1.13/ofi/gnu/9.1
         modules:
         - cray-mpich/8.1.13
+        - libfabric
       - spec: cray-mpich@8.1.13 %nvhpc@21.11
         prefix: /opt/cray/pe/mpich/8.1.13/ofi/nvidia/20.7
         modules:
@@ -150,7 +150,6 @@ spack:
 
     cuda:
       version: [11.5.1]
-
     gcc:
       buildable: false
       externals:
@@ -162,29 +161,19 @@ spack:
         - libfabric
 
     libfabric:
-      buildable: false
       variants: fabrics=sockets,tcp,udp,rxm
-      externals:
-      - spec: libfabric@1.11.0.4.75
-        prefix: /opt/cray/libfabric/1.11.0.4.75
-        modules:
-        - libfabric/1.11.0.4.75
-
     slurm:
       buildable: false
       version: [20-11-8-1]
       externals:
       - spec: slurm@20-11-8-1
         prefix: /usr
-
     binutils:
       variants: +ld +gold +headers +libiberty ~nls
     elfutils:
       variants: +bzip2 ~nls +xz
     hdf5:
       variants: +fortran +hl +shared
-    libfabric:
-      variants: fabrics=sockets,tcp,udp,rxm
     libunwind:
       variants: +pic +xz
     mpich:
