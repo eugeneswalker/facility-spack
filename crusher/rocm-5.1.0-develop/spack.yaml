@@ -3,10 +3,8 @@
 spack:
   view: false
   concretization: separately
-
   config:
     concretizer: clingo
-
   compilers:
   - compiler:
       spec: gcc@7.5.0
@@ -34,7 +32,6 @@ spack:
       - gcc/11.2.0
       environment: {}
       extra_rpaths: []
-
   packages:
     all:
       compiler: [gcc@11.2.0]
@@ -234,7 +231,6 @@ spack:
       externals:
       - spec: rocthrust@5.1.0
         prefix: /opt/rocm-5.1.0
-
   definitions:
   - cpu_specs:
     - adios
@@ -332,7 +328,10 @@ spack:
     - sz
     - tasmanian
     - tau +mpi +python
-    - trilinos +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
+    - trilinos +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack
+      +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox
+      +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos
+      +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     - turbine
     - umap
     - umpire
@@ -357,12 +356,10 @@ spack:
     - chai ~benchmarks +rocm amdgpu_target=gfx908
     - ginkgo +rocm amdgpu_target=gfx908
     - heffte +rocm amdgpu_target=gfx908
-    - hpctoolkit +rocm # Not ROCmPackage
     - hpx +rocm amdgpu_target=gfx908
     - kokkos +rocm amdgpu_target=gfx908
     - magma ~cuda +rocm amdgpu_target=gfx908
     - mfem +rocm amdgpu_target=gfx908
-    - papi +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27898
     - petsc +rocm amdgpu_target=gfx908
     - raja ~openmp +rocm amdgpu_target=gfx908
     - slate +rocm amdgpu_target=gfx908
@@ -370,11 +367,14 @@ spack:
     - strumpack ~slate +rocm amdgpu_target=gfx908
     - superlu-dist +rocm amdgpu_target=gfx908
     - umpire +rocm amdgpu_target=gfx908
+    # CONFLICTS
+    # - hpctoolkit +rocm # Not ROCmPackage
+    # - papi +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27898
     # BROKEN
-    #- cabana +rocm # https://github.com/spack/spack/issues/27967
-    #- sundials +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/29526
-    #- tasmanian +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27896
-    #- vtk-m +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/29527
+    # - cabana +rocm # https://github.com/spack/spack/issues/27967
+    # - sundials +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/29526
+    # - tasmanian +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27896
+    # - vtk-m +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/29527
 
   specs:
   - $rocm_specs
