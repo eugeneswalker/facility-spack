@@ -354,23 +354,23 @@ spack:
     - amrex +rocm amdgpu_target=gfx908
     - arborx +rocm ^kokkos +rocm amdgpu_target=gfx908 # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
     - chai ~benchmarks +rocm amdgpu_target=gfx908
-    - ginkgo +rocm amdgpu_target=gfx908
     - heffte +rocm amdgpu_target=gfx908
-    - hpx +rocm amdgpu_target=gfx908
     - kokkos +rocm amdgpu_target=gfx908
     - magma ~cuda +rocm amdgpu_target=gfx908
     - mfem +rocm amdgpu_target=gfx908
-    - petsc +rocm amdgpu_target=gfx908
     - raja ~openmp +rocm amdgpu_target=gfx908
-    - slate +rocm amdgpu_target=gfx908
-    - slepc +rocm amdgpu_target=gfx908 ^petsc +rocm amdgpu_target=gfx908
-    - strumpack ~slate +rocm amdgpu_target=gfx908
     - superlu-dist +rocm amdgpu_target=gfx908
     - umpire +rocm amdgpu_target=gfx908
     # CONFLICTS
     # - hpctoolkit +rocm # Not ROCmPackage
     # - papi +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27898
     # BROKEN
+    # - strumpack ~slate +rocm amdgpu_target=gfx908
+    # - slepc +rocm amdgpu_target=gfx908 ^petsc +rocm amdgpu_target=gfx908
+    # - ginkgo +rocm amdgpu_target=gfx908
+    # - slate +rocm amdgpu_target=gfx908
+    # - hpx +rocm amdgpu_target=gfx908
+    # - petsc +rocm amdgpu_target=gfx908
     # - cabana +rocm # https://github.com/spack/spack/issues/27967
     # - sundials +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/29526
     # - tasmanian +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27896
