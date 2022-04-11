@@ -1,3 +1,6 @@
+# spack commit = e4s-22.02
+# commit date = Feb 15, 2022
+
 spack:
   view: false
   concretization: separately
