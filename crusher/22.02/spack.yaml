@@ -85,6 +85,12 @@ spack:
         +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     xz:
       variants: +pic
+    libfabric:
+      buildable: false
+      externals:
+      - spec: libfabric@1.15
+        modules:
+        - libfabric/1.15.0.0
     cray-mpich:
       buildable: false
       externals:
@@ -92,7 +98,7 @@ spack:
         prefix: /opt/cray/pe/mpich/8.1.12/ofi/gnu/9.1
         modules:
         - cray-mpich/8.1.12
-        - libfabric
+        - libfabric/1.15.0.0
     comgr:
       buildable: false
       externals:
