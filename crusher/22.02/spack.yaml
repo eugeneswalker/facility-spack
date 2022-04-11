@@ -396,4 +396,5 @@ spack:
      #- vtk-m@1.7.1 +rocm amdgpu_target=gfx90a
 
   specs:
+  - $cpu_specs
   - $rocm_specs
