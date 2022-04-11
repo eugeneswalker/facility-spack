@@ -363,28 +363,28 @@ spack:
      #- stat@4.1.0
 
     - rocm_specs:
-      - amrex@22.02 +rocm amdgpu_target=gfx908
-      - chai@2.4.0 ~benchmarks +rocm amdgpu_target=gfx908
-      - ginkgo@1.4.0 +rocm amdgpu_target=gfx908
-      - heffte@2.2.0 +rocm amdgpu_target=gfx908
-      - hpx@1.7.1 +rocm amdgpu_target=gfx908
-      - kokkos@3.5.00 +rocm amdgpu_target=gfx908
-      - magma@2.6.1 ~cuda +rocm amdgpu_target=gfx908
-      - mfem@4.3.0 +rocm amdgpu_target=gfx908
-      - petsc@3.16.4 +rocm amdgpu_target=gfx908
-      - raja@0.14.0 ~openmp +rocm amdgpu_target=gfx908
-      - slate@2021.05.02 +rocm amdgpu_target=gfx908
-      - slepc@3.16.2 +rocm amdgpu_target=gfx908 ^petsc +rocm amdgpu_target=gfx908
-      - strumpack@6.3.0 ~slate +rocm amdgpu_target=gfx908
-      - superlu-dist@7.2.0 +rocm amdgpu_target=gfx908
-      - umpire@6.0.0 +rocm amdgpu_target=gfx908
-     #- arborx@1.1 +rocm ^kokkos +rocm amdgpu_target=gfx908 # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
+      - amrex@22.02 +rocm amdgpu_target=gfx90a
+      - chai@2.4.0 ~benchmarks +rocm amdgpu_target=gfx90a
+      - ginkgo@1.4.0 +rocm amdgpu_target=gfx90a
+      - heffte@2.2.0 +rocm amdgpu_target=gfx90a
+      - hpx@1.7.1 +rocm amdgpu_target=gfx90a
+      - kokkos@3.5.00 +rocm amdgpu_target=gfx90a
+      - magma@2.6.1 ~cuda +rocm amdgpu_target=gfx90a
+      - mfem@4.3.0 +rocm amdgpu_target=gfx90a
+      - petsc@3.16.4 +rocm amdgpu_target=gfx90a
+      - raja@0.14.0 ~openmp +rocm amdgpu_target=gfx90a
+      - slate@2021.05.02 +rocm amdgpu_target=gfx90a
+      - slepc@3.16.2 +rocm amdgpu_target=gfx90a ^petsc +rocm amdgpu_target=gfx90a
+      - strumpack@6.3.0 ~slate +rocm amdgpu_target=gfx90a
+      - superlu-dist@7.2.0 +rocm amdgpu_target=gfx90a
+      - umpire@6.0.0 +rocm amdgpu_target=gfx90a
+     #- arborx@1.1 +rocm ^kokkos +rocm amdgpu_target=gfx90a # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
      #- cabana@0.4.0 +rocm # https://github.com/spack/spack/issues/27967
      #- hpctoolkit@2022.01.15 +rocm # Not ROCmPackage
-     #- papi@6.0.0.1 +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27898
-     #- sundials@6.1.1 +rocm amdgpu_target=gfx908
-     #- tasmanian@7.7 +rocm amdgpu_target=gfx908 # https://github.com/spack/spack/issues/27896
-     #- vtk-m@1.7.1 +rocm amdgpu_target=gfx908
+     #- papi@6.0.0.1 +rocm amdgpu_target=gfx90a # https://github.com/spack/spack/issues/27898
+     #- sundials@6.1.1 +rocm amdgpu_target=gfx90a
+     #- tasmanian@7.7 +rocm amdgpu_target=gfx90a # https://github.com/spack/spack/issues/27896
+     #- vtk-m@1.7.1 +rocm amdgpu_target=gfx90a
 
   specs:
   - $rocm_specs
