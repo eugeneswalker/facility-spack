@@ -1,5 +1,8 @@
 # spack commit = e4s-22.02
 # commit date = Feb 15, 2022
+# 2022-04-12 0900
+#  cpu_specs: 94/110
+#  rocm_specs: 15/22
 
 spack:
   view: false
