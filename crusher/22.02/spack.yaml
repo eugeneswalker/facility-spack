@@ -262,13 +262,11 @@ spack:
     - cpu_specs:
       - adios@1.13.1
       - adios2@2.7.1
-      - alquimia@1.0.9
       - aml@0.1.0
       - amrex@22.02
       - arborx@1.1
       - archer@2.0.0
       - argobots@1.1
-      - ascent@0.7.1
       - axom@0.6.1
       - bolt@2.0
       - butterflypack@2.1.0
@@ -337,7 +335,6 @@ spack:
       - py-warpx@22.02 ^warpx dims=rz
       - qthreads@1.16 scheduler=distrib
       - raja@0.14.0
-      - rempi@1.1.0
       - slate@2021.05.02 ~cuda
       - slepc@3.16.2
       - stc@0.9.0
@@ -354,10 +351,11 @@ spack:
       - turbine@1.3.0
       - umap@2.1.0
       - umpire@6.0.0
-      - unifyfs@0.9.1
       - upcxx@2021.9.0
       - veloc@1.5
       - zfp@0.5.5
+    # - alquimia@1.0.9
+    # - ascent@0.7.1
     # - catalyst@5.6.0 # Core/vtkMath.h: 1514:15: error: 'clamp' is not a member of 'std'
     # - dealii@9.3.2
     # - geopm@1.1.0 # geopmagent_main.c:118:13: error: 'strncpy' specified bound 512 equals destination size [-Werror=stringop-truncation]
@@ -365,8 +363,10 @@ spack:
     # - loki@0.1.7 # ISO C++17 does not allow dynamic exception specifications
     # - mercury@2.1.0 # na/na_plugin.h:119: multiple definition of `na_ofi_class_ops_g'
     # - plumed@2.6.3 # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
+    # - rempi@1.1.0
     # - scr@3.0rc2 # /opt/cray/pe/mpich/8.1.12/ofi/gnu/9.1/lib/libmpi_gnu_91.so: undefined reference to `PMI_Barrier'
     # - stat@4.1.0
+    # - unifyfs@0.9.1
     # - variorum@0.4.1 # Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform'
     # - vtk-m@1.7.1
     # - wannier90@3.1.0 # Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/INTEGER(4))
