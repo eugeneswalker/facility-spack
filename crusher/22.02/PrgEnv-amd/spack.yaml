@@ -18,21 +18,26 @@ spack:
         fc: /usr/bin/gfortran
       flags: {}
       operating_system: sles15
+      environment:
+        append_path:
+          PKG_CONFIG_PATH: /usr/lib64/pkgconfig
       target: any
       modules: []
   - compiler:
       spec: gcc@11.2.0
       paths:
-        cc: cc
-        cxx: CC
-        f77: ftn
-        fc: ftn
+        cc: /opt/cray/pe/craype/2.7.13/bin/cc
+        cxx: /opt/cray/pe/craype/2.7.13/bin/CC
+        f77: /opt/cray/pe/craype/2.7.13/bin/ftn
+        fc: /opt/cray/pe/craype/2.7.13/bin/ftn
       flags: {}
       operating_system: sles15
       target: any
       modules:
       - PrgEnv-gnu
       - gcc/11.2.0
+      - craype-x86-trento
+      - libfabric
       environment: {}
       extra_rpaths: []
   - compiler:
@@ -64,9 +69,6 @@ spack:
       - /opt/cray/pe/gcc-libs
       - /opt/rocm-5.1.0/lib
       - /opt/rocm-5.1.0/lib64
-      # - /opt/cray/pe/lib64 ## Lots of symlinks to cpe-interdependent libs,
-      # might be useful to fix PMI errors when building using the vanilla mpich
-      # wrappers instead of cray driver wrappers
 
   packages:
     all:
@@ -128,7 +130,50 @@ spack:
     xz:
       variants: +pic
 
-    # CRUSHER SPECIFIC BELOW
+    # CRUSHER SPECIFIC PACKAGE PREFERENCES BELOW
+    r:
+      variants: ~X
+    qt:
+      variants: ~ssl
+    petsc:
+      variants: +batch
+    parallel-netcdf:
+      variants: +cxx +fortran +fpic
+    openmpi:
+      buildable: false
+    mpich:
+      version: [3.4.1]
+      variants: +verbs +slurm device=ch4 netmod=ofi pmi=pmi
+    netlib-scalapack:
+      variants: +fpic
+    netcdf-c:
+      variants: ~hdf4 +mpi +parallel-netcdf +shared
+    fftw:
+      variants: precision=float,double,long_double
+    darshan-runtime:
+      variants: scheduler=slurm
+
+    # CRUSHER EXTERNALS
+    slurm:
+      buildable: false
+      externals:
+      - spec: slurm@21.08.0
+        prefix: /usr
+    tcsh:
+      buildable: false
+      externals:
+        - spec: tcsh@6.20.00
+          prefix: /usr
+    openssl:
+      buildable: false
+      externals:
+      - spec: openssl@1.1.1
+        prefix: /usr
+    openssh:
+      buildable: false
+      externals:
+      - spec: openssh@8.4
+        prefix: /usr
     cray-libsci:
       buildable: false
       version: [21.08.1.2]
@@ -242,6 +287,21 @@ spack:
       externals:
       - spec: rocm-opencl@5.1.0
         prefix: /opt/rocm-5.1.0/opencl
+    rocm-opencl-runtime:
+      buildable: false
+      externals:
+      - spec: rocm-opencl-runtime@5.1.0
+        prefix: /opt/rocm-5.1.0/opencl
+    rocm-openmp-extras:
+      buildable: false
+      externals:
+      - spec: rocm-openmp-extras@5.1.0
+        prefix: /opt/rocm-5.1.0/llvm
+    rocm-smi:
+      buildable: false
+      externals:
+      - spec: rocm-smi@5.1.0
+        prefix: /opt/rocm-5.1.0/rocm_smi
     rocm-smi-lib:
       buildable: false
       externals:
@@ -280,6 +340,11 @@ spack:
           compilers:
             c: /opt/rocm-5.1.0/llvm/bin/clang++
             cxx: /opt/rocm-5.1.0/llvm/bin/clang++
+    roctracer-dev:
+      buildable: false
+      externals:
+      - spec: roctracer-dev@5.1.0
+        prefix: /opt/rocm-5.1.0
     roctracer-dev-api:
       buildable: false
       externals:
@@ -289,6 +354,11 @@ spack:
       buildable: false
       externals:
       - spec: rocprim@5.1.0
+        prefix: /opt/rocm-5.1.0
+    rocprofiler-dev:
+      buildable: false
+      externals:
+      - spec: rocprofiler-dev@5.1.0
         prefix: /opt/rocm-5.1.0
     rocrand:
       buildable: false
