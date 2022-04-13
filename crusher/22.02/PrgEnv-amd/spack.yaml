@@ -436,7 +436,6 @@ spack:
     - nrm@0.1.0
     - nvhpc@22.1
     - omega-h@9.34.1
-    - openmpi@4.1.2
     - openpmd-api@0.14.4
     - papi@6.0.0.1
     - papyrus@1.0.1
@@ -480,6 +479,9 @@ spack:
     - upcxx@2021.9.0
     - veloc@1.5
     - zfp@0.5.5
+    # NOT RELEVANT
+    # - openmpi@4.1.2
+    # BUILD FAILURES
     # - alquimia@1.0.9
     # - ascent@0.7.1
     # - catalyst@5.6.0 # Core/vtkMath.h: 1514:15: error: 'clamp' is not a member of 'std'
