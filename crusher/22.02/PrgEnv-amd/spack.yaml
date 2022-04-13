@@ -434,7 +434,6 @@ spack:
     - netlib-scalapack@2.1.0
     - ninja@1.10.2
     - nrm@0.1.0
-    - nvhpc@22.1
     - omega-h@9.34.1
     - openpmd-api@0.14.4
     - papi@6.0.0.1
@@ -480,6 +479,7 @@ spack:
     - veloc@1.5
     - zfp@0.5.5
     # NOT RELEVANT
+    # - nvhpc@22.1
     # - openmpi@4.1.2
     # BUILD FAILURES
     # - alquimia@1.0.9
