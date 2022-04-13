@@ -1,0 +1,179 @@
+==> Starting concretization pool with 9 processes
+==> Environment concretized in 17.55 seconds.
+==> Concretized amrex@22.02+rocm amdgpu_target=gfx90a
+ -   ajwbg33  amrex@22.02%cce@13.0.2~amrdata~cuda~eb~fortran~hdf5~hypre~ipo+linear_solvers+mpi~openmp~particles~petsc~pic~plotfile_tools+rocm~shared~sundials~tiny_profile amdgpu_target=gfx90a build_type=RelWithDebInfo dimensions=3 precision=double arch=cray-sles15-zen3
+ -   haz2raz      ^cmake@3.22.2%cce@13.0.2~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   dycz7tq          ^ncurses@6.2%cce@13.0.2~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  25n2fde              ^pkgconf@1.8.0%cce@13.0.2 arch=cray-sles15-zen3
+ -   kjdosxw          ^openssl@1.1.1m%cce@13.0.2~docs certs=system arch=cray-sles15-zen3
+ -   t734pmh              ^perl@5.34.0%cce@13.0.2+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  mi5lslz                  ^berkeley-db@18.1.40%cce@13.0.2+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-sles15-zen3
+ -   7zlwije                  ^bzip2@1.0.8%cce@13.0.2~debug~pic+shared arch=cray-sles15-zen3
+ -   tplhfru                      ^diffutils@3.8%cce@13.0.2 arch=cray-sles15-zen3
+ -   mr5r47v                          ^libiconv@1.16%cce@13.0.2 libs=shared,static arch=cray-sles15-zen3
+ -   zwnmc6b                  ^gdbm@1.19%cce@13.0.2 arch=cray-sles15-zen3
+ -   rrrg4tn                      ^readline@8.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   ebzwjdb                  ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+ -   zhianjf      ^cray-mpich@8.1.12%cce@13.0.2 arch=cray-sles15-zen3
+ -   z4zr5p3      ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   ry4pjla      ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   vqqlxa6      ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+ -   v5knuir      ^rocprim@5.1.0%cce@13.0.2~ipo build_type=Release arch=cray-sles15-zen3
+ -   7eoc7bb      ^rocrand@5.1.0%cce@13.0.2~ipo build_type=Release arch=cray-sles15-zen3
+
+==> Concretized chai@2.4.0~benchmarks+rocm amdgpu_target=gfx90a
+ -   cntb7o6  chai@2.4.0%cce@13.0.2~benchmarks~cuda~enable_pick+examples~ipo~openmp~raja+rocm+shared~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   huwt4fk      ^blt@0.4.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   prsywsm          ^cmake@3.20.6%cce@13.0.2~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   dycz7tq              ^ncurses@6.2%cce@13.0.2~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  25n2fde                  ^pkgconf@1.8.0%cce@13.0.2 arch=cray-sles15-zen3
+ -   kjdosxw              ^openssl@1.1.1m%cce@13.0.2~docs certs=system arch=cray-sles15-zen3
+ -   t734pmh                  ^perl@5.34.0%cce@13.0.2+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  mi5lslz                      ^berkeley-db@18.1.40%cce@13.0.2+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-sles15-zen3
+ -   7zlwije                      ^bzip2@1.0.8%cce@13.0.2~debug~pic+shared arch=cray-sles15-zen3
+ -   tplhfru                          ^diffutils@3.8%cce@13.0.2 arch=cray-sles15-zen3
+ -   mr5r47v                              ^libiconv@1.16%cce@13.0.2 libs=shared,static arch=cray-sles15-zen3
+ -   zwnmc6b                      ^gdbm@1.19%cce@13.0.2 arch=cray-sles15-zen3
+ -   rrrg4tn                          ^readline@8.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   ebzwjdb                      ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+ -   z4zr5p3      ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   ry4pjla      ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   vqqlxa6      ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+ -   sj3st4j      ^umpire@6.0.0%cce@13.0.2+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo tests=none arch=cray-sles15-zen3
+ -   3ecjxao          ^camp@0.2.2%cce@13.0.2~cuda~ipo+rocm~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen3
+
+==> Concretized ginkgo@1.4.0+rocm amdgpu_target=gfx90a
+ -   gpsznl6  ginkgo@1.4.0%cce@13.0.2~cuda~develtools~full_optimizations~hwloc~ipo~oneapi+openmp+rocm+shared amdgpu_target=gfx90a build_type=Release patches=43e571a49ea774793d89d145571c95ae7cdf991f5220d8fe84db217a3c613a32 arch=cray-sles15-zen3
+ -   haz2raz      ^cmake@3.22.2%cce@13.0.2~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   dycz7tq          ^ncurses@6.2%cce@13.0.2~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  25n2fde              ^pkgconf@1.8.0%cce@13.0.2 arch=cray-sles15-zen3
+ -   kjdosxw          ^openssl@1.1.1m%cce@13.0.2~docs certs=system arch=cray-sles15-zen3
+ -   t734pmh              ^perl@5.34.0%cce@13.0.2+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  mi5lslz                  ^berkeley-db@18.1.40%cce@13.0.2+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-sles15-zen3
+ -   7zlwije                  ^bzip2@1.0.8%cce@13.0.2~debug~pic+shared arch=cray-sles15-zen3
+ -   tplhfru                      ^diffutils@3.8%cce@13.0.2 arch=cray-sles15-zen3
+ -   mr5r47v                          ^libiconv@1.16%cce@13.0.2 libs=shared,static arch=cray-sles15-zen3
+ -   zwnmc6b                  ^gdbm@1.19%cce@13.0.2 arch=cray-sles15-zen3
+ -   rrrg4tn                      ^readline@8.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   ebzwjdb                  ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+ -   z4zr5p3      ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   kx7xspa      ^hipblas@5.1.0%cce@13.0.2~ipo build_type=Release patches=a2cc151b6ade1ed08452d4dac6dbec092b25d51a2da24e4bad9e95b91a04d925 arch=cray-sles15-zen3
+ -   hij6mfe      ^hipsparse@5.1.0%cce@13.0.2~ipo build_type=Release arch=cray-sles15-zen3
+ -   ry4pjla      ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   vqqlxa6      ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+ -   7eoc7bb      ^rocrand@5.1.0%cce@13.0.2~ipo build_type=Release arch=cray-sles15-zen3
+ -   jre7cgf      ^rocthrust@5.1.0%cce@13.0.2~ipo build_type=Release arch=cray-sles15-zen3
+
+==> Concretized heffte@2.2.0+rocm amdgpu_target=gfx90a
+ -   ad5f5ga  heffte@2.2.0%cce@13.0.2~cuda~fftw~fortran~ipo~magma~mkl~python+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   haz2raz      ^cmake@3.22.2%cce@13.0.2~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   dycz7tq          ^ncurses@6.2%cce@13.0.2~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  25n2fde              ^pkgconf@1.8.0%cce@13.0.2 arch=cray-sles15-zen3
+ -   kjdosxw          ^openssl@1.1.1m%cce@13.0.2~docs certs=system arch=cray-sles15-zen3
+ -   t734pmh              ^perl@5.34.0%cce@13.0.2+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  mi5lslz                  ^berkeley-db@18.1.40%cce@13.0.2+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-sles15-zen3
+ -   7zlwije                  ^bzip2@1.0.8%cce@13.0.2~debug~pic+shared arch=cray-sles15-zen3
+ -   tplhfru                      ^diffutils@3.8%cce@13.0.2 arch=cray-sles15-zen3
+ -   mr5r47v                          ^libiconv@1.16%cce@13.0.2 libs=shared,static arch=cray-sles15-zen3
+ -   zwnmc6b                  ^gdbm@1.19%cce@13.0.2 arch=cray-sles15-zen3
+ -   rrrg4tn                      ^readline@8.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   ebzwjdb                  ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+ -   zhianjf      ^cray-mpich@8.1.12%cce@13.0.2 arch=cray-sles15-zen3
+ -   z4zr5p3      ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   ry4pjla      ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   vqqlxa6      ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+ -   ltfwmoh      ^rocfft@5.1.0%cce@13.0.2~ipo amdgpu_target=gfx701 amdgpu_target_sram_ecc=none build_type=Release arch=cray-sles15-zen3
+
+==> Concretized kokkos@3.5.00+rocm amdgpu_target=gfx90a
+ -   igulkbe  kokkos@3.5.00%cce@13.0.2~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread+rocm+serial+shared~sycl~tests~tuning~wrapper amdgpu_target=gfx90a build_type=RelWithDebInfo std=14 arch=cray-sles15-zen3
+ -   haz2raz      ^cmake@3.22.2%cce@13.0.2~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   dycz7tq          ^ncurses@6.2%cce@13.0.2~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  25n2fde              ^pkgconf@1.8.0%cce@13.0.2 arch=cray-sles15-zen3
+ -   kjdosxw          ^openssl@1.1.1m%cce@13.0.2~docs certs=system arch=cray-sles15-zen3
+ -   t734pmh              ^perl@5.34.0%cce@13.0.2+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  mi5lslz                  ^berkeley-db@18.1.40%cce@13.0.2+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-sles15-zen3
+ -   7zlwije                  ^bzip2@1.0.8%cce@13.0.2~debug~pic+shared arch=cray-sles15-zen3
+ -   tplhfru                      ^diffutils@3.8%cce@13.0.2 arch=cray-sles15-zen3
+ -   mr5r47v                          ^libiconv@1.16%cce@13.0.2 libs=shared,static arch=cray-sles15-zen3
+ -   zwnmc6b                  ^gdbm@1.19%cce@13.0.2 arch=cray-sles15-zen3
+ -   rrrg4tn                      ^readline@8.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   ebzwjdb                  ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+ -   z4zr5p3      ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   ry4pjla      ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   vqqlxa6      ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+
+==> Concretized mfem@4.3.0+rocm amdgpu_target=gfx90a
+ -   wzytb6h  mfem@4.3.0%cce@13.0.2~amgx~conduit~cuda~debug~examples~gnutls~gslib~lapack~libceed~libunwind+metis~miniapps~mpfr+mpi~netcdf~occa~openmp~petsc~pumi~raja+rocm~shared~slepc+static~strumpack~suite-sparse~sundials~superlu-dist~threadsafe~umpire+zlib amdgpu_target=gfx90a patches=ccc98d6d874a760218c9f6e4bcf3a97ea79746b0f28997f4312fcf02a0beae6e timer=auto arch=cray-sles15-zen3
+ -   zhianjf      ^cray-mpich@8.1.12%cce@13.0.2 arch=cray-sles15-zen3
+ -   z4zr5p3      ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   ry4pjla      ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   6w6sewh      ^hypre@2.23.0%cce@13.0.2~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+ -   rznhrtm          ^cray-libsci@21.08.1.2%cce@13.0.2+mpi~openmp+shared arch=cray-sles15-zen3
+ -   vqqlxa6      ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+ -   f567ek3      ^metis@4.0.3%cce@13.0.2~gdb~int64~real64+shared build_type=Release arch=cray-sles15-zen3
+ -   ebzwjdb      ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+
+==> Concretized raja@0.14.0~openmp+rocm amdgpu_target=gfx90a
+ -   moda6sk  raja@0.14.0%cce@13.0.2~cuda+examples+exercises~ipo~openmp+rocm+shared~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   huwt4fk      ^blt@0.4.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   prsywsm          ^cmake@3.20.6%cce@13.0.2~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   dycz7tq              ^ncurses@6.2%cce@13.0.2~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  25n2fde                  ^pkgconf@1.8.0%cce@13.0.2 arch=cray-sles15-zen3
+ -   kjdosxw              ^openssl@1.1.1m%cce@13.0.2~docs certs=system arch=cray-sles15-zen3
+ -   t734pmh                  ^perl@5.34.0%cce@13.0.2+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  mi5lslz                      ^berkeley-db@18.1.40%cce@13.0.2+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-sles15-zen3
+ -   7zlwije                      ^bzip2@1.0.8%cce@13.0.2~debug~pic+shared arch=cray-sles15-zen3
+ -   tplhfru                          ^diffutils@3.8%cce@13.0.2 arch=cray-sles15-zen3
+ -   mr5r47v                              ^libiconv@1.16%cce@13.0.2 libs=shared,static arch=cray-sles15-zen3
+ -   zwnmc6b                      ^gdbm@1.19%cce@13.0.2 arch=cray-sles15-zen3
+ -   rrrg4tn                          ^readline@8.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   ebzwjdb                      ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+ -   3ecjxao      ^camp@0.2.2%cce@13.0.2~cuda~ipo+rocm~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   z4zr5p3          ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   ry4pjla          ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   vqqlxa6          ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+
+==> Concretized superlu-dist@7.2.0+rocm amdgpu_target=gfx90a
+ -   ncxpxbo  superlu-dist@7.2.0%cce@13.0.2~cuda~int64~ipo~openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo patches=8da9e21f724e8f11a5782960cc0322e12f724bf93cead7df517901a788ea3d61 arch=cray-sles15-zen3
+ -   haz2raz      ^cmake@3.22.2%cce@13.0.2~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   dycz7tq          ^ncurses@6.2%cce@13.0.2~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  25n2fde              ^pkgconf@1.8.0%cce@13.0.2 arch=cray-sles15-zen3
+ -   kjdosxw          ^openssl@1.1.1m%cce@13.0.2~docs certs=system arch=cray-sles15-zen3
+ -   t734pmh              ^perl@5.34.0%cce@13.0.2+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  mi5lslz                  ^berkeley-db@18.1.40%cce@13.0.2+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-sles15-zen3
+ -   7zlwije                  ^bzip2@1.0.8%cce@13.0.2~debug~pic+shared arch=cray-sles15-zen3
+ -   tplhfru                      ^diffutils@3.8%cce@13.0.2 arch=cray-sles15-zen3
+ -   mr5r47v                          ^libiconv@1.16%cce@13.0.2 libs=shared,static arch=cray-sles15-zen3
+ -   zwnmc6b                  ^gdbm@1.19%cce@13.0.2 arch=cray-sles15-zen3
+ -   rrrg4tn                      ^readline@8.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   ebzwjdb                  ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+ -   rznhrtm      ^cray-libsci@21.08.1.2%cce@13.0.2+mpi~openmp+shared arch=cray-sles15-zen3
+ -   zhianjf      ^cray-mpich@8.1.12%cce@13.0.2 arch=cray-sles15-zen3
+ -   z4zr5p3      ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   kx7xspa      ^hipblas@5.1.0%cce@13.0.2~ipo build_type=Release patches=a2cc151b6ade1ed08452d4dac6dbec092b25d51a2da24e4bad9e95b91a04d925 arch=cray-sles15-zen3
+ -   ry4pjla      ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   vqqlxa6      ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+ -   rpxle6q      ^metis@5.1.0%cce@13.0.2~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-sles15-zen3
+ -   rjn4j6c      ^parmetis@4.0.3%cce@13.0.2~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=cray-sles15-zen3
+ -   kfs4sn6      ^rocsolver@5.1.0%cce@13.0.2~ipo+optimal amdgpu_target=gfx906:xnack- build_type=Release arch=cray-sles15-zen3
+
+==> Concretized umpire@6.0.0+rocm amdgpu_target=gfx90a
+ -   sj3st4j  umpire@6.0.0%cce@13.0.2+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo tests=none arch=cray-sles15-zen3
+ -   huwt4fk      ^blt@0.4.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   prsywsm          ^cmake@3.20.6%cce@13.0.2~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   dycz7tq              ^ncurses@6.2%cce@13.0.2~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  25n2fde                  ^pkgconf@1.8.0%cce@13.0.2 arch=cray-sles15-zen3
+ -   kjdosxw              ^openssl@1.1.1m%cce@13.0.2~docs certs=system arch=cray-sles15-zen3
+ -   t734pmh                  ^perl@5.34.0%cce@13.0.2+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  mi5lslz                      ^berkeley-db@18.1.40%cce@13.0.2+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-sles15-zen3
+ -   7zlwije                      ^bzip2@1.0.8%cce@13.0.2~debug~pic+shared arch=cray-sles15-zen3
+ -   tplhfru                          ^diffutils@3.8%cce@13.0.2 arch=cray-sles15-zen3
+ -   mr5r47v                              ^libiconv@1.16%cce@13.0.2 libs=shared,static arch=cray-sles15-zen3
+ -   zwnmc6b                      ^gdbm@1.19%cce@13.0.2 arch=cray-sles15-zen3
+ -   rrrg4tn                          ^readline@8.1%cce@13.0.2 arch=cray-sles15-zen3
+ -   ebzwjdb                      ^zlib@1.2.11%cce@13.0.2+optimize+pic+shared patches=e93f7400712c2814905815204dadbdebcb91dc77dd586f60cbc82efa102fb539 arch=cray-sles15-zen3
+ -   3ecjxao      ^camp@0.2.2%cce@13.0.2~cuda~ipo+rocm~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   z4zr5p3          ^hip@5.1.0%cce@13.0.2~ipo build_type=Release patches=24ca25a169f4bac849464cf7c6dd0885d6475e701fbc4e08e976ba16e4f2e9a6,2a4190477b7d9206b9cd8d70770ba0bc007273cbe54772efb12f9ca2e37c0392 arch=cray-sles15-zen3
+ -   ry4pjla          ^hsa-rocr-dev@5.1.0%cce@13.0.2+image~ipo+shared build_type=Release patches=71e6851d9be8113bfb8d71b66a3171e0d0401bae5e6f161c9e7fe32558261a46 arch=cray-sles15-zen3
+ -   vqqlxa6          ^llvm-amdgpu@5.1.0%cce@13.0.2~ipo~link_llvm_dylib~llvm_dylib+openmp+rocm-device-libs build_type=Release patches=d999f3b235e655ee07f6dd2590302082feaa06d32c5c6b53aae9c5cf1e45b644 arch=cray-sles15-zen3
+
