@@ -5,25 +5,6 @@ spack:
   config:
     concretizer: clingo
 
-  compilers:
-  - compiler:
-      spec: gcc@11.2.0
-      paths:
-        cc: /opt/cray/pe/craype/2.7.13/bin/cc
-        cxx: /opt/cray/pe/craype/2.7.13/bin/CC
-        f77: /opt/cray/pe/craype/2.7.13/bin/ftn
-        fc: /opt/cray/pe/craype/2.7.13/bin/ftn
-      flags: {}
-      operating_system: sles15
-      target: any
-      modules:
-      - PrgEnv-gnu
-      - gcc/11.2.0
-      - craype-x86-trento
-      - libfabric
-      environment: {}
-      extra_rpaths: []
-
   packages:
     all:
       compiler:
@@ -44,7 +25,8 @@ spack:
       variants: +mpi
 
   include:
-  - ./rocm-packages.yaml
+  - ./packages-rocm.yaml
+  - ./compilers.yaml
 
   specs:
   - amrex@22.02 +rocm amdgpu_target=gfx90a
