@@ -4,8 +4,10 @@
 spack:
   view: false
   concretization: separately
+
   config:
     concretizer: clingo
+
   compilers:
   - compiler:
       spec: gcc@7.5.0
@@ -44,11 +46,11 @@ spack:
       operating_system: sles15
       target: any
       modules:
-      - PrgEnv-amd
       - amd/5.1.0
-      - rocm/5.1.0
       - craype-x86-trento
       - libfabric
+      - PrgEnv-amd
+      - rocm/5.1.0
       environment:
         set:
           RFE_811452_DISABLE: '1'
@@ -58,25 +60,31 @@ spack:
           LD_LIBRARY_PATH: /opt/cray/pe/pmi/6.0.16/lib
           LIBRARY_PATH: /opt/rocm-5.1.0/lib:/opt/rocm-5.1.0/lib64
       extra_rpaths:
+      - /opt/cray/gcc-libs
+      - /opt/cray/pe/gcc-libs
       - /opt/rocm-5.1.0/lib
       - /opt/rocm-5.1.0/lib64
-      - /opt/cray/pe/gcc-libs
-      - /opt/cray/gcc-libs
       # - /opt/cray/pe/lib64 ## Lots of symlinks to cpe-interdependent libs,
       # might be useful to fix PMI errors when building using the vanilla mpich
       # wrappers instead of cray driver wrappers
+
   packages:
     all:
       compiler:
-              #- gcc@11.2.0
       - clang@14.0.0-rocm5.1.0
       providers:
         blas:
         - openblas
+        - cray-libsci
+        lapack:
+        - openblas
+        - cray-libsci
         mpi:
         - cray-mpich
+        scalapack:
+        - netlib-scalapack
       target:
-      - x86_64
+      - zen3
       variants: +mpi
     binutils:
       variants: +ld +gold +headers +libiberty ~nls
@@ -119,6 +127,16 @@ spack:
         +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     xz:
       variants: +pic
+
+    # CRUSHER SPECIFIC BELOW
+    cray-libsci:
+      buildable: false
+      version: [21.08.1.2]
+      externals:
+        - spec: cray-libsci@21.08.1.2
+          modules:
+          - cray-libsci/21.08.1.2
+          - cray-mpich/8.1.12
     cray-mpich:
       buildable: false
       externals:
@@ -130,11 +148,10 @@ spack:
       - spec: cray-mpich@8.1.15 %clang@14.0.0-rocm5.1.0
         prefix: /opt/cray/pe/mpich/8.1.15/ofi/amd/5.0
         modules:
+        - amd/5.1.0
         - cray-mpich/8.1.15
         - PrgEnv-amd
-        - amd/5.1.0
         - rocm/5.1.0
-
     comgr:
       buildable: false
       externals:
@@ -293,6 +310,7 @@ spack:
       externals:
       - spec: rocthrust@5.1.0
         prefix: /opt/rocm-5.1.0
+
   definitions:
   - cpu_specs:
     - adios@1.13.1
@@ -434,5 +452,4 @@ spack:
     # - vtk-m@1.7.1 +rocm amdgpu_target=gfx90a
 
   specs:
-  - $cpu_specs
   - $rocm_specs
