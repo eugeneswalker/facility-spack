@@ -2,7 +2,7 @@
 #
 # builds OK, as of 2022-04-14 0800:
 #  cpu_specs: 91/104
-#  rocm_specs: 15/15
+#  rocm_specs: 14/15 w/ rocm 5.1.0 (15/15 w rocm 4.5.2)
 #
 # inherent conflicts:
 #  (1) libnrm (cray-mpich)
