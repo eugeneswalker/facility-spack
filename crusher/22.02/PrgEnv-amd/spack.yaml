@@ -1,8 +1,14 @@
 # spack commit = e4s-22.02
 #
-# build OK, as of 2022-04-14 0800:
+# builds OK, as of 2022-04-14 0800:
 #  cpu_specs: 62/102
 #  rocm_specs: 9/15
+#
+# inherent conflicts:
+#  (3) libnrm (cray-mpich), dyninst (%clang), hpctoolkit (dyninst)
+#
+# skipped for Crusher:
+#  (3) flux-core, nvhpc, openmpi
 #
 # common failures:
 #  (12) boost: datatransferkit, exaworks, faodel, flecsi, fortrilinos, gptune, hpx, metall, omega-h, precice, trilinos, veloc

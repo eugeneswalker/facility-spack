@@ -1,5 +1,14 @@
 # spack commit = e4s-22.02
-# commit date = Feb 15, 2022
+#
+# builds OK, as of 2022-04-14 0800:
+#
+#
+# inherent conflicts:
+#  (3) libnrm (cray-mpich), dyninst (%clang), hpctoolkit (dyninst)
+#
+# skipped for Crusher:
+#  (3) flux-core, nvhpc, openmpi
+#
 
 spack:
   view: false
@@ -446,6 +455,7 @@ spack:
     # - variorum@0.4.1 # Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform'
     # - vtk-m@1.7.1
     # - wannier90@3.1.0 # Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/INTEGER(4))
+    #
     # FAILURES NOT SPECIFIC TO CRUSHER ENVIRONMENT
     # - dealii@9.3.2
     # - stat@4.1.0

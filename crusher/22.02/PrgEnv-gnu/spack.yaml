@@ -1,8 +1,14 @@
 # spack commit = e4s-22.02
 #
-# build OK, as of 2022-04-14 0800:
+# builds OK, as of 2022-04-14 0800:
 #  cpu_specs: 91/104
 #  rocm_specs: 15/15
+#
+# inherent conflicts:
+#  (1) libnrm (cray-mpich)
+#
+# skipped for Crusher:
+#  (3) flux-core, nvhpc, openmpi
 #
 # common failures:
 #  (7) language/compile opts: catalyst, geopm, loki, mercury, plumed, variorum, wannier90
