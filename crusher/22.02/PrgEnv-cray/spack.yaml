@@ -92,6 +92,16 @@ spack:
       variants: +pic
 
     # CRUSHER SPECIFIC PACKAGE PREFERENCES BELOW
+    openssl:
+      buildable: false
+      externals:
+      - spec: openssl@1.1.1
+        prefix: /usr
+    openssh:
+      buildable: false
+      externals:
+      - spec: openssh@8.4
+        prefix: /usr
     ncurses:
       externals:
       - spec: ncurses@6.2 ~symlinks +termlib %cce@13.0.0 
