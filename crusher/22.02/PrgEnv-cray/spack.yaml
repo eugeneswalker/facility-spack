@@ -321,7 +321,7 @@ spack:
       buildable: false
       externals:
       - spec: rocrand@5.1.0
-        prefix: /opt/rocm-5.1.0/rocrand
+        prefix: /opt/rocm-5.1.0
     rocsolver:
       buildable: false
       externals:
