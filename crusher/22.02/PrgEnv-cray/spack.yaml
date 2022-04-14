@@ -364,7 +364,6 @@ spack:
     - globalarrays@5.8
     - gmp@6.2.1
     - gotcha@1.0.3
-    - gptune@2.1.0
     - hdf5@1.10.7 +fortran +hl +shared
     - heffte@2.2.0 +fftw
     - hypre@2.24.0
@@ -441,6 +440,7 @@ spack:
     # - catalyst@5.6.0 # Core/vtkMath.h: 1514:15: error: 'clamp' is not a member of 'std'
     # - exaworks@0.1.0 # dependency curl - external openssl/mbedtls api incompatibility?
     # - geopm@1.1.0 # geopmagent_main.c:118:13: error: 'strncpy' specified bound 512 equals destination size [-Werror=stringop-truncation]
+    # - gptune@2.1.0 # clang-13: error: unknown argument: '-flifetime-dse=1'
     # - hpx@1.7.1 networking=mpi # dependency curl - external openssl/mbedtls api incompatibility?
     # - lammps@20220107 # dependency ffmpeg - error in backend: cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
     # - libnrm@0.1.0 # explicit depends_on("mpich")
