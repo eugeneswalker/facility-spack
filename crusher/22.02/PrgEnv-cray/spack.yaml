@@ -1,12 +1,19 @@
 # spack commit = e4s-22.02
 #
-# builds OK, as of 2022-04-14 0800:
+# builds OK, as of 2022-04-14 1300:
+#  cpu_specs: 74/105
+#  rocm_specs: 9/15
 #
 # common failures:
-#  openblas - clang frontend command failed with exit code 139
+#  (4) openblas - clang frontend command failed with exit code 139
+#        -> slepc, py-warpx (x3)
+#  (3) curl - issue with external openssl, mbedtls API incompatibility ?
+#        -> axom, exaworks, hpx
+#  (3) binutils - recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations
+#        -> archer, paraview, tau
 #
 # inherent conflicts:
-#  (3) libnrm (cray-mpich), dyninst (%clang), hpctoolkit (dyninst)
+#  (3) libnrm (cray-mpich), dyninst (%clang), hpctoolkit (dyninst), plasma (%clang)
 #
 # skipped for Crusher:
 #  (3) flux-core, nvhpc, openmpi
@@ -418,7 +425,8 @@ spack:
   # CONFLICTS
   # - dyninst@12.0.1 # %cce conflict
   # - hpctoolkit@2022.01.15 # %cce conflict due to dyninst
-  # - plasma@21.8.29
+  # - libnrm@0.1.0 # explicit depends_on("mpich")
+  # - plasma@21.8.29 # %cce conflict
   #
   # NOT RELEVANT ON CRUSHER
   # - flux-core@0.35.0
@@ -437,7 +445,6 @@ spack:
   # - gptune@2.1.0 # clang-13: error: unknown argument: '-flifetime-dse=1'
   # - hpx@1.7.1 networking=mpi # dependency curl - external openssl/mbedtls api incompatibility?
   # - lammps@20220107 # dependency ffmpeg - error in backend: cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
-  # - libnrm@0.1.0 # explicit depends_on("mpich")
   # - loki@0.1.7 # ISO C++17 does not allow dynamic exception specifications
   # - mercury@2.1.0 # na/na_plugin.h:119: multiple definition of `na_ofi_class_ops_g'
   # - nrm@0.1.0 # dependency py-scipy - setup.py: unrecognized setuptools command: lapack libraries not found
