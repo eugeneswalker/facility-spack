@@ -135,16 +135,6 @@ spack:
         modules:
         - cray-mpich/8.1.12
         - libfabric/1.15.0.0
-      - spec: cray-mpich@8.1.12 %gcc@11.2.0
-        prefix: /opt/cray/pe/mpich/8.1.12/ofi/gnu/9.1
-        modules:
-        - cray-mpich/8.1.12
-        - libfabric/1.15.0.0
-      - spec: cray-mpich@8.1.15 %clang@14.0.0-rocm5.1.0
-        prefix: /opt/cray/pe/mpich/8.1.15/ofi/amd/5.0
-        modules:
-        - cray-mpich/8.1.15
-        - libfabric/1.15.0.0
     comgr:
       buildable: false
       externals:
