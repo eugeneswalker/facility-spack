@@ -12,7 +12,7 @@
 #
 # common failures:
 #  (12) boost: datatransferkit, exaworks, faodel, flecsi, fortrilinos, gptune, hpx, metall, omega-h, precice, trilinos, veloc
-#  (4) blaspp: py-warpx, slate
+#  (4) blaspp: py-warpx (x3), slate
 #  (3) binutils: archer, tau, paraview
 #  (3) arpack-ng: butterflypack, slepc, strumpack
 #  (1) curl: axom
