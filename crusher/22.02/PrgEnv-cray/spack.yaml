@@ -92,6 +92,10 @@ spack:
       variants: +pic
 
     # CRUSHER SPECIFIC PACKAGE PREFERENCES BELOW
+    ncurses:
+      externals:
+      - spec: ncurses@6.2 ~symlinks +termlib %cce@13.0.0 
+        prefix: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/22.02/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5
     r:
       variants: ~X
     qt:
