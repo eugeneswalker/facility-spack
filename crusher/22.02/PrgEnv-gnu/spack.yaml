@@ -1,8 +1,11 @@
 # spack commit = e4s-22.02
-# commit date = Feb 15, 2022
-# 2022-04-12 0900
-#  cpu_specs: 94/110
-#  rocm_specs: 15/22
+#
+# build OK, as of 2022-04-14 0800:
+#  cpu_specs: 91/104
+#  rocm_specs: 15/15
+#
+# common failures:
+#  (7) language/compile opts: catalyst, geopm, loki, mercury, plumed, variorum, wannier90
 
 spack:
   view: false
@@ -339,17 +342,19 @@ spack:
       - upcxx@2021.9.0
       - veloc@1.5
       - zfp@0.5.5
+    # CONFLICTS
+    # - libnrm@0.1.0 # explicit depends_on("mpich")
+    #
     # NOT RELEVANT ON CRUSHER
     # - flux-core@0.35.0
     # - nvhpc@22.1
     # - openmpi@4.1.2
-    # CRUSHER-SPECIFIC FAILURES
     #
+    # CRUSHER-SPECIFIC FAILURES
     # - alquimia@1.0.9
     # - ascent@0.7.1
     # - catalyst@5.6.0 # Core/vtkMath.h: 1514:15: error: 'clamp' is not a member of 'std'
     # - geopm@1.1.0 # geopmagent_main.c:118:13: error: 'strncpy' specified bound 512 equals destination size [-Werror=stringop-truncation]
-    # - libnrm@0.1.0 # explicit depends_on("mpich")
     # - loki@0.1.7 # ISO C++17 does not allow dynamic exception specifications
     # - mercury@2.1.0 # na/na_plugin.h:119: multiple definition of `na_ofi_class_ops_g'
     # - plumed@2.6.3 # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
