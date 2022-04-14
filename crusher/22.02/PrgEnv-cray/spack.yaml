@@ -392,13 +392,9 @@ spack:
     - py-jupyterhub@1.4.1
     - py-libensemble@0.8.0
     - py-petsc4py@3.16.4
-    - py-warpx@22.02 ^warpx dims=2
-    - py-warpx@22.02 ^warpx dims=3
-    - py-warpx@22.02 ^warpx dims=rz
     - qthreads@1.16 scheduler=distrib
     - raja@0.14.0
     - slate@2021.05.02 ~cuda
-    - slepc@3.16.2
     - stc@0.9.0
     - strumpack@6.3.0 ~slate
     - sundials@6.1.1
@@ -450,8 +446,12 @@ spack:
   # - parsec@3.0.2012 ~cuda # ftn-2105: "-g" is an invalid command-line option.
   # - phist@1.9.5 # ftn-78 ftn: -f option has an invalid argument, "finite-math-only". (and other similar errors)
   # - plumed@2.6.3 # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
+  # - py-warpx@22.02 ^warpx dims=2 # dependency openblas - clang-13: frontend command failed with exit code 139
+  # - py-warpx@22.02 ^warpx dims=3 # dependency openblas - clang-13: frontend command failed with exit code 139
+  # - py-warpx@22.02 ^warpx dims=rz # dependency openblas - clang-13: frontend command failed with exit code 139
   # - rempi@1.1.0
   # - scr@3.0rc2 # /opt/cray/pe/mpich/8.1.12/ofi/gnu/9.1/lib/libmpi_gnu_91.so: undefined reference to `PMI_Barrier'
+  # - slepc@3.16.2 # dependency openblas - clang-13: frontend command failed with exit code 139
   # - tau@2.31 +mpi +python # dependency binutils - recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations
   # - unifyfs@0.9.1
   # - variorum@0.4.1 # Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform'
