@@ -379,7 +379,6 @@ spack:
     - amrex@22.02
     - arborx@1.1
     - argobots@1.1
-    - axom@0.6.1
     - bolt@2.0
     - cabana@0.4.0
     - caliper@2.7.0
@@ -439,6 +438,7 @@ spack:
     - zfp@0.5.5
     # CRUSHER FAILURES
     # - archer@2.0.0 # dependency binutils - recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations
+    # - axom@0.6.1 # dependency curl - openssl / mbedtls incompatibility due to external openssl; also dependency conduit fails
     # - butterflypack@2.1.0 # dependency arpack-ng: fortran issue
     # - conduit@0.8.2 # fortran: assert_true: kind mismatch
     # - datatransferkit@3.1-rc3 # dependency boost - clang++: command not found
