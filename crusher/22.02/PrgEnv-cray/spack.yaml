@@ -2,6 +2,8 @@
 #
 # builds OK, as of 2022-04-14 0800:
 #
+# common failures:
+#  openblas - clang frontend command failed with exit code 139
 #
 # inherent conflicts:
 #  (3) libnrm (cray-mpich), dyninst (%clang), hpctoolkit (dyninst)
@@ -384,7 +386,6 @@ spack:
     - papi@6.0.0.1
     - papyrus@1.0.1
     - parallel-netcdf@1.12.2
-    - parsec@3.0.2012 ~cuda
     - pdt@3.25.1
     - petsc@3.16.4
     - phist@1.9.5
@@ -447,6 +448,7 @@ spack:
   # - loki@0.1.7 # ISO C++17 does not allow dynamic exception specifications
   # - mercury@2.1.0 # na/na_plugin.h:119: multiple definition of `na_ofi_class_ops_g'
   # - paraview@5.10.0 # dependency binutils - recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations
+  # - parsec@3.0.2012 ~cuda # ftn-2105: "-g" is an invalid command-line option.
   # - plumed@2.6.3 # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
   # - rempi@1.1.0
   # - scr@3.0rc2 # /opt/cray/pe/mpich/8.1.12/ofi/gnu/9.1/lib/libmpi_gnu_91.so: undefined reference to `PMI_Barrier'
