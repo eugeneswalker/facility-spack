@@ -346,7 +346,6 @@ spack:
     - argobots@1.1
     - bolt@2.0
     - butterflypack@2.1.0
-    - cabana@0.4.0
     - caliper@2.7.0
     - chai@2.4.0 ~benchmarks ~tests
     - charliecloud@0.26
@@ -437,6 +436,7 @@ spack:
   # - archer@2.0.0 # dependency binutils - recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations
   # - ascent@0.7.1
   # - axom@0.6.1 # dependency curl - external openssl/mbedtls api incompatibility?
+  # - cabana@0.4.0 # download for 'googletest-populate': status_string: "Unsupported protocol" - openssl issue?
   # - catalyst@5.6.0 # Core/vtkMath.h: 1514:15: error: 'clamp' is not a member of 'std'
   # - exaworks@0.1.0 # dependency curl - external openssl/mbedtls api incompatibility?
   # - geopm@1.1.0 # geopmagent_main.c:118:13: error: 'strncpy' specified bound 512 equals destination size [-Werror=stringop-truncation]
