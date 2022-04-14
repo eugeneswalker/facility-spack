@@ -10,37 +10,6 @@ spack:
 
   compilers:
   - compiler:
-      spec: gcc@7.5.0
-      paths:
-        cc: /usr/bin/gcc
-        cxx: /usr/bin/g++
-        f77: /usr/bin/gfortran
-        fc: /usr/bin/gfortran
-      flags: {}
-      operating_system: sles15
-      environment:
-        append_path:
-          PKG_CONFIG_PATH: /usr/lib64/pkgconfig
-      target: any
-      modules: []
-  - compiler:
-      spec: gcc@11.2.0
-      paths:
-        cc: /opt/cray/pe/craype/2.7.13/bin/cc
-        cxx: /opt/cray/pe/craype/2.7.13/bin/CC
-        f77: /opt/cray/pe/craype/2.7.13/bin/ftn
-        fc: /opt/cray/pe/craype/2.7.13/bin/ftn
-      flags: {}
-      operating_system: sles15
-      target: any
-      modules:
-      - PrgEnv-gnu
-      - gcc/11.2.0
-      - craype-x86-trento
-      - libfabric
-      environment: {}
-      extra_rpaths: []
-  - compiler:
       spec: clang@14.0.0-rocm5.1.0
       paths:
         cc: /opt/cray/pe/craype/2.7.13/bin/cc
