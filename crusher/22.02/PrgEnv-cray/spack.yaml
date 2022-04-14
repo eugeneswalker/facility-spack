@@ -384,7 +384,6 @@ spack:
     - pdt@3.25.1
     - petsc@3.16.4
     - phist@1.9.5
-    - plasma@21.8.29
     - precice@2.3.0
     - pumi@2.2.6
     - py-cinemasci@1.3
@@ -421,6 +420,7 @@ spack:
     # CONFLICTS
     # - dyninst@12.0.1 # %cce conflict
     # - hpctoolkit@2022.01.15 # %cce conflict due to dyninst
+    # - plasma@21.8.29
     # NOT RELEVANT
     # - flux-core@0.35.0
     # - nvhpc@22.1
