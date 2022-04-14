@@ -377,7 +377,6 @@ spack:
     - nco@5.0.1
     - netlib-scalapack@2.1.0
     - ninja@1.10.2
-    - nrm@0.1.0
     - openpmd-api@0.14.4
     - papi@6.0.0.1
     - papyrus@1.0.1
@@ -420,6 +419,7 @@ spack:
     # - hpctoolkit@2022.01.15 # %clang conflict in dependency dyninst
     # - hpx@1.7.1 networking=mpi # dependency boost - clang++: command not found
     # - metall@0.17 # dependency boost - clang++: command not found
+    # - nrm@0.1.0 # dependency py-scipy - setup.py: unrecognized setuptools command: lapack libraries not found
     # - omega-h@9.34.1 # dependency boost - clang++: command not found
     # - paraview@5.10.0 # dependency binutils - recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations
     # - phist@1.9.5 # fortran issue
