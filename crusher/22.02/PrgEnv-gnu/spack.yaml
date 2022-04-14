@@ -381,7 +381,6 @@ spack:
       - chai@2.4.0 ~benchmarks +rocm amdgpu_target=gfx90a
       - ginkgo@1.4.0 +rocm amdgpu_target=gfx90a
       - heffte@2.2.0 +rocm amdgpu_target=gfx90a
-      - hpx@1.7.1 +rocm amdgpu_target=gfx90a
       - kokkos@3.5.00 +rocm amdgpu_target=gfx90a
       - magma@2.6.1 ~cuda +rocm amdgpu_target=gfx90a
       - mfem@4.3.0 +rocm amdgpu_target=gfx90a
@@ -392,6 +391,9 @@ spack:
       - strumpack@6.3.0 ~slate +rocm amdgpu_target=gfx90a
       - superlu-dist@7.2.0 +rocm amdgpu_target=gfx90a
       - umpire@6.0.0 +rocm amdgpu_target=gfx90a
+    #
+    # CRUSHER FAILURES
+    # - hpx@1.7.1 +rocm amdgpu_target=gfx90a # rocm@5.1.0 issue (no problems w 4.5.2); asio/require.hpp:412:3: error: dynamic initialization is not supported for __device__
     #
     # FAILURES NOT SPECIFIC TO CRUSHER ENVIRONMENT
     # - arborx@1.1 +rocm ^kokkos +rocm amdgpu_target=gfx90a # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
