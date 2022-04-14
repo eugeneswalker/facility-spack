@@ -381,7 +381,6 @@ spack:
     - netlib-scalapack@2.1.0
     - ninja@1.10.2
     - nrm@0.1.0
-    - omega-h@9.34.1
     - openpmd-api@0.14.4
     - papi@6.0.0.1
     - papyrus@1.0.1
@@ -447,6 +446,7 @@ spack:
   # - libnrm@0.1.0 # explicit depends_on("mpich")
   # - loki@0.1.7 # ISO C++17 does not allow dynamic exception specifications
   # - mercury@2.1.0 # na/na_plugin.h:119: multiple definition of `na_ofi_class_ops_g'
+  # - omega-h@9.34.1 # Omega_h_int128.hpp:18:10: implicit copy assignment operator for 'Int128' is deprecated because it has a user-declared copy constructor [-Werror,-Wdeprecated-copy]
   # - paraview@5.10.0 # dependency binutils - recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations
   # - parsec@3.0.2012 ~cuda # ftn-2105: "-g" is an invalid command-line option.
   # - plumed@2.6.3 # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
