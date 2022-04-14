@@ -8,7 +8,6 @@
 #
 # skipped for Crusher:
 #  (3) flux-core, nvhpc, openmpi
-#
 
 spack:
   view: false
@@ -459,8 +458,6 @@ spack:
     # FAILURES NOT SPECIFIC TO CRUSHER ENVIRONMENT
     # - dealii@9.3.2
     # - stat@4.1.0
-
-
 
   - rocm_specs:
     - amrex@22.02 +rocm amdgpu_target=gfx90a
