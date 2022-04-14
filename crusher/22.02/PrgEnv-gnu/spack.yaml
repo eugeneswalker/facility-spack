@@ -348,6 +348,7 @@ spack:
       - upcxx@2021.9.0
       - veloc@1.5
       - zfp@0.5.5
+    #
     # CONFLICTS
     # - libnrm@0.1.0 # explicit depends_on("mpich")
     #
@@ -391,6 +392,7 @@ spack:
       - strumpack@6.3.0 ~slate +rocm amdgpu_target=gfx90a
       - superlu-dist@7.2.0 +rocm amdgpu_target=gfx90a
       - umpire@6.0.0 +rocm amdgpu_target=gfx90a
+    #
     # FAILURES NOT SPECIFIC TO CRUSHER ENVIRONMENT
     # - arborx@1.1 +rocm ^kokkos +rocm amdgpu_target=gfx90a # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
     # - cabana@0.4.0 +rocm # https://github.com/spack/spack/issues/27967
