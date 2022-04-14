@@ -339,15 +339,15 @@ spack:
       - upcxx@2021.9.0
       - veloc@1.5
       - zfp@0.5.5
-    # NOT RELEVANT
+    # NOT RELEVANT ON CRUSHER
     # - flux-core@0.35.0
     # - nvhpc@22.1
     # - openmpi@4.1.2
-    # BUILD FAILURES
+    # CRUSHER-SPECIFIC FAILURES
+    #
     # - alquimia@1.0.9
     # - ascent@0.7.1
     # - catalyst@5.6.0 # Core/vtkMath.h: 1514:15: error: 'clamp' is not a member of 'std'
-    # - dealii@9.3.2
     # - geopm@1.1.0 # geopmagent_main.c:118:13: error: 'strncpy' specified bound 512 equals destination size [-Werror=stringop-truncation]
     # - libnrm@0.1.0 # explicit depends_on("mpich")
     # - loki@0.1.7 # ISO C++17 does not allow dynamic exception specifications
@@ -355,11 +355,14 @@ spack:
     # - plumed@2.6.3 # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
     # - rempi@1.1.0
     # - scr@3.0rc2 # /opt/cray/pe/mpich/8.1.12/ofi/gnu/9.1/lib/libmpi_gnu_91.so: undefined reference to `PMI_Barrier'
-    # - stat@4.1.0
     # - unifyfs@0.9.1
     # - variorum@0.4.1 # Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform'
     # - vtk-m@1.7.1
     # - wannier90@3.1.0 # Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/INTEGER(4))
+    #
+    # FAILURES NOT SPECIFIC TO CRUSHER ENVIRONMENT
+    # - dealii@9.3.2
+    # - stat@4.1.0
 
     - rocm_specs:
       - amrex@22.02 +rocm amdgpu_target=gfx90a
@@ -377,6 +380,7 @@ spack:
       - strumpack@6.3.0 ~slate +rocm amdgpu_target=gfx90a
       - superlu-dist@7.2.0 +rocm amdgpu_target=gfx90a
       - umpire@6.0.0 +rocm amdgpu_target=gfx90a
+    # FAILURES NOT SPECIFIC TO CRUSHER ENVIRONMENT
     # - arborx@1.1 +rocm ^kokkos +rocm amdgpu_target=gfx90a # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
     # - cabana@0.4.0 +rocm # https://github.com/spack/spack/issues/27967
     # - hpctoolkit@2022.01.15 +rocm # Not ROCmPackage
