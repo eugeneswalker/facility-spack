@@ -344,7 +344,6 @@ spack:
     - darshan-runtime@3.3.1
     - darshan-util@3.3.1
     - datatransferkit@3.1-rc3
-    - dyninst@12.0.1
     - exaworks@0.1.0
     - faodel@1.2108.1
     - flecsi@1.4.2
@@ -358,7 +357,6 @@ spack:
     - gptune@2.1.0
     - hdf5@1.10.7 +fortran +hl +shared
     - heffte@2.2.0 +fftw
-    - hpctoolkit@2022.01.15
     - hpx@1.7.1 networking=mpi
     - hypre@2.24.0
     - kokkos-kernels@3.5.00 +openmp
@@ -420,6 +418,9 @@ spack:
     - upcxx@2021.9.0
     - veloc@1.5
     - zfp@0.5.5
+    # CONFLICTS
+    # - dyninst@12.0.1 # %cce conflict
+    # - hpctoolkit@2022.01.15 # %cce conflict due to dyninst
     # NOT RELEVANT
     # - flux-core@0.35.0
     # - nvhpc@22.1
