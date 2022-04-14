@@ -387,7 +387,6 @@ spack:
     - parallel-netcdf@1.12.2
     - pdt@3.25.1
     - petsc@3.16.4
-    - phist@1.9.5
     - precice@2.3.0
     - pumi@2.2.6
     - py-cinemasci@1.3
@@ -449,6 +448,7 @@ spack:
   # - omega-h@9.34.1 # Omega_h_int128.hpp:18:10: implicit copy assignment operator for 'Int128' is deprecated because it has a user-declared copy constructor [-Werror,-Wdeprecated-copy]
   # - paraview@5.10.0 # dependency binutils - recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations
   # - parsec@3.0.2012 ~cuda # ftn-2105: "-g" is an invalid command-line option.
+  # - phist@1.9.5 # ftn-78 ftn: -f option has an invalid argument, "finite-math-only". (and other similar errors)
   # - plumed@2.6.3 # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
   # - rempi@1.1.0
   # - scr@3.0rc2 # /opt/cray/pe/mpich/8.1.12/ofi/gnu/9.1/lib/libmpi_gnu_91.so: undefined reference to `PMI_Barrier'
