@@ -13,17 +13,6 @@ spack:
 
   compilers:
   - compiler:
-      spec: gcc@7.5.0
-      paths:
-        cc: /usr/bin/gcc
-        cxx: /usr/bin/g++
-        f77: /usr/bin/gfortran
-        fc: /usr/bin/gfortran
-      flags: {}
-      operating_system: sles15
-      target: any
-      modules: []
-  - compiler:
       spec: gcc@11.2.0
       paths:
         cc: cc
@@ -53,17 +42,14 @@ spack:
       variants: +mpi
     binutils:
       variants: +ld +gold +headers +libiberty ~nls
-      version:
-      - 2.36.1
+      version: [2.36.1]
     doxygen:
-      version:
-      - 1.8.20
+      version: [1.8.20]
     elfutils:
       variants: +bzip2 ~nls +xz
     hdf5:
       variants: +fortran +hl +shared
-      version:
-      - 1.10.7
+      version: [1.10.7]
     libfabric:
       variants: fabrics=sockets,tcp,udp,rxm
     libunwind:
@@ -79,8 +65,7 @@ spack:
     openblas:
       variants: threads=openmp
     python:
-      version:
-      - 3.8.12
+      version: [3.8.12]
     trilinos:
       variants: +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext
         +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu
