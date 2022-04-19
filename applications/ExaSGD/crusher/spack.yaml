@@ -240,4 +240,5 @@ spack:
         prefix: /opt/rocm-5.1.0
 
   specs:
-  - exago
+  - exago +rocm amdgpu_target=gfx90a ~hiop
+  - exago +rocm amdgpu_target=gfx90a +hiop
