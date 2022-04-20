@@ -243,4 +243,5 @@ spack:
     # - paraview +cuda cuda_arch=80
 
   specs:
+  - $cpu_specs
   - $cuda_specs
