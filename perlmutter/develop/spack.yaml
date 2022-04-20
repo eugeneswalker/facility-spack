@@ -208,7 +208,6 @@ spack:
     - flux-core +cuda # not CudaPackage
     - ginkgo +cuda cuda_arch=80
     - heffte +cuda cuda_arch=80
-    - hpctoolkit +cuda # not CudaPackage
     - hpx +cuda cuda_arch=80
     - hypre +cuda cuda_arch=80
     - kokkos +wrapper +cuda cuda_arch=80
@@ -216,7 +215,6 @@ spack:
     - magma +cuda cuda_arch=80
     - mfem +cuda cuda_arch=80
     - papi +cuda # not CudaPackage
-    - parsec +cuda cuda_arch=80
     - petsc +cuda cuda_arch=80
     - raja +cuda cuda_arch=80
     - slate +cuda cuda_arch=80
@@ -225,12 +223,14 @@ spack:
     - sundials +cuda cuda_arch=80
     - superlu-dist +cuda cuda_arch=80
     - tasmanian +cuda cuda_arch=80
-    - trilinos@13.2.0 +cuda cuda_arch=80
     - umpire ~shared +cuda cuda_arch=80
-    - vtk-m +cuda cuda_arch=80
     - zfp +cuda cuda_arch=80
     # CONFLICTS
     # PERLMUTTER-SPECIFIC FAILURES
+    # - hpctoolkit +cuda # not CudaPackage
+    # - parsec +cuda cuda_arch=80
+    # - trilinos@13.2.0 +cuda cuda_arch=80
+    # - vtk-m +cuda cuda_arch=80
     # NOT RELEVANT ON PERLMUTTER
     # - openmpi +cuda # not CudaPackage
     # REQUIRES CUDA DRIVER
