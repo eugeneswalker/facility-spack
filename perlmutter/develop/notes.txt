@@ -1,0 +1,84 @@
+
+
+  - gcc_specs:
+    - adios2@2.7.1
+    - amrex@21.11 +fortran +hypre +openmp +petsc +shared
+    - conduit@0.7.2
+    - dyninst@11.0.1
+    - gasnet@2021.9.0
+    - globalarrays@5.8
+    - hdf5@1.12.1
+    - hypre@2.23.0 +openmp +superlu-dist
+    - kokkos-kernels@3.4.01 +openmp
+    - kokkos@3.4.01 +openmp
+    - mercury@2.0.1
+    - mfem@4.3.0
+    - mpark-variant@1.4.0
+    - openpmd-api@0.14.3
+    - papi@6.0.0.1
+    - papyrus@1.0.2
+    - parsec@3.0.2012 ~cuda
+    - pdt@3.25.1
+    - petsc@3.16.1 +openmp +strumpack
+    - qthreads@1.16 scheduler=distrib
+    - raja@0.14.0
+    - slepc@3.16.0
+    - strumpack@6.1.0 ~slate
+    - sundials@5.8.0 +openmp +hypre
+    - superlu-dist@7.1.1 +openmp
+    - superlu@5.3.0
+    - swig@4.0.2
+    - sz@2.1.12
+    - tau +mpi +python
+    - trilinos@13.0.1 +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext
+      +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu
+      +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos
+      +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
+    - umap@2.1.0
+    - upcxx@2021.9.0 +gasnet +mpi
+    #- warpx dims=2
+    #- warpx dims=3
+
+  - cuda_specs:
+    - amrex +cuda cuda_arch=80
+    - arborx +cuda ^kokkos +wrapper +cuda cuda_arch=80 # Not CudaPackage
+    - cabana +cuda ^kokkos +wrapper +cuda_lambda +cuda cuda_arch=80 # Not CudaPackage
+    - caliper +cuda cuda_arch=80
+    - chai ~benchmarks ~tests +cuda cuda_arch=80 ^umpire@6.0.0 ~shared
+    - flecsi +cuda cuda_arch=80
+    - ginkgo +cuda cuda_arch=80
+    - heffte +cuda cuda_arch=80
+    - hypre +cuda cuda_arch=80
+    - kokkos +openmp +wrapper +cuda cuda_arch=80
+    - kokkos-kernels +openmp +cuda cuda_arch=80 ^kokkos@3.5.00 +openmp +wrapper +cuda
+      cuda_arch=80
+    - mfem +cuda cuda_arch=80
+    - papi +cuda # not CudaPackage
+    - petsc +cuda cuda_arch=80
+    - raja +cuda cuda_arch=80
+    - slepc +cuda cuda_arch=80
+    - strumpack ~slate +cuda cuda_arch=80
+    - sundials +cuda cuda_arch=80
+    - superlu-dist +cuda cuda_arch=80
+    - tasmanian +cuda cuda_arch=80
+    - umpire ~shared +cuda cuda_arch=80
+    - zfp +cuda cuda_arch=80
+    # BROKEN
+    # - hpctoolkit +cuda # not CudaPackage
+    # - hpx +cuda cuda_arch=80
+    # - magma +cuda cuda_arch=80
+    # - parsec +cuda cuda_arch=80
+    # - slate +cuda cuda_arch=80
+    # - trilinos@13.2.0 +cuda cuda_arch=80
+    # - vtk-m +cuda cuda_arch=80
+    # REQUIRES CUDA DRIVER
+    # - legion +cuda cuda_arch=80 # Needs CUDA Driver
+    # - upcxx +cuda # Not CudaPackage; Needs CUDA Driver
+    # BROKEN
+    # - ascent ~shared +cuda cuda_arch=80 # https://github.com/spack/spack/issues/27954
+    # - axom +cuda cuda_arch=80 ^umpire ~shared # https://github.com/spack/spack/issues/29520
+    # - dealii +cuda cuda_arch=80 # https://github.com/spack/spack/issues/29523
+    # - paraview +cuda cuda_arch=80
+    # NOT NEEDED
+    # - flux-core +cuda # not CudaPackage
+    # - openmpi +cuda # not CudaPackage
