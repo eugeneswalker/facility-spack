@@ -31,7 +31,6 @@ spack:
         blas: [openblas]
         mpi: [cray-mpich]
       target: [zen3]
-
     cuda:
       version: [11.5.1]
     binutils:
@@ -57,6 +56,13 @@ spack:
         +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     xz:
       variants: +pic
+
+    mpich:
+      buildable: false
+    openmpi:
+      buildable: false
+    mvapich2:
+      buildable: false
 
     # PERLMUTTER EXTERNALS
     libfabric:
@@ -163,7 +169,6 @@ spack:
     - py-warpx ^warpx dims=rz
     - qthreads scheduler=distrib
     - raja
-    - rempi
     - scr
     - slate ~cuda
     - slepc
@@ -186,11 +191,12 @@ spack:
     - variorum
     - veloc
     - vtk-m
-    - wannier90
     - zfp
     - h5bench
     # CONFLICTS
     # PERLMUTTER-SPECIFIC FAILURES
+    # - rempi # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
+    # - wannier90 # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
     # NOT RELEVANT ON PERLMUTTER
     # - flux-core
     # - openmpi
