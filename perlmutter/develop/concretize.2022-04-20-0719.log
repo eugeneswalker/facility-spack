@@ -1,0 +1,769 @@
+==> Starting concretization pool with 16 processes
+==> Environment concretized in 30.72 seconds.
+==> Concretized amrex+cuda cuda_arch=80
+ -   fwzceax  amrex@22.04%gcc@11.2.0~amrdata+cuda~eb~fortran~hdf5~hypre~ipo+linear_solvers+mpi~openmp~particles~petsc~pic~plotfile_tools~rocm~shared~sundials~tiny_profile build_type=RelWithDebInfo cuda_arch=80 dimensions=3 precision=double arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
+==> Concretized arborx+cuda ^kokkos+cuda+wrapper cuda_arch=80
+ -   usrtqvd  arborx@1.2%gcc@11.2.0+cuda~ipo+mpi~openmp~rocm+serial~sycl~trilinos build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   ovw4vjy      ^kokkos@3.5.00%gcc@11.2.0~aggressive_vectorization~compiler_warnings+cuda~cuda_constexpr+cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning+wrapper build_type=RelWithDebInfo cuda_arch=80 std=14 arch=cray-sles15-zen3
+ -   eus3b3j          ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2              ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32                  ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   bvqtsq3          ^kokkos-nvcc-wrapper@3.2.00%gcc@11.2.0+mpi arch=cray-sles15-zen3
+
+==> Concretized cabana+cuda ^kokkos+cuda+cuda_lambda+wrapper cuda_arch=80
+ -   cbkoelk  cabana@0.4.0%gcc@11.2.0~arborx+cuda~heffte~hypre~ipo+mpi~openmp~pthread~rocm+serial+shared~sycl build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   tivuz63      ^googletest@1.10.0%gcc@11.2.0~gmock~ipo+pthreads+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   ovw4vjy      ^kokkos@3.5.00%gcc@11.2.0~aggressive_vectorization~compiler_warnings+cuda~cuda_constexpr+cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning+wrapper build_type=RelWithDebInfo cuda_arch=80 std=14 arch=cray-sles15-zen3
+ -   eus3b3j          ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2              ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32                  ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   bvqtsq3          ^kokkos-nvcc-wrapper@3.2.00%gcc@11.2.0+mpi arch=cray-sles15-zen3
+
+==> Concretized caliper+cuda cuda_arch=80
+ -   m23t3xw  caliper@2.7.0%gcc@11.2.0+adiak+cuda~fortran+gotcha~ipo+libdw~libpfm+libunwind+mpi+papi+sampler+shared~sosflow build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   u6kn5vf      ^adiak@0.2.1%gcc@11.2.0~ipo+mpi+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm              ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                  ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                  ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                      ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                      ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                          ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                      ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                          ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                      ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba          ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   m5yawzt      ^elfutils@0.186%gcc@11.2.0+bzip2~debuginfod~nls+xz arch=cray-sles15-zen3
+ -   f3eu4mu          ^m4@1.4.19%gcc@11.2.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+ -   x5hlygl              ^libsigsegv@2.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7zyzmg7      ^libunwind@1.6.2%gcc@11.2.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=cray-sles15-zen3
+ -   ntqj73g      ^papi@6.0.0.1%gcc@11.2.0~cuda+example~infiniband~lmsensors~nvml~powercap~rapl~rocm~rocm_smi~sde+shared~static_tools arch=cray-sles15-zen3
+ -   m3ko3s3      ^python@3.8.12%gcc@11.2.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+ -   2k6dwbz          ^expat@2.4.8%gcc@11.2.0+libbsd arch=cray-sles15-zen3
+ -   ephgjmc              ^libbsd@0.11.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bayap72                  ^libmd@1.0.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   ezo7wv4          ^gettext@0.21%gcc@11.2.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+ -   zj74im4              ^tar@1.34%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4hs54q4          ^libffi@3.4.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   5htri4y          ^sqlite@3.37.2%gcc@11.2.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+ -   rx6kqlx          ^util-linux-uuid@2.37.4%gcc@11.2.0 arch=cray-sles15-zen3
+
+==> Concretized chai~benchmarks+cuda~tests cuda_arch=80 ^umpire@6.0.0~shared
+ -   qxuv2tr  chai@2.4.0%gcc@11.2.0~benchmarks+cuda~enable_pick+examples~ipo~openmp~raja~rocm+shared~tests build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   4ncvyak      ^blt@0.4.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm              ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                  ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                  ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                      ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                      ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                          ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                      ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                          ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                      ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   c4f2pby      ^umpire@6.0.0%gcc@11.2.0+c+cuda~deviceconst+examples~fortran~ipo~numa~openmp~rocm~shared build_type=RelWithDebInfo cuda_arch=80 tests=none arch=cray-sles15-zen3
+ -   2crtjnr          ^camp@0.2.2%gcc@11.2.0+cuda~ipo~rocm~tests build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   r7d6wou              ^cub@1.16.0%gcc@11.2.0 arch=cray-sles15-zen3
+
+==> Concretized flecsi+cuda cuda_arch=80
+ -   tlp2jba  flecsi@2.1.0%gcc@11.2.0~coverage+cuda~debug_backend~disable_metis~doc~doxygen~external_cinch~flecstan~flog~graphviz+hdf5~ipo~kokkos~openmp+shared~tutorial~unit_tests backend=mpi build_type=RelWithDebInfo caliper_detail=none cuda_arch=80 arch=cray-sles15-zen3
+ -   d77cvrg      ^boost@1.78.0%gcc@11.2.0+atomic~chrono~clanglibcpp~container~context~coroutine~date_time~debug~exception~fiber+filesystem~graph~icu~iostreams~locale~log~math~mpi+multithreaded~numpy~pic+program_options~python~random+regex~serialization+shared~signals~singlethreaded+system~taggedlayout~test~thread~timer~versionedlayout~wave cxxstd=17 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   pigh72l      ^hdf5@1.12.1%gcc@11.2.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo patches=ee351eb arch=cray-sles15-zen3
+ -   zz3zyba          ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   lxe5bha      ^metis@5.1.0%gcc@11.2.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=cray-sles15-zen3
+ -   b6czzsr      ^parmetis@4.0.3%gcc@11.2.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+
+==> Concretized flux-core+cuda
+ -   ut74scl  flux-core@0.38.0%gcc@11.2.0+cuda~docs arch=cray-sles15-zen3
+ -   4sd6i7w      ^czmq@4.1.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   qqgga44          ^autoconf@2.69%gcc@11.2.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+ -   f3eu4mu              ^m4@1.4.19%gcc@11.2.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+ -   x5hlygl                  ^libsigsegv@2.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   mosh6nm                          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   tnjrstu          ^automake@1.16.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   hwo5aie          ^docbook-xml@4.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wac76n2              ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32                  ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   fuswyaw          ^docbook-xsl@1.79.2%gcc@11.2.0 patches=a92c397 arch=cray-sles15-zen3
+ -   4yjpy3s          ^libtool@2.4.7%gcc@11.2.0 arch=cray-sles15-zen3
+ -   r6r6xsa          ^libzmq@4.3.4%gcc@11.2.0~docs~drafts+libbsd+libsodium patches=310b8aa arch=cray-sles15-zen3
+ -   ephgjmc              ^libbsd@0.11.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bayap72                  ^libmd@1.0.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   xcj7r3p              ^libsodium@1.0.18%gcc@11.2.0 arch=cray-sles15-zen3
+ -   rx6kqlx          ^util-linux-uuid@2.37.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   6ysarqj      ^hwloc@2.7.1%gcc@11.2.0~cairo+cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+ -   eus3b3j          ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   ij4jz4w          ^libpciaccess@0.16%gcc@11.2.0 arch=cray-sles15-zen3
+ -   w4jpg7o              ^util-macros@1.19.3%gcc@11.2.0 arch=cray-sles15-zen3
+ -   colwhhx      ^jansson@2.13.1%gcc@11.2.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   5vsdud3      ^libarchive@3.5.2%gcc@11.2.0+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=libxml2 arch=cray-sles15-zen3
+ -   wxmok7p          ^lz4@1.9.3%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   2v6m7nl          ^lzo@2.10%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   wb2dse7          ^mbedtls@2.28.0%gcc@11.2.0+pic build_type=Release libs=static arch=cray-sles15-zen3
+ -   duegu4t          ^zstd@1.5.2%gcc@11.2.0~programs libs=shared,static arch=cray-sles15-zen3
+ -   z7zuogm      ^lua@5.3.5%gcc@11.2.0~pcfile+shared fetcher=curl arch=cray-sles15-zen3
+ -   wlwpf6z          ^curl@7.82.0%gcc@11.2.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=cray-sles15-zen3
+ -   hoostek          ^unzip@6.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   y4fjj63      ^lua-luaposix@35.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   lpknguk      ^py-cffi@1.15.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4hs54q4          ^libffi@3.4.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   xqi2y2w          ^py-pip@21.3.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   m3ko3s3              ^python@3.8.12%gcc@11.2.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+ -   2k6dwbz                  ^expat@2.4.8%gcc@11.2.0+libbsd arch=cray-sles15-zen3
+ -   ezo7wv4                  ^gettext@0.21%gcc@11.2.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+ -   zj74im4                      ^tar@1.34%gcc@11.2.0 arch=cray-sles15-zen3
+ -   5htri4y                  ^sqlite@3.37.2%gcc@11.2.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+ -   dn26wb2          ^py-pycparser@2.20%gcc@11.2.0 arch=cray-sles15-zen3
+ -   n5aqofj              ^py-setuptools@59.4.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   jho2yp2                  ^py-wheel@0.37.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4ti2rde      ^py-docutils@0.18.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   5cdozf3      ^py-jsonschema@4.4.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   g6rdvep          ^py-attrs@21.4.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   m3rs7cv          ^py-importlib-resources@5.3.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   sf2kewz              ^py-setuptools-scm@6.3.2%gcc@11.2.0+toml arch=cray-sles15-zen3
+ -   nypiyb5                  ^py-packaging@21.3%gcc@11.2.0 arch=cray-sles15-zen3
+ -   5t3yb53                      ^py-pyparsing@3.0.6%gcc@11.2.0 arch=cray-sles15-zen3
+ -   mo6sw3u                  ^py-tomli@1.2.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   he5min7              ^py-zipp@3.6.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   zawmcik          ^py-pyrsistent@0.18.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   rl2jmi7      ^py-pyyaml@6.0%gcc@11.2.0+libyaml arch=cray-sles15-zen3
+ -   spv5zqv          ^libyaml@0.2.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   c7alift          ^py-cython@0.29.24%gcc@11.2.0 arch=cray-sles15-zen3
+
+==> Concretized ginkgo+cuda cuda_arch=80
+ -   nvc3xwm  ginkgo@1.4.0%gcc@11.2.0+cuda~develtools~full_optimizations~hwloc~ipo~oneapi+openmp~rocm+shared build_type=Release cuda_arch=80 patches=43e571a arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
+==> Concretized heffte+cuda cuda_arch=80
+ -   lzinc6w  heffte@2.2.0%gcc@11.2.0+cuda~fftw~fortran~ipo~magma~mkl~python~rocm+shared build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
+==> Concretized hpctoolkit+cuda
+ -   yr3ppxr  hpctoolkit@2022.01.15%gcc@11.2.0~all-static~cray+cuda~debug~mpi+papi~rocm+viewer arch=cray-sles15-zen3
+ -   ktliwor      ^binutils@2.38%gcc@11.2.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=cray-sles15-zen3
+ -   qcu64ae          ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   wuz4wcu          ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   w4332di      ^boost@1.78.0%gcc@11.2.0+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug~exception~fiber+filesystem+graph~icu~iostreams~locale~log~math~mpi+multithreaded~numpy~pic~program_options~python~random+regex~serialization+shared~signals~singlethreaded+system~taggedlayout~test+thread+timer~versionedlayout~wave cxxstd=98 patches=57a8401,a440f96 visibility=global arch=cray-sles15-zen3
+ -   4p4fezv      ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   ddw3dqi      ^dyninst@12.1.0%gcc@11.2.0~ipo+openmp~stat_dysect~static build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm              ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                  ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                      ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   hsxhljd                      ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                          ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   m5yawzt          ^elfutils@0.186%gcc@11.2.0+bzip2~debuginfod~nls+xz arch=cray-sles15-zen3
+ -   f3eu4mu              ^m4@1.4.19%gcc@11.2.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+ -   x5hlygl                  ^libsigsegv@2.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   ruevhc6          ^intel-tbb@2020.3%gcc@11.2.0~ipo+shared+tm build_type=RelWithDebInfo cxxstd=default patches=62ba015,ce1fb16,d62cb66 arch=cray-sles15-zen3
+ -   faka47o          ^libiberty@2.37%gcc@11.2.0+pic arch=cray-sles15-zen3
+ -   jb5suan      ^gotcha@1.0.3%gcc@11.2.0~ipo~test build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   464z4a3      ^hpcviewer@2022.01%gcc@11.2.0 arch=cray-sles15-zen3
+ -   2nsnhjg          ^openjdk@11.0.14.1_1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   3cbgag7      ^libdwarf@20180129%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bfbuojm      ^libmonitor@2021.11.08%gcc@11.2.0~commrank~dlopen+hpctoolkit arch=cray-sles15-zen3
+ -   7zyzmg7      ^libunwind@1.6.2%gcc@11.2.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=cray-sles15-zen3
+ -   l7ib5v5      ^mbedtls@3.1.0%gcc@11.2.0+pic build_type=Release libs=static arch=cray-sles15-zen3
+ -   zewulsd      ^memkind@1.13.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   qqgga44          ^autoconf@2.69%gcc@11.2.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+ -   tnjrstu          ^automake@1.16.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4yjpy3s          ^libtool@2.4.7%gcc@11.2.0 arch=cray-sles15-zen3
+ -   ynogmtn          ^numactl@2.0.14%gcc@11.2.0 patches=4e1d78c,62fc8a8,ff37630 arch=cray-sles15-zen3
+ -   ntqj73g      ^papi@6.0.0.1%gcc@11.2.0~cuda+example~infiniband~lmsensors~nvml~powercap~rapl~rocm~rocm_smi~sde+shared~static_tools arch=cray-sles15-zen3
+ -   igaxrli      ^xerces-c@3.2.3%gcc@11.2.0 cxxstd=default netaccessor=curl transcoder=iconv arch=cray-sles15-zen3
+ -   wlwpf6z          ^curl@7.82.0%gcc@11.2.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=cray-sles15-zen3
+
+==> Concretized hpx+cuda cuda_arch=80
+ -   cnywrgb  hpx@1.7.1%gcc@11.2.0~async_cuda~async_mpi+cuda~examples~generic_coroutines~ipo~rocm~tools build_type=RelWithDebInfo cuda_arch=80 cxxstd=17 instrumentation=none malloc=tcmalloc max_cpu_count=64 networking=tcp arch=cray-sles15-zen3
+ -   jmf6ckt      ^asio@1.21.0%gcc@11.2.0~boost_coroutine~boost_regex~separate_compilation cxxstd=17 arch=cray-sles15-zen3
+ -   qqgga44          ^autoconf@2.69%gcc@11.2.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+ -   f3eu4mu              ^m4@1.4.19%gcc@11.2.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+ -   x5hlygl                  ^libsigsegv@2.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   mosh6nm                          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   tnjrstu          ^automake@1.16.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7h6jv24          ^boost@1.78.0%gcc@11.2.0+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math~mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=17 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+ -   4yjpy3s          ^libtool@2.4.7%gcc@11.2.0 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   nltxjbo      ^git@2.35.1%gcc@11.2.0+man+nls+perl~svn~tcltk arch=cray-sles15-zen3
+ -   wlwpf6z          ^curl@7.82.0%gcc@11.2.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=cray-sles15-zen3
+ -   2k6dwbz          ^expat@2.4.8%gcc@11.2.0+libbsd arch=cray-sles15-zen3
+ -   ephgjmc              ^libbsd@0.11.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bayap72                  ^libmd@1.0.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   ezo7wv4          ^gettext@0.21%gcc@11.2.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+ -   zj74im4              ^tar@1.34%gcc@11.2.0 arch=cray-sles15-zen3
+ -   rjemrli          ^libidn2@2.3.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   fxp3bpj              ^libunistring@0.9.10%gcc@11.2.0 arch=cray-sles15-zen3
+ -   rtg6evo          ^openssh@8.9p1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   cr4heh2              ^libedit@3.1-20210216%gcc@11.2.0 arch=cray-sles15-zen3
+ -   pxe6cka          ^pcre2@10.39%gcc@11.2.0~jit+multibyte arch=cray-sles15-zen3
+ -   npxjfff      ^gperftools@2.9.1%gcc@11.2.0+debugalloc~dynamic_sized_delete_support+libunwind~sized_delete arch=cray-sles15-zen3
+ -   7zyzmg7          ^libunwind@1.6.2%gcc@11.2.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=cray-sles15-zen3
+ -   k43c5ed      ^hwloc@2.7.1%gcc@11.2.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+ -   ij4jz4w          ^libpciaccess@0.16%gcc@11.2.0 arch=cray-sles15-zen3
+ -   w4jpg7o              ^util-macros@1.19.3%gcc@11.2.0 arch=cray-sles15-zen3
+ -   xi4xktn      ^ninja@1.10.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   m3ko3s3          ^python@3.8.12%gcc@11.2.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+ -   4hs54q4              ^libffi@3.4.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   5htri4y              ^sqlite@3.37.2%gcc@11.2.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+ -   rx6kqlx              ^util-linux-uuid@2.37.4%gcc@11.2.0 arch=cray-sles15-zen3
+
+==> Concretized hypre+cuda cuda_arch=80
+ -   frgyczo  hypre@2.24.0%gcc@11.2.0~complex+cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory cuda_arch=80 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   l4kbzvf              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   wuz4wcu              ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   cnaggoq      ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+ -   vhuvgqt          ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb              ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv              ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                  ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   hsxhljd              ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                  ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   mosh6nm                      ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+
+==> Concretized kokkos+cuda+wrapper cuda_arch=80
+ -   x4rlokg  kokkos@3.5.00%gcc@11.2.0~aggressive_vectorization~compiler_warnings+cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning+wrapper build_type=RelWithDebInfo cuda_arch=80 std=14 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   bvqtsq3      ^kokkos-nvcc-wrapper@3.2.00%gcc@11.2.0+mpi arch=cray-sles15-zen3
+ -   zz3zyba          ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+
+==> Concretized kokkos-kernels+cuda cuda_arch=80 ^kokkos@3.5.00+cuda+wrapper cuda_arch=80
+ -   r6i3quf  kokkos-kernels@3.5.00%gcc@11.2.0~blas~cblas~cublas+cuda~cusparse~ipo~lapack~lapacke~mkl~openmp~pthread~serial+shared~superlu build_type=RelWithDebInfo cuda_arch=80 execspace_cuda=auto execspace_openmp=auto execspace_serial=auto execspace_threads=auto layouts=left memspace_cudaspace=auto memspace_cudauvmspace=auto offsets=int,size_t ordinals=int scalars=double arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   x4rlokg      ^kokkos@3.5.00%gcc@11.2.0~aggressive_vectorization~compiler_warnings+cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning+wrapper build_type=RelWithDebInfo cuda_arch=80 std=14 arch=cray-sles15-zen3
+ -   bvqtsq3          ^kokkos-nvcc-wrapper@3.2.00%gcc@11.2.0+mpi arch=cray-sles15-zen3
+ -   zz3zyba              ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+
+==> Concretized magma+cuda cuda_arch=80
+ -   csl3dgb  magma@2.6.1%gcc@11.2.0+cuda+fortran~ipo~rocm+shared build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   cnaggoq      ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+
+==> Concretized mfem+cuda cuda_arch=80
+ -   e76gs7k  mfem@4.4.0%gcc@11.2.0~amgx~conduit+cuda~debug~examples~gnutls~gslib~lapack~libceed~libunwind+metis~miniapps~mpfr+mpi~netcdf~occa~openmp~petsc~pumi~raja~rocm~shared~slepc+static~strumpack~suite-sparse~sundials~superlu-dist~threadsafe~umpire+zlib cuda_arch=80 timer=auto arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   l4kbzvf              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   wuz4wcu              ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   wshtmfa      ^hypre@2.24.0%gcc@11.2.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+ -   cnaggoq          ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   mosh6nm                          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   lxe5bha      ^metis@5.1.0%gcc@11.2.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+
+==> Concretized papi+cuda
+ -   eztxyuf  papi@6.0.0.1%gcc@11.2.0+cuda+example~infiniband~lmsensors~nvml~powercap~rapl~rocm~rocm_smi~sde+shared~static_tools arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   l4kbzvf              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   wuz4wcu              ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+
+==> Concretized parsec+cuda cuda_arch=80
+ -   ti5tmub  parsec@3.0.2012%gcc@11.2.0+cuda~debug_verbose~ipo~profile+shared build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   ssvy3vr      ^bison@3.8.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   qcu64ae          ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   f3eu4mu          ^m4@1.4.19%gcc@11.2.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+ -   x5hlygl              ^libsigsegv@2.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   vhuvgqt          ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb              ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv              ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   hsxhljd              ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                  ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   mosh6nm                      ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                          ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu              ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   ccoko7w      ^flex@2.6.3%gcc@11.2.0+lex~nls arch=cray-sles15-zen3
+ -   o4xu4nq          ^findutils@4.8.0%gcc@11.2.0 patches=440b954 arch=cray-sles15-zen3
+ -   k43c5ed      ^hwloc@2.7.1%gcc@11.2.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+ -   ij4jz4w          ^libpciaccess@0.16%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4yjpy3s              ^libtool@2.4.7%gcc@11.2.0 arch=cray-sles15-zen3
+ -   w4jpg7o              ^util-macros@1.19.3%gcc@11.2.0 arch=cray-sles15-zen3
+ -   m3ko3s3      ^python@3.8.12%gcc@11.2.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+ -   2k6dwbz          ^expat@2.4.8%gcc@11.2.0+libbsd arch=cray-sles15-zen3
+ -   ephgjmc              ^libbsd@0.11.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bayap72                  ^libmd@1.0.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   ezo7wv4          ^gettext@0.21%gcc@11.2.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+ -   zj74im4              ^tar@1.34%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4hs54q4          ^libffi@3.4.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   5htri4y          ^sqlite@3.37.2%gcc@11.2.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+ -   rx6kqlx          ^util-linux-uuid@2.37.4%gcc@11.2.0 arch=cray-sles15-zen3
+
+==> Concretized petsc+cuda cuda_arch=80
+ -   rzwe2cn  petsc@3.17.0%gcc@11.2.0~X~batch~cgns~complex+cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C cuda_arch=80 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   l4kbzvf              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   wuz4wcu              ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   qcu64ae      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   pigh72l      ^hdf5@1.12.1%gcc@11.2.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo patches=ee351eb arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm              ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                  ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                      ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                      ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   hsxhljd                      ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                          ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wshtmfa      ^hypre@2.24.0%gcc@11.2.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+ -   cnaggoq          ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+ -   lxe5bha      ^metis@5.1.0%gcc@11.2.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=cray-sles15-zen3
+ -   b6czzsr      ^parmetis@4.0.3%gcc@11.2.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+ -   m3ko3s3      ^python@3.8.12%gcc@11.2.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+ -   2k6dwbz          ^expat@2.4.8%gcc@11.2.0+libbsd arch=cray-sles15-zen3
+ -   ephgjmc              ^libbsd@0.11.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bayap72                  ^libmd@1.0.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   ezo7wv4          ^gettext@0.21%gcc@11.2.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+ -   zj74im4              ^tar@1.34%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4hs54q4          ^libffi@3.4.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   5htri4y          ^sqlite@3.37.2%gcc@11.2.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+ -   rx6kqlx          ^util-linux-uuid@2.37.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   kp2avxu      ^superlu-dist@7.2.0%gcc@11.2.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized raja+cuda cuda_arch=80
+ -   zvtvwfi  raja@0.14.0%gcc@11.2.0+cuda+examples+exercises~ipo+openmp~rocm+shared~tests build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   4ncvyak      ^blt@0.4.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm              ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                  ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                  ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                      ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                      ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                          ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                      ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                          ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                      ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   2crtjnr      ^camp@0.2.2%gcc@11.2.0+cuda~ipo~rocm~tests build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   r7d6wou          ^cub@1.16.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j          ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2              ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32                  ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
+==> Concretized slate+cuda cuda_arch=80
+ -   rq5etth  slate@2021.05.02%gcc@11.2.0+cuda~ipo+mpi+openmp~rocm+shared build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   76kytz5      ^blaspp@2021.04.01%gcc@11.2.0+cuda~ipo+openmp~rocm+shared build_type=RelWithDebInfo cuda_arch=none arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm              ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                  ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                  ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                      ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                      ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                          ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                      ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                          ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                      ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j          ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2              ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32                  ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   cnaggoq          ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   kv65soo      ^lapackpp@2021.04.00%gcc@11.2.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   ouhqfxe      ^netlib-scalapack@2.2.0%gcc@11.2.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen3
+
+==> Concretized slepc+cuda cuda_arch=80
+ -   6o6kyni  slepc@3.17.1%gcc@11.2.0+arpack~blopex+cuda~rocm cuda_arch=80 arch=cray-sles15-zen3
+ -   mnc3loo      ^arpack-ng@3.8.0%gcc@11.2.0+mpi+shared arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm              ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                  ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                  ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                      ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                      ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                          ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                      ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                          ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                      ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba          ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   cnaggoq          ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   2tsrzag      ^petsc@3.17.0%gcc@11.2.0~X~batch~cgns~complex+cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C cuda_arch=none arch=cray-sles15-zen3
+ -   pigh72l          ^hdf5@1.12.1%gcc@11.2.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo patches=ee351eb arch=cray-sles15-zen3
+ -   wshtmfa          ^hypre@2.24.0%gcc@11.2.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+ -   lxe5bha          ^metis@5.1.0%gcc@11.2.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=cray-sles15-zen3
+ -   b6czzsr          ^parmetis@4.0.3%gcc@11.2.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+ -   m3ko3s3          ^python@3.8.12%gcc@11.2.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+ -   2k6dwbz              ^expat@2.4.8%gcc@11.2.0+libbsd arch=cray-sles15-zen3
+ -   ephgjmc                  ^libbsd@0.11.5%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bayap72                      ^libmd@1.0.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   ezo7wv4              ^gettext@0.21%gcc@11.2.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+ -   zj74im4                  ^tar@1.34%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4hs54q4              ^libffi@3.4.2%gcc@11.2.0 arch=cray-sles15-zen3
+ -   5htri4y              ^sqlite@3.37.2%gcc@11.2.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+ -   rx6kqlx              ^util-linux-uuid@2.37.4%gcc@11.2.0 arch=cray-sles15-zen3
+ -   kp2avxu          ^superlu-dist@7.2.0%gcc@11.2.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized strumpack+cuda~slate cuda_arch=80
+ -   b2kvmew  strumpack@6.3.1%gcc@11.2.0+butterflypack+c_interface~count_flops+cuda~ipo+mpi+openmp+parmetis~rocm~scotch+shared~slate~task_timers+zfp build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   y5odeus      ^butterflypack@2.1.1%gcc@11.2.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   mnc3loo          ^arpack-ng@3.8.0%gcc@11.2.0+mpi+shared arch=cray-sles15-zen3
+ -   2yhiso4              ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm                  ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                      ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh                  ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                      ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                          ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                          ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                              ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                                  ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                          ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                              ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                          ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba              ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   cnaggoq              ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+ -   ouhqfxe          ^netlib-scalapack@2.2.0%gcc@11.2.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   lxe5bha      ^metis@5.1.0%gcc@11.2.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=cray-sles15-zen3
+ -   b6czzsr      ^parmetis@4.0.3%gcc@11.2.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+ -   li5u3vu      ^zfp@0.5.5%gcc@11.2.0~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo arch=cray-sles15-zen3
+
+==> Concretized sundials+cuda cuda_arch=80
+ -   qtroxdw  sundials@6.1.1%gcc@11.2.0+ARKODE+CVODE+CVODES+IDA+IDAS+KINSOL+cuda+examples+examples-install~f2003~fcmix+generic-math~hypre~int64~ipo~klu~lapack~magma~monitoring+mpi~openmp~petsc~profiling~pthread~raja~rocm+shared+static~superlu-dist~superlu-mt~sycl~trilinos build_type=RelWithDebInfo cstd=99 cuda_arch=80 cxxstd=14 precision=double arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
+==> Concretized superlu-dist+cuda cuda_arch=80
+ -   vqh7jx4  superlu-dist@7.2.0%gcc@11.2.0+cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo cuda_arch=80 patches=8da9e21 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   lxe5bha      ^metis@5.1.0%gcc@11.2.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=cray-sles15-zen3
+ -   cnaggoq      ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+ -   b6czzsr      ^parmetis@4.0.3%gcc@11.2.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+
+==> Concretized tasmanian+cuda cuda_arch=80
+ -   b7fevgk  tasmanian@7.7%gcc@11.2.0~blas+cuda~fortran~ipo~magma~mpi+openmp~python~rocm~xsdkflags build_type=Release cuda_arch=80 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
+==> Concretized trilinos@13.2.0+cuda cuda_arch=80
+ -   72ckjxo  trilinos@13.2.0%gcc@11.2.0~adios2+amesos+amesos2+anasazi+aztec~basker+belos+boost~chaco~complex+cuda~cuda_rdc~debug~dtk+epetra+epetraext~epetraextbtf~epetraextexperimental~epetraextgraphreorderings~exodus+explicit_template_instantiation~float+fortran~gtest~hdf5~hypre+ifpack+ifpack2+intrepid+intrepid2~ipo+isorropia+kokkos~mesquite+minitensor+ml+mpi+muelu~mumps+nox~openmp~panzer+phalanx+piro~python~rocm~rocm_rdc+rol+rythmos+sacado~scorec+shards+shared+shylu+stk+stokhos+stratimikos~strumpack~suite-sparse~superlu+superlu-dist+teko+tempus+thyra+tpetra+trilinoscouplings~uvm+wrapper~x11+zoltan+zoltan2 build_type=RelWithDebInfo cuda_arch=80 cxxstd=14 gotype=long_long arch=cray-sles15-zen3
+ -   bahc77u      ^boost@1.78.0%gcc@11.2.0+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math~mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+ -   4p4fezv          ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae              ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                  ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   wuz4wcu          ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   zz3zyba      ^cray-mpich@8.1.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   6ysarqj      ^hwloc@2.7.1%gcc@11.2.0~cairo+cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+ -   ij4jz4w          ^libpciaccess@0.16%gcc@11.2.0 arch=cray-sles15-zen3
+ -   4yjpy3s              ^libtool@2.4.7%gcc@11.2.0 arch=cray-sles15-zen3
+ -   f3eu4mu                  ^m4@1.4.19%gcc@11.2.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+ -   x5hlygl                      ^libsigsegv@2.13%gcc@11.2.0 arch=cray-sles15-zen3
+ -   w4jpg7o              ^util-macros@1.19.3%gcc@11.2.0 arch=cray-sles15-zen3
+ -   bvqtsq3      ^kokkos-nvcc-wrapper@3.2.00%gcc@11.2.0+mpi arch=cray-sles15-zen3
+ -   lxe5bha      ^metis@5.1.0%gcc@11.2.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=cray-sles15-zen3
+ -   cnaggoq      ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+ -   b6czzsr      ^parmetis@4.0.3%gcc@11.2.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+ -   kp2avxu      ^superlu-dist@7.2.0%gcc@11.2.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized umpire+cuda~shared cuda_arch=80
+ -   c4f2pby  umpire@6.0.0%gcc@11.2.0+c+cuda~deviceconst+examples~fortran~ipo~numa~openmp~rocm~shared build_type=RelWithDebInfo cuda_arch=80 tests=none arch=cray-sles15-zen3
+ -   4ncvyak      ^blt@0.4.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   2yhiso4          ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm              ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f                  ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh              ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt                  ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                      ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                      ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                          ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                              ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                      ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                          ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                      ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   2crtjnr      ^camp@0.2.2%gcc@11.2.0+cuda~ipo~rocm~tests build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   r7d6wou          ^cub@1.16.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   eus3b3j          ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2              ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32                  ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
+==> Concretized vtk-m+cuda cuda_arch=80
+ -   ansc2nw  vtk-m@1.7.1%gcc@11.2.0~64bitids+ascent_types+cuda+cuda_native+doubleprecision~ipo~kokkos~logging~mpi+openmp+rendering~rocm~shared~tbb~testlib~virtuals build_type=Release cuda_arch=80 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
+==> Concretized zfp+cuda cuda_arch=80
+ -   vgpflqu  zfp@0.5.5%gcc@11.2.0~aligned~c+cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=80 arch=cray-sles15-zen3
+ -   2yhiso4      ^cmake@3.23.1%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+ -   mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+ -   kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+ -   srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+ -   xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+ -   4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+ -   qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+ -   l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+ -   hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+ -   7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+ -   wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   eus3b3j      ^cuda@11.5.1%gcc@11.2.0~allow-unsupported-compilers~dev arch=cray-sles15-zen3
+ -   wac76n2          ^libxml2@2.9.12%gcc@11.2.0~python arch=cray-sles15-zen3
+ -   bhh4n32              ^xz@5.2.5%gcc@11.2.0+pic libs=shared,static arch=cray-sles15-zen3
+
