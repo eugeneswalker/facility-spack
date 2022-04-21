@@ -1,5 +1,5 @@
-# spack/develop 616a8eebcd8bb02be512185ec8a19525d1cbe866
-# Thu Apr 21 12:10:46 2022 -0500
+# spack/develop 4817e4c80ced0c1115a018bb185ce93f50b20242
+# Thu Apr 21 13:22:41 2022 -0700
 
 spack:
   view: false
@@ -25,15 +25,11 @@ spack:
 
   packages:
     all:
-      compiler:
-      - gcc@11.1.0
+      compiler: [gcc@11.1.0]
       providers:
-        blas:
-        - openblas
-        mpi:
-        - mpich
-      target:
-      - x86_64
+        blas: [openblas]
+        mpi: [mpich]
+      target: [x86_64]
       variants: +mpi
     binutils:
       variants: +ld +gold +headers +libiberty ~nls
