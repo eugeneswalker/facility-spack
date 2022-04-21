@@ -1,5 +1,16 @@
 # spack/develop b7f8899d45119f37fafe8733d6ddef5d3efc57b5
 # Wed Apr 20 15:00:43 2022 +0200
+# SPACK_ROOT = $CFS/m3503/ParaTools/E4S/develop/spack
+#
+# builds OK, as of 2022-04-21 1416:
+#  cpu_specs: 94/106
+#  cuda_specs: 26/30 (+ additional 2 that might work need to be built where driver is available)
+#
+# inherent conflicts:
+#  (1) libnrm (cray-mpich)
+#
+# skipped for Perlmutter:
+#  (3) flux-core, openmpi
 
 spack:
   view: false
