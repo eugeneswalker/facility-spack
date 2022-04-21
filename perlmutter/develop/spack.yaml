@@ -145,7 +145,6 @@ spack:
     - papi
     - papyrus
     - parallel-netcdf
-    - paraview
     - parsec ~cuda
     - pdt
     - petsc
@@ -192,6 +191,7 @@ spack:
     # - geopm
     # - h5bench # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
     # - loki # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
+    # - paraview
     # - plumed
     # - py-jupyterhub
     # - rempi # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
