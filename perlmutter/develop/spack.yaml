@@ -189,10 +189,10 @@ spack:
     - veloc
     - vtk-m
     - zfp
-    - h5bench
     # CONFLICTS
     # - libnrm
     # PERLMUTTER-SPECIFIC FAILURES
+    # - h5bench # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
     # - loki # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
     # - rempi # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
     # - variorum # /usr/bin/ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform';
