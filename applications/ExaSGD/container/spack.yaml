@@ -223,3 +223,4 @@ spack:
 
   specs:
   - exago +rocm amdgpu_target=gfx90a +hiop ^hiop +rocm amdgpu_target=gfx90a
+  - exago +rocm amdgpu_target=gfx90a +ipopt +hiop ^hiop +rocm amdgpu_target=gfx90a
