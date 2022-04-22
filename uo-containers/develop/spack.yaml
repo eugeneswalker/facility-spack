@@ -28,7 +28,7 @@ spack:
       compiler: [gcc@9.4.0]
       providers:
         blas: [openblas]
-        mpi: [openblas]
+        mpi: [mpich]
       target: [x86_64]
       variants: +mpi
     binutils:
