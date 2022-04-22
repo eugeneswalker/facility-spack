@@ -55,8 +55,8 @@ spack:
     xz:
       variants: +pic
 
-  cuda:
-    version: [11.4.2]
+    cuda:
+      version: [11.4.2]
 
   definitions:
   - cpu_specs:
