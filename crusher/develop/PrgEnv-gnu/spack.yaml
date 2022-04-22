@@ -256,19 +256,16 @@ spack:
   - cpu_specs:
     - adios
     - adios2
-    - alquimia
     - aml
     - amrex
     - arborx
     - archer
     - argobots
-    - ascent
     - axom
     - bolt
     - butterflypack
     - cabana
     - caliper
-    - catalyst # dependency llvm@14 fails
     - chai ~benchmarks ~tests
     - charliecloud
     - conduit
@@ -282,13 +279,11 @@ spack:
     - flit
     - fortrilinos
     - gasnet
-    - geopm
     - ginkgo
     - globalarrays
     - gmp
     - gotcha
     - gptune
-    - h5bench # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
     - hdf5 +fortran +hl +shared
     - heffte +fftw
     - hpctoolkit
@@ -300,7 +295,6 @@ spack:
     - legion
     - libquo
     - libunwind
-    - loki # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
     - mercury
     - metall
     - mfem
@@ -317,13 +311,11 @@ spack:
     - papi
     - papyrus
     - parallel-netcdf
-    - paraview
     - parsec ~cuda
     - pdt
     - petsc
     - phist
     - plasma
-    - plumed
     - precice
     - pumi
     - py-cinemasci
@@ -335,8 +327,6 @@ spack:
     - py-warpx ^warpx dims=rz
     - qthreads scheduler=distrib
     - raja
-    - rempi # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
-    - scr
     - slate ~cuda
     - slepc
     - stc
@@ -355,29 +345,37 @@ spack:
     - umpire
     - unifyfs
     - upcxx
-    - variorum # /usr/bin/ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform';
     - veloc
-    - vtk-m
-    - wannier90 # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
     - zfp
     # CONFLICTS
-    # - libnrm
+  # - libnrm
     # SPECIFIC FAILURES
+  # - alquimia
+  # - ascent
+  # - catalyst # dependency llvm@14 fails
+  # - geopm
+  # - h5bench # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
+  # - loki # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
+  # - paraview
+  # - plumed
+  # - rempi # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
+  # - scr
+  # - variorum # /usr/bin/ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform';
+  # - vtk-m
+  # - wannier90 # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
     # SKIPPED
-    # - flux-core
-    # - openmpi
+  # - flux-core
+  # - openmpi
     # NON-SPECIFIC FAILURES
-    # - dealii
-    # - stat
+  # - dealii
+  # - stat
 
   - rocm_specs:
     - amrex +rocm amdgpu_target=gfx90a
     - arborx +rocm ^kokkos +rocm amdgpu_target=gfx90a # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
-    - cabana +rocm # https://github.com/spack/spack/issues/27967
     - chai ~benchmarks +rocm amdgpu_target=gfx90a
     - ginkgo +rocm amdgpu_target=gfx90a
     - heffte +rocm amdgpu_target=gfx90a
-    - hpx +rocm amdgpu_target=gfx90a # rocm@5.1.0 issue (no problems w 4.5.2); asio/require.hpp:412:3: error: dynamic initialization is not supported for __device__
     - kokkos +rocm amdgpu_target=gfx90a
     - magma ~cuda +rocm amdgpu_target=gfx90a
     - mfem +rocm amdgpu_target=gfx90a
@@ -390,8 +388,10 @@ spack:
     - superlu-dist +rocm amdgpu_target=gfx90a
     - tasmanian +rocm amdgpu_target=gfx90a # https://github.com/spack/spack/issues/27896
     - umpire +rocm amdgpu_target=gfx90a
-    - vtk-m +rocm amdgpu_target=gfx90a
   # SPECIFIC FAILURES
+  # - hpx +rocm amdgpu_target=gfx90a # rocm@5.1.0 issue (no problems w 4.5.2); asio/require.hpp:412:3: error: dynamic initialization is not supported for __device__
+  # - cabana +rocm # https://github.com/spack/spack/issues/27967
+  # - vtk-m +rocm amdgpu_target=gfx90a
   # NON-SPECIFIC FAILURES
   # CONCRETIZATION
   # - hpctoolkit +rocm # Not ROCmPackage
