@@ -348,21 +348,21 @@ spack:
     - veloc
     - zfp
     # CONFLICTS
-  # - libnrm
+  # - libnrm                # explicit depends_on('mpich')
     # SPECIFIC FAILURES
-  # - alquimia
-  # - ascent
-  # - catalyst # dependency llvm@14 fails
-  # - geopm
-  # - h5bench # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
-  # - loki # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
-  # - paraview
-  # - plumed
-  # - rempi # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
-  # - scr
-  # - variorum # /usr/bin/ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform';
-  # - vtk-m
-  # - wannier90 # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
+  # - alquimia              # pflotran: field.F90:191:43: call VecDestroy(field%porosity0,ierr);CHKERRQ(ierr): Error: Unclassifiable statement at (1)
+  # - ascent                # vtk-m: vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
+  # - catalyst              # mesa: gallium/drivers/swr/rasterizer/jitter/builder_mem.h:87:36: error: cannot convert 'llvm::Value*' to 'llvm::Type*'
+  # - geopm                 # configure: error: Failed to determine MPI Fortran build flags use --with-mpi-bin or --with-mpicxx or --disable-mpi
+  # - h5bench               # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
+  # - loki                  # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
+  # - paraview              # mesa: gallium/drivers/swr/rasterizer/jitter/builder_mem.h:87:36: error: cannot convert 'llvm::Value*' to 'llvm::Type*'
+  # - plumed                # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
+  # - rempi                 # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
+  # - scr                   # libyogrt: configure: error: slurm is not in specified location
+  # - variorum              # /usr/bin/ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform';
+  # - vtk-m                 # vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
+  # - wannier90             # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
     # SKIPPED
   # - flux-core
   # - openmpi
@@ -386,16 +386,16 @@ spack:
     - strumpack ~slate +rocm amdgpu_target=gfx90a
     - sundials +rocm amdgpu_target=gfx90a
     - superlu-dist +rocm amdgpu_target=gfx90a
-    - tasmanian +rocm amdgpu_target=gfx90a # https://github.com/spack/spack/issues/27896
+    - tasmanian +rocm amdgpu_target=gfx90a        # https://github.com/spack/spack/issues/27896
     - umpire +rocm amdgpu_target=gfx90a
   # SPECIFIC FAILURES
-  # - hpx +rocm amdgpu_target=gfx90a # rocm@5.1.0 issue (no problems w 4.5.2); asio/require.hpp:412:3: error: dynamic initialization is not supported for __device__
-  # - cabana +rocm # https://github.com/spack/spack/issues/27967
-  # - vtk-m +rocm amdgpu_target=gfx90a
+  # - cabana +rocm                                # g++: error: unrecognized command-line option '-fno-gpu-rdc' (https://github.com/spack/spack/issues/27967)
+  # - hpx +rocm amdgpu_target=gfx90a              # rocm@5.1.0 issue (no problems w 4.5.2); asio/require.hpp:412:3: error: dynamic initialization is not supported for __device__
+  # - vtk-m +rocm amdgpu_target=gfx90a            # vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
   # NON-SPECIFIC FAILURES
   # CONCRETIZATION
-  # - hpctoolkit +rocm # Not ROCmPackage
-  # - papi +rocm amdgpu_target=gfx90a # https://github.com/spack/spack/issues/27898
+  # - hpctoolkit +rocm                            # INFO: Not ROCmPackage
+  # - papi +rocm amdgpu_target=gfx90a             # https://github.com/spack/spack/issues/27898
 
   specs:
   - $cpu_specs
