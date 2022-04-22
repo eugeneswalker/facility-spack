@@ -75,7 +75,7 @@ spack:
         - cray-mpich/8.1.12
         - libfabric/1.15.0.0
 
-    # ROCm 5.1.0 EXTERNALS
+    # ROCm 5.1.0
     comgr:
       buildable: false
       externals:
