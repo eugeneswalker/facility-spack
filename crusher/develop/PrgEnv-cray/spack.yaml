@@ -29,8 +29,7 @@ spack:
 
   packages:
     all:
-      compiler:
-      - cce@13.0.0
+      compiler: [cce@13.0.0]
       providers:
         blas: [openblas, cray-libsci]
         lapack: [openblas, cray-libsci]
