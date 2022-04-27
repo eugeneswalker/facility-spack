@@ -242,4 +242,4 @@ spack:
   develop:
     hiop:
       path: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/ExaSGD/hiop-develop
-      spec: develop
+      spec: hiop@develop
