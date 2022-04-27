@@ -16,7 +16,10 @@ spack:
         cxx: crayCC
         f77: crayftn
         fc: crayftn
-      flags: {}
+      flags:
+        cflags: -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.2/cce-clang/x86_64/lib/clang/13.0.1/include
+        cxxflags: -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.2/cce-clang/x86_64/lib/clang/13.0.1/include
+        ldlibs: -ldl
       operating_system: sles15
       target: any
       modules:
