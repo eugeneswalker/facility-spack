@@ -1,0 +1,6 @@
+==> Starting concretization
+==> Environment concretized in 0.16 seconds.
+==> Concretized ncurses~symlinks+termlib
+ -   yabalh6  ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=cray-sles15-x86_64
+ -   a47afsj      ^pkgconf@1.8.0%gcc@7.5.0 arch=cray-sles15-x86_64
+
