@@ -348,7 +348,6 @@ spack:
     - netlib-scalapack
     - ninja
     - nrm
-    - nvhpc
     - omega-h
     - openpmd-api
     - papi
@@ -404,6 +403,7 @@ spack:
     # SPECIFIC FAILURES
     # SKIPPED
   # - flux-core
+  # - nvhpc
   # - openmpi
     # NON-SPECIFIC FAILURES
   # - dealii
