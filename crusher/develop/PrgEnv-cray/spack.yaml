@@ -1,5 +1,5 @@
-# spack/develop d5e1fa5771c9cb1a2b85ab129be182f7081ae7cb
-# Tue Apr 26 19:58:28 2022 -0700
+# spack/develop 2515cafb9c60851d5b218d1262212034f5606869
+# Wed Apr 27 16:08:33 2022 -0700
 
 spack:
   view: false
@@ -16,10 +16,7 @@ spack:
         cxx: crayCC
         f77: crayftn
         fc: crayftn
-      flags:
-        cflags: -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.2/cce-clang/x86_64/lib/clang/13.0.1/include
-        cxxflags: -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.2/cce-clang/x86_64/lib/clang/13.0.1/include
-        ldlibs: -ldl
+      flags: {}
       operating_system: sles15
       target: any
       modules:
@@ -27,7 +24,11 @@ spack:
       - cce/13.0.0
       - libfabric
       - craype-x86-trento
-      environment: {}
+      environment:
+        append_path:
+          CFLAGS: -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include
+          CXXFLAGS: -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include
+          LDFLAGS: -ldl
       extra_rpaths: []
 
   packages:
