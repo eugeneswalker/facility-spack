@@ -1,0 +1,41 @@
+==> Starting concretization
+==> Environment concretized in 16.47 seconds.
+==> Concretized hiop@develop+kron+mpi+raja+rocm+sparse amdgpu_target=gfx90a ^coinhsl@2021.05.05
+ -   rtu4dej  hiop@develop%gcc@11.2.0~cuda~deepchecking~ginkgo~ipo~jsrun+kron+mpi+raja+rocm~shared+sparse amdgpu_target=gfx90a build_type=RelWithDebInfo dev_path=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/ExaSGD/hiop-develop arch=cray-sles15-zen3
+[+]  atcw7lb      ^cmake@3.20.6%gcc@11.2.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  mosh6nm          ^ncurses@6.2%gcc@11.2.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  kiw5m6f              ^pkgconf@1.8.0%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  srtfijh          ^openssl@1.1.1n%gcc@11.2.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  vhuvgqt              ^perl@5.34.1%gcc@11.2.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  xvr7zsb                  ^berkeley-db@18.1.40%gcc@11.2.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  4p4fezv                  ^bzip2@1.0.8%gcc@11.2.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  qcu64ae                      ^diffutils@3.8%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  l4kbzvf                          ^libiconv@1.16%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+[+]  hsxhljd                  ^gdbm@1.19%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  7yy5f3d                      ^readline@8.1%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  wuz4wcu                  ^zlib@1.2.12%gcc@11.2.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   z5irodl      ^coinhsl@2021.05.05%gcc@11.2.0+blas arch=cray-sles15-zen3
+[+]  cnaggoq          ^openblas@0.3.20%gcc@11.2.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
+[+]  rajghh7      ^cray-mpich@8.1.12%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  erlpbct      ^hip@5.1.0%gcc@11.2.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  bvtlayy      ^hipblas@5.1.0%gcc@11.2.0~ipo build_type=Release patches=0100382 arch=cray-sles15-zen3
+[+]  shp7s2u      ^hipsparse@5.1.0%gcc@11.2.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  re3ivd3      ^hsa-rocr-dev@5.1.0%gcc@11.2.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+[+]  5qyftid      ^llvm-amdgpu@5.1.0%gcc@11.2.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+ -   vuxolst      ^magma@2.6.2rc1%gcc@11.2.0~cuda+fortran~ipo+rocm+shared amdgpu_target=gfx906 build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  lxe5bha      ^metis@5.1.0%gcc@11.2.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=cray-sles15-zen3
+[+]  q5relgd      ^raja@0.14.0%gcc@11.2.0~cuda+examples+exercises~ipo~openmp+rocm+shared~tests amdgpu_target=gfx1010 build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  zczlyys          ^blt@0.4.1%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  makyrvf          ^camp@0.2.2%gcc@11.2.0~cuda~ipo+rocm~tests amdgpu_target=gfx1010 build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  ua3kojp      ^suite-sparse@5.10.1%gcc@11.2.0~cuda~graphblas~openmp+pic~tbb arch=cray-sles15-zen3
+[+]  bxr3nbt          ^gmp@6.2.1%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+[+]  qqgga44              ^autoconf@2.69%gcc@11.2.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+[+]  f3eu4mu                  ^m4@1.4.19%gcc@11.2.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  x5hlygl                      ^libsigsegv@2.13%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  tnjrstu              ^automake@1.16.5%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  4yjpy3s              ^libtool@2.4.7%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  bdcf3i6          ^mpfr@4.1.0%gcc@11.2.0 libs=shared,static arch=cray-sles15-zen3
+[+]  446plgv              ^autoconf-archive@2019.01.06%gcc@11.2.0 arch=cray-sles15-zen3
+[+]  mtx5a2i              ^texinfo@6.5%gcc@11.2.0 patches=12f6edb,1732115 arch=cray-sles15-zen3
+[+]  b6zsvof      ^umpire@6.0.0%gcc@11.2.0+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp+rocm+shared amdgpu_target=gfx1010 build_type=RelWithDebInfo tests=none arch=cray-sles15-zen3
+
