@@ -333,11 +333,11 @@ spack:
     - h5bench               # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
     - hdf5 +fortran +hl +shared
     - heffte +fftw
-    - hpx networking=mpi
+  # - hpx networking=mpi    # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
     - hypre
     - kokkos +openmp
     - kokkos-kernels +openmp
-    - lammps
+  # - lammps                # ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
     - legion
     - libquo
     - libunwind
@@ -365,7 +365,7 @@ spack:
     - plumed                # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
     - precice
     - pumi
-    - py-cinemasci
+  # - py-cinemasci          # ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
     - py-jupyterhub
     - py-libensemble
     - py-petsc4py
@@ -420,10 +420,10 @@ spack:
     - chai ~benchmarks +rocm amdgpu_target=gfx90a
     - ginkgo +rocm amdgpu_target=gfx90a
     - heffte +rocm amdgpu_target=gfx90a
-    - hpx +rocm amdgpu_target=gfx90a                  # rocm@5.1.0 issue (no problems w 4.5.2); asio/require.hpp:412:3: error: dynamic initialization is not supported for __device__
+  # - hpx +rocm amdgpu_target=gfx90a                  # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
     - kokkos +rocm amdgpu_target=gfx90a
     - magma ~cuda +rocm amdgpu_target=gfx90a
-    - mfem +rocm amdgpu_target=gfx90a
+  # - mfem +rocm amdgpu_target=gfx90a                 # /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include/__clang_hip_math.h:64:1: error: unknown type name 'uint64_t', /usr/lib64/gcc/x86_64-suse-linux/7/../../../../include/c++/7/cstdint:54:11: error: no member named 'int_fast16_t' in the global namespace; did you mean '__int_least16_t'?
     - papi +rocm amdgpu_target=gfx90a                 # https://github.com/spack/spack/issues/27898
     - petsc +rocm amdgpu_target=gfx90a
     - raja ~openmp +rocm amdgpu_target=gfx90a
