@@ -26,7 +26,19 @@ spack:
       - craype-x86-trento
       environment: {}
       extra_rpaths: []
-
+  - compiler:
+      spec: gcc@7.5.0
+      paths:
+        cc: /usr/bin/gcc
+        cxx: /usr/bin/g++
+        f77: /usr/bin/gfortran
+        fc: /usr/bin/gfortran
+      flags: {}
+      operating_system: sles15
+      target: any
+      modules: []
+      environment: {}
+      extra_rpaths: []
   packages:
     all:
       compiler: [cce@13.0.0]
@@ -295,29 +307,24 @@ spack:
   - cpu_specs:
     - adios
     - adios2
-    - alquimia              # pflotran: field.F90:191:43: call VecDestroy(field%porosity0,ierr);CHKERRQ(ierr): Error: Unclassifiable statement at (1)
     - aml
     - amrex
     - arborx
     - argobots
-    - ascent                # vtk-m: vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
+    - ascent                  # vtk-m: vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
     - axom
     - bolt
     - butterflypack%cce ^openblas%gcc
     - caliper%cce ^openblas%gcc
-    - catalyst              # mesa: gallium/drivers/swr/rasterizer/jitter/builder_mem.h:87:36: error: cannot convert 'llvm::Value*' to 'llvm::Type*'
     - chai ~benchmarks ~tests
     - charliecloud
     - conduit
     - darshan-runtime
     - darshan-util
-    - datatransferkit
     - faodel
     - flecsi
     - flit
-    - fortrilinos
     - gasnet
-    - geopm                 # configure: error: Failed to determine MPI Fortran build flags use --with-mpi-bin or --with-mpicxx or --disable-mpi
     - ginkgo
     - globalarrays
     - gmp
@@ -330,7 +337,7 @@ spack:
     - legion
     - libquo
     - libunwind
-    - loki                  # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
+    - loki                    # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
     - mercury
     - metall
     - mfem
@@ -340,30 +347,21 @@ spack:
     - nco
     - netlib-scalapack %cce ^openblas%gcc # cmake%cce: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:145:10: error: invalid conversion between vector type '__m128' (vector of 4 'float' values) and integer type 'int' of different size
     - ninja
-    - nrm
-    - omega-h
     - openpmd-api
     - papi
     - papyrus
     - parallel-netcdf
-    - paraview              # mesa: gallium/drivers/swr/rasterizer/jitter/builder_mem.h:87:36: error: cannot convert 'llvm::Value*' to 'llvm::Type*'
-  # - parsec ~cuda          # 
     - pdt
     - petsc
-    - plumed                # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
     - precice
     - pumi
     - py-jupyterhub
     - py-libensemble
     - py-petsc4py
-    - py-warpx ^warpx dims=2
-    - py-warpx ^warpx dims=3
-    - py-warpx ^warpx dims=rz
     - qthreads scheduler=distrib
     - raja
-    - rempi                 # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
+    - rempi                   # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
     - slate ~cuda %cce ^openblas%gcc
-    - slepc
     - stc
     - strumpack ~slate %cce ^openblas%gcc
     - sundials
@@ -374,33 +372,47 @@ spack:
     - sz
     - tasmanian
     - tau +mpi +python %cce ^elfutils%gcc
-    - trilinos +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     - turbine
     - umap
     - umpire
     - unifyfs
     - upcxx
-    - variorum              # /usr/bin/ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform';
+    - variorum                # /usr/bin/ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform';
     - veloc
-    - vtk-m                 # vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
-    - wannier90             # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
+    - vtk-m                   # vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
+    - wannier90               # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
     - zfp
     # CONFLICTS
   # - dyninst
   # - hpctoolkit
-  # - libnrm                # explicit depends_on('mpich')
+  # - libnrm                  # explicit depends_on('mpich')
   # - plasma
     # SPECIFIC FAILURES
-  # - archer                # llvm@8: spack-src/compiler-rt/lib/sanitizer_common/sanitizer_internal_defs.h:343:72: error:size of array 'assertion_failed__1121' is negative
-  # - cabana                # googletest-src/googlemock/include/gmock/gmock-actions.h:455:3: error: definition of implicit copy constructor for 'PolymorphicAction<testing::internal::ReturnNullAction>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
-  # - exaworks              # rust: ld.lld: error: can't create dynamic relocation R_X86_64_32 against local symbol in readonly segment; recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations in the output
-  # - gptune%cce ^openblas%gcc # freetype: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:631:10: error: invalid conversion between vector type '__m128' (vector of 4 'float' values) and integer type 'int' of different size
-  # - h5bench               # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
-  # - hpx networking=mpi    # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
-  # - lammps                # kim-api: ftn-78 ftn: -s option has an invalid argument, "td=gnu"; ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
-  # - phist                 # ftn-78 ftn: -f option has an invalid argument, "finite-math-only".
-  # - py-cinemasci          # ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
-  # - scr                   # libyogrt: configure: error: slurm is not in specified location
+  # - alquimia                # pflotran: ftn-855 ftn: ERROR FIELD_MODULE, File = ../../lpeyrala/spack-stage/spack-stage-pflotran-3.0.2-jbvewmt6ej47lhx7ho6lkf4tft3qhaku/spack-src/src/pflotran/field.F90, Line 
+  # - archer                  # llvm@8: spack-src/compiler-rt/lib/sanitizer_common/sanitizer_internal_defs.h:343:72: error:size of array 'assertion_failed__1121' is negative
+  # - cabana                  # googletest-src/googlemock/include/gmock/gmock-actions.h:455:3: error: definition of implicit copy constructor for 'PolymorphicAction<testing::internal::ReturnNullAction>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  # - catalyst                # mesa: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:10: error: invalid conversion between vector type '__m128' (vector of 4 'float' values) and integer type 'int' of different size
+  # - datatransferkit         # trilinos: # /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
+  # - exaworks                # rust: ld.lld: error: can't create dynamic relocation R_X86_64_32 against local symbol in readonly segment; recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations in the output
+  # - fortrilinos             # trilinos: # /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
+  # - geopm                   # configure: error: Failed to determine MPI Fortran build flags use --with-mpi-bin or --with-mpicxx or --disable-mpi
+  # - gptune%cce ^openblas%gcc # freetype: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:631:10: error: invalid conversion between vector type '__m128' (vector of 4 'float' values) and integer type 'int' of different size; py-argon2-cffi-bindings: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:10: error: invalid conversion between vector type '__m128' (vector of 4 'float' values) and integer type 'int' of different size
+  # - h5bench                 # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
+  # - hpx networking=mpi      # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
+  # - lammps                  # kim-api: ftn-78 ftn: -s option has an invalid argument, "td=gnu"; ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
+  # - nrm                     # py-scipy: Lapack (http://www.netlib.org/lapack/) sources not found
+  # - omega-h                 # trilinos: # /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
+  # - paraview                # mesa: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:10: error: invalid conversion between vector type '__m128' (vector of 4 'float' values) and integer type 'int' of different size
+  # - parsec ~cuda            # 
+  # - phist                   # ftn-78 ftn: -f option has an invalid argument, "finite-math-only".
+  # - plumed                  # configure: error: C++ compiler cannot create executables
+  # - py-cinemasci            # ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
+  # - py-warpx ^warpx dims=2  # py-scipy: Lapack (http://www.netlib.org/lapack/) sources not found
+  # - py-warpx ^warpx dims=3  # py-scipy: Lapack (http://www.netlib.org/lapack/) sources not found
+  # - py-warpx ^warpx dims=rz # py-scipy: Lapack (http://www.netlib.org/lapack/) sources not found
+  # - scr                     # libyogrt: configure: error: slurm is not in specified location
+  # - slepc
+  # - trilinos +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long # /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
     # SKIPPED
   # - flux-core
   # - nvhpc
@@ -420,7 +432,6 @@ spack:
     - papi +rocm amdgpu_target=gfx90a                 # https://github.com/spack/spack/issues/27898
     - raja ~openmp +rocm amdgpu_target=gfx90a
     - slate +rocm amdgpu_target=gfx90a %cce ^openblas%gcc
-    - slepc +rocm amdgpu_target=gfx90a
     - strumpack ~slate +rocm amdgpu_target=gfx90a %cce ^openblas%gcc
     - sundials +rocm amdgpu_target=gfx90a
     - superlu-dist +rocm amdgpu_target=gfx90a
@@ -432,6 +443,7 @@ spack:
   # - hpx +rocm amdgpu_target=gfx90a                  # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
   # - mfem +rocm amdgpu_target=gfx90a                 # /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include/__clang_hip_math.h:64:1: error: unknown type name 'uint64_t', /usr/lib64/gcc/x86_64-suse-linux/7/../../../../include/c++/7/cstdint:54:11: error: no member named 'int_fast16_t' in the global namespace; did you mean '__int_least16_t'?
   # - petsc +rocm amdgpu_target=gfx90a                # petscsys.h:69:12: fatal error: 'mpi.h' file not found
+  # - slepc +rocm amdgpu_target=gfx90a                # petsc: petscsys.h:69:12: fatal error: 'mpi.h' file not found
   # NON-SPECIFIC FAILURES
   # CONCRETIZATION
   # - hpctoolkit +rocm                                # INFO: Not ROCmPackage
