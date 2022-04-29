@@ -24,11 +24,7 @@ spack:
       - cce/13.0.0
       - libfabric
       - craype-x86-trento
-      environment:
-        append_path:
-          CFLAGS: -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include
-          CXXFLAGS: -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include
-          LDFLAGS: -ldl
+      environment: {}
       extra_rpaths: []
 
   packages:
@@ -303,14 +299,12 @@ spack:
     - aml
     - amrex
     - arborx
-    - archer
     - argobots
     - ascent                # vtk-m: vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
     - axom
     - bolt
-    - butterflypack
-    - cabana
-    - caliper
+    - butterflypack%cce ^openblas%gcc
+    - caliper%cce ^openblas%gcc
     - catalyst              # mesa: gallium/drivers/swr/rasterizer/jitter/builder_mem.h:87:36: error: cannot convert 'llvm::Value*' to 'llvm::Type*'
     - chai ~benchmarks ~tests
     - charliecloud
@@ -318,7 +312,6 @@ spack:
     - darshan-runtime
     - darshan-util
     - datatransferkit
-    - exaworks
     - faodel
     - flecsi
     - flit
@@ -329,15 +322,11 @@ spack:
     - globalarrays
     - gmp
     - gotcha
-    - gptune
-    - h5bench               # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
     - hdf5 +fortran +hl +shared
     - heffte +fftw
-  # - hpx networking=mpi    # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
     - hypre
     - kokkos +openmp
     - kokkos-kernels +openmp
-  # - lammps                # ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
     - legion
     - libquo
     - libunwind
@@ -349,7 +338,7 @@ spack:
     - mpifileutils ~xattr
     - nccmp
     - nco
-    - netlib-scalapack
+    - netlib-scalapack %cce ^openblas%gcc # cmake%cce: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:145:10: error: invalid conversion between vector type '__m128' (vector of 4 'float' values) and integer type 'int' of different size
     - ninja
     - nrm
     - omega-h
@@ -358,14 +347,12 @@ spack:
     - papyrus
     - parallel-netcdf
     - paraview              # mesa: gallium/drivers/swr/rasterizer/jitter/builder_mem.h:87:36: error: cannot convert 'llvm::Value*' to 'llvm::Type*'
-    - parsec ~cuda
+  # - parsec ~cuda          # 
     - pdt
     - petsc
-    - phist
     - plumed                # lepton/Operation.h:902:39: error: 'numeric_limits' is not a member of 'std'
     - precice
     - pumi
-  # - py-cinemasci          # ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
     - py-jupyterhub
     - py-libensemble
     - py-petsc4py
@@ -375,11 +362,10 @@ spack:
     - qthreads scheduler=distrib
     - raja
     - rempi                 # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
-    - scr                   # libyogrt: configure: error: slurm is not in specified location
-    - slate ~cuda
+    - slate ~cuda %cce ^openblas%gcc
     - slepc
     - stc
-    - strumpack ~slate
+    - strumpack ~slate %cce ^openblas%gcc
     - sundials
     - superlu
     - superlu-dist
@@ -387,7 +373,7 @@ spack:
     - swig@4.0.2-fortran
     - sz
     - tasmanian
-    - tau +mpi +python
+    - tau +mpi +python %cce ^elfutils%gcc
     - trilinos +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     - turbine
     - umap
@@ -405,6 +391,16 @@ spack:
   # - libnrm                # explicit depends_on('mpich')
   # - plasma
     # SPECIFIC FAILURES
+  # - archer                # llvm@8: spack-src/compiler-rt/lib/sanitizer_common/sanitizer_internal_defs.h:343:72: error:size of array 'assertion_failed__1121' is negative
+  # - cabana                # googletest-src/googlemock/include/gmock/gmock-actions.h:455:3: error: definition of implicit copy constructor for 'PolymorphicAction<testing::internal::ReturnNullAction>' is deprecated because it has a user-declared copy assignment operator [-Werror,-Wdeprecated-copy]
+  # - exaworks              # rust: ld.lld: error: can't create dynamic relocation R_X86_64_32 against local symbol in readonly segment; recompile object files with -fPIC or pass '-Wl,-z,notext' to allow text relocations in the output
+  # - gptune%cce ^openblas%gcc # freetype: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:631:10: error: invalid conversion between vector type '__m128' (vector of 4 'float' values) and integer type 'int' of different size
+  # - h5bench               # libh5bench_util.a(h5bench_util.c.o): commons/h5bench_util.h:196: multiple definition of `has_vol_async'
+  # - hpx networking=mpi    # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
+  # - lammps                # kim-api: ftn-78 ftn: -s option has an invalid argument, "td=gnu"; ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
+  # - phist                 # ftn-78 ftn: -f option has an invalid argument, "finite-math-only".
+  # - py-cinemasci          # ffmpeg: fatal error: error in backend: Cannot select: t7: f64 = facos nsz t6, libavfilter/af_afade.c:116:37
+  # - scr                   # libyogrt: configure: error: slurm is not in specified location
     # SKIPPED
   # - flux-core
   # - nvhpc
@@ -416,26 +412,26 @@ spack:
   - rocm_specs:
     - amrex +rocm amdgpu_target=gfx90a
     - arborx +rocm ^kokkos +rocm amdgpu_target=gfx90a # Not ROCmPackage # Could not find a package configuration file provided by "rocthrust"
-    - cabana +rocm                                    # g++: error: unrecognized command-line option '-fno-gpu-rdc' (https://github.com/spack/spack/issues/27967)
     - chai ~benchmarks +rocm amdgpu_target=gfx90a
     - ginkgo +rocm amdgpu_target=gfx90a
     - heffte +rocm amdgpu_target=gfx90a
-  # - hpx +rocm amdgpu_target=gfx90a                  # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
     - kokkos +rocm amdgpu_target=gfx90a
     - magma ~cuda +rocm amdgpu_target=gfx90a
-  # - mfem +rocm amdgpu_target=gfx90a                 # /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include/__clang_hip_math.h:64:1: error: unknown type name 'uint64_t', /usr/lib64/gcc/x86_64-suse-linux/7/../../../../include/c++/7/cstdint:54:11: error: no member named 'int_fast16_t' in the global namespace; did you mean '__int_least16_t'?
     - papi +rocm amdgpu_target=gfx90a                 # https://github.com/spack/spack/issues/27898
-    - petsc +rocm amdgpu_target=gfx90a
     - raja ~openmp +rocm amdgpu_target=gfx90a
-    - slate +rocm amdgpu_target=gfx90a
+    - slate +rocm amdgpu_target=gfx90a %cce ^openblas%gcc
     - slepc +rocm amdgpu_target=gfx90a
-    - strumpack ~slate +rocm amdgpu_target=gfx90a
+    - strumpack ~slate +rocm amdgpu_target=gfx90a %cce ^openblas%gcc
     - sundials +rocm amdgpu_target=gfx90a
     - superlu-dist +rocm amdgpu_target=gfx90a
     - tasmanian +rocm amdgpu_target=gfx90a            # https://github.com/spack/spack/issues/27896
     - umpire +rocm amdgpu_target=gfx90a
     - vtk-m +rocm amdgpu_target=gfx90a                # vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
   # SPECIFIC FAILURES
+  # - cabana +rocm                                    # g++: error: unrecognized command-line option '-fno-gpu-rdc' (https://github.com/spack/spack/issues/27967)
+  # - hpx +rocm amdgpu_target=gfx90a                  # asio: boost: /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
+  # - mfem +rocm amdgpu_target=gfx90a                 # /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include/__clang_hip_math.h:64:1: error: unknown type name 'uint64_t', /usr/lib64/gcc/x86_64-suse-linux/7/../../../../include/c++/7/cstdint:54:11: error: no member named 'int_fast16_t' in the global namespace; did you mean '__int_least16_t'?
+  # - petsc +rocm amdgpu_target=gfx90a                # petscsys.h:69:12: fatal error: 'mpi.h' file not found
   # NON-SPECIFIC FAILURES
   # CONCRETIZATION
   # - hpctoolkit +rocm                                # INFO: Not ROCmPackage
