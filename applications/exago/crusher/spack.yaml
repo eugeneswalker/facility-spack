@@ -236,10 +236,9 @@ spack:
         prefix: /opt/rocm-5.1.0
 
   specs:
-  - hiop@develop +mpi +raja +sparse +kron +rocm amdgpu_target=gfx90a ^coinhsl@2021.05.05
-  # - exago +hiop +rocm amdgpu_target=gfx90a
+  - hiop@develop +mpi +raja ~sparse +kron +rocm amdgpu_target=gfx90a
 
   develop:
     hiop:
       path: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/ExaSGD/hiop-develop
-      spec: hiop@develop +mpi +raja +sparse +kron +rocm amdgpu_target=gfx90a
+      spec: hiop@develop +mpi +raja ~sparse +kron +rocm amdgpu_target=gfx90a
