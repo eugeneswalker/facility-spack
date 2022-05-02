@@ -241,6 +241,7 @@ spack:
       ^raja +rocm amdgpu_target=gfx90a
       ^camp +rocm amdgpu_target=gfx90a
       ^umpire +rocm amdgpu_target=gfx90a
+  - exago@1.4.1 +mpi +python +ipopt +hiop +raja +rocm amdgpu_target=gfx90a ^hiop@0.6.1
 
   develop:
     hiop:
