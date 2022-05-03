@@ -1,4 +1,7 @@
 # spack/develop e4s-22.02
+#
+# build summary:
+#  61/104 cpu_specs build OK
 
 spack:
   view: false
