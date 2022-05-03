@@ -26,7 +26,6 @@ modules:
     lmod:
       core_compilers: [gcc@7.5.0]
       all:
-        blacklist_implicits: true
         conflict: []
         environment:
           set:
@@ -136,10 +135,10 @@ modules:
           dims=2: dims2
           dims=3: dims3
           dims=rz: dimsRZ
-      blacklist_implicits: false
+      blacklist_implicits: true
       verbose: true
       whitelist: []
-      blacklist:
+      blacklist: 
       - conduit^hdf5~fortran
       - py-scipy
       - py-pythran
