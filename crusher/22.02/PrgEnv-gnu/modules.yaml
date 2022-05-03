@@ -1,0 +1,281 @@
+modules:
+  prefix_inspections:
+    bin: 
+    - PATH
+    man:
+    - MANPATH
+    share/man:
+    - MANPATH
+    share/aclocal:
+    - ACLOCAL_PATH
+    lib:
+    - LD_LIBRARY_PATH
+    lib64:
+    - LD_LIBRARY_PATH
+    lib/pkgconfig:
+    - PKG_CONFIG_PATH
+    lib64/pkgconfig:
+    - PKG_CONFIG_PATH
+    share/pkgconfig:
+    - PKG_CONFIG_PATH
+    ? ''
+    : - CMAKE_PREFIX_PATH
+  default:
+    enable:
+    - lmod
+    - tcl
+    lmod:
+      core_compilers: [gcc@7.5.0]
+      all:
+        conflict: []
+        environment:
+          set:
+            OLCF_${PACKAGE}_ROOT: ${PREFIX}
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+      amrex:
+        suffixes:
+          amrex~rocm: cpu
+      blaspp:
+        suffixes:
+          blaspp~rocm: cpu
+      boost:
+        suffixes:
+          boost cxxstd=17: cxx17
+      camp:
+        suffixes:
+          camp~rocm: cpu
+      chai:
+        suffixes:
+          chai~rocm: cpu
+      fftw:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          fftw+openmp: omp
+      ginkgo:
+        suffixes:
+          ginkgo~rocm: cpu
+      hdf5:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          hdf5~mpi+szip: sz
+          hdf5~mpi+threadsafe: threadsafe
+      kokkos-kernels:
+        suffixes:
+          kokkos-kernels+openmp: omp
+      ncl:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          builtin.ncl ^hdf5+mpi^netcdf+mpi: parallel
+      openblas:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          openblas threads=openmp: omp
+          openblas threads=pthreads: pthreads
+      openmpi:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+      raja:
+        suffixes:
+          raja~rocm: cpu
+      slate:
+        suffixes:
+          slate~rocm: cpu
+      strumpack:
+        suffixes:
+          strumpack~rocm: cpu
+      sundials:
+        suffixes:
+          sundials~rocm: cpu
+      tasmanian:
+        suffixes:
+          tasmanian~rocm: cpu
+      tau:
+        suffixes:
+          tau+openmp: omp
+      umpire:
+        suffixes:
+          umpire~rocm: cpu
+      blacklist_implicits: false
+      verbose: true
+      whitelist: []
+      blacklist:
+      - binutils
+      - boost%gcc cxxstd=98
+      - boost%gcc visibility=global
+      - dyninst%gcc ^elfutils+bzip2
+      - elfutils+bzip2
+      - gasnet~pshm
+      - gettext
+      - kokkos~rocm
+      - libunwind+xz
+      - libxml2 ^xz~pic
+      - xz~pic
+      - z3 ^libuuid
+      - gobject-introspection ^cairo+X
+      - blaspp ^openblas
+      - slate ^openblas
+      - lapackpp ^openblas
+      - lapackpp ^blaspp~rocm
+      - netlib-scalapack ^openblas
+      - berkeley-db
+      - boost%gcc visibility=global
+      - cray-mpich
+      - cray-libsci
+      - glib
+      - glproto
+      - go-bootstrap
+      - help2man
+      - inputproto
+      - kbproto
+      - libassuan
+      - libdwarf
+      - libfabric
+      - libfontenc
+      - libgcrypt
+      - libgd
+      - libgpg-error
+      - libiconv
+      - libidn2
+      - libksba
+      - libpciaccess
+      - libpthread-stubs
+      - libsigsegv
+      - libsodium
+      - libunistring
+      - libuuid
+      - libx11
+      - libxau
+      - libxcb
+      - libxdmcp
+      - libxext
+      - libxfont
+      - libxpm
+      - libxslt
+      - llvm
+      - lua
+      - m4
+      - meson
+      - mkfontdir
+      - mkfontscale
+      - mpfr
+      - mpich
+      - msgpack-c
+      - nasm
+      - ncurses
+      - npth
+      - numactl
+      - openssh
+      - openssl
+      - pkgconf
+      - popt
+      - py-certifi
+      - py-docutils
+      - py-mako
+      - py-markupsafe
+      - py-msgpack
+      - py-pygments
+      - py-pyyaml
+      - py-setuptools
+      - py-virtualenv
+      - py-wheel
+      - python
+      - readline
+      - slurm
+      - tcl
+      - tcsh
+      - util-linux-uuid
+      - util-macros
+      - xcb-proto
+      - xextproto
+      - xtrans
+      - harfbuzz ^cairo~X
+      - pango ^cairo~pdf
+      - '%gcc@7-os'
+      ## ROCm components; we provide a separate metamodule for these
+      - comgr
+      - hip
+      - hip-rocclr
+      - hipblas
+      - hipcub
+      - hipfft
+      - hipfort
+      - hipify-clang
+      - hipsparse
+      - hsa-rocr-dev
+      - hsakmt-roct
+      - llvm-amdgpu
+      - miopen-hip
+      - rccl
+      - rocalution
+      - rocblas
+      - rocfft
+      - rocm-clang-ocl
+      - rocm-cmake
+      - rocm-dbgapi
+      - rocm-device-libs
+      - rocm-gdb
+      - rocm-opencl
+      - rocm-opencl-runtime
+      - rocm-openmp-extras
+      - rocm-smi
+      - rocm-smi-lib
+      - rocminfo
+      - rocprim
+      - rocprofiler-dev
+      - rocrand
+      - rocsolver
+      - rocsparse
+      - rocthrust
+      - roctracer-dev
+      hash_length: 0
+      hierarchy: []
+      projections: {}
+      core_specs: []
+    tcl:
+      hash_length: 3
+      naming_scheme: '{name}/{version}-{compiler.name}-{compiler.version}'
+      blacklist:
+      - slurm
+      - go-bootstrap
+      - openssl
+      all:
+        conflict:
+        - '{name}'
+        environment:
+          set:
+            OLCF_${PACKAGE}_ROOT: ${PREFIX}
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+      verbose: false
+      whitelist: []
+      blacklist_implicits: false
+      projections: {}
