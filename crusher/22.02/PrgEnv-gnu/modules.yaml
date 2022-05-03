@@ -23,10 +23,10 @@ modules:
   default:
     enable:
     - lmod
-    - tcl
     lmod:
       core_compilers: [gcc@7.5.0]
       all:
+        blacklist_implicits: true
         conflict: []
         environment:
           set:
@@ -35,6 +35,8 @@ modules:
         filter:
           environment_blacklist: []
         load: []
+        suffixes:
+          +rocm: rocm
       amrex:
         suffixes:
           amrex~rocm: cpu
@@ -70,6 +72,7 @@ modules:
           environment_blacklist: []
         load: []
         suffixes:
+          hdf5+fortran: fortran
           hdf5~mpi+szip: sz
           hdf5~mpi+threadsafe: threadsafe
       kokkos-kernels:
@@ -122,10 +125,33 @@ modules:
       umpire:
         suffixes:
           umpire~rocm: cpu
+          umpire+openmp: omp
+      py-warpx:
+        suffixes:
+          ^warpx dims=2: dims2
+          ^warpx dims=3: dims3
+          ^warpx dims=rz: dimsRZ
+      warpx:
+        suffixes:
+          dims=2: dims2
+          dims=3: dims3
+          dims=rz: dimsRZ
       blacklist_implicits: false
       verbose: true
       whitelist: []
       blacklist:
+      - conduit^hdf5~fortran
+      - py-scipy
+      - py-pythran
+      - py-pyjwt
+      - py-pandas
+      - py-numexpr
+      - py-notebook
+      - py-jupyter-client
+      - py-ipykernel
+      - py-bottleneck
+      - py-pyzmq
+      - blt
       - binutils
       - boost%gcc cxxstd=98
       - boost%gcc visibility=global
@@ -258,24 +284,3 @@ modules:
       hierarchy: []
       projections: {}
       core_specs: []
-    tcl:
-      hash_length: 3
-      naming_scheme: '{name}/{version}-{compiler.name}-{compiler.version}'
-      blacklist:
-      - slurm
-      - go-bootstrap
-      - openssl
-      all:
-        conflict:
-        - '{name}'
-        environment:
-          set:
-            OLCF_${PACKAGE}_ROOT: ${PREFIX}
-          unset: []
-        filter:
-          environment_blacklist: []
-        load: []
-      verbose: false
-      whitelist: []
-      blacklist_implicits: false
-      projections: {}
