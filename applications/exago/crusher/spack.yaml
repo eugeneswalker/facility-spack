@@ -240,7 +240,7 @@ spack:
   - exago@1.4.1 +mpi +python ~ipopt +hiop +raja +rocm amdgpu_target=gfx90a
   - hiop@0.6.1 +mpi +raja ~sparse +kron +rocm amdgpu_target=gfx90a
 
-  # +ipopt build fails
+  # This build fails because +ipopt
   # - exago@1.4.1 +mpi +python +ipopt +hiop +raja +rocm amdgpu_target=gfx90a ^hiop@0.6.1
 
   # - hiop@develop +mpi +raja ~sparse +kron +rocm amdgpu_target=gfx90a
