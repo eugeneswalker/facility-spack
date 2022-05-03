@@ -19,7 +19,6 @@ spack:
   config:
     concretizer: clingo
     module_roots:
-      tcl: ${SPACK_ROOT}/modules/tcl
       lmod: ${SPACK_ROOT}/modules/lmod
   include:
   - modules.yaml
