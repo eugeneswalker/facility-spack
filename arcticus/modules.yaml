@@ -1,0 +1,135 @@
+modules:
+  prefix_inspections:
+    bin: [PATH]
+    man: [MANPATH]
+    share/man: [MANPATH]
+    share/aclocal: [ACLOCAL_PATH]
+    lib: [LD_LIBRARY_PATH]
+    lib64: [LD_LIBRARY_PATH]
+    lib/pkgconfig: [PKG_CONFIG_PATH]
+    lib64/pkgconfig: [PKG_CONFIG_PATH]
+    share/pkgconfig: [PKG_CONFIG_PATH]
+    ? ''
+    : - CMAKE_PREFIX_PATH
+  default:
+    enable:: [lmod]
+    lmod:
+      core_compilers: [gcc@7.5.0]
+      all:
+        conflict: []
+        environment:
+          set:
+            E4S_${PACKAGE}_ROOT: ${PREFIX}
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          +rocm: rocm
+      amrex:
+        suffixes:
+          amrex~rocm: cpu
+      blaspp:
+        suffixes:
+          blaspp~rocm: cpu
+      boost:
+        suffixes:
+          boost cxxstd=17: cxx17
+      camp:
+        suffixes:
+          camp~rocm: cpu
+      chai:
+        suffixes:
+          chai~rocm: cpu
+      fftw:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          fftw+openmp: omp
+      ginkgo:
+        suffixes:
+          ginkgo~rocm: cpu
+      hdf5:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          hdf5+fortran: fortran
+          hdf5~mpi+szip: sz
+          hdf5~mpi+threadsafe: threadsafe
+      kokkos-kernels:
+        suffixes:
+          kokkos-kernels+openmp: omp
+      ncl:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          builtin.ncl ^hdf5+mpi^netcdf+mpi: parallel
+      openblas:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+        suffixes:
+          openblas threads=openmp: omp
+          openblas threads=pthreads: pthreads
+      openmpi:
+        conflict: []
+        environment:
+          unset: []
+        filter:
+          environment_blacklist: []
+        load: []
+      raja:
+        suffixes:
+          raja~rocm: cpu
+      slate:
+        suffixes:
+          slate~rocm: cpu
+      strumpack:
+        suffixes:
+          strumpack~rocm: cpu
+      sundials:
+        suffixes:
+          sundials~rocm: cpu
+      tasmanian:
+        suffixes:
+          tasmanian~rocm: cpu
+      tau:
+        suffixes:
+          tau+openmp: omp
+      umpire:
+        suffixes:
+          umpire~rocm: cpu
+          umpire+openmp: omp
+      py-warpx:
+        suffixes:
+          ^warpx dims=2: dims2
+          ^warpx dims=3: dims3
+          ^warpx dims=rz: dimsRZ
+      warpx:
+        suffixes:
+          dims=2: dims2
+          dims=3: dims3
+          dims=rz: dimsRZ
+      blacklist_implicits: true
+      verbose: true
+      whitelist: []
+      blacklist: []
+      hash_length: 0
+      hierarchy: []
+      projections: {}
+      core_specs: []
