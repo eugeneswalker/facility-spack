@@ -1,0 +1,1229 @@
+==> Starting concretization pool with 16 processes
+==> Environment concretized in 33.43 seconds.
+==> Concretized adios@1.13.1
+[+]  zws7mtl  adios@1.13.1%oneapi@2022.1.0+blosc~bzip2~fortran~hdf5~infiniband+lz4+mpi~netcdf+shared+sz~szip+zfp+zlib patches=01113e9efb929d71c28bf33cc8b7f215d85195ec700e99cb41164e2f8f830640,8ae17f655248e87cbab1d1ed794e15364a38d2f5f8d971b1086702f72d79bd42,d24b79b795f66e40ddcd331ea4be896ac9c393d6f68f4318616d23928b0694e9 staging=none arch=linux-opensuse_leap15-icelake
+[+]  ackhpah      ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc      ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  vlxxxzr      ^c-blosc@1.21.0%oneapi@2022.1.0+avx2~ipo build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7          ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq              ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  rrsrmoo          ^lz4@1.9.3%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  hb27xjn          ^snappy@1.1.8%oneapi@2022.1.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb1f7a623418590cf4e00ae7d308d1c3faeb15046c2e5090e38221da7cd arch=linux-opensuse_leap15-icelake
+[+]  llqvhpq          ^zstd@1.5.0%oneapi@2022.1.0~programs arch=linux-opensuse_leap15-icelake
+[+]  65riqpe      ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd      ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy          ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok              ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                  ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6          ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw              ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                  ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g              ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26          ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao          ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x          ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  jpkobd2      ^sz@1.4.12.3%oneapi@2022.1.0~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  4gvhx3s      ^zfp@0.5.5%oneapi@2022.1.0~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+
+==> Concretized aml@0.1.0
+[+]  zy7pgaq  aml@0.1.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  6oa7kqr      ^numactl@2.0.14%oneapi@2022.1.0 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006,ff37630df599cfabf0740518b91ec8daaf18e8f288b19adaae5364dc1f6b2296 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah          ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d              ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4                  ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc          ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe          ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized amrex@22.02
+[+]  igyesan  amrex@22.02%oneapi@2022.1.0~amrdata~cuda~eb~fortran~hdf5~hypre~ipo+linear_solvers+mpi~openmp~particles~petsc~pic~plotfile_tools~rocm~shared~sundials~tiny_profile build_type=RelWithDebInfo dimensions=3 precision=double arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized arborx@1.1
+[+]  hzkc2tq  arborx@1.1%oneapi@2022.1.0~cuda~ipo+mpi~openmp~rocm+serial~sycl~trilinos build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  t7sbmel      ^kokkos@3.5.00%oneapi@2022.1.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning~wrapper build_type=RelWithDebInfo std=14 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized argobots@1.1
+[+]  5dtn244  argobots@1.1%oneapi@2022.1.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-opensuse_leap15-icelake
+
+==> Concretized bolt@2.0
+[+]  45zqo3s  bolt@2.0%oneapi@2022.1.0~ipo build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  5dtn244      ^argobots@1.1%oneapi@2022.1.0~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=linux-opensuse_leap15-icelake
+[+]  ackhpah      ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc      ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  65riqpe      ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized cabana@0.4.0
+[+]  375j2jg  cabana@0.4.0%oneapi@2022.1.0~arborx~cuda~heffte~hypre~ipo+mpi~openmp~pthread~rocm+serial+shared~sycl build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  mmd5taw      ^googletest@1.10.0%oneapi@2022.1.0~gmock~ipo+pthreads+shared build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  t7sbmel      ^kokkos@3.5.00%oneapi@2022.1.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning~wrapper build_type=RelWithDebInfo std=14 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized caliper@2.7.0
+[+]  rblxemu  caliper@2.7.0%oneapi@2022.1.0+adiak~cuda~fortran+gotcha~ipo+libdw~libpfm+libunwind+mpi+papi+sampler+shared~sosflow build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  l33w2mg      ^adiak@0.2.1%oneapi@2022.1.0~ipo+mpi+shared build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7          ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw              ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                  ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq              ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72                  ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                      ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                      ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                          ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                      ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                          ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                      ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda          ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  pxvlaz6      ^elfutils@0.186%oneapi@2022.1.0+bzip2~debuginfod~nls+xz arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh          ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  kbw3eam      ^libunwind@1.5.0%oneapi@2022.1.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  2fsi4ms      ^papi@6.0.0.1%oneapi@2022.1.0~cuda+example~infiniband~lmsensors~nvml~powercap~rapl~rocm~rocm_smi~sde+shared~static_tools arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd      ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy          ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok              ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                  ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6          ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw              ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g              ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26          ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao          ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x          ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized chai@2.4.0~benchmarks~tests
+[+]  ms5fhuf  chai@2.4.0%oneapi@2022.1.0~benchmarks~cuda~enable_pick+examples~ipo~openmp~raja~rocm+shared~tests build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  yepbmjl      ^blt@0.4.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  2duend7          ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw              ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                  ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq              ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72                  ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                      ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                      ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                          ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                      ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                          ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                      ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  2dsvmzh      ^umpire@6.0.0%oneapi@2022.1.0+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp~rocm+shared build_type=RelWithDebInfo tests=none arch=linux-opensuse_leap15-icelake
+[+]  gsoua4u          ^camp@0.2.2%oneapi@2022.1.0~cuda~ipo~rocm~tests build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+
+==> Concretized charliecloud@0.26
+[+]  fotyjj5  charliecloud@0.26%oneapi@2022.1.0~docs arch=linux-opensuse_leap15-icelake
+[+]  ackhpah      ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc      ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe      ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  caatn3l      ^py-requests@2.26.0%oneapi@2022.1.0~socks arch=linux-opensuse_leap15-icelake
+[+]  plpagao          ^py-certifi@2021.10.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  c7dtm5t              ^py-pip@21.3.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd                  ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy                      ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok                          ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                              ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6                      ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw                          ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                              ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g                          ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26                      ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq                      ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao                      ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x                      ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjceifj              ^py-setuptools@59.4.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  t7qj6qh                  ^py-wheel@0.37.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xkfnf7p          ^py-charset-normalizer@2.0.7%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  6h64kav          ^py-idna@3.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  qdy23hw          ^py-urllib3@1.26.6%oneapi@2022.1.0~brotli~secure~socks arch=linux-opensuse_leap15-icelake
+
+==> Concretized conduit@0.8.2
+[+]  j2yqacd  conduit@0.8.2%oneapi@2022.1.0~adios+blt_find_mpi~doc~doxygen+fortran+hdf5+hdf5_compat~ipo+mpi+parmetis~python+shared~silo+test~zfp build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  c7iuxrp      ^hdf5@1.8.22%oneapi@2022.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda          ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  6oa7kqr          ^numactl@2.0.14%oneapi@2022.1.0 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006,ff37630df599cfabf0740518b91ec8daaf18e8f288b19adaae5364dc1f6b2296 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah              ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d                  ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4                      ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc              ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe              ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  iffumdn      ^metis@5.1.0%oneapi@2022.1.0~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=linux-opensuse_leap15-icelake
+[+]  kjmcmdo      ^parmetis@4.0.3%oneapi@2022.1.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=linux-opensuse_leap15-icelake
+
+==> Concretized darshan-runtime@3.3.1
+[+]  bpo2rgt  darshan-runtime@3.3.1%oneapi@2022.1.0~apmpi~apmpi_sync~apxc~hdf5+mpi scheduler=NONE arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj      ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized darshan-util@3.3.1
+[+]  7bpsyxu  darshan-util@3.3.1%oneapi@2022.1.0~apmpi~apxc~bzip2 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj      ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized faodel@1.2108.1
+[+]  c2jslzx  faodel@1.2108.1%oneapi@2022.1.0~hdf5~ipo+mpi+shared+tcmalloc build_type=RelWithDebInfo logging=stdout network=nnti serializer=xdr arch=linux-opensuse_leap15-icelake
+[+]  vcoupnf      ^boost@1.78.0%oneapi@2022.1.0+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math+mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=98 patches=8e3faa26450312e5ea8db8f32afda109b8559ba496e6a5799ddde271c9a6fc44 visibility=hidden arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp          ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx              ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                  ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda          ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj          ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized flit@2.1.0
+[+]  ubhvqbc  flit@2.1.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  e3buxo6      ^gmake@4.3%oneapi@2022.1.0~guile+nls arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6          ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw              ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                  ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                  ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw              ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g              ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  rxn3pyl          ^texinfo@6.5%oneapi@2022.1.0 patches=12f6edb0c6b270b8c8dba2ce17998c580db01182d871ee32b7b6e4129bd1d23a,1732115f651cff98989cb0215d8f64da5e0f7911ebf0c13b064920f088f2ffe1 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  vwdqyci      ^py-pyelftools@0.26%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  c7dtm5t          ^py-pip@21.3.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd              ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy                  ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok                      ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                          ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26                  ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq                  ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao                  ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x                  ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjceifj          ^py-setuptools@59.4.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  t7qj6qh              ^py-wheel@0.37.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  kwksw2m      ^py-toml@0.10.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized gasnet@2021.9.0
+[+]  xncvjle  gasnet@2021.9.0%oneapi@2022.1.0~debug conduits=smp arch=linux-opensuse_leap15-icelake
+
+==> Concretized ginkgo@1.4.0
+[+]  wbznbt3  ginkgo@1.4.0%oneapi@2022.1.0~cuda~develtools~full_optimizations~hwloc~ipo~oneapi+openmp~rocm+shared build_type=Release patches=43e571a49ea774793d89d145571c95ae7cdf991f5220d8fe84db217a3c613a32 arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized globalarrays@5.8
+[+]  2yugnv7  globalarrays@5.8%oneapi@2022.1.0~scalapack armci=mpi-ts arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  dc6fyn7      ^openblas@0.3.19%oneapi@2022.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized gmp@6.2.1
+[+]  kk3gber  gmp@6.2.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah      ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc      ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe      ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized gotcha@1.0.3
+[+]  u5mc7xb  gotcha@1.0.3%oneapi@2022.1.0~ipo~test build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized hdf5@1.10.7+fortran+hl+shared
+[+]  w5c5lmd  hdf5@1.10.7%oneapi@2022.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo patches=2a1e3118d7d3d7411820e567b03530de96a46385304017f8e548408aa1cfbfc0 arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  6oa7kqr      ^numactl@2.0.14%oneapi@2022.1.0 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006,ff37630df599cfabf0740518b91ec8daaf18e8f288b19adaae5364dc1f6b2296 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah          ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d              ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4                  ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc          ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe          ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized heffte@2.2.0+fftw
+[+]  sxpozuq  heffte@2.2.0%oneapi@2022.1.0~cuda+fftw~fortran~ipo~magma~mkl~python~rocm+shared build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  32ygimx      ^fftw@3.3.10%oneapi@2022.1.0+mpi~openmp~pfft_patches precision=double,float arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda          ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized hpx@1.7.1 networking=mpi
+[+]  xlv7qe5  hpx@1.7.1%oneapi@2022.1.0~async_cuda~async_mpi~cuda~examples~generic_coroutines~ipo~rocm~tools build_type=RelWithDebInfo cxxstd=17 instrumentation=none malloc=tcmalloc max_cpu_count=64 networking=mpi arch=linux-opensuse_leap15-icelake
+[+]  vqzxn2b      ^asio@1.21.0%oneapi@2022.1.0~boost_coroutine~boost_regex~separate_compilation cxxstd=17 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah          ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d              ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4                  ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc          ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ql3kzr7          ^boost@1.78.0%oneapi@2022.1.0+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math+mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=17 patches=8e3faa26450312e5ea8db8f32afda109b8559ba496e6a5799ddde271c9a6fc44 visibility=hidden arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda              ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  65riqpe          ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  h2ojgxk      ^git@2.35.1%oneapi@2022.1.0+man+nls+perl~svn~tcltk arch=linux-opensuse_leap15-icelake
+[+]  s4x6y4g          ^curl@7.80.0%oneapi@2022.1.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy          ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok              ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                  ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6          ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw              ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                  ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g              ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  qaci5qw          ^libidn2@2.3.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  htkszf3              ^libunistring@0.9.10%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  y7kt4kb          ^openssh@8.8p1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xebu2e7              ^libedit@3.1-20210216%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  crpmjlq          ^pcre2@10.36%oneapi@2022.1.0~jit+multibyte arch=linux-opensuse_leap15-icelake
+[+]  mdppz56      ^gperftools@2.9.1%oneapi@2022.1.0+debugalloc~dynamic_sized_delete_support+libunwind~sized_delete arch=linux-opensuse_leap15-icelake
+[+]  kbw3eam          ^libunwind@1.5.0%oneapi@2022.1.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  ourep4r      ^hwloc@2.7.0%oneapi@2022.1.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=linux-opensuse_leap15-icelake
+[+]  3vb4dik          ^libpciaccess@0.16%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  txo3hru              ^util-macros@1.19.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  f6hy3ez      ^ninja@1.10.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd          ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26              ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao              ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x              ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized hypre@2.24.0
+[+]  5q5b47k  hypre@2.24.0%oneapi@2022.1.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp+shared~superlu-dist~unified-memory arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  dc6fyn7      ^openblas@0.3.19%oneapi@2022.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized kokkos@3.5.00+openmp
+[+]  z5jfhgn  kokkos@3.5.00%oneapi@2022.1.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl+openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning~wrapper build_type=RelWithDebInfo std=14 arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized lammps@20220107
+[+]  febul3b  lammps@20220107%oneapi@2022.1.0~asphere~body~class2~colloid~compress~coreshell~cuda~cuda_mps~dipole~exceptions+ffmpeg~granular~ipo+jpeg+kim~kokkos~kspace~latte+lib~manybody~mc~meam~misc~mliap~molecule+mpi~mpiio~opencl+openmp~opt~peri+png~poems~python~qeq~replica~rigid~shock~snap~spin~srd~user-adios~user-atc~user-awpmd~user-bocs~user-cgsdk~user-colvars~user-diffraction~user-dpd~user-drude~user-eff~user-fep~user-h5md~user-lb~user-manifold~user-meamc~user-mesodpd~user-mesont~user-mgpt~user-misc~user-mofff~user-netcdf~user-omp~user-phonon~user-plumed~user-ptm~user-qtb~user-reaction~user-reaxc~user-sdpd~user-smd~user-smtbq~user-sph~user-tally~user-uef~user-yaff~voronoi build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  bn54qsp      ^ffmpeg@4.4.1%oneapi@2022.1.0~X~avresample+bzlib~drawtext+gpl~libaom~libmp3lame~libopenjpeg~libopus~libsnappy~libspeex~libssh~libvorbis~libvpx~libwebp~libx264~libzmq~lzma~nonfree~openssl~sdl2+shared+version3 arch=linux-opensuse_leap15-icelake
+[+]  p2rvk4s          ^alsa-lib@1.2.3.2%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  257rrr3          ^yasm@1.3.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  zpzqk5h      ^kim-api@2.2.1%oneapi@2022.1.0~ipo build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  ecacvs5      ^libjpeg-turbo@2.1.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  hq4peq7          ^nasm@2.15.05%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  43tnmbq      ^libpng@1.6.37%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized legion@21.03.0
+[+]  erc3lnh  legion@21.03.0%oneapi@2022.1.0~bindings~bounds_checks~cuda~cuda_hijack~cuda_unsupported_compiler~enable_tls~fortran~gasnet_debug~hdf5~hwloc~ipo~kokkos+libdl~openmp~papi~privilege_checks~python~redop_complex~shared~spy+zlib build_type=RelWithDebInfo conduit=none cuda_arch=70 cxxstd=11 gasnet_root=none max_dims=3 max_fields=512 network=none output_level=warning arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized libnrm@0.1.0
+[+]  7podtwn  libnrm@0.1.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah      ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc      ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe      ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  jlwvcqq      ^libzmq@4.3.4%oneapi@2022.1.0+docs~drafts+libbsd+libsodium arch=linux-opensuse_leap15-icelake
+[+]  zsg2gab          ^docbook-xml@4.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw              ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                  ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  aaqfzhg          ^docbook-xsl@1.79.2%oneapi@2022.1.0 patches=a92c39715c54949ba9369add1809527b8f155b7e2a2b2e30cb4b39ee715f2e30 arch=linux-opensuse_leap15-icelake
+[+]  ortiyok          ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5              ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  cgwpime          ^libsodium@1.0.18%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized libquo@1.3.1
+[+]  hzt562h  libquo@1.3.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized libunwind@1.5.0
+[+]  kbw3eam  libunwind@1.5.0%oneapi@2022.1.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh      ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+
+==> Concretized loki@0.1.7
+[+]  gvhonhr  loki@0.1.7%oneapi@2022.1.0+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized metall@0.17
+[+]  5efo23f  metall@0.17%oneapi@2022.1.0~ipo build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  vcoupnf      ^boost@1.78.0%oneapi@2022.1.0+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math+mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=98 patches=8e3faa26450312e5ea8db8f32afda109b8559ba496e6a5799ddde271c9a6fc44 visibility=hidden arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp          ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx              ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                  ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda          ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj          ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized mpark-variant@1.4.0
+[+]  g4xnvos  mpark-variant@1.4.0%oneapi@2022.1.0~ipo build_type=RelWithDebInfo patches=21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7,4e173fe8c853eb92956a40371688b4a19498189fe65b7ceac30f6b9d6663a985,b3501f726fd40129b4aaa11453a5891c8953a34af8ac84f5ab10a22afa5e7b9b arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized mpifileutils@0.11.1~xattr
+[+]  pcu4cvl  mpifileutils@0.11.1%oneapi@2022.1.0~experimental~gpfs~lustre~xattr arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp      ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx          ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  z5upsoo      ^dtcmp@1.1.4%oneapi@2022.1.0+shared arch=linux-opensuse_leap15-icelake
+[+]  s4uvxz2          ^lwgrp@1.0.5%oneapi@2022.1.0+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda              ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  rodkln3      ^libarchive@3.5.2%oneapi@2022.1.0+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=libxml2 arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw          ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh              ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  rrsrmoo          ^lz4@1.9.3%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  judppdx          ^lzo@2.10%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  7jrphn7          ^mbedtls@2.28.0%oneapi@2022.1.0+pic build_type=Release libs=static arch=linux-opensuse_leap15-icelake
+[+]  llqvhpq          ^zstd@1.5.0%oneapi@2022.1.0~programs arch=linux-opensuse_leap15-icelake
+[+]  emcacw3      ^libcap@2.25%oneapi@2022.1.0 patches=3db844dd771b320b8117b72f4e00b560051311fbbd4cba1ebcbd7c19116c1d66 arch=linux-opensuse_leap15-icelake
+[+]  h3n2j5n      ^libcircle@0.3.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  3vb4dik          ^libpciaccess@0.16%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe              ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d                  ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4                      ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  txo3hru              ^util-macros@1.19.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized nccmp@1.9.0.1
+[+]  6zpvapk  nccmp@1.9.0.1%oneapi@2022.1.0~ipo build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  wic5z5m      ^netcdf-c@4.8.1%oneapi@2022.1.0~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  w5c5lmd          ^hdf5@1.10.7%oneapi@2022.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo patches=2a1e3118d7d3d7411820e567b03530de96a46385304017f8e548408aa1cfbfc0 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda              ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  6oa7kqr              ^numactl@2.0.14%oneapi@2022.1.0 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006,ff37630df599cfabf0740518b91ec8daaf18e8f288b19adaae5364dc1f6b2296 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah                  ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d                      ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4                          ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc                  ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe                  ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized nco@5.0.1
+[+]  a7xszqu  nco@5.0.1%oneapi@2022.1.0~doc arch=linux-opensuse_leap15-icelake
+[+]  qkgrvxm      ^antlr@2.7.7%oneapi@2022.1.0+cxx~java~python patches=33897ad12ad33878daa0aca55c9a234ec972407eb2b6c03808f6ed020c88b8db arch=linux-opensuse_leap15-icelake
+[+]  prwjnxd      ^bison@3.8.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx          ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  bg4gjwv      ^flex@2.6.3%oneapi@2022.1.0+lex~nls arch=linux-opensuse_leap15-icelake
+[+]  fwstg3c          ^findutils@4.8.0%oneapi@2022.1.0 patches=440b9543365b4692a2e6e0b5674809659846658d34d1dfc542c4397c8d668b92 arch=linux-opensuse_leap15-icelake
+[+]  vxa7tb2      ^gsl@2.7%oneapi@2022.1.0~external-cblas arch=linux-opensuse_leap15-icelake
+[+]  wic5z5m      ^netcdf-c@4.8.1%oneapi@2022.1.0~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  w5c5lmd          ^hdf5@1.10.7%oneapi@2022.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo patches=2a1e3118d7d3d7411820e567b03530de96a46385304017f8e548408aa1cfbfc0 arch=linux-opensuse_leap15-icelake
+[+]  2duend7              ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq                  ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda              ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  6oa7kqr              ^numactl@2.0.14%oneapi@2022.1.0 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006,ff37630df599cfabf0740518b91ec8daaf18e8f288b19adaae5364dc1f6b2296 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah                  ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc                  ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe                  ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4gp2xs2      ^udunits@2.2.28%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy          ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok              ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                  ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized netlib-scalapack@2.1.0
+[+]  odzjtrr  netlib-scalapack@2.1.0%oneapi@2022.1.0~ipo~pic+shared build_type=Release patches=1c9ce5fee1451a08c2de3cc87f446aeda0b818ebbce4ad0d980ddf2f2a0b2dc4,f2baedde688ffe4c20943c334f580eb298e04d6f35c86b90a1f4e8cb7ae344a2 arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  dc6fyn7      ^openblas@0.3.19%oneapi@2022.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-opensuse_leap15-icelake
+
+==> Concretized ninja@1.10.2
+[+]  f6hy3ez  ninja@1.10.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd      ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp          ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx              ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                  ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy          ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok              ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                  ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz          ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53              ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                  ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                      ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6          ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw              ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                  ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g              ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26          ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao          ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x          ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized papi@6.0.0.1
+[+]  2fsi4ms  papi@6.0.0.1%oneapi@2022.1.0~cuda+example~infiniband~lmsensors~nvml~powercap~rapl~rocm~rocm_smi~sde+shared~static_tools arch=linux-opensuse_leap15-icelake
+
+==> Concretized papyrus@1.0.1
+[+]  a6t64ya  papyrus@1.0.1%oneapi@2022.1.0~ipo build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized parallel-netcdf@1.12.2
+[+]  yobri4j  parallel-netcdf@1.12.2%oneapi@2022.1.0~burstbuffer+cxx+fortran+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d      ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4          ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  bcnft72      ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe          ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp          ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx              ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                  ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz          ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53              ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                  ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                      ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj          ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized parsec@3.0.2012~cuda
+[+]  c2plhnw  parsec@3.0.2012%oneapi@2022.1.0~cuda~debug_verbose~ipo~profile+shared build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  prwjnxd      ^bison@3.8.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx          ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bg4gjwv      ^flex@2.6.3%oneapi@2022.1.0+lex~nls arch=linux-opensuse_leap15-icelake
+[+]  fwstg3c          ^findutils@4.8.0%oneapi@2022.1.0 patches=440b9543365b4692a2e6e0b5674809659846658d34d1dfc542c4397c8d668b92 arch=linux-opensuse_leap15-icelake
+[+]  ourep4r      ^hwloc@2.7.0%oneapi@2022.1.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=linux-opensuse_leap15-icelake
+[+]  3vb4dik          ^libpciaccess@0.16%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe              ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  txo3hru              ^util-macros@1.19.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw          ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh              ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd      ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy          ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok              ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                  ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6          ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g              ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26          ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao          ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x          ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized pdt@3.25.1
+[+]  kw5sf3u  pdt@3.25.1%oneapi@2022.1.0~pic arch=linux-opensuse_leap15-icelake
+
+==> Concretized pumi@2.2.6
+[+]  7vqec35  pumi@2.2.6%oneapi@2022.1.0~fortran~int64~ipo~shared+simmodsuite_version_check~testing~zoltan build_type=RelWithDebInfo simmodsuite=none arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized py-cinemasci@1.3
+[+]  yljoodd  py-cinemasci@1.3%oneapi@2022.1.0+mpi arch=linux-opensuse_leap15-icelake
+[+]  w5c5lmd      ^hdf5@1.10.7%oneapi@2022.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo patches=2a1e3118d7d3d7411820e567b03530de96a46385304017f8e548408aa1cfbfc0 arch=linux-opensuse_leap15-icelake
+[+]  2duend7          ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw              ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                  ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq              ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72                  ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                      ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                      ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                          ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                      ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                          ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                      ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda          ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  6oa7kqr          ^numactl@2.0.14%oneapi@2022.1.0 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006,ff37630df599cfabf0740518b91ec8daaf18e8f288b19adaae5364dc1f6b2296 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah              ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d                  ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4                      ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc              ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe              ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mevh3zg      ^py-h5py@3.6.0%oneapi@2022.1.0+mpi arch=linux-opensuse_leap15-icelake
+[+]  tfdwqww          ^py-cython@0.29.24%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  c7dtm5t              ^py-pip@21.3.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd                  ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy                      ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok                          ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                              ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6                      ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw                          ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                              ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g                          ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26                      ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao                      ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x                      ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjceifj              ^py-setuptools@59.4.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  t7qj6qh                  ^py-wheel@0.37.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  f7gqg4z          ^py-mpi4py@3.1.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  kzecook          ^py-numpy@1.22.2%oneapi@2022.1.0+blas+lapack patches=873745d7b547857fcfec9cae90b09c133b42a4f0c23b6c2d84cf37e2dd816604 arch=linux-opensuse_leap15-icelake
+[+]  dc6fyn7              ^openblas@0.3.19%oneapi@2022.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-opensuse_leap15-icelake
+[+]  eev4v2c          ^py-pkgconfig@1.5.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  q4kqcyi              ^py-poetry-core@1.0.7%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  py7iedd      ^py-ipywidgets@7.6.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xvgjw4i          ^py-ipykernel@6.4.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  fae4zbb              ^py-debugpy@1.5.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  cbtutux              ^py-ipython@7.28.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  77e2hpk                  ^py-backcall@0.2.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4h7mgfo                      ^py-flit-core@3.5.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  vlanas2                          ^py-tomli@1.2.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ueg5oys                  ^py-decorator@5.1.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  a3ujg7h                  ^py-jedi@0.18.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  vqaqpto                      ^py-parso@0.8.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  s5de7bw                  ^py-matplotlib-inline@0.1.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4lae5wl                      ^py-traitlets@5.1.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ylmrle7                  ^py-pexpect@4.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  b2k3gbt                      ^py-ptyprocess@0.7.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  edqleup                  ^py-pickleshare@0.7.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  dt4pc3w                  ^py-prompt-toolkit@3.0.24%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ybjrftb                      ^py-wcwidth@0.2.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  m4gstnb                  ^py-pygments@2.10.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  nejvepq              ^py-ipython-genutils@0.2.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  k7bzpio              ^py-jupyter-client@7.0.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  l475v7q                  ^py-entrypoints@0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5ccplui                      ^py-flit@3.3.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  gpdzmew                          ^py-docutils@0.18%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  caatn3l                          ^py-requests@2.26.0%oneapi@2022.1.0~socks arch=linux-opensuse_leap15-icelake
+[+]  plpagao                              ^py-certifi@2021.10.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xkfnf7p                              ^py-charset-normalizer@2.0.7%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  6h64kav                              ^py-idna@3.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  qdy23hw                              ^py-urllib3@1.26.6%oneapi@2022.1.0~brotli~secure~socks arch=linux-opensuse_leap15-icelake
+[+]  kwksw2m                          ^py-toml@0.10.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  wy3wuzv                  ^py-jupyter-core@4.7.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mxymwyq                  ^py-nest-asyncio@1.5.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  7bzqgio                      ^py-setuptools-scm@6.3.2%oneapi@2022.1.0+toml arch=linux-opensuse_leap15-icelake
+[+]  u2ei6kc                          ^py-packaging@21.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  rnm42gj                              ^py-pyparsing@3.0.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  6vhvis7                  ^py-python-dateutil@2.8.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o3pkvkc                      ^py-six@1.16.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  fd2scdx                  ^py-pyzmq@22.3.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  jlwvcqq                      ^libzmq@4.3.4%oneapi@2022.1.0+docs~drafts+libbsd+libsodium arch=linux-opensuse_leap15-icelake
+[+]  zsg2gab                          ^docbook-xml@4.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  aaqfzhg                          ^docbook-xsl@1.79.2%oneapi@2022.1.0 patches=a92c39715c54949ba9369add1809527b8f155b7e2a2b2e30cb4b39ee715f2e30 arch=linux-opensuse_leap15-icelake
+[+]  cgwpime                          ^libsodium@1.0.18%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  2rxugqp                      ^py-cffi@1.15.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  r6rzifr                          ^py-pycparser@2.20%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  2gx54on                      ^py-gevent@1.5.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ahjzofo                          ^py-greenlet@1.1.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  k7ve27v                      ^py-py@1.11.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  odwf54u                  ^py-tornado@6.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  r3iibbq          ^py-jupyterlab-widgets@1.0.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  z64enpc              ^py-jupyter-packaging7@0.7.12%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  psgvgid              ^py-jupyterlab@3.2.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  6lvm5h3                  ^py-jinja2@3.0.3%oneapi@2022.1.0~i18n arch=linux-opensuse_leap15-icelake
+[+]  4i6an5x                      ^py-markupsafe@2.0.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  rf56hoo                  ^py-jupyter-packaging11@0.11.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  rkgao2k                      ^py-deprecation@2.1.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  2zgnt5i                      ^py-tomlkit@0.7.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  j27mrro                  ^py-jupyter-server@1.11.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  yxgzz4z                      ^py-anyio@3.3.4%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  hii2h7k                          ^py-sniffio@1.2.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  gyaaxxc                      ^py-argon2-cffi@21.1.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  3cpapfl                      ^py-nbconvert@4.2.0%oneapi@2022.1.0+serve arch=linux-opensuse_leap15-icelake
+[+]  rmxmfkx                          ^py-mistune@0.8.4%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  cbgsltm                          ^py-nbformat@5.1.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  nkdtvye                              ^py-jsonschema@3.2.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  vazixao                                  ^py-attrs@21.2.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  idht3lv                                  ^py-pyrsistent@0.18.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  l4bl4lk                      ^py-prometheus-client@0.12.0%oneapi@2022.1.0~twisted arch=linux-opensuse_leap15-icelake
+[+]  4ncynbi                      ^py-send2trash@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  c3vmxux                      ^py-terminado@0.12.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  flhsyej                      ^py-websocket-client@1.2.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bq7zxib                  ^py-jupyterlab-server@2.6.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ewwjsoe                      ^py-babel@2.9.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  dahggrk                          ^py-pytz@2021.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  jop75lh                      ^py-json5@0.9.4%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  yayjdka                  ^py-nbclassic@0.3.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  lfktaxj                      ^py-notebook@6.4.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  kb5ujlm          ^py-widgetsnbextension@3.5.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  cwxzhy5      ^py-pandas@1.4.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  zbyx6an          ^py-bottleneck@1.3.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  rmlp27b          ^py-numexpr@2.7.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4irmvvk      ^py-pillow@9.0.0%oneapi@2022.1.0~freetype~imagequant+jpeg~jpeg2000~lcms~tiff~webp~webpmux~xcb+zlib arch=linux-opensuse_leap15-icelake
+[+]  ecacvs5          ^libjpeg-turbo@2.1.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  hq4peq7              ^nasm@2.15.05%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized py-libensemble@0.8.0
+[+]  bnirl4i  py-libensemble@0.8.0%oneapi@2022.1.0~deap+mpi~mpmath~nlopt~petsc4py~pyyaml~scipy~tasmanian arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  f7gqg4z      ^py-mpi4py@3.1.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  c7dtm5t          ^py-pip@21.3.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd              ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy                  ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok                      ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                          ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6                  ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw                      ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                          ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                          ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g                      ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26                  ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq                  ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72                      ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                          ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao                  ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x                  ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjceifj          ^py-setuptools@59.4.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  t7qj6qh              ^py-wheel@0.37.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  kzecook      ^py-numpy@1.22.2%oneapi@2022.1.0+blas+lapack patches=873745d7b547857fcfec9cae90b09c133b42a4f0c23b6c2d84cf37e2dd816604 arch=linux-opensuse_leap15-icelake
+[+]  dc6fyn7          ^openblas@0.3.19%oneapi@2022.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-opensuse_leap15-icelake
+[+]  tfdwqww          ^py-cython@0.29.24%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  qrhm475      ^py-psutil@5.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized qthreads@1.16 scheduler=distrib
+[+]  n4ll2cx  qthreads@1.16%oneapi@2022.1.0+hwloc~spawn_cache+static scheduler=distrib stack_size=4096 arch=linux-opensuse_leap15-icelake
+[+]  ourep4r      ^hwloc@2.7.0%oneapi@2022.1.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=linux-opensuse_leap15-icelake
+[+]  3vb4dik          ^libpciaccess@0.16%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe              ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d                  ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4                      ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  txo3hru              ^util-macros@1.19.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw          ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh              ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+
+==> Concretized raja@0.14.0
+[+]  vea5cjp  raja@0.14.0%oneapi@2022.1.0~cuda+examples+exercises~ipo+openmp~rocm+shared~tests build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  yepbmjl      ^blt@0.4.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  2duend7          ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw              ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                  ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq              ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72                  ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                      ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                      ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                          ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                      ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                          ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                      ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  gsoua4u      ^camp@0.2.2%oneapi@2022.1.0~cuda~ipo~rocm~tests build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+
+==> Concretized stc@0.9.0
+[+]  yxv4w5b  stc@0.9.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  w7nxlci      ^ant@1.10.7%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  zbun3iu          ^openjdk@11.0.12_7%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah      ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc      ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe      ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  krtr66o      ^turbine@1.3.0%oneapi@2022.1.0~hdf5~python~r arch=linux-opensuse_leap15-icelake
+[+]  3aacwjn          ^adlbx@1.0.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  vfksni6              ^exmcutils@0.6.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda              ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  pvsnpmg          ^swig@4.0.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  3kadawz              ^pcre@8.44%oneapi@2022.1.0~jit+multibyte+utf arch=linux-opensuse_leap15-icelake
+[+]  f3ecpfd          ^tcl@8.6.11%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  yuinake          ^zsh@5.8%oneapi@2022.1.0+skip-tcsetpgrp-test arch=linux-opensuse_leap15-icelake
+
+==> Concretized sundials@6.1.1
+[+]  rikynuh  sundials@6.1.1%oneapi@2022.1.0+ARKODE+CVODE+CVODES+IDA+IDAS+KINSOL~caliper~cuda+examples+examples-install~f2003~fcmix+generic-math~hypre~int64~ipo~klu~lapack~monitoring+mpi~openmp~petsc~profiling~pthread~raja~rocm+shared+static~superlu-dist~superlu-mt~sycl~trilinos build_type=RelWithDebInfo cstd=99 cxxstd=14 precision=double arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized superlu@5.3.0
+[+]  g3imrdc  superlu@5.3.0%oneapi@2022.1.0~ipo+pic build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  dc6fyn7      ^openblas@0.3.19%oneapi@2022.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-opensuse_leap15-icelake
+
+==> Concretized swig@4.0.2
+[+]  pvsnpmg  swig@4.0.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  3kadawz      ^pcre@8.44%oneapi@2022.1.0~jit+multibyte+utf arch=linux-opensuse_leap15-icelake
+[+]  heys4kx      ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized swig@4.0.2-fortran
+[+]  32elsoo  swig@4.0.2-fortran%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ackhpah      ^autoconf@2.69%oneapi@2022.1.0 patches=35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2,7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7,a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d          ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4              ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  5twg6tc      ^automake@1.16.5%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  prwjnxd      ^bison@3.8.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  65riqpe      ^libtool@2.4.6%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  3kadawz      ^pcre@8.44%oneapi@2022.1.0~jit+multibyte+utf arch=linux-opensuse_leap15-icelake
+
+==> Concretized sz@2.1.12
+[+]  uhqqn6g  sz@2.1.12%oneapi@2022.1.0~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  llqvhpq      ^zstd@1.5.0%oneapi@2022.1.0~programs arch=linux-opensuse_leap15-icelake
+
+==> Concretized tasmanian@7.7
+[+]  ut6zty5  tasmanian@7.7%oneapi@2022.1.0~blas~cuda~fortran~ipo~magma+mpi+openmp~python~rocm~xsdkflags build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+
+==> Concretized turbine@1.3.0
+[+]  krtr66o  turbine@1.3.0%oneapi@2022.1.0~hdf5~python~r arch=linux-opensuse_leap15-icelake
+[+]  3aacwjn      ^adlbx@1.0.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  vfksni6          ^exmcutils@0.6.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda          ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  gfoqv4d      ^m4@1.4.19%oneapi@2022.1.0+sigsegv patches=9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573,bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89 arch=linux-opensuse_leap15-icelake
+[+]  ilwx6t4          ^libsigsegv@2.13%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pvsnpmg      ^swig@4.0.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  3kadawz          ^pcre@8.44%oneapi@2022.1.0~jit+multibyte+utf arch=linux-opensuse_leap15-icelake
+[+]  heys4kx          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  f3ecpfd      ^tcl@8.6.11%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj          ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  yuinake      ^zsh@5.8%oneapi@2022.1.0+skip-tcsetpgrp-test arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+
+==> Concretized umap@2.1.0
+[+]  nbnrbpx  umap@2.1.0%oneapi@2022.1.0~ipo~logging~tests build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized umpire@6.0.0
+[+]  2dsvmzh  umpire@6.0.0%oneapi@2022.1.0+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp~rocm+shared build_type=RelWithDebInfo tests=none arch=linux-opensuse_leap15-icelake
+[+]  yepbmjl      ^blt@0.4.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  2duend7          ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw              ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                  ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq              ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72                  ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                      ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                      ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                          ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                              ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                      ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                          ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                      ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  gsoua4u      ^camp@0.2.2%oneapi@2022.1.0~cuda~ipo~rocm~tests build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+
+==> Concretized upcxx@2021.9.0
+[+]  fwpiuoz  upcxx@2021.9.0%oneapi@2022.1.0~cuda~gasnet+mpi cross=none arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  a7pgqbd      ^python@3.8.12%oneapi@2022.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768,f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp          ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx              ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                  ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  o3adaqy          ^expat@2.4.4%oneapi@2022.1.0+libbsd arch=linux-opensuse_leap15-icelake
+[+]  ortiyok              ^libbsd@0.11.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  tmwj6t5                  ^libmd@1.0.3%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz          ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53              ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                  ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                      ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  o2vhpp6          ^gettext@0.21%oneapi@2022.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-opensuse_leap15-icelake
+[+]  mmxivrw              ^libxml2@2.9.12%oneapi@2022.1.0~python arch=linux-opensuse_leap15-icelake
+[+]  lxsmxzh                  ^xz@5.2.5%oneapi@2022.1.0+pic libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+[+]  nwb2h7g              ^tar@1.34%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  4zfcc26          ^libffi@3.3%oneapi@2022.1.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  xl2z2ao          ^sqlite@3.37.1%oneapi@2022.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-opensuse_leap15-icelake
+[+]  q4ov43x          ^util-linux-uuid@2.36.2%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+
+==> Concretized wannier90@3.1.0
+[+]  klr2jrq  wannier90@3.1.0%oneapi@2022.1.0+shared arch=linux-opensuse_leap15-icelake
+[+]  xe5ljda      ^mpich@4.0a2%oneapi@2022.1.0~argobots+fortran+hwloc~hydra+libxml2+pci+romio~slurm~two_level_namespace~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-opensuse_leap15-icelake
+[+]  dc6fyn7      ^openblas@0.3.19%oneapi@2022.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-opensuse_leap15-icelake
+[+]  bcnft72          ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe              ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp              ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                  ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                      ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz              ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                  ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw                      ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx                          ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj              ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
+==> Concretized zfp@0.5.5
+[+]  4gvhx3s  zfp@0.5.5%oneapi@2022.1.0~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo arch=linux-opensuse_leap15-icelake
+[+]  2duend7      ^cmake@3.22.2%oneapi@2022.1.0~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  55hpsbw          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  heys4kx              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  mn2oyyq          ^openssl@1.1.1m%oneapi@2022.1.0~docs certs=system arch=linux-opensuse_leap15-icelake
+[+]  bcnft72              ^perl@5.34.0%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  yhvrjhe                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-opensuse_leap15-icelake
+[+]  52xg4kp                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  sdvnttx                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  pjr2j2i                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  yq7e5rz                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  5xn5b53                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  ne6elaj                  ^zlib@1.2.11%oneapi@2022.1.0+optimize+pic+shared arch=linux-opensuse_leap15-icelake
+
