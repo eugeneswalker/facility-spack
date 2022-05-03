@@ -12,7 +12,7 @@ modules:
     ? ''
     : - CMAKE_PREFIX_PATH
   default:
-    enable: [lmod]
+    enable:: [lmod]
     lmod:
       core_compilers: [gcc@7.5.0]
       all:
