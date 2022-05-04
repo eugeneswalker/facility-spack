@@ -9,7 +9,7 @@ spack:
   config:
     concretizer: clingo
     module_roots:
-      tcl: ${SPACK_ROOT}/modules/lmod
+      tcl: ${SPACK_ROOT}/modules/tcl
 
   modules:
     prefix_inspections:
