@@ -29,6 +29,7 @@ spack:
         naming_scheme: '{name}/{version}-{compiler.name}-{compiler.version}'
         blacklist: []
         all:
+          autoload: direct
           conflict:
           - '{name}'
           environment:
