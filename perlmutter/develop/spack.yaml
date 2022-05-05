@@ -123,7 +123,7 @@ spack:
         cc: gcc
         cxx: g++
         f77: gfortran
-        fc: gfotran
+        fc: gfortran
       flags: {}
       operating_system: sles15
       target: any
