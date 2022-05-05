@@ -291,3 +291,4 @@ spack:
 
   specs:
   - $cpu_specs
+  - kokkos@develop +sycl std=17 %dpcpp ^ncurses%oneapi
