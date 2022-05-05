@@ -8,6 +8,115 @@ spack:
   config:
     concretizer: clingo
 
+  modules:
+    default:
+      enable:: [lmod]
+      lmod:
+        core_compilers: [gcc@7.5.0]
+        blacklist_implicits: true
+        all:
+          conflict: []
+          environment:
+            set:
+              ${PACKAGE}_ROOT: ${PREFIX}
+            unset: []
+          filter:
+            environment_blacklist: []
+          load: []
+          suffixes:
+            +rocm: rocm
+        amrex:
+          suffixes:
+            amrex~rocm: cpu
+        blaspp:
+          suffixes:
+            blaspp~rocm: cpu
+        boost:
+          suffixes:
+            boost cxxstd=17: cxx17
+        camp:
+          suffixes:
+            camp~rocm: cpu
+        chai:
+          suffixes:
+            chai~rocm: cpu
+        fftw:
+          conflict: []
+          environment:
+            unset: []
+          filter:
+            environment_blacklist: []
+          load: []
+          suffixes:
+            fftw+openmp: omp
+        ginkgo:
+          suffixes:
+            ginkgo~rocm: cpu
+        hdf5:
+          conflict: []
+          environment:
+            unset: []
+          filter:
+            environment_blacklist: []
+          load: []
+          suffixes:
+            hdf5+fortran: fortran
+            hdf5~mpi+szip: sz
+            hdf5~mpi+threadsafe: threadsafe
+        kokkos-kernels:
+          suffixes:
+            kokkos-kernels+openmp: omp
+        openblas:
+          conflict: []
+          environment:
+            unset: []
+          filter:
+            environment_blacklist: []
+          load: []
+          suffixes:
+            openblas threads=openmp: omp
+            openblas threads=pthreads: pthreads
+        raja:
+          suffixes:
+            raja~rocm: cpu
+        slate:
+          suffixes:
+            slate~rocm: cpu
+        strumpack:
+          suffixes:
+            strumpack~rocm: cpu
+        sundials:
+          suffixes:
+            sundials~rocm: cpu
+        tasmanian:
+          suffixes:
+            tasmanian~rocm: cpu
+        tau:
+          suffixes:
+            tau+openmp: omp
+        umpire:
+          suffixes:
+            umpire~rocm: cpu
+            umpire+openmp: omp
+        py-warpx:
+          suffixes:
+            ^warpx dims=2: dims2
+            ^warpx dims=3: dims3
+            ^warpx dims=rz: dimsRZ
+        warpx:
+          suffixes:
+            dims=2: dims2
+            dims=3: dims3
+            dims=rz: dimsRZ
+        verbose: true
+        whitelist: []
+        blacklist: []
+        hash_length: 0
+        hierarchy: []
+        projections: {}
+        core_specs: []
+
+
   compilers:
   - compiler:
       spec: gcc@11.2.0
