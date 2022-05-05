@@ -28,19 +28,19 @@ spack:
             +cuda: cuda
         amrex:
           suffixes:
-            amrex~rocm: cpu
+            amrex~cuda: cpu
         blaspp:
           suffixes:
-            blaspp~rocm: cpu
+            blaspp~cuda: cpu
         boost:
           suffixes:
             boost cxxstd=17: cxx17
         camp:
           suffixes:
-            camp~rocm: cpu
+            camp~cuda: cpu
         chai:
           suffixes:
-            chai~rocm: cpu
+            chai~cuda: cpu
         fftw:
           conflict: []
           environment:
@@ -52,7 +52,7 @@ spack:
             fftw+openmp: omp
         ginkgo:
           suffixes:
-            ginkgo~rocm: cpu
+            ginkgo~cuda: cpu
         hdf5:
           conflict: []
           environment:
