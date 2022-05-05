@@ -1,5 +1,5 @@
-# spack/develop b00983439fc3f11365664853d80cb7f497fd88a6
-# Thu Apr 21 21:34:26 2022 -0600
+# spack/develop e88396e5edf2bb50776985b4db0e358e95ee1df2
+# Thu May 5 10:12:21 2022 -0500
 
 spack:
   view: false
@@ -59,6 +59,20 @@ spack:
     xz:
       variants: +pic
 
+    # FACILITY REQUESTED PREFERENCES
+    petsc:
+      variants: +batch
+    parallel-netcdf:
+      variants: +cxx +fortran +fpic
+    netlib-scalapack:
+      variants: +fpic
+    netcdf-c:
+      variants: ~hdf4 +mpi +parallel-netcdf +shared
+    fftw:
+      variants: precision=float,double,long_double
+    darshan-runtime:
+      variants: scheduler=slurm
+
     # FACILITY EXTERNALS
     cray-mpich:
       buildable: false
@@ -79,20 +93,6 @@ spack:
       externals:
       - spec: slurm@21.08.6
         prefix: /usr
-
-    # FROM J FINNEY
-    petsc:
-      variants: +batch
-    parallel-netcdf:
-      variants: +cxx +fortran +fpic
-    netlib-scalapack:
-      variants: +fpic
-    netcdf-c:
-      variants: ~hdf4 +mpi +parallel-netcdf +shared
-    fftw:
-      variants: precision=float,double,long_double
-    darshan-runtime:
-      variants: scheduler=slurm
 
     # ROCm 5.1.0
     comgr:
@@ -395,7 +395,7 @@ spack:
   # - cabana +rocm                                # g++: error: unrecognized command-line option '-fno-gpu-rdc' (https://github.com/spack/spack/issues/27967)
   # - hpx +rocm amdgpu_target=gfx90a              # rocm@5.1.0 issue (no problems w 4.5.2); asio/require.hpp:412:3: error: dynamic initialization is not supported for __device__
   # - vtk-m +rocm amdgpu_target=gfx90a            # vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
-  # NON-SPECIFIC FAILURES
+  # FAILURES KNOWN AT RELEASE TIME
   # CONCRETIZATION
   # - hpctoolkit +rocm                            # INFO: Not ROCmPackage
   # - papi +rocm amdgpu_target=gfx90a             # https://github.com/spack/spack/issues/27898
