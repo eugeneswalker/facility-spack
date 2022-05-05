@@ -1,18 +1,5 @@
 # spack/develop b00983439fc3f11365664853d80cb7f497fd88a6
 # Thu Apr 21 21:34:26 2022 -0600
-#
-# builds OK, as of 
-#  cpu_specs: 
-#  rocm_specs: 
-#
-# inherent conflicts:
-#  (1) libnrm (cray-mpich)
-#
-# skipped for Crusher:
-#  (3) flux-core, nvhpc, openmpi
-#
-# common failures:
-#
 
 spack:
   view: false
@@ -43,7 +30,9 @@ spack:
       compiler: [gcc@11.2.0]
       providers:
         blas: [openblas]
+        lapack: [openblas]
         mpi: [cray-mpich]
+        scalapack: [netlib-scalapack]
       target: [zen3]
       variants: +mpi
     binutils:
@@ -70,7 +59,7 @@ spack:
     xz:
       variants: +pic
 
-    # CRUSHER EXTERNALS
+    # FACILITY EXTERNALS
     cray-mpich:
       buildable: false
       externals:
@@ -90,6 +79,20 @@ spack:
       externals:
       - spec: slurm@21.08.6
         prefix: /usr
+
+    # FROM J FINNEY
+    petsc:
+      variants: +batch
+    parallel-netcdf:
+      variants: +cxx +fortran +fpic
+    netlib-scalapack:
+      variants: +fpic
+    netcdf-c:
+      variants: ~hdf4 +mpi +parallel-netcdf +shared
+    fftw:
+      variants: precision=float,double,long_double
+    darshan-runtime:
+      variants: scheduler=slurm
 
     # ROCm 5.1.0
     comgr:
