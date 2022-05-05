@@ -27,10 +27,12 @@ spack:
     default:
       enable:: [tcl]
       tcl:
-        hash_length: 3
+        blacklist_implicits: true
+        hash_length: 0
         naming_scheme: '{name}/{version}-{compiler.name}-{compiler.version}'
         blacklist: []
         all:
+          autoload: direct
           conflict:
           - '{name}'
           environment:
@@ -44,7 +46,6 @@ spack:
             ^mpich: mpi
         verbose: false
         whitelist: []
-        blacklist_implicits: true
         projections: {}
         boost:
           suffixes:
@@ -77,7 +78,6 @@ spack:
             dims=2: dims2
             dims=3: dims3
             dims=rz: dimsRZ
-        blacklist_implicits: true
         verbose: true
         whitelist: []
         blacklist: []
