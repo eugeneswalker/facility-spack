@@ -1,5 +1,5 @@
-# spack/develop 2515cafb9c60851d5b218d1262212034f5606869
-# Wed Apr 27 16:08:33 2022 -0700
+# spack/develop 27462bc982b10766e75a25539d4b203c16c23d87
+# Fri May 6 07:23:12 2022 -0700
 
 spack:
   view: false
@@ -105,7 +105,7 @@ spack:
       - spec: ncurses@6.2 ~symlinks +termlib %cce@13.0.0 
         prefix: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5
 
-    # FROM J FINNEY
+    # FACILITY PACKAGE PREFERENCES
     petsc:
       variants: +batch
     parallel-netcdf:
