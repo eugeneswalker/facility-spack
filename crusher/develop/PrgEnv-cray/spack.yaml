@@ -100,12 +100,12 @@ spack:
       externals:
       - spec: slurm@21.08.6
         prefix: /usr
+
+    # FACILITY PACKAGE PREFERENCES
     ncurses:
       externals:
       - spec: ncurses@6.2 ~symlinks +termlib %cce@13.0.0 
         prefix: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5
-
-    # FACILITY PACKAGE PREFERENCES
     petsc:
       variants: +batch
     parallel-netcdf:
