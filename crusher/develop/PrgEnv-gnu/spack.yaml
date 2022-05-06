@@ -492,7 +492,6 @@ spack:
     - mfem +rocm amdgpu_target=gfx90a
     - petsc +rocm amdgpu_target=gfx90a
     - raja ~openmp +rocm amdgpu_target=gfx90a
-    - slate +rocm amdgpu_target=gfx90a
     - slepc +rocm amdgpu_target=gfx90a ^petsc +rocm amdgpu_target=gfx90a
     - strumpack ~slate +rocm amdgpu_target=gfx90a
     - sundials +rocm amdgpu_target=gfx90a
@@ -504,6 +503,7 @@ spack:
   # - hpx +rocm amdgpu_target=gfx90a              # rocm@5.1.0 issue (no problems w 4.5.2); asio/require.hpp:412:3: error: dynamic initialization is not supported for __device__
   # - vtk-m +rocm amdgpu_target=gfx90a            # vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
   # FAILURES KNOWN AT RELEASE TIME
+  # - slate +rocm amdgpu_target=gfx90a            # https://github.com/spack/spack/issues/30489
   # CONCRETIZATION
   # - hpctoolkit +rocm                            # INFO: Not ROCmPackage
   # - papi +rocm amdgpu_target=gfx90a             # https://github.com/spack/spack/issues/27898
