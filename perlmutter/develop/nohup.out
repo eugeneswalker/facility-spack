@@ -1,0 +1,96 @@
+==> Installing environment /global/cfs/cdirs/m3503/ParaTools/E4S/develop
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libiconv-1.16-l4kbzvfipqrntybop73s6hhtyif53ysm
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libmd-1.0.4-bayap72hfgxq4q2ect3ooprigtdydw76
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/pkgconf-1.8.0-kiw5m6f32d3hodo632qfgetsjk6vms7w
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/xz-5.2.5-bhh4n32g2kftqtkzhe6e6b4fyzynw7dz
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/zlib-1.2.12-wuz4wcu3cc4e724xytidufj5sxmxizcy
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libffi-3.4.2-4hs54q4ocptkn5ggst66wjv6toih66nt
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/berkeley-db-18.1.40-xvr7zsb5eira5zo2euofbchzubhfvcqe
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/diffutils-3.8-qcu64aehyqk7qaidf6c645nlsf5qhbwt
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/tar-1.34-zj74im4cmlqf4hpeenfycxo7n5dticxs
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libbsd-0.11.5-ephgjmchmzub6vm6fq6kygil2wrbkp7o
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/util-linux-uuid-2.37.4-rx6kqlxadumjjssx6nntpyiv2qhyhmb5
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ncurses-6.2-mosh6nmbbjokybgxfpknp2djyx3so5vq
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libxml2-2.9.13-afewmqtlhlwzcvah5sph7v5ulwhrnkda
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/bzip2-1.0.8-4p4fezveyvorxzc42lkztmspzmfybu3u
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/expat-2.4.8-2k6dwbzsbiolelhcekjnetfc24fqtl6y
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/readline-8.1-7yy5f3dolsch26sf3m6ydxpvaocan3rp
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gettext-0.21-rrbl34qoxxghuxmom3d7jfz5blhkxwf6
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gdbm-1.19-hsxhljdpo6qudla2hxlej3kwbkrzprmf
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/sqlite-3.38.3-ypieq774mw2tiv4ed45atyarhv43gsds
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/perl-5.34.1-vhuvgqtsr4kegxetp3tot747cxeepnbj
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openssl-1.1.1n-srtfijhtn3wdtoi3q6j7gdqea5lmlj4m
+[+] /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/python-3.8.12-veguois53lzdpcat2ir7r2ghd7dm3hu2
+==> Installing upcxx-2022.3.0-xsw7oi5qffpt3dro2bcnwdbxbzmfmekq
+==> No binary for upcxx-2022.3.0-xsw7oi5qffpt3dro2bcnwdbxbzmfmekq found: installing from source
+==> Using cached archive: /global/cfs/cdirs/m3503/ParaTools/E4S/develop/spack/var/spack/cache/_source-cache/archive/72/72bccfc9dfab5c2351ee964232b3754957ecfdbe6b4de640e1b1387d45019496.tar.gz
+==> No patches needed for upcxx
+==> upcxx: Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j12'
+
+11 errors found in build log:
+     231    checking for unistd.h... checking for unistd.h... yes
+     232    yes
+     233    checking size of void *... checking size of void *... 8
+     234    8
+     235    checking for C compiler flag --param max-inline-insns-single=35000... checking for C compiler flag --param max-inline-insns-single=35000... yes
+     236    yes
+  >> 237    checking for C compiler flag --param max-inline-insns=100000... checking for C compiler flag --param max-inline-insns=100000... no/error: gcc: error: unrecognized com
+            mand-line option '--param=max-inline-insns=100000'; did you mean '--param=max-inline-insns-auto='?
+  >> 238    no/error: gcc: error: unrecognized command-line option '--param=max-inline-insns=100000'; did you mean '--param=max-inline-insns-auto='?
+     239    checking for C compiler flag --param inline-unit-growth=10000... checking for C compiler flag --param inline-unit-growth=10000... yes
+     240    yes
+     241    checking for C compiler flag --param large-function-growth=200000... checking for C compiler flag --param large-function-growth=200000... yes
+     242    checking for C compiler flag -Winline... yes
+     243    checking for C compiler flag -Winline... yes
+     244    checking for buggy -Winline... yes
+
+     ...
+
+     839    checking for OFI_LDFLAGS setting...        (default)  "-L/opt/cray/libfabric/1.11.0.4.114/lib64 -Wl,-rpath,/opt/cray/libfabric/1.11.0.4.114/lib64"
+     840    checking for working OFI GASNet bindings... no
+     841    checking for PMI spawner support... no
+     842    
+     843    configure error: Requested PMI version cray could not be found
+     844    
+  >> 845    configure: error: See /tmp/lpeyrala/spack-stage/spack-stage-upcxx-2022.3.0-xsw7oi5qffpt3dro2bcnwdbxbzmfmekq/spack-src/bld/gasnet.opt/config.log for details.
+     846    yes
+     847    checking for appropriate atomics support required by ofi-conduit... yes
+  >> 848    make[3]: *** [Makefile:101: do-gasnet-configure] Error 1
+  >> 849    make[2]: *** [Makefile:172: do-gasnet-configure-opt] Error 2
+     850    make[2]: *** Waiting for unfinished jobs....
+     851    configure: WARNING: ofi-conduit is still experimental, and may have performance and correctness bugs.
+     852    checking for sys/socket.h... (cached) yes
+     853    checking sys/sockio.h usability... no
+     854    checking sys/sockio.h presence... no
+     855    checking for sys/sockio.h... no
+
+     ...
+
+     869    checking for PMI_Get_nidlist_ptr in -lpmi2... no
+     870    checking for PMI_Get_nidlist_ptr in -lpmi... no
+     871    checking for PMI spawner support... no
+     872    
+     873    configure error: Requested PMI version cray could not be found
+     874    
+  >> 875    configure: error: See /tmp/lpeyrala/spack-stage/spack-stage-upcxx-2022.3.0-xsw7oi5qffpt3dro2bcnwdbxbzmfmekq/spack-src/bld/gasnet.debug/config.log for details.
+  >> 876    make[3]: *** [Makefile:101: do-gasnet-configure] Error 1
+  >> 877    make[2]: *** [Makefile:174: do-gasnet-configure-debug] Error 2
+  >> 878    make[1]: *** [Makefile:633: all] Error 2
+     879    ********
+     880    UPC++ build failed.
+     881    Please examine the log above for intructions which may resolve this problem.
+     882    Please try again without '-j12', which may resolve the problem or at least produce clearer messages.
+     883    If you still cannot resolve this problem, then please report the ENTIRE output to: upcxx@googlegroups.com
+     884    ********
+  >> 885    make[1]: *** [/tmp/lpeyrala/spack-stage/spack-stage-upcxx-2022.3.0-xsw7oi5qffpt3dro2bcnwdbxbzmfmekq/spack-src/bld/Makefile.rules:110: failure] Error 1
+  >> 886    make: *** [/tmp/lpeyrala/spack-stage/spack-stage-upcxx-2022.3.0-xsw7oi5qffpt3dro2bcnwdbxbzmfmekq/spack-src/bld/Makefile.rules:62: all] Error 2
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-upcxx-2022.3.0-xsw7oi5qffpt3dro2bcnwdbxbzmfmekq/spack-build-out.txt
+
+
+real	0m58.105s
+user	0m55.869s
+sys	0m27.782s
