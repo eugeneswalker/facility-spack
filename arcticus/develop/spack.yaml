@@ -201,7 +201,6 @@ spack:
     - nco
     - netlib-scalapack
     - ninja
-    - nvhpc
     - papi
     - papyrus
     - parallel-netcdf
@@ -261,6 +260,7 @@ spack:
   # - unifyfs # mercury: Could NOT find MPI (missing: MPI_C_FOUND)
     # NOT RELEVANT ON FACILITY
   # - flux-core
+  # - nvhpc
   # - openmpi
     # FAILURES KNOWN AT RELEASE TIME
   # - dealii
