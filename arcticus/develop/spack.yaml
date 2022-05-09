@@ -229,7 +229,7 @@ spack:
     # CONFLICTS
   # - gptune # depends on openmpi
     # FAILURES
-  # - adios2 # 
+  # - adios2 # /usr/bin/ld: ../../lib64/libadios2_fortran.so.2.8.0: version node not found for symbol adios2_adios_init_mod@adios2_adios_init_serial_smod._
   # - archer # binutils
   # - axom # /usr/bin/ld: /usr/lib/../lib64/crt1.o: in function `_start':
   # - butterflypack # SRC_SINGLE/sMAGMA_utilities.f90(8): warning #5117: Bad # preprocessor line #include "ButterflyPACK_config.fi"
