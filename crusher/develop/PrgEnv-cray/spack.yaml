@@ -106,11 +106,6 @@ spack:
         prefix: /usr
 
     # FACILITY PACKAGE PREFERENCES
-    openssl:
-      buildable: false
-      externals:
-      - spec: openssl@1.1.1n ~docs ~shared certs=system %cce@13.0.0
-        prefix: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/openssl-1.1.1n-ywgio6z6dmcyxlu6raprgckivzfk7kg6
     ncurses:
       externals:
       - spec: ncurses@6.2 ~symlinks +termlib %cce@13.0.0 
