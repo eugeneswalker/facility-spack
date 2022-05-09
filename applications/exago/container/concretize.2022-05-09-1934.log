@@ -1,0 +1,216 @@
+==> Starting concretization pool with 4 processes
+==> Environment concretized in 16.00 seconds.
+==> Concretized exago@1.4.1+hiop~ipopt+mpi+python~raja+rocm amdgpu_target=gfx90a
+ -   gsqzaff  exago@1.4.1%gcc@11.1.0~cuda+hiop~ipo~ipopt+mpi+python~raja+rocm amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   n2yk46c      ^cmake@3.23.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   3q2u23f          ^ncurses@6.2%gcc@11.1.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+ -   l32w2ng              ^pkgconf@1.8.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   o3xh65q          ^openssl@1.1.1n%gcc@11.1.0~docs~shared certs=system arch=linux-ubuntu20.04-x86_64
+ -   7tfv3dc              ^perl@5.34.1%gcc@11.1.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64
+ -   n56hned                  ^berkeley-db@18.1.40%gcc@11.1.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64
+ -   er5k4wt                  ^bzip2@1.0.8%gcc@11.1.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+ -   wo7wdk3                      ^diffutils@3.8%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   qnmvhfn                          ^libiconv@1.16%gcc@11.1.0 libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   q73e6y3                  ^gdbm@1.19%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   q2tfszp                      ^readline@8.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   4fqlrsm                  ^zlib@1.2.12%gcc@11.1.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu20.04-x86_64
+ -   fueruuu      ^hiop@0.6.1%gcc@11.1.0~cuda~cusolver~deepchecking~ginkgo~ipo~jsrun~kron+mpi~raja+rocm~shared~sparse amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   nz54j42          ^hip@5.1.1%gcc@11.1.0~ipo build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   wxjcly6          ^hipblas@5.1.1%gcc@11.1.0~ipo build_type=Release patches=0100382 arch=linux-ubuntu20.04-x86_64
+ -   fmfuxwg          ^hipsparse@5.1.1%gcc@11.1.0~ipo build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   xls6ptg          ^hsa-rocr-dev@5.1.1%gcc@11.1.0+image~ipo+shared build_type=Release patches=71e6851 arch=linux-ubuntu20.04-x86_64
+ -   lrigmvs          ^llvm-amdgpu@5.1.1%gcc@11.1.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   pmrs6h4          ^magma@2.6.2%gcc@11.1.0~cuda+fortran~ipo+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   wxywckr              ^openblas@0.3.20%gcc@11.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-ubuntu20.04-x86_64
+ -   irnmbi7          ^mpich@4.0.2%gcc@11.1.0~argobots~cuda+fortran+hwloc+hydra+libxml2+pci+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-ubuntu20.04-x86_64
+ -   eq3qebg              ^findutils@4.9.0%gcc@11.1.0 patches=440b954 arch=linux-ubuntu20.04-x86_64
+ -   zwwpry2              ^hwloc@2.7.1%gcc@11.1.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=linux-ubuntu20.04-x86_64
+ -   oqllgky                  ^libpciaccess@0.16%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   l26stqq                      ^libtool@2.4.7%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   v66vcke                          ^m4@1.4.19%gcc@11.1.0+sigsegv patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+ -   c7og75o                              ^libsigsegv@2.13%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   ov6i6jg                      ^util-macros@1.19.3%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   wpmgn3o                  ^libxml2@2.9.13%gcc@11.1.0~python arch=linux-ubuntu20.04-x86_64
+ -   hcbat4k                      ^xz@5.2.5%gcc@11.1.0+pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   cw4man4              ^libfabric@1.14.1%gcc@11.1.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu20.04-x86_64
+ -   emysjqj      ^petsc@3.16.6%gcc@11.1.0~X~batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C arch=linux-ubuntu20.04-x86_64
+ -   nk7a54d          ^hdf5@1.12.2%gcc@11.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   3g6ykvr          ^hypre@2.24.0%gcc@11.1.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=linux-ubuntu20.04-x86_64
+ -   mffh6rt          ^metis@5.1.0%gcc@11.1.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=linux-ubuntu20.04-x86_64
+ -   q5id6gq          ^parmetis@4.0.3%gcc@11.1.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=linux-ubuntu20.04-x86_64
+ -   kubrhwv          ^python@3.8.12%gcc@11.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060 arch=linux-ubuntu20.04-x86_64
+ -   jik6sl4              ^expat@2.4.8%gcc@11.1.0+libbsd arch=linux-ubuntu20.04-x86_64
+ -   vgxft26                  ^libbsd@0.11.5%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   mz4vout                      ^libmd@1.0.4%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   w3seffc              ^gettext@0.21%gcc@11.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-ubuntu20.04-x86_64
+ -   klgel4y                  ^tar@1.34%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   t2pde6h              ^libffi@3.4.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   sg4hb4m              ^sqlite@3.38.3%gcc@11.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-ubuntu20.04-x86_64
+ -   vcg2y5m              ^util-linux-uuid@2.37.4%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   63kslbk          ^superlu-dist@7.2.0%gcc@11.1.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=linux-ubuntu20.04-x86_64
+ -   ct23x7b      ^py-mpi4py@3.1.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   dylih4y          ^py-pip@21.3.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   x7qrqqs          ^py-setuptools@59.4.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   6utctd2              ^py-wheel@0.37.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized exago@1.4.1+hiop~ipopt+mpi+python+raja+rocm amdgpu_target=gfx90a
+ -   v72bjiv  exago@1.4.1%gcc@11.1.0~cuda+hiop~ipo~ipopt+mpi+python+raja+rocm amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   osl5lkv      ^cmake@3.20.6%gcc@11.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   3q2u23f          ^ncurses@6.2%gcc@11.1.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+ -   l32w2ng              ^pkgconf@1.8.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   o3xh65q          ^openssl@1.1.1n%gcc@11.1.0~docs~shared certs=system arch=linux-ubuntu20.04-x86_64
+ -   7tfv3dc              ^perl@5.34.1%gcc@11.1.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64
+ -   n56hned                  ^berkeley-db@18.1.40%gcc@11.1.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64
+ -   er5k4wt                  ^bzip2@1.0.8%gcc@11.1.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+ -   wo7wdk3                      ^diffutils@3.8%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   qnmvhfn                          ^libiconv@1.16%gcc@11.1.0 libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   q73e6y3                  ^gdbm@1.19%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   q2tfszp                      ^readline@8.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   4fqlrsm                  ^zlib@1.2.12%gcc@11.1.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu20.04-x86_64
+ -   4jnc4f4      ^hiop@0.6.1%gcc@11.1.0~cuda~cusolver~deepchecking~ginkgo~ipo~jsrun~kron+mpi+raja+rocm~shared~sparse amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   nz54j42          ^hip@5.1.1%gcc@11.1.0~ipo build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   wxjcly6          ^hipblas@5.1.1%gcc@11.1.0~ipo build_type=Release patches=0100382 arch=linux-ubuntu20.04-x86_64
+ -   fmfuxwg          ^hipsparse@5.1.1%gcc@11.1.0~ipo build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   xls6ptg          ^hsa-rocr-dev@5.1.1%gcc@11.1.0+image~ipo+shared build_type=Release patches=71e6851 arch=linux-ubuntu20.04-x86_64
+ -   lrigmvs          ^llvm-amdgpu@5.1.1%gcc@11.1.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   pmrs6h4          ^magma@2.6.2%gcc@11.1.0~cuda+fortran~ipo+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   wxywckr              ^openblas@0.3.20%gcc@11.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-ubuntu20.04-x86_64
+ -   irnmbi7          ^mpich@4.0.2%gcc@11.1.0~argobots~cuda+fortran+hwloc+hydra+libxml2+pci+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-ubuntu20.04-x86_64
+ -   eq3qebg              ^findutils@4.9.0%gcc@11.1.0 patches=440b954 arch=linux-ubuntu20.04-x86_64
+ -   zwwpry2              ^hwloc@2.7.1%gcc@11.1.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=linux-ubuntu20.04-x86_64
+ -   oqllgky                  ^libpciaccess@0.16%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   l26stqq                      ^libtool@2.4.7%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   v66vcke                          ^m4@1.4.19%gcc@11.1.0+sigsegv patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+ -   c7og75o                              ^libsigsegv@2.13%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   ov6i6jg                      ^util-macros@1.19.3%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   wpmgn3o                  ^libxml2@2.9.13%gcc@11.1.0~python arch=linux-ubuntu20.04-x86_64
+ -   hcbat4k                      ^xz@5.2.5%gcc@11.1.0+pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   cw4man4              ^libfabric@1.14.1%gcc@11.1.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu20.04-x86_64
+ -   hn6rrvk          ^raja@0.14.0%gcc@11.1.0~cuda+examples+exercises~ipo~openmp+rocm+shared~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   vlqma4n              ^blt@0.4.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   w2e3zwg              ^camp@0.2.2%gcc@11.1.0~cuda~ipo+rocm~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   uadkpof          ^umpire@6.0.0%gcc@11.1.0+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo tests=none arch=linux-ubuntu20.04-x86_64
+ -   emysjqj      ^petsc@3.16.6%gcc@11.1.0~X~batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C arch=linux-ubuntu20.04-x86_64
+ -   nk7a54d          ^hdf5@1.12.2%gcc@11.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   3g6ykvr          ^hypre@2.24.0%gcc@11.1.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=linux-ubuntu20.04-x86_64
+ -   mffh6rt          ^metis@5.1.0%gcc@11.1.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=linux-ubuntu20.04-x86_64
+ -   q5id6gq          ^parmetis@4.0.3%gcc@11.1.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=linux-ubuntu20.04-x86_64
+ -   kubrhwv          ^python@3.8.12%gcc@11.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060 arch=linux-ubuntu20.04-x86_64
+ -   jik6sl4              ^expat@2.4.8%gcc@11.1.0+libbsd arch=linux-ubuntu20.04-x86_64
+ -   vgxft26                  ^libbsd@0.11.5%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   mz4vout                      ^libmd@1.0.4%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   w3seffc              ^gettext@0.21%gcc@11.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-ubuntu20.04-x86_64
+ -   klgel4y                  ^tar@1.34%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   t2pde6h              ^libffi@3.4.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   sg4hb4m              ^sqlite@3.38.3%gcc@11.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-ubuntu20.04-x86_64
+ -   vcg2y5m              ^util-linux-uuid@2.37.4%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   63kslbk          ^superlu-dist@7.2.0%gcc@11.1.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=linux-ubuntu20.04-x86_64
+ -   ct23x7b      ^py-mpi4py@3.1.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   dylih4y          ^py-pip@21.3.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   x7qrqqs          ^py-setuptools@59.4.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   6utctd2              ^py-wheel@0.37.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized hiop@0.6.1+kron+mpi+raja+rocm~sparse amdgpu_target=gfx90a
+ -   ejqgldm  hiop@0.6.1%gcc@11.1.0~cuda~cusolver~deepchecking~ginkgo~ipo~jsrun+kron+mpi+raja+rocm~shared~sparse amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   osl5lkv      ^cmake@3.20.6%gcc@11.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   3q2u23f          ^ncurses@6.2%gcc@11.1.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+ -   l32w2ng              ^pkgconf@1.8.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   o3xh65q          ^openssl@1.1.1n%gcc@11.1.0~docs~shared certs=system arch=linux-ubuntu20.04-x86_64
+ -   7tfv3dc              ^perl@5.34.1%gcc@11.1.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64
+ -   n56hned                  ^berkeley-db@18.1.40%gcc@11.1.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64
+ -   er5k4wt                  ^bzip2@1.0.8%gcc@11.1.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+ -   wo7wdk3                      ^diffutils@3.8%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   qnmvhfn                          ^libiconv@1.16%gcc@11.1.0 libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   q73e6y3                  ^gdbm@1.19%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   q2tfszp                      ^readline@8.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   4fqlrsm                  ^zlib@1.2.12%gcc@11.1.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu20.04-x86_64
+ -   nz54j42      ^hip@5.1.1%gcc@11.1.0~ipo build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   wxjcly6      ^hipblas@5.1.1%gcc@11.1.0~ipo build_type=Release patches=0100382 arch=linux-ubuntu20.04-x86_64
+ -   fmfuxwg      ^hipsparse@5.1.1%gcc@11.1.0~ipo build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   xls6ptg      ^hsa-rocr-dev@5.1.1%gcc@11.1.0+image~ipo+shared build_type=Release patches=71e6851 arch=linux-ubuntu20.04-x86_64
+ -   lrigmvs      ^llvm-amdgpu@5.1.1%gcc@11.1.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   pmrs6h4      ^magma@2.6.2%gcc@11.1.0~cuda+fortran~ipo+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   wxywckr          ^openblas@0.3.20%gcc@11.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-ubuntu20.04-x86_64
+ -   irnmbi7      ^mpich@4.0.2%gcc@11.1.0~argobots~cuda+fortran+hwloc+hydra+libxml2+pci+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-ubuntu20.04-x86_64
+ -   eq3qebg          ^findutils@4.9.0%gcc@11.1.0 patches=440b954 arch=linux-ubuntu20.04-x86_64
+ -   zwwpry2          ^hwloc@2.7.1%gcc@11.1.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=linux-ubuntu20.04-x86_64
+ -   oqllgky              ^libpciaccess@0.16%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   l26stqq                  ^libtool@2.4.7%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   v66vcke                      ^m4@1.4.19%gcc@11.1.0+sigsegv patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+ -   c7og75o                          ^libsigsegv@2.13%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   ov6i6jg                  ^util-macros@1.19.3%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   wpmgn3o              ^libxml2@2.9.13%gcc@11.1.0~python arch=linux-ubuntu20.04-x86_64
+ -   hcbat4k                  ^xz@5.2.5%gcc@11.1.0+pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   cw4man4          ^libfabric@1.14.1%gcc@11.1.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu20.04-x86_64
+ -   hn6rrvk      ^raja@0.14.0%gcc@11.1.0~cuda+examples+exercises~ipo~openmp+rocm+shared~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   vlqma4n          ^blt@0.4.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   w2e3zwg          ^camp@0.2.2%gcc@11.1.0~cuda~ipo+rocm~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   wh3boms      ^suite-sparse@5.10.1%gcc@11.1.0~cuda~graphblas~openmp+pic~tbb arch=linux-ubuntu20.04-x86_64
+ -   s2bzxms          ^gmp@6.2.1%gcc@11.1.0 libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   6qfyuxs              ^autoconf@2.69%gcc@11.1.0 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+ -   ejtjwn3              ^automake@1.16.5%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   mffh6rt          ^metis@5.1.0%gcc@11.1.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=linux-ubuntu20.04-x86_64
+ -   caiwbk6          ^mpfr@4.1.0%gcc@11.1.0 libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   pezf23u              ^autoconf-archive@2022.02.11%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   7hyra5f              ^texinfo@6.5%gcc@11.1.0 patches=12f6edb,1732115 arch=linux-ubuntu20.04-x86_64
+ -   uadkpof      ^umpire@6.0.0%gcc@11.1.0+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo tests=none arch=linux-ubuntu20.04-x86_64
+
+==> Concretized exago@1.4.1+hiop+ipopt+mpi+python+raja+rocm amdgpu_target=gfx90a ^hiop@0.6.1
+ -   i33l7cr  exago@1.4.1%gcc@11.1.0~cuda+hiop~ipo+ipopt+mpi+python+raja+rocm amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   osl5lkv      ^cmake@3.20.6%gcc@11.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   3q2u23f          ^ncurses@6.2%gcc@11.1.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+ -   l32w2ng              ^pkgconf@1.8.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   o3xh65q          ^openssl@1.1.1n%gcc@11.1.0~docs~shared certs=system arch=linux-ubuntu20.04-x86_64
+ -   7tfv3dc              ^perl@5.34.1%gcc@11.1.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64
+ -   n56hned                  ^berkeley-db@18.1.40%gcc@11.1.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64
+ -   er5k4wt                  ^bzip2@1.0.8%gcc@11.1.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+ -   wo7wdk3                      ^diffutils@3.8%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   qnmvhfn                          ^libiconv@1.16%gcc@11.1.0 libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   q73e6y3                  ^gdbm@1.19%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   q2tfszp                      ^readline@8.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   4fqlrsm                  ^zlib@1.2.12%gcc@11.1.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu20.04-x86_64
+ -   4jnc4f4      ^hiop@0.6.1%gcc@11.1.0~cuda~cusolver~deepchecking~ginkgo~ipo~jsrun~kron+mpi+raja+rocm~shared~sparse amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   nz54j42          ^hip@5.1.1%gcc@11.1.0~ipo build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   wxjcly6          ^hipblas@5.1.1%gcc@11.1.0~ipo build_type=Release patches=0100382 arch=linux-ubuntu20.04-x86_64
+ -   fmfuxwg          ^hipsparse@5.1.1%gcc@11.1.0~ipo build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   xls6ptg          ^hsa-rocr-dev@5.1.1%gcc@11.1.0+image~ipo+shared build_type=Release patches=71e6851 arch=linux-ubuntu20.04-x86_64
+ -   lrigmvs          ^llvm-amdgpu@5.1.1%gcc@11.1.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=linux-ubuntu20.04-x86_64
+ -   pmrs6h4          ^magma@2.6.2%gcc@11.1.0~cuda+fortran~ipo+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   wxywckr              ^openblas@0.3.20%gcc@11.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=linux-ubuntu20.04-x86_64
+ -   irnmbi7          ^mpich@4.0.2%gcc@11.1.0~argobots~cuda+fortran+hwloc+hydra+libxml2+pci+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=linux-ubuntu20.04-x86_64
+ -   eq3qebg              ^findutils@4.9.0%gcc@11.1.0 patches=440b954 arch=linux-ubuntu20.04-x86_64
+ -   zwwpry2              ^hwloc@2.7.1%gcc@11.1.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=linux-ubuntu20.04-x86_64
+ -   oqllgky                  ^libpciaccess@0.16%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   l26stqq                      ^libtool@2.4.7%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   v66vcke                          ^m4@1.4.19%gcc@11.1.0+sigsegv patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+ -   c7og75o                              ^libsigsegv@2.13%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   ov6i6jg                      ^util-macros@1.19.3%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   wpmgn3o                  ^libxml2@2.9.13%gcc@11.1.0~python arch=linux-ubuntu20.04-x86_64
+ -   hcbat4k                      ^xz@5.2.5%gcc@11.1.0+pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   cw4man4              ^libfabric@1.14.1%gcc@11.1.0~debug~kdreg fabrics=rxm,sockets,tcp,udp arch=linux-ubuntu20.04-x86_64
+ -   hn6rrvk          ^raja@0.14.0%gcc@11.1.0~cuda+examples+exercises~ipo~openmp+rocm+shared~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   vlqma4n              ^blt@0.4.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   w2e3zwg              ^camp@0.2.2%gcc@11.1.0~cuda~ipo+rocm~tests amdgpu_target=gfx90a build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   uadkpof          ^umpire@6.0.0%gcc@11.1.0+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo tests=none arch=linux-ubuntu20.04-x86_64
+ -   ylv6s7j      ^ipopt@3.14.5%gcc@11.1.0~coinhsl~debug~metis+mumps arch=linux-ubuntu20.04-x86_64
+ -   jtx6psn          ^mumps@5.4.1%gcc@11.1.0~blr_mt+complex+double+float~incfort~int64~metis~mpi+openmp~parmetis~ptscotch~scotch+shared patches=1946864 arch=linux-ubuntu20.04-x86_64
+ -   emysjqj      ^petsc@3.16.6%gcc@11.1.0~X~batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C arch=linux-ubuntu20.04-x86_64
+ -   nk7a54d          ^hdf5@1.12.2%gcc@11.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+ -   3g6ykvr          ^hypre@2.24.0%gcc@11.1.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=linux-ubuntu20.04-x86_64
+ -   mffh6rt          ^metis@5.1.0%gcc@11.1.0~gdb~int64~real64+shared build_type=Release patches=4991da9,b1225da arch=linux-ubuntu20.04-x86_64
+ -   q5id6gq          ^parmetis@4.0.3%gcc@11.1.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=linux-ubuntu20.04-x86_64
+ -   kubrhwv          ^python@3.8.12%gcc@11.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060 arch=linux-ubuntu20.04-x86_64
+ -   jik6sl4              ^expat@2.4.8%gcc@11.1.0+libbsd arch=linux-ubuntu20.04-x86_64
+ -   vgxft26                  ^libbsd@0.11.5%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   mz4vout                      ^libmd@1.0.4%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   w3seffc              ^gettext@0.21%gcc@11.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-ubuntu20.04-x86_64
+ -   klgel4y                  ^tar@1.34%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   t2pde6h              ^libffi@3.4.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   sg4hb4m              ^sqlite@3.38.3%gcc@11.1.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-ubuntu20.04-x86_64
+ -   vcg2y5m              ^util-linux-uuid@2.37.4%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   63kslbk          ^superlu-dist@7.2.0%gcc@11.1.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=linux-ubuntu20.04-x86_64
+ -   ct23x7b      ^py-mpi4py@3.1.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   dylih4y          ^py-pip@21.3.1%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   x7qrqqs          ^py-setuptools@59.4.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+ -   6utctd2              ^py-wheel@0.37.0%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+
