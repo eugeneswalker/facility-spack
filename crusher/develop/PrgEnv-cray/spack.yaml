@@ -320,7 +320,6 @@ spack:
     - ascent                  # vtk-m: vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
     - axom
     - bolt
-    - caliper%cce ^openblas%gcc
     - chai ~benchmarks ~tests
     - charliecloud
     - conduit
@@ -381,6 +380,7 @@ spack:
     - wannier90               # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
     - zfp
     # CONFLICTS
+  # - caliper%cce ^openblas%gcc # issue with mpich concretization
   # - dyninst
   # - hpctoolkit
   # - libnrm                  # explicit depends_on('mpich')
