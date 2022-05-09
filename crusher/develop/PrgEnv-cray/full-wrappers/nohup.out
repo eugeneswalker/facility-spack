@@ -1,0 +1,605 @@
+==> Installing environment /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/full-wrappers
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5 (external ncurses-6.2-xzigy245tvn2rkl72y3ujag5r5pynhi5)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/openssl-1.1.1n-ywgio6z6dmcyxlu6raprgckivzfk7kg6 (external openssl-1.1.1n-kzfdenzzkqjvi4qbgnlxraadswzlm4bz)
+==> cray-mpich@8.1.12 : has external module in ['cray-mpich/8.1.12', 'libfabric/1.15.0.0']
+[+] /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0 (external cray-mpich-8.1.12-gppad7ncigg3tmlavklwgzxvg4wc6jtc)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/berkeley-db-18.1.40-chjv3j6zihlbc45xurkljj4o24jgq2qp
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libiconv-1.16-wpkrou7uadh6kulprzjyppnqz3v2too5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/zlib-1.2.12-ifucpwzuuaxmpdrzhiau62sx5x4ixnor
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libsigsegv-2.13-jebtogj5hvkmjhkraxw2wa6hgbrik2gg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/pkgconf-1.8.0-ymmjxfizjhk64imcm6s7xkrrt3f2mbit
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/util-macros-1.19.3-jkhr4x6bsyx653hcryus24qxuunycpff
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/xz-5.2.5-47wp2tyytbrfdwf72bxdjfu5wuejp7cg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libmd-1.0.4-u4isc5y6oziezpx65ll5lhasl65yrhhz
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libffi-3.4.2-ltok65ba3673cwbb3mimbign5qnrz3iw
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/papi-6.0.0.1-dihqsxydtamgb3u6r5la5giiz2y3pzlr
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5 (external ncurses-6.2-ggjvfhwys5rs3hwpkysba2pf6g5la6ji)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/openssl-1.1.1n-ywgio6z6dmcyxlu6raprgckivzfk7kg6 (external openssl-1.1.1n-3o5u7p7rjz7c7sl7m24x6vwmw7p7edj5)
+==> cray-mpich@8.1.12 : has external module in ['cray-mpich/8.1.12', 'libfabric/1.15.0.0']
+[+] /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0 (external cray-mpich-8.1.12-6zbp2cmod2b226ri6tsp44imkmst2ouv)
+[+] /opt/rocm-5.1.0/hip (external hip-5.1.0-ac5gxaskcubq6vrmfrhx6nmybxryrzbb)
+[+] /opt/rocm-5.1.0/ (external hsa-rocr-dev-5.1.0-pk6ynklwsp4vjipepjhohun3n2bmn3q3)
+[+] /opt/rocm-5.1.0/llvm (external llvm-amdgpu-5.1.0-u6aoiddstx2flvjms7foz6gwctsywhbp)
+[+] /opt/rocm-5.1.0 (external rocthrust-5.1.0-gkg7ai6mus7cv6g7h56yqp4b63raicf5)
+[+] /opt/rocm-5.1.0/hip (external hip-5.1.0-3xoeiitbdewg4eizf5wcernjshxtmuye)
+[+] /opt/rocm-5.1.0/ (external hsa-rocr-dev-5.1.0-bluqqwosx5v3xmzota34sdapvt5xkbc3)
+[+] /opt/rocm-5.1.0/llvm (external llvm-amdgpu-5.1.0-itm7446pkbeqzfo5ldfgwkmkk6bhgmhh)
+[+] /opt/rocm-5.1.0/ (external rocblas-5.1.0-bcioucfe6mv3aynqauxkdvmxsgmx2uqt)
+[+] /opt/rocm-5.1.0/ (external hipblas-5.1.0-coh46o4l6i7s5zgxtxw5765yu2ivo7np)
+[+] /opt/rocm-5.1.0 (external rocsolver-5.1.0-5k6cgrdnuow4wi5pwhj4iycrkn5gx3nh)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/readline-8.1-wi3ognrr5otwpvybz3jd2i5owzel2izx
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-bldcj62xjs6rwiedwi6m7hzhydtumpxp
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libevent-2.1.12-4xjyy4dan2wylkgm56nvus2vfutevhsg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/tar-1.34-vxmhbsnqbvjylsgikg3bp2ddifovvnnq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/diffutils-3.8-pqjoznpttd4t5eae6rrrbbywk5wxsiga
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/m4-1.4.19-ln4lmpa2zhnopvpyo2boir4pw6mwtkrx
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libedit-3.1-20210216-eo76lwqbpqma6zwyhk3s4goo53gxjn2p
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/util-linux-uuid-2.37.4-abyw2ha7orduql5lg6xvyzqh4jaifpnf
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libunwind-1.6.2-o3sezjgawtiwnyo2v6yuaejr7t4wljby
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libxml2-2.9.13-yo2aenadiudlr6y6kzqbp5s65jzapcwg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libbsd-0.11.5-iuuga2ubybrjjntjryaxfyyt52p5xafa
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzgbisxawyuxkmqqgm
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/sqlite-3.38.3-ct23oeikzeophkhvkan4pjfnk43j5t4r
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/gdbm-1.19-zxmxfeoxg3ip3lqawfyzlsrycehyoyuh
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/metis-5.1.0-vy6tvrji35ff3nrdkxhragiiecpvjhim
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/zfp-0.5.5-3ymasvrdmf2jd7bygpeuqaatzsxcabfv
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/bzip2-1.0.8-rm5eeqvgccass3c5ssbjg42t3usp3zz5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libtool-2.4.7-knwerw2wirpl777uiegbfdp2y3axn3ng
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/openssh-9.0p1-l4siq5w4op4b7wfvvpn4te5xo2cs7b4q
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/expat-2.4.8-uyfwqrjl5ckhsowv5n3gvwdsukusjdoi
+==> Installing kokkos-3.6.00-gw2jnsu4pwivqjdfhd4m7nn3doreral4
+==> No binary for kokkos-3.6.00-gw2jnsu4pwivqjdfhd4m7nn3doreral4 found: installing from source
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/53/53b11fffb53c5d48da5418893ac7bc814ca2fde9c86074bdfeaa967598c918f4.tar.gz
+==> No patches needed for kokkos
+==> kokkos: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/kokkos-3.6.00-gw2jnsu4pwivqjdfhd4m7nn3doreral4' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/kokkos-3.6.00-gw2jnsu4pwivqjdfhd4m7nn3doreral4/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/kokkos-3.6.00-gw2jnsu4pwivqjdfhd4m7nn3doreral4/lib64;/opt/rocm-5.1.0/hip/lib;/opt/rocm-5.1.0/lib;/opt/rocm-5.1.0/llvm/lib;/opt/rocm-5.1.0/lib64;/opt/cray/pe/cce/13.0.0/cce-clang/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzgbisxawyuxkmqqgm;/opt/rocm-5.1.0/llvm;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/hip' '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF' '-DKokkos_CXX_STANDARD:STRING=14' '-DBUILD_SHARED_LIBS:BOOL=ON' '-DKokkos_ARCH_ZEN2:BOOL=ON' '-DKokkos_ARCH_VEGA900:BOOL=ON' '-DKokkos_ARCH_VEGA90A:BOOL=ON' '-DKokkos_ENABLE_CUDA:BOOL=OFF' '-DKokkos_ENABLE_OPENMP:BOOL=OFF' '-DKokkos_ENABLE_PTHREAD:BOOL=OFF' '-DKokkos_ENABLE_SERIAL:BOOL=ON' '-DKokkos_ENABLE_HIP:BOOL=ON' '-DKokkos_ENABLE_SYCL:BOOL=OFF' '-DKokkos_ENABLE_AGGRESSIVE_VECTORIZATION:BOOL=OFF' '-DKokkos_ENABLE_COMPILER_WARNINGS:BOOL=OFF' '-DKokkos_ENABLE_CUDA_CONSTEXPR:BOOL=OFF' '-DKokkos_ENABLE_CUDA_LAMBDA:BOOL=OFF' '-DKokkos_ENABLE_CUDA_LDG_INTRINSIC:BOOL=OFF' '-DKokkos_ENABLE_CUDA_RELOCATABLE_DEVICE_CODE:BOOL=OFF' '-DKokkos_ENABLE_CUDA_UVM:BOOL=OFF' '-DKokkos_ENABLE_DEBUG:BOOL=OFF' '-DKokkos_ENABLE_DEBUG_BOUNDS_CHECK:BOOL=OFF' '-DKokkos_ENABLE_DEBUG_DUALVIEW_MODIFY_CHECK:BOOL=OFF' '-DKokkos_ENABLE_DEPRECATED_CODE:BOOL=OFF' '-DKokkos_ENABLE_EXAMPLES:BOOL=OFF' '-DKokkos_ENABLE_EXPLICIT_INSTANTIATION:BOOL=OFF' '-DKokkos_ENABLE_HPX_ASYNC_DISPATCH:BOOL=OFF' '-DKokkos_ENABLE_PROFILING:BOOL=ON' '-DKokkos_ENABLE_TUNING:BOOL=OFF' '-DKokkos_ENABLE_PROFILING_LOAD_PRINT:BOOL=OFF' '-DKokkos_ENABLE_QTHREAD:BOOL=OFF' '-DKokkos_ENABLE_TESTS:BOOL=OFF' '-DKokkos_ENABLE_HPX:BOOL=OFF' '-DKokkos_ENABLE_HWLOC:BOOL=OFF' '-DKokkos_ENABLE_NUMACTL:BOOL=OFF' '-DKokkos_ENABLE_MEMKIND:BOOL=OFF' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.1.0/hip/bin/hipcc' '/tmp/lpeyrala/spack-stage/spack-stage-kokkos-3.6.00-gw2jnsu4pwivqjdfhd4m7nn3doreral4/spack-src'
+
+1 error found in build log:
+     9     -- Detecting CXX compile features
+     10    -- Detecting CXX compile features - done
+     11    -- Setting policy CMP0074 to use <Package>_ROOT variables
+     12    -- The project name is: Kokkos
+     13    -- Compiler Version: 5.1.20531
+     14    -- Using -std=gnu++14 for C++14 extensions as feature
+  >> 15    CMake Error at cmake/kokkos_arch.cmake:468 (MESSAGE):
+     16      Multiple GPU architectures given! Already have VEGA900, but trying to add
+     17      VEGA90A.  If you are re-running CMake, try clearing the cache and running
+     18      again.
+     19    Call Stack (most recent call first):
+     20      cmake/kokkos_arch.cmake:489 (CHECK_AMDGPU_ARCH)
+     21      cmake/kokkos_tribits.cmake:240 (INCLUDE)
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-kokkos-3.6.00-gw2jnsu4pwivqjdfhd4m7nn3doreral4/spack-build-out.txt
+
+==> Warning: Skipping build of arborx-1.2-qrrf4slikvxl2t6ykw7mshaqkxts5mjx since kokkos-3.6.00-gw2jnsu4pwivqjdfhd4m7nn3doreral4 failed
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/kokkos-3.6.00-wf5ra7u2k35d5hfjbtm6vmpddfcsb3ca
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/parmetis-4.0.3-6hrbrffxv33k2ao4tjnil4hjhkdof6rw
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/perl-5.34.1-hbsl26uex4tyo5nhlley5hnhwqcgok27
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/gettext-0.21-zl2mcvwaidd3jwanuytbja67xcqlsxp2
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/elfutils-0.186-sbcmoduwiasgvpkofhckslflwcimpqcs
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libpciaccess-0.16-7fp6auzou3ybwxjkqkztsqi5z2sagp3f
+==> Installing vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc
+==> No binary for vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc found: installing from source
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/7e/7ea3e945110b837a8c2ba49b41e45e1a1d8d0029bb472b291f7674871dbbbb63.tar.gz
+==> No patches needed for vtk-m
+==> vtk-m: Executing phase: 'cmake'
+==> vtk-m: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+6 errors found in build log:
+     510    cd /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k/vtkm/filter && /gpfs/alpine/csc439/world-shared/
+            E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzgbisxawyuxkmqqgm/bin/cmake -E cmake_link_script
+             CMakeFiles/vtkm_filter_gradient.dir/link.txt --verbose=1
+     511    /opt/rocm-5.1.0/llvm/bin/llvm-ar qc ../../lib/libvtkm_filter_gradient-1.7.a CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation0.cxx.o CMakeFiles/vt
+            km_filter_gradient.dir/GradientInstantiation1.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation2.cxx.o CMakeFiles/vtkm_filter_gradient.dir/G
+            radientInstantiation3.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation4.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation5.cx
+            x.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation6.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation7.cxx.o CMakeFiles/vtkm_filt
+            er_gradient.dir/GradientInstantiation8.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation9.cxx.o CMakeFiles/vtkm_filter_gradient.dir/Gradient
+            Instantiation10.cxx.o
+     512    /opt/rocm-5.1.0/llvm/bin/llvm-ranlib ../../lib/libvtkm_filter_gradient-1.7.a
+     513    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k'
+     514    [ 74%] Built target vtkm_filter_gradient
+     515    In file included from /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/particleadvection/Messenger
+            .cxx:15:
+  >> 516    /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/particleadvection/Messenger.h:26:10: fatal error:
+             'mpi.h' file not found
+     517    #include <mpi.h>
+     518             ^~~~~~~
+     519    1 error generated when compiling for gfx90a.
+  >> 520    make[2]: *** [vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/build.make:468: vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/particleadvection/Messenger.cxx.o]
+             Error 1
+     521    make[2]: *** Waiting for unfinished jobs....
+     522    In file included from /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/particleadvection/ParticleM
+            essenger.cxx:11:
+     523    In file included from /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/particleadvection/ParticleM
+            essenger.h:18:
+  >> 524    /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/particleadvection/BoundsMap.h:24:10: fatal error:
+             'mpi.h' file not found
+     525    #include <mpi.h>
+     526             ^~~~~~~
+     527    1 error generated when compiling for gfx90a.
+  >> 528    make[2]: *** [vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/build.make:481: vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/particleadvection/ParticleMessenge
+            r.cxx.o] Error 1
+     529    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k'
+  >> 530    make[1]: *** [CMakeFiles/Makefile2:1696: vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/all] Error 2
+     531    make[1]: *** Waiting for unfinished jobs....
+     532    [ 75%] Linking HIP static library ../../lib/libvtkm_filter_contour-1.7.a
+     533    cd /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k/vtkm/filter && /gpfs/alpine/csc439/world-shared/
+            E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzgbisxawyuxkmqqgm/bin/cmake -P CMakeFiles/vtkm_f
+            ilter_contour.dir/cmake_clean_target.cmake
+     534    cd /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k/vtkm/filter && /gpfs/alpine/csc439/world-shared/
+            E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzgbisxawyuxkmqqgm/bin/cmake -E cmake_link_script
+             CMakeFiles/vtkm_filter_contour.dir/link.txt --verbose=1
+     535    /opt/rocm-5.1.0/llvm/bin/llvm-ar qc ../../lib/libvtkm_filter_contour-1.7.a CMakeFiles/vtkm_filter_contour.dir/Contour.cxx.o CMakeFiles/vtkm_filter_contour
+            .dir/ContourInstantiation0.cxx.o CMakeFiles/vtkm_filter_contour.dir/ContourInstantiation1.cxx.o CMakeFiles/vtkm_filter_contour.dir/ContourInstantiation2.c
+            xx.o CMakeFiles/vtkm_filter_contour.dir/ContourInstantiation3.cxx.o CMakeFiles/vtkm_filter_contour.dir/Slice.cxx.o
+     536    /opt/rocm-5.1.0/llvm/bin/llvm-ranlib ../../lib/libvtkm_filter_contour-1.7.a
+     537    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k'
+     538    [ 75%] Built target vtkm_filter_contour
+     539    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k'
+  >> 540    make: *** [Makefile:159: all] Error 2
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-out.txt
+
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/autoconf-2.69-jay4jmo4taa6phw3wsei2ehwvotxghfx
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/python-3.8.12-zc3pi352eoopgtzrjsmmuclhbcq5paqm
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/hwloc-2.7.1-7fgz2lvkq6cdhs25uffnbeyrjp7qdco6
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/blaspp-2021.04.01-37rvw32fmtrv2cpguhw4rw2nakmruqyz
+==> Installing arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk
+==> No binary for arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk found: installing from source
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/ad/ada5aeb3878874383307239c9235b716a8a170c6d096a6625bfd529844df003d.tar.gz
+==> No patches needed for arpack-ng
+==> arpack-ng: Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+61 errors found in build log:
+     445    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/dsbdr1.dir/EXAMPLES/BAND/dsbdr1.f.o CMa
+            keFiles/dsbdr1.dir/EXAMPLES/BAND/dsband.f.o -o EXAMPLES/BAND/dsbdr1  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvp
+            qwvlkwoo4pnk/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7q
+            cfzerz6zfr6aouxnlpqjusmx6jolsy/lib lib/libarpack.so.2.1.0 /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-z
+            en/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so
+     446    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/dsbdr3.dir/EXAMPLES/BAND/dsbdr3.f.o CMa
+            keFiles/dsbdr3.dir/EXAMPLES/BAND/dsband.f.o -o EXAMPLES/BAND/dsbdr3  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvp
+            qwvlkwoo4pnk/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7q
+            cfzerz6zfr6aouxnlpqjusmx6jolsy/lib lib/libarpack.so.2.1.0 /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-z
+            en/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so
+     447    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/dsbdr4.dir/EXAMPLES/BAND/dsbdr4.f.o CMa
+            keFiles/dsbdr4.dir/EXAMPLES/BAND/dsband.f.o -o EXAMPLES/BAND/dsbdr4  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvp
+            qwvlkwoo4pnk/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7q
+            cfzerz6zfr6aouxnlpqjusmx6jolsy/lib lib/libarpack.so.2.1.0 /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-z
+            en/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so
+     448    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/dsbdr2.dir/EXAMPLES/BAND/dsbdr2.f.o CMa
+            keFiles/dsbdr2.dir/EXAMPLES/BAND/dsband.f.o -o EXAMPLES/BAND/dsbdr2  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvp
+            qwvlkwoo4pnk/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7q
+            cfzerz6zfr6aouxnlpqjusmx6jolsy/lib lib/libarpack.so.2.1.0 /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-z
+            en/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so
+     449    [ 35%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnapps.f.o
+     450    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pcnapps.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnapps.f.o
+  >> 451    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 452    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 453    make[2]: *** [CMakeFiles/cnbdr2.dir/build.make:116: EXAMPLES/BAND/cnbdr2] Error 1
+     454    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 455    make[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/cnbdr2.dir/all] Error 2
+     456    make[1]: *** Waiting for unfinished jobs....
+     457    [ 35%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaup2.f.o
+     458    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pcnaup2.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaup2.f.o
+  >> 459    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 460    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 461    make[2]: *** [CMakeFiles/cnbdr4.dir/build.make:116: EXAMPLES/BAND/cnbdr4] Error 1
+     462    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 463    make[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/cnbdr4.dir/all] Error 2
+     464    [ 35%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaupd.f.o
+     465    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pcnaupd.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaupd.f.o
+  >> 466    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 467    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 468    make[2]: *** [CMakeFiles/cnbdr1.dir/build.make:116: EXAMPLES/BAND/cnbdr1] Error 1
+     469    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 470    make[1]: *** [CMakeFiles/Makefile2:316: CMakeFiles/cnbdr1.dir/all] Error 2
+     471    [ 36%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneigh.f.o
+     472    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pcneigh.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneigh.f.o
+  >> 473    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 474    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 475    make[2]: *** [CMakeFiles/cnbdr3.dir/build.make:116: EXAMPLES/BAND/cnbdr3] Error 1
+     476    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 477    make[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/cnbdr3.dir/all] Error 2
+     478    [ 36%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneupd.f.o
+     479    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pcneupd.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneupd.f.o
+  >> 480    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 481    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 482    make[2]: *** [CMakeFiles/dsbdr5.dir/build.make:116: EXAMPLES/BAND/dsbdr5] Error 1
+     483    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 484    make[1]: *** [CMakeFiles/Makefile2:680: CMakeFiles/dsbdr5.dir/all] Error 2
+  >> 485    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+     486    [ 36%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcngets.f.o
+     487    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pcngets.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcngets.f.o
+  >> 488    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 489    make[2]: *** [CMakeFiles/dsbdr1.dir/build.make:116: EXAMPLES/BAND/dsbdr1] Error 1
+     490    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 491    make[1]: *** [CMakeFiles/Makefile2:576: CMakeFiles/dsbdr1.dir/all] Error 2
+  >> 492    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 493    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 494    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 495    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 496    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 497    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 498    make[2]: *** [CMakeFiles/dsbdr3.dir/build.make:116: EXAMPLES/BAND/dsbdr3] Error 1
+     499    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 500    make[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/dsbdr3.dir/all] Error 2
+  >> 501    make[2]: *** [CMakeFiles/dsbdr4.dir/build.make:116: EXAMPLES/BAND/dsbdr4] Error 1
+     502    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 503    make[1]: *** [CMakeFiles/Makefile2:654: CMakeFiles/dsbdr4.dir/all] Error 2
+  >> 504    make[2]: *** [CMakeFiles/dsbdr2.dir/build.make:116: EXAMPLES/BAND/dsbdr2] Error 1
+     505    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 506    make[1]: *** [CMakeFiles/Makefile2:602: CMakeFiles/dsbdr2.dir/all] Error 2
+     507    [ 36%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcontext.f.o
+     508    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pcontext.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcontext.f.o
+     509    [ 37%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdgetv0.f.o
+     510    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdgetv0.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdgetv0.f.o
+     511    [ 37%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdlamch10.f.o
+     512    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdlamch10.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdlamch10.f.o
+
+     ...
+
+     545    [ 40%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdngets.f.o
+     546    [ 40%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnorm2.f.o
+     547    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdngets.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdngets.f.o
+     548    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdnorm2.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnorm2.f.o
+     549    [ 41%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaitr.f.o
+     550    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdsaitr.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaitr.f.o
+  >> 551    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 552    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 553    make[2]: *** [CMakeFiles/dnbdr3.dir/build.make:116: EXAMPLES/BAND/dnbdr3] Error 1
+     554    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 555    make[1]: *** [CMakeFiles/Makefile2:472: CMakeFiles/dnbdr3.dir/all] Error 2
+     556    [ 41%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsapps.f.o
+     557    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdsapps.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsapps.f.o
+  >> 558    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 559    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 560    make[2]: *** [CMakeFiles/dnbdr2.dir/build.make:116: EXAMPLES/BAND/dnbdr2] Error 1
+     561    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 562    make[1]: *** [CMakeFiles/Makefile2:446: CMakeFiles/dnbdr2.dir/all] Error 2
+  >> 563    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 564    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+     565    [ 41%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaup2.f.o
+     566    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdsaup2.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaup2.f.o
+     567    [ 42%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaupd.f.o
+  >> 568    make[2]: *** [CMakeFiles/dnbdr5.dir/build.make:116: EXAMPLES/BAND/dnbdr5] Error 1
+  >> 569    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_make[2]: Leaving directory '/tm
+            p/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+     570    '
+  >> 571    make[1]: *** [CMakeFiles/Makefile2:524: CMakeFiles/dnbdr5.dir/all] Error 2
+     572    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdsaupd.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaupd.f.o
+  >> 573    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 574    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 575    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 576    make[2]: *** [CMakeFiles/dnbdr6.dir/build.make:116: EXAMPLES/BAND/dnbdr6] Error 1
+     577    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 578    make[1]: *** [CMakeFiles/Makefile2:550: CMakeFiles/dnbdr6.dir/all] Error 2
+  >> 579    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
+  >> 580    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
+  >> 581    make[2]: *** [CMakeFiles/dnbdr4.dir/build.make:116: EXAMPLES/BAND/dnbdr4] Error 1
+     582    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 583    make[1]: *** [CMakeFiles/Makefile2:498: CMakeFiles/dnbdr4.dir/all] Error 2
+  >> 584    make[2]: *** [CMakeFiles/dnbdr1.dir/build.make:116: EXAMPLES/BAND/dnbdr1] Error 1
+     585    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 586    make[1]: *** [CMakeFiles/Makefile2:420: CMakeFiles/dnbdr1.dir/all] Error 2
+     587    [ 42%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdseigt.f.o
+     588    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdseigt.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdseigt.f.o
+     589    [ 42%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdseupd.f.o
+     590    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdseupd.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdseupd.f.o
+     591    [ 42%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsgets.f.o
+     592    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-a
+            rpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/PARPACK/SRC/MPI/pdsgets.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsgets.f.o
+
+     ...
+
+     674    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-bldcj62xjs6rwiedwi6m7hzhydtumpx
+            p/bin/cmake -E cmake_link_script CMakeFiles/parpack.dir/link.txt --verbose=1
+     675    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -h PIC -shared -Wl,-soname,libparpack.so.2 -o lib/libparpac
+            k.so.2.1.0 CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcgetv0.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pclarnv.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pc
+            naitr.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcn
+            aupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneigh.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcng
+            ets.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcontext.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdgetv0.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdla
+            mch10.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdlarnv.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnaitr.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdn
+            apps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnaupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdne
+            igh.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdneupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdngets.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnor
+            m2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaitr.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaup
+            2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdseigt.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdseupd
+            .f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsgets.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdznorm2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pscnorm
+            2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psgetv0.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pslamch10.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pslar
+            nv.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnaitr.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnaup
+            2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnaupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psneigh.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psneupd
+            .f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psngets.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnorm2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssaitr.
+            f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssaupd.f
+            .o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psseigt.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psseupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssgets.f.
+            o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pzgetv0.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pzlarnv.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pznaitr.f.o
+             CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pznapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pznaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pznaupd.f.o 
+            CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pzneigh.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pzneupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pzngets.f.o C
+            MakeFiles/parpack.dir/dbgini.f.o CMakeFiles/parpack.dir/staini.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/pcmout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/
+            MPI/pcvout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/pdmout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/pdvout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/M
+            PI/pivout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/psmout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/psvout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MP
+            I/pzmout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/pzvout.f.o  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvl
+            kwoo4pnk/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfze
+            rz6zfr6aouxnlpqjusmx6jolsy/lib::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+            ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+            ::::::::::::::::::::::::::::::::::::::: lib/libarpack.so.2.1.0 /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sle
+            s15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so
+     676    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-bldcj62xjs6rwiedwi6m7hzhydtumpx
+            p/bin/cmake -E cmake_symlink_library lib/libparpack.so.2.1.0 lib/libparpack.so.2 lib/libparpack.so
+     677    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+     678    [ 54%] Built target parpack
+     679    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-src'
+  >> 680    make: *** [Makefile:169: all] Error 2
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk/spack-build-out.txt
+
+==> Warning: Skipping build of butterflypack-2.1.1-wkpmbamlm7bz6rbolfnxmo2htqdawzmq since arpack-ng-3.8.0-ezeon2inzbwtc3ckluvpqwvlkwoo4pnk failed
+==> Warning: Skipping build of strumpack-6.3.1-g5wbnpfw4s5ofenkl26rqzyj5q7kupxm since butterflypack-2.1.1-wkpmbamlm7bz6rbolfnxmo2htqdawzmq failed
+==> Warning: Skipping build of strumpack-6.3.1-boey55ezqf5adhi2vzp76zzzeghwnl4l since butterflypack-2.1.1-wkpmbamlm7bz6rbolfnxmo2htqdawzmq failed
+==> Installing netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j
+==> No binary for netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j found: installing from source
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/40/40b9406c20735a9a3009d863318cb8d3e496fb073d201c5463df810e01ab2a57.tgz
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/07/072b006e485f0ca4cba56096912a986e4d3da73aae51c2205928aa5eb842cefd
+==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/netlib-scalapack/gcc10-compatibility.patch
+==> Applied patch https://github.com/Reference-ScaLAPACK/scalapack/commit/d4d0066c041cf19a23f8b3aa62fbcf5f0a33c166.patch?full_index=1
+==> netlib-scalapack: Executing phase: 'cmake'
+==> netlib-scalapack: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+66 errors found in build log:
+     2591    #define NDEBUG 1
+     2592            ^
+     2593    /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-src/REDIST/SRC/psgemr2.c:102:9: warning: 'NDEBUG' mac
+             ro redefined [-Wmacro-redefined]
+     2594    /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-src/REDIST/SRC/psgemr.c:237:9: warning: 'NDEBUG' macr
+             o redefined [-Wmacro-redefined]
+     2595    #define NDEBUG
+     2596            ^
+  >> 2597    <command line>:5:9: #define NDEBUGnote:
+     2598    previous definition is here        ^
+     2599    
+     2600    <command line>:5:9:#define NDEBUG 1
+     2601    note:         ^previous definition is here
+     2602    
+     2603    #define NDEBUG 1
+
+     ...
+
+     4577    [ 76%] Linking Fortran executable ../xcdblu
+     4578    cd /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws/TESTING/LIN && /gpfs/alpine/csc439/w
+             orld-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-bldcj62xjs6rwiedwi6m7hzhydtumpxp/bin/cmake -E cmake
+             _link_script CMakeFiles/xcdblu.dir/link.txt --verbose=1
+     4579    [ 77%] Linking Fortran executable ../xzgblu
+     4580    cd /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws/TESTING/LIN && /gpfs/alpine/csc439/w
+             orld-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-bldcj62xjs6rwiedwi6m7hzhydtumpxp/bin/cmake -E cmake
+             _link_script CMakeFiles/xzgblu.dir/link.txt --verbose=1
+     4581    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/xcdblu.dir/pcdbdriver.f.o CMakeFiles/x
+             cdblu.dir/pcdbinfo.f.o CMakeFiles/xcdblu.dir/pcdblaschk.f.o CMakeFiles/xcdblu.dir/pcdbmv1.f.o CMakeFiles/xcdblu.dir/pcbmatgen.f.o CMakeFiles/xcdblu.dir/p
+             cmatgen.f.o CMakeFiles/xcdblu.dir/pmatgeninc.f.o -o ../xcdblu  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3o
+             sagawq4cji7k6j/spack-build-kj4u5ws/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openb
+             las-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib ../../lib/libscalapack.so /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/sp
+             ack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/
+             PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so
+     4582    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/xzgblu.dir/pzgbdriver.f.o CMakeFiles/x
+             zgblu.dir/pzgbinfo.f.o CMakeFiles/xzgblu.dir/pzdblaschk.f.o CMakeFiles/xzgblu.dir/pzgbmv1.f.o CMakeFiles/xzgblu.dir/pzbmatgen.f.o CMakeFiles/xzgblu.dir/p
+             zmatgen.f.o CMakeFiles/xzgblu.dir/pmatgeninc.f.o -o ../xzgblu  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3o
+             sagawq4cji7k6j/spack-build-kj4u5ws/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openb
+             las-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib ../../lib/libscalapack.so /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/sp
+             ack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/
+             PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so
+  >> 4583    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4584    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4585    make[2]: *** [TESTING/LIN/CMakeFiles/xdlu.dir/build.make:192: TESTING/xdlu] Error 1
+     4586    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4587    make[1]: *** [CMakeFiles/Makefile2:533: TESTING/LIN/CMakeFiles/xdlu.dir/all] Error 2
+  >> 4588    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+     4589    make[1]: *** Waiting for unfinished jobs....
+  >> 4590    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4591    make[2]: *** [TESTING/LIN/CMakeFiles/xslu.dir/build.make:192: TESTING/xslu] Error 1
+     4592    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4593    make[1]: *** [CMakeFiles/Makefile2:507: TESTING/LIN/CMakeFiles/xslu.dir/all] Error 2
+  >> 4594    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4595    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4596    make[2]: *** [TESTING/LIN/CMakeFiles/xclu.dir/build.make:192: TESTING/xclu] Error 1
+     4597    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4598    make[1]: *** [CMakeFiles/Makefile2:559: TESTING/LIN/CMakeFiles/xclu.dir/all] Error 2
+  >> 4599    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4600    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4601    make[2]: *** [TESTING/LIN/CMakeFiles/xzlu.dir/build.make:192: TESTING/xzlu] Error 1
+     4602    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4603    make[1]: *** [CMakeFiles/Makefile2:585: TESTING/LIN/CMakeFiles/xzlu.dir/all] Error 2
+  >> 4604    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4605    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4606    make[2]: *** [TESTING/LIN/CMakeFiles/xddblu.dir/build.make:192: TESTING/xddblu] Error 1
+     4607    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4608    make[1]: *** [CMakeFiles/Makefile2:637: TESTING/LIN/CMakeFiles/xddblu.dir/all] Error 2
+  >> 4609    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4610    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4611    make[2]: *** [TESTING/LIN/CMakeFiles/xsdblu.dir/build.make:192: TESTING/xsdblu] Error 1
+     4612    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4613    make[1]: *** [CMakeFiles/Makefile2:611: TESTING/LIN/CMakeFiles/xsdblu.dir/all] Error 2
+  >> 4614    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4615    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4616    make[2]: *** [TESTING/LIN/CMakeFiles/xsdtlu.dir/build.make:192: TESTING/xsdtlu] Error 1
+     4617    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4618    make[1]: *** [CMakeFiles/Makefile2:715: TESTING/LIN/CMakeFiles/xsdtlu.dir/all] Error 2
+  >> 4619    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4620    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4621    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4622    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4623    make[2]: *** [TESTING/LIN/CMakeFiles/xsgblu.dir/build.make:192: TESTING/xsgblu] Error 1
+     4624    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4625    make[1]: *** [CMakeFiles/Makefile2:819: TESTING/LIN/CMakeFiles/xsgblu.dir/all] Error 2
+  >> 4626    make[2]: *** [TESTING/LIN/CMakeFiles/xddtlu.dir/build.make:192: TESTING/xddtlu] Error 1
+     4627    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4628    make[1]: *** [CMakeFiles/Makefile2:741: TESTING/LIN/CMakeFiles/xddtlu.dir/all] Error 2
+  >> 4629    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4630    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4631    make[2]: *** [TESTING/LIN/CMakeFiles/xdgblu.dir/build.make:192: TESTING/xdgblu] Error 1
+     4632    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4633    make[1]: *** [CMakeFiles/Makefile2:845: TESTING/LIN/CMakeFiles/xdgblu.dir/all] Error 2
+  >> 4634    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4635    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4636    make[2]: *** [TESTING/LIN/CMakeFiles/xzdblu.dir/build.make:192: TESTING/xzdblu] Error 1
+     4637    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4638    make[1]: *** [CMakeFiles/Makefile2:689: TESTING/LIN/CMakeFiles/xzdblu.dir/all] Error 2
+  >> 4639    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4640    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4641    make[2]: *** [TESTING/LIN/CMakeFiles/xcgblu.dir/build.make:192: TESTING/xcgblu] Error 1
+     4642    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4643    make[1]: *** [CMakeFiles/Makefile2:871: TESTING/LIN/CMakeFiles/xcgblu.dir/all] Error 2
+  >> 4644    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4645    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4646    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4647    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4648    make[2]: *** [TESTING/LIN/CMakeFiles/xcdblu.dir/build.make:192: TESTING/xcdblu] Error 1
+     4649    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4650    make[2]: *** [TESTING/LIN/CMakeFiles/xcdtlu.dir/build.make:192: TESTING/xcdtlu] Error 1
+     4651    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4652    make[1]: *** [CMakeFiles/Makefile2:663: TESTING/LIN/CMakeFiles/xcdblu.dir/all] Error 2
+  >> 4653    make[1]: *** [CMakeFiles/Makefile2:767: TESTING/LIN/CMakeFiles/xcdtlu.dir/all] Error 2
+  >> 4654    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4655    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4656    make[2]: *** [TESTING/LIN/CMakeFiles/xzdtlu.dir/build.make:192: TESTING/xzdtlu] Error 1
+     4657    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4658    make[1]: *** [CMakeFiles/Makefile2:793: TESTING/LIN/CMakeFiles/xzdtlu.dir/all] Error 2
+  >> 4659    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
+  >> 4660    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
+  >> 4661    make[2]: *** [TESTING/LIN/CMakeFiles/xzgblu.dir/build.make:192: TESTING/xzgblu] Error 1
+     4662    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4663    make[1]: *** [CMakeFiles/Makefile2:897: TESTING/LIN/CMakeFiles/xzgblu.dir/all] Error 2
+     4664    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-kj4u5ws'
+  >> 4665    make: *** [Makefile:169: all] Error 2
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j/spack-build-out.txt
+
+==> Warning: Skipping build of slate-2021.05.02-l6u3rvkdtutwvqh7hsojz4xz4omyaip7 since netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j failed
+==> Warning: Skipping build of slate-2021.05.02-tk2zka45k4kob6u5ralkkirl7xoc4uc5 since netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j failed
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/blaspp-2021.04.01-ldmw43qvelvotfrfvzmf5ywv3jbxh76e
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/automake-1.16.5-sqlcgmi3zq4j6zvqplvhsqsjfo3kyhkc
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-pip-21.3.1-twdxfnmevlo6nmkn66krnvitocu6vwol
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/pmix-4.1.2-il6e5gwtvqkjpjh5ts5qkmafeducda6r
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/lapackpp-2021.04.00-kqmmgwv74x4gukevp57xxrhvkzpgs6u4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/lapackpp-2021.04.00-zcjwc2cdjr6hgbppylb63jsx3zjqhqkm
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/numactl-2.0.14-z7zulkqt5nqerls3oziqmhbprq47xr2q
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-wheel-0.37.0-plbggvjftnmkzvgp7ymnqdsghuc74evo
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-setuptools-59.4.0-gyrnezinz2fpg2au7axyz2y33mllvfpb
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-cython-0.29.24-olhxxrgr2ie6mzjfpvi42zfu4oqgwpwt
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-numpy-1.22.3-awrwjj2gw3iojthlxhwlpltn6x5cj3ad
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/boost-1.79.0-dxuvun2pyj73tzgp6gpy26jxkrcoazz3
+==> Installing valgrind-3.18.1-ltnhx43oonjreg3b6dye4r6yeimpfvmx
+==> No binary for valgrind-3.18.1-ltnhx43oonjreg3b6dye4r6yeimpfvmx found: installing from source
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/00/00859aa13a772eddf7822225f4b46ee0d39afbe071d32778da4d99984081f7f5.tar.bz2
+==> Ran patch() for valgrind
+==> valgrind: Executing phase: 'autoreconf'
+==> valgrind: Executing phase: 'configure'
+==> valgrind: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16' 'V=1'
+
+7 errors found in build log:
+     1022    mv -f .deps/memcheck_amd64_linux-mc_leakcheck.Tpo .deps/memcheck_amd64_linux-mc_leakcheck.Po
+     1023    mv -f .deps/memcheck_amd64_linux-mc_translate.Tpo .deps/memcheck_amd64_linux-mc_translate.Po
+     1024    mv -f .deps/vgpreload_memcheck_amd64_linux_so-mc_replace_strmem.Tpo .deps/vgpreload_memcheck_amd64_linux_so-mc_replace_strmem.Po
+     1025    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/cc -m64 -O2 -g -Wall -Wmissing-prototypes -Wshadow -Wpointer-a
+             rith -Wstrict-prototypes -Wmissing-declarations -Wcast-align -Wcast-qual -Wwrite-strings -Wempty-body -Wformat -Wformat-security -Wignored-qualifiers -We
+             num-conversion -finline-functions -fno-stack-protector -fno-strict-aliasing -fno-builtin -Wno-cast-align -Wno-self-assign -Wno-tautological-compare  -O -
+             g -fno-omit-frame-pointer -fno-strict-aliasing -fpic -fno-builtin  -O2  -nodefaultlibs -shared -Wl,-z,interpose,-z,initfirst  -m64 -Wl,--whole-archive ..
+             /coregrind/libreplacemalloc_toolpreload-amd64-linux.a -Wl,--no-whole-archive  -o vgpreload_memcheck-amd64-linux.so vgpreload_memcheck_amd64_linux_so-mc_r
+             eplace_strmem.o
+     1026    mv -f .deps/memcheck_amd64_linux-mc_main.Tpo .deps/memcheck_amd64_linux-mc_main.Po
+     1027    ../coregrind/link_tool_exe_linux 0x58000000 /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/cc     -o memcheck
+             -amd64-linux  -m64 -O2 -g -Wall -Wmissing-prototypes -Wshadow -Wpointer-arith -Wstrict-prototypes -Wmissing-declarations -Wcast-align -Wcast-qual -Wwrite
+             -strings -Wempty-body -Wformat -Wformat-security -Wignored-qualifiers -Wenum-conversion -finline-functions -fno-stack-protector -fno-strict-aliasing -fno
+             -builtin -Wno-cast-align -Wno-self-assign -Wno-tautological-compare  -fomit-frame-pointer -O2 -static -nodefaultlibs -nostartfiles -u _start -Wl,--build-
+             id=none -m64 memcheck_amd64_linux-mc_leakcheck.o memcheck_amd64_linux-mc_malloc_wrappers.o memcheck_amd64_linux-mc_main.o memcheck_amd64_linux-mc_main_as
+             m.o memcheck_amd64_linux-mc_translate.o memcheck_amd64_linux-mc_machine.o memcheck_amd64_linux-mc_errors.o ../coregrind/libcoregrind-amd64-linux.a ../VEX
+             /libvex-amd64-linux.a -lgcc ../coregrind/libgcc-sup-amd64-linux.a
+  >> 1028    ld.lld: error: undefined symbol: strncmp
+     1029    >>> referenced by no_mmap.c
+     1030    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+     1031    >>> referenced by no_mmap.c
+     1032    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+     1033    >>> referenced by no_mmap.c
+     1034    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+     1035    
+  >> 1036    ld.lld: error: undefined symbol: mallopt
+     1037    >>> referenced by no_mmap.c
+     1038    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+     1039    >>> referenced by no_mmap.c
+     1040    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+  >> 1041    clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+  >> 1042    make[3]: *** [Makefile:1109: memcheck-amd64-linux] Error 1
+     1043    make[3]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-valgrind-3.18.1-ltnhx43oonjreg3b6dye4r6yeimpfvmx/spack-src/memcheck'
+  >> 1044    make[2]: *** [Makefile:1420: all-recursive] Error 1
+     1045    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-valgrind-3.18.1-ltnhx43oonjreg3b6dye4r6yeimpfvmx/spack-src/memcheck'
+  >> 1046    make[1]: *** [Makefile:889: all-recursive] Error 1
+     1047    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-valgrind-3.18.1-ltnhx43oonjreg3b6dye4r6yeimpfvmx/spack-src'
+  >> 1048    make: *** [Makefile:754: all] Error 2
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-valgrind-3.18.1-ltnhx43oonjreg3b6dye4r6yeimpfvmx/spack-build-out.txt
+
+==> Warning: Skipping build of openmpi-4.1.3-sjt5fcp5qhqsrmzunjemchsczrt3z5yn since valgrind-3.18.1-ltnhx43oonjreg3b6dye4r6yeimpfvmx failed
+==> Warning: Skipping build of caliper-2.7.0-7u66rad4uuvvk5y7kifjacbf37k2idr5 since openmpi-4.1.3-sjt5fcp5qhqsrmzunjemchsczrt3z5yn failed
+==> Warning: Skipping build of adiak-0.2.1-3kfdp5atmnvuqoi5ldju6l7sk6o5xyra since openmpi-4.1.3-sjt5fcp5qhqsrmzunjemchsczrt3z5yn failed
+==> Error: vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc: ProcessError: Command exited with status 2:
+    'make' '-j16'
+==> Error: butterflypack-2.1.1-wkpmbamlm7bz6rbolfnxmo2htqdawzmq: Package was not installed
+==> Error: caliper-2.7.0-7u66rad4uuvvk5y7kifjacbf37k2idr5: Package was not installed
+==> Error: netlib-scalapack-2.2.0-kj4u5wslqi46gres3osagawq4cji7k6j: Package was not installed
+==> Error: slate-2021.05.02-l6u3rvkdtutwvqh7hsojz4xz4omyaip7: Package was not installed
+==> Error: strumpack-6.3.1-boey55ezqf5adhi2vzp76zzzeghwnl4l: Package was not installed
+==> Error: arborx-1.2-qrrf4slikvxl2t6ykw7mshaqkxts5mjx: Package was not installed
+==> Error: slate-2021.05.02-tk2zka45k4kob6u5ralkkirl7xoc4uc5: Package was not installed
+==> Error: strumpack-6.3.1-g5wbnpfw4s5ofenkl26rqzyj5q7kupxm: Package was not installed
+==> Error: vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).
+
+real	26m1.433s
+user	75m8.796s
+sys	2m26.685s
