@@ -177,7 +177,6 @@ spack:
     - conduit
     - darshan-runtime
     - darshan-util
-    - datatransferkit
     - faodel
     - flit
     - gasnet
@@ -218,7 +217,6 @@ spack:
     - swig@4.0.2-fortran
     - sz
     - tasmanian
-    - trilinos +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     - turbine
     - umap
     - umpire
@@ -232,6 +230,7 @@ spack:
   # - archer # binutils
   # - axom # /usr/bin/ld: /usr/lib/../lib64/crt1.o: in function `_start':
   # - butterflypack # SRC_SINGLE/sMAGMA_utilities.f90(8): warning #5117: Bad # preprocessor line #include "ButterflyPACK_config.fi"
+  # - datatransferkit # superlu-dist
   # - dyninst # intel-tbb: clang++: error: unknown argument: '-flifetime-dse=1'
   # - exaworks # flux-sched: yaml-cpp/emitter.h:164:9: error: comparison with NaN always evaluates to false in fast floating point modes [-Werror,-Wtautological-constant-compare]; rust: libimf.a(libm_feature_flag.o):libm_feature_flag.c:(.text+0x118): more undefined references to `__intel_cpu_features_init_x' follow
   # - flecsi # pfunit: unsupported compiler
@@ -257,6 +256,7 @@ spack:
   # - strumpack ~slate # butterflypack: SRC_SINGLE/sMAGMA_utilities.f90(8): warning #5117: Bad # preprocessor line #include "ButterflyPACK_config.fi"
   # - superlu-dist # libopenblas.so: undefined reference to `for_cpstr'
   # - tau +mpi +python # binutils # gold/powerpc.cc:3590: undefined reference to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbol_table::Compute_final_value_status*) const'
+  # - trilinos +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long # superlu-dist
   # - unifyfs # mercury: Could NOT find MPI (missing: MPI_C_FOUND)
     # NOT RELEVANT ON FACILITY
   # - flux-core
