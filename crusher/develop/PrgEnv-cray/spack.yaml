@@ -106,6 +106,12 @@ spack:
         prefix: /usr
 
     # FACILITY PACKAGE PREFERENCES
+    mvapich2:
+      buildable: false
+    openmpi:
+      buildable: false
+    mpich:
+      buildable: false
     ncurses:
       externals:
       - spec: ncurses@6.2 ~symlinks +termlib %cce@13.0.0 
@@ -431,7 +437,6 @@ spack:
     - papi +rocm amdgpu_target=gfx90a
     - raja ~openmp +rocm amdgpu_target=gfx90a
     - sundials +rocm amdgpu_target=gfx90a
-    - superlu-dist +rocm amdgpu_target=gfx90a
     - tasmanian +rocm amdgpu_target=gfx90a
     - umpire +rocm amdgpu_target=gfx90a
     - vtk-m +rocm amdgpu_target=gfx90a
@@ -444,6 +449,7 @@ spack:
   # - slate +rocm amdgpu_target=gfx90a %cce ^openblas%gcc # netlib-scalapack
   # - slepc +rocm amdgpu_target=gfx90a                # petsc: petscsys.h:69:12: fatal error: 'mpi.h' file not found
   # - strumpack ~slate +rocm amdgpu_target=gfx90a %cce ^openblas%gcc # netlib-scalapack
+  # - superlu-dist +rocm amdgpu_target=gfx90a # 
   # RELEASE-TIME FAILURES
   # CONCRETIZATION
   # - hpctoolkit +rocm                                # INFO: Not ROCmPackage
