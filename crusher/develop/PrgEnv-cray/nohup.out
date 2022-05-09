@@ -3,518 +3,228 @@
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/berkeley-db-18.1.40-adye3kc4ewhkks74nvrdaehh56lurfvp
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libiconv-1.16-5wkkcwbdepwbvswqihrlq6bammj7ysal
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/zlib-1.2.12-mogccd4cgxid2idotdzlqznropdhsrh6
-==> cray-mpich@8.1.12 : has external module in ['cray-mpich/8.1.12', 'libfabric/1.15.0.0']
-[+] /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0 (external cray-mpich-8.1.12-u26r4hobxgteur655egytxzgrskzhdey)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libsigsegv-2.13-3tuxzcuzde7b57kekiuaelbhjcmidmfk
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/pkgconf-1.8.0-fwvvnpiyfah7xraxogmy3u5e6gl4tkpv
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/util-macros-1.19.3-4kw5dplump5ytdl6xazawwuq3qgqbaxl
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/xz-5.2.5-lxhshdmb6c2fq4viy44zgkcuozs5n4mw
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libmd-1.0.4-qhrblnn763ccbkqmlr5o4ek7sxnqa2ig
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libffi-3.4.2-l5u6czrfjsagy2hdm3hzsbvazlsmevsh
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/papi-6.0.0.1-x6vqsr5spepto22ypzgxa5bfebytfyzq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5 (external ncurses-6.2-inplg2q7j2qa7vetgyicye7ffmltznus)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/berkeley-db-18.1.40-rrrcdxntb53spey32hw2h2kbh2s7yhcj
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/libiconv-1.16-7zw2zpnxduzf2wlt3vupj4a5dicksbeu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/zlib-1.2.12-hvbg4s755c6cfnzafnp4dwruqvtwyctp
 ==> cray-libsci@21.08.1.2 : has external module in ['cray-libsci/21.08.1.2', 'cray-mpich/8.1.12']
 [+] /opt/cray/pe/libsci/21.08.1.2/CRAY/9.0/x86_64 (external cray-libsci-21.08.1.2-p2o4llkjeooqsbsp7wgtetbigjrzjavq)
 ==> cray-mpich@8.1.12 : has external module in ['cray-mpich/8.1.12', 'libfabric/1.15.0.0']
 [+] /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0 (external cray-mpich-8.1.12-pclxw6mhs3bir2ckq5ght3dziv3vejcv)
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/libiconv-1.16-7zw2zpnxduzf2wlt3vupj4a5dicksbeu
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5 (external ncurses-6.2-inplg2q7j2qa7vetgyicye7ffmltznus)
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/berkeley-db-18.1.40-rrrcdxntb53spey32hw2h2kbh2s7yhcj
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/zlib-1.2.12-hvbg4s755c6cfnzafnp4dwruqvtwyctp
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/pkgconf-1.8.0-obqak25gpyspeczkvnjqv54mdhlnqmbm
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/libmd-1.0.4-j247gea654fisp3tdwwx2zy72ji4e5of
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/xz-5.2.5-qspklmorf3oxxkcofqedlle5wqcyjpdv
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/libffi-3.4.2-djxy5gxlhuz4dzgmahacgubdmtue4jsw
 [+] /opt/rocm-5.1.0/hip (external hip-5.1.0-auhq5cwiqpwzbhzwjkyhu27sduu2lwq3)
+[+] /opt/rocm-5.1.0/ (external hipblas-5.1.0-wteb44drpers2ltgfujzyswgghl6vliv)
 [+] /opt/rocm-5.1.0/ (external hsa-rocr-dev-5.1.0-t2msfhgavxaa4cyqnb5ui5o5yuztcp7n)
 [+] /opt/rocm-5.1.0/llvm (external llvm-amdgpu-5.1.0-iffzjxrfcsbp4j6brm5jr24jl5vxvt5u)
-[+] /opt/rocm-5.1.0 (external rocthrust-5.1.0-32zef4cacju5myc7ukxni67g4oj66i34)
-[+] /opt/rocm-5.1.0/hip (external hip-5.1.0-rnlou34ybgojx7snq5js466qjgiqel7a)
-[+] /opt/rocm-5.1.0/ (external hsa-rocr-dev-5.1.0-d4le6v5tfbxxebb3227w225gytrc7gh7)
-[+] /opt/rocm-5.1.0/llvm (external llvm-amdgpu-5.1.0-fur222srcfys2dqugi44n4gx2kio2lwk)
-[+] /opt/rocm-5.1.0/ (external rocblas-5.1.0-6eqqzbcsy6f6pq2igwdnjnzjztywgh2x)
-[+] /opt/rocm-5.1.0/ (external hipblas-5.1.0-dk2wgudzbrjtpvwvdx6u24unspmte2qg)
-[+] /opt/rocm-5.1.0 (external rocsolver-5.1.0-aqagxuezrlm53x524e2ln4wfynbnhrnz)
-[+] /opt/rocm-5.1.0/ (external hipblas-5.1.0-wteb44drpers2ltgfujzyswgghl6vliv)
 [+] /opt/rocm-5.1.0 (external rocsolver-5.1.0-656pkzt5ywxeux4xjwmudaptnwzyg3jo)
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/readline-8.1-es3xqtng7scnproedrmblvmnajsgcw4l
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/diffutils-3.8-lashouxvr4mg2nsj4h622y2wey6rbcqu
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/hypre-2.24.0-za5iie3yonexv646j6cc556xahs6ea4h
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/tar-1.34-jqusxyesfo2obttvq5yubjh3yfrooyay
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/diffutils-3.8-gr6snbwlxw7bpsg2utn24juq4jma4qj5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/tar-1.34-mgbx35nvdfxezrpvmwa5fg4yn7o2dir6
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/m4-1.4.19-42tuep3k7x24zt3mvldrudsgrqnk3utj
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libedit-3.1-20210216-7k2w3vpeecqbkoqphwio4vjlerzxqwub
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/util-linux-uuid-2.37.4-55sy4sl4i42pmcucymzfeid235zwvdph
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libunwind-1.6.2-6qillzviiz6aaksszibkqhsaj3r5q6xd
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libxml2-2.9.13-aza2vs65xmecxha3tdembcge3nwzq3xb
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libbsd-0.11.5-eaaeb7dsvzb7q2koixp6nuzfo4nkn5xp
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/readline-8.1-xh4ztsz5t64hkmjpbcnlyg3em63vqwiv
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/util-linux-uuid-2.37.4-c4bqbn6ydp42ciep24565s6dx3nlgi6r
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/libbsd-0.11.5-7shbpnhzsnbrycarts36y5hds4wvewoo
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/libxml2-2.9.13-5ru7eea2xi2gze2x4tv7uwpyhmtdacl5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/diffutils-3.8-gr6snbwlxw7bpsg2utn24juq4jma4qj5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/sqlite-3.38.3-sauz2pqono7ge27fiiov4hnerrmcnjg7
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/gdbm-1.19-hgqu4pc7dtkj6vf3c5uunpi2pc2dxcrv
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/bzip2-1.0.8-c6hsn42qrlnkw4x33lpymhj5xgcv7tre
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/bzip2-1.0.8-enllwonco4v4brg4acakmbof5fbnvinu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libtool-2.4.7-jacdo4v4gqddckpxyunvuuwp4s6d2pi3
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/expat-2.4.8-v6q7erfmhhn4cg7ror3quxnslneydfdb
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/gdbm-1.19-opylqqrtip5pgx3yp3o64qhhvrl33lsy
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/sqlite-3.38.3-qf5k6ewwtqazskpgskxilhae5li7isst
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/expat-2.4.8-anevd75n25ykvkvaw425avwv5zxuvdmo
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/bzip2-1.0.8-enllwonco4v4brg4acakmbof5fbnvinu
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/perl-5.34.1-bgiyu4bupf7os7xgmxlz6fdmzmyvjymg
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/gettext-0.21-uq73okbdvcsdf27kubkx2ykdww57h5fz
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/boost-1.78.0-syheswolps3lgs5gbeiocbog57g74usp
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/elfutils-0.186-g3z5ewf37gcvpsbbh32f2yxlzzxybiu7
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/gettext-0.21-abcm2eg5yosyaxdbq6wkifxqk3ovklvq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libpciaccess-0.16-toskwazjptab6itm7lkubgzmsiumjnmk
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/perl-5.34.1-q2mb3mrfbr4orzieacs6ueb66h5jctwu
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/openssl-1.1.1n-4s5d6jlxxvolq47osvvxapoyf6to3wf6
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/openssl-1.1.1n-4s5d6jlxxvolq47osvvxapoyf6to3wf6
+==> Installing autoconf-2.69-lrc3d2nd5muwbzur6ymu7gsswlzbucbe
+==> No binary for autoconf-2.69-lrc3d2nd5muwbzur6ymu7gsswlzbucbe found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/95/954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969.tar.gz
+==> Fetching https://mirror.spack.io/_source-cache/archive/77/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7
+==> Fetching https://mirror.spack.io/_source-cache/archive/35/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2
+==> Fetching https://mirror.spack.io/_source-cache/archive/a4/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee
+==> Applied patch http://mirrors.mit.edu/gentoo-portage/sys-devel/autoconf/files/autoconf-2.69-fix-libtool-test.patch
+==> Applied patch http://mirrors.mit.edu/gentoo-portage/sys-devel/autoconf/files/autoconf-2.69-perl-5.26.patch
+==> Applied patch http://mirrors.mit.edu/gentoo-portage/sys-devel/autoconf/files/autoconf-2.69-perl-5.26-2.patch
+==> Ran patch() for autoconf
+==> autoconf: Executing phase: 'autoreconf'
+==> autoconf: Executing phase: 'configure'
+==> autoconf: Executing phase: 'build'
+==> autoconf: Executing phase: 'install'
+==> autoconf: Successfully installed autoconf-2.69-lrc3d2nd5muwbzur6ymu7gsswlzbucbe
+  Fetch: 0.27s.  Build: 4.74s.  Total: 5.01s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/autoconf-2.69-lrc3d2nd5muwbzur6ymu7gsswlzbucbe
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/hwloc-2.7.1-7mmy33vfffyu6zpbeo6m2ygyclgmxgc5
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/openssl-1.1.1n-xxotqtli2i33msrf6ugnbecq4yfvvdud
+==> Installing openssh-9.0p1-fgmehkpr7arhyksxtj5j6risr5pu4kyn
+==> No binary for openssh-9.0p1-fgmehkpr7arhyksxtj5j6risr5pu4kyn found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/03/03974302161e9ecce32153cfa10012f1e65c8f3750f573a73ab1befd5972a28a.tar.gz
+==> No patches needed for openssh
+==> openssh: Executing phase: 'autoreconf'
+==> openssh: Executing phase: 'configure'
+==> Error: Exception occurred in writer daemon!
+==> Error: Failed to install openssh due to KeyboardInterrupt: 
+Traceback (most recent call last):
+  File "/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/llnl/util/tty/log.py", line 947, in _writer_daemon
+    rlist, _, _ = _retry(select.select)(istreams, [], [], 1e-1)
+  File "/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/llnl/util/tty/log.py", line 1049, in wrapped
+    return function(*args, **kwargs)
+KeyboardInterrupt
+
+==> Error: Keyboard interrupt.
+==> Installing environment /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5 (external ncurses-6.2-7pfkifsftvn5zxnulejh3hu6kyysit32)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/berkeley-db-18.1.40-adye3kc4ewhkks74nvrdaehh56lurfvp
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libiconv-1.16-5wkkcwbdepwbvswqihrlq6bammj7ysal
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/zlib-1.2.12-mogccd4cgxid2idotdzlqznropdhsrh6
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libsigsegv-2.13-3tuxzcuzde7b57kekiuaelbhjcmidmfk
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/pkgconf-1.8.0-fwvvnpiyfah7xraxogmy3u5e6gl4tkpv
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/util-macros-1.19.3-4kw5dplump5ytdl6xazawwuq3qgqbaxl
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/xz-5.2.5-lxhshdmb6c2fq4viy44zgkcuozs5n4mw
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libmd-1.0.4-qhrblnn763ccbkqmlr5o4ek7sxnqa2ig
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libffi-3.4.2-l5u6czrfjsagy2hdm3hzsbvazlsmevsh
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/papi-6.0.0.1-x6vqsr5spepto22ypzgxa5bfebytfyzq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5 (external ncurses-6.2-inplg2q7j2qa7vetgyicye7ffmltznus)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/berkeley-db-18.1.40-rrrcdxntb53spey32hw2h2kbh2s7yhcj
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/libiconv-1.16-7zw2zpnxduzf2wlt3vupj4a5dicksbeu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/zlib-1.2.12-hvbg4s755c6cfnzafnp4dwruqvtwyctp
+==> cray-libsci@21.08.1.2 : has external module in ['cray-libsci/21.08.1.2', 'cray-mpich/8.1.12']
+[+] /opt/cray/pe/libsci/21.08.1.2/CRAY/9.0/x86_64 (external cray-libsci-21.08.1.2-p2o4llkjeooqsbsp7wgtetbigjrzjavq)
+==> cray-mpich@8.1.12 : has external module in ['cray-mpich/8.1.12', 'libfabric/1.15.0.0']
+[+] /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0 (external cray-mpich-8.1.12-pclxw6mhs3bir2ckq5ght3dziv3vejcv)
+[+] /opt/rocm-5.1.0/hip (external hip-5.1.0-auhq5cwiqpwzbhzwjkyhu27sduu2lwq3)
+[+] /opt/rocm-5.1.0/ (external hipblas-5.1.0-wteb44drpers2ltgfujzyswgghl6vliv)
+[+] /opt/rocm-5.1.0/ (external hsa-rocr-dev-5.1.0-t2msfhgavxaa4cyqnb5ui5o5yuztcp7n)
+[+] /opt/rocm-5.1.0/llvm (external llvm-amdgpu-5.1.0-iffzjxrfcsbp4j6brm5jr24jl5vxvt5u)
+[+] /opt/rocm-5.1.0 (external rocsolver-5.1.0-656pkzt5ywxeux4xjwmudaptnwzyg3jo)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/readline-8.1-es3xqtng7scnproedrmblvmnajsgcw4l
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/diffutils-3.8-lashouxvr4mg2nsj4h622y2wey6rbcqu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/tar-1.34-mgbx35nvdfxezrpvmwa5fg4yn7o2dir6
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/m4-1.4.19-42tuep3k7x24zt3mvldrudsgrqnk3utj
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libedit-3.1-20210216-7k2w3vpeecqbkoqphwio4vjlerzxqwub
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/util-linux-uuid-2.37.4-55sy4sl4i42pmcucymzfeid235zwvdph
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libxml2-2.9.13-aza2vs65xmecxha3tdembcge3nwzq3xb
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libunwind-1.6.2-6qillzviiz6aaksszibkqhsaj3r5q6xd
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libbsd-0.11.5-eaaeb7dsvzb7q2koixp6nuzfo4nkn5xp
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/readline-8.1-xh4ztsz5t64hkmjpbcnlyg3em63vqwiv
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/diffutils-3.8-gr6snbwlxw7bpsg2utn24juq4jma4qj5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/gdbm-1.19-hgqu4pc7dtkj6vf3c5uunpi2pc2dxcrv
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/sqlite-3.38.3-sauz2pqono7ge27fiiov4hnerrmcnjg7
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/bzip2-1.0.8-c6hsn42qrlnkw4x33lpymhj5xgcv7tre
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libtool-2.4.7-jacdo4v4gqddckpxyunvuuwp4s6d2pi3
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/expat-2.4.8-v6q7erfmhhn4cg7ror3quxnslneydfdb
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/gdbm-1.19-opylqqrtip5pgx3yp3o64qhhvrl33lsy
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/bzip2-1.0.8-enllwonco4v4brg4acakmbof5fbnvinu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/gettext-0.21-abcm2eg5yosyaxdbq6wkifxqk3ovklvq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/perl-5.34.1-bgiyu4bupf7os7xgmxlz6fdmzmyvjymg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/elfutils-0.186-g3z5ewf37gcvpsbbh32f2yxlzzxybiu7
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libpciaccess-0.16-toskwazjptab6itm7lkubgzmsiumjnmk
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/perl-5.34.1-q2mb3mrfbr4orzieacs6ueb66h5jctwu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/openssl-1.1.1n-4s5d6jlxxvolq47osvvxapoyf6to3wf6
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/autoconf-2.69-lrc3d2nd5muwbzur6ymu7gsswlzbucbe
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/hwloc-2.7.1-7mmy33vfffyu6zpbeo6m2ygyclgmxgc5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/openssl-1.1.1n-xxotqtli2i33msrf6ugnbecq4yfvvdud
+==> Installing libevent-2.1.12-66dgshkapwzkfwi6jtil52ysnlvhpfzk
+==> No binary for libevent-2.1.12-66dgshkapwzkfwi6jtil52ysnlvhpfzk found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/92/92e6de1be9ec176428fd2367677e61ceffc2ee1cb119035037a27d346b0403bb.tar.gz
+==> Ran patch() for libevent
+==> libevent: Executing phase: 'autoreconf'
+==> libevent: Executing phase: 'configure'
+==> libevent: Executing phase: 'build'
+==> libevent: Executing phase: 'install'
+==> libevent: Successfully installed libevent-2.1.12-66dgshkapwzkfwi6jtil52ysnlvhpfzk
+  Fetch: 0.25s.  Build: 18.87s.  Total: 19.12s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/libevent-2.1.12-66dgshkapwzkfwi6jtil52ysnlvhpfzk
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-wjqbfvsyvnqrhdcqn6vdc5dsi2ybczld
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/python-3.8.12-vn3a2gcoksgdgjlww2gcle2ram3opcx4
+==> Installing openssh-9.0p1-fgmehkpr7arhyksxtj5j6risr5pu4kyn
+==> No binary for openssh-9.0p1-fgmehkpr7arhyksxtj5j6risr5pu4kyn found: installing from source
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/03/03974302161e9ecce32153cfa10012f1e65c8f3750f573a73ab1befd5972a28a.tar.gz
+==> No patches needed for openssh
+==> openssh: Executing phase: 'autoreconf'
+==> openssh: Executing phase: 'configure'
+==> openssh: Executing phase: 'build'
+==> openssh: Executing phase: 'install'
+==> openssh: Successfully installed openssh-9.0p1-fgmehkpr7arhyksxtj5j6risr5pu4kyn
+  Fetch: 0.00s.  Build: 50.31s.  Total: 50.31s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/openssh-9.0p1-fgmehkpr7arhyksxtj5j6risr5pu4kyn
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/python-3.8.12-n6vh4faury76qcwr7xwnusz6a3ebckrx
+==> Installing automake-1.16.5-wkqmr4sl4eqdi3fcu6dnsme42kp52yh4
+==> No binary for automake-1.16.5-wkqmr4sl4eqdi3fcu6dnsme42kp52yh4 found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/07/07bd24ad08a64bc17250ce09ec56e921d6343903943e99ccf63bbf0705e34605.tar.gz
+==> Ran patch() for automake
+==> automake: Executing phase: 'autoreconf'
+==> automake: Executing phase: 'configure'
+==> automake: Executing phase: 'build'
+==> automake: Executing phase: 'install'
+==> automake: Successfully installed automake-1.16.5-wkqmr4sl4eqdi3fcu6dnsme42kp52yh4
+  Fetch: 0.28s.  Build: 10.81s.  Total: 11.09s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/automake-1.16.5-wkqmr4sl4eqdi3fcu6dnsme42kp52yh4
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wdass5lsywo
-==> Installing netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt
-==> No binary for netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt found: installing from source
-==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/40/40b9406c20735a9a3009d863318cb8d3e496fb073d201c5463df810e01ab2a57.tgz
-==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/07/072b006e485f0ca4cba56096912a986e4d3da73aae51c2205928aa5eb842cefd
-==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/netlib-scalapack/gcc10-compatibility.patch
-==> Applied patch https://github.com/Reference-ScaLAPACK/scalapack/commit/d4d0066c041cf19a23f8b3aa62fbcf5f0a33c166.patch?full_index=1
-==> netlib-scalapack: Executing phase: 'cmake'
-==> netlib-scalapack: Executing phase: 'build'
-==> Error: ProcessError: Command exited with status 2:
-    'make' '-j16'
-
-66 errors found in build log:
-     909     /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-src/BLACS/SRC/cgamx2d_.c:283:6: w
-             arning: implicit declaration of function 'BI_svmcopy' is invalid in C99 [-Wimplicit-function-declaration]
-     910                 BI_cvmcopy(Mpval(m), Mpval(n), A, tlda, bp2->Buff);
-     911                 ^
-     912     /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-src/BLACS/SRC/Bdef.h:293:9: note:
-              expanded from macro 'BI_cvmcopy'
-     913             BI_svmcopy(2*(m), (n), (float *) (A), 2*(lda), (float *) (buff))
-     914             ^
-  >> 915     /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-src/BLACS/SRC/dgamx2d_.c:294:3: I
-             n file included from warning: /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-bui
-             ld-hplida2/BLACS/SRC/cgamx2d_-C.cimplicit declaration of function 'BI_dvmcopy' is invalid in C99 [-Wimplicit-function-declaration]:
-     916     2:
-     917     /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-src/BLACS/SRC/cgamx2d_.c:285:16: 
-             warning: implicit declaration of function 'BI_TransDist' is invalid in C99 [-Wimplicit-function-declaration]
-     918              BI_dvmcopy(Mpval(m), Mpval(n), A, tlda, bp2->Buff);
-     919              ^
-     920                    BI_TransDist(ctxt, tscope, Mpval(m), Mpval(n), rA, cA, tldia,
-     921                    ^
-
-     ...
-
-     4577    [ 77%] Linking Fortran executable ../xzlu
-     4578    [ 77%] Linking Fortran executable ../xclu
-     4579    cd /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build-hplida2/TESTING/LIN && /
-             gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-wjqbfvsyvnq
-             rhdcqn6vdc5dsi2ybczld/bin/cmake -E cmake_link_script CMakeFiles/xzlu.dir/link.txt --verbose=1
-     4580    cd /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build-hplida2/TESTING/LIN && /
-             gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-wjqbfvsyvnq
-             rhdcqn6vdc5dsi2ybczld/bin/cmake -E cmake_link_script CMakeFiles/xclu.dir/link.txt --verbose=1
-     4581    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/xzlu.dir/pzludrive
-             r.f.o CMakeFiles/xzlu.dir/pzluinfo.f.o CMakeFiles/xzlu.dir/pzgetrrv.f.o CMakeFiles/xzlu.dir/pzmatgen.f.o CMakeFiles/xzlu.dir/pmatgeni
-             nc.f.o CMakeFiles/xzlu.dir/pzlaschk.f.o CMakeFiles/xzlu.dir/pzlafchk.f.o -o ../xzlu  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage
-             -netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build-hplida2/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/devel
-             op/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib:/opt/cray/pe/mpich/8.1.
-             12/ofi/crayclang/10.0/lib ../../lib/libscalapack.so /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spac
-             k/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so /gpfs/alpine/csc439/world-shared/E4S/
-             ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenb
-             las.so /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0/lib/libmpifort_cray.so /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0/lib/libmpi_cr
-             ay.so
-     4582    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/xclu.dir/pcludrive
-             r.f.o CMakeFiles/xclu.dir/pcluinfo.f.o CMakeFiles/xclu.dir/pcgetrrv.f.o CMakeFiles/xclu.dir/pcmatgen.f.o CMakeFiles/xclu.dir/pmatgeni
-             nc.f.o CMakeFiles/xclu.dir/pclaschk.f.o CMakeFiles/xclu.dir/pclafchk.f.o -o ../xclu  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage
-             -netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build-hplida2/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/devel
-             op/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib:/opt/cray/pe/mpich/8.1.
-             12/ofi/crayclang/10.0/lib ../../lib/libscalapack.so /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spac
-             k/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenblas.so /gpfs/alpine/csc439/world-shared/E4S/
-             ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib/libopenb
-             las.so /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0/lib/libmpifort_cray.so /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0/lib/libmpi_cr
-             ay.so
-  >> 4583    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4584    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4585    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4586    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4587    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4588    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4589    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4590    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4591    make[2]: *** [TESTING/LIN/CMakeFiles/xdlu.dir/build.make:194: TESTING/xdlu] Error 1
-     4592    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4593    make[1]: *** [CMakeFiles/Makefile2:533: TESTING/LIN/CMakeFiles/xdlu.dir/all] Error 2
-     4594    make[1]: *** Waiting for unfinished jobs....
-  >> 4595    make[2]: *** [TESTING/LIN/CMakeFiles/xslu.dir/build.make:194: TESTING/xslu] Error 1
-     4596    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4597    make[1]: *** [CMakeFiles/Makefile2:507: TESTING/LIN/CMakeFiles/xslu.dir/all] Error 2
-  >> 4598    make[2]: *** [TESTING/LIN/CMakeFiles/xdgblu.dir/build.make:194: TESTING/xdgblu] Error 1
-     4599    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4600    make[1]: *** [CMakeFiles/Makefile2:845: TESTING/LIN/CMakeFiles/xdgblu.dir/all] Error 2
-  >> 4601    make[2]: *** [TESTING/LIN/CMakeFiles/xddblu.dir/build.make:194: TESTING/xddblu] Error 1
-     4602    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4603    make[1]: *** [CMakeFiles/Makefile2:637: TESTING/LIN/CMakeFiles/xddblu.dir/all] Error 2
-  >> 4604    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4605    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4606    make[2]: *** [TESTING/LIN/CMakeFiles/xsdblu.dir/build.make:194: TESTING/xsdblu] Error 1
-     4607    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4608    make[1]: *** [CMakeFiles/Makefile2:611: TESTING/LIN/CMakeFiles/xsdblu.dir/all] Error 2
-  >> 4609    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4610    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4611    make[2]: *** [TESTING/LIN/CMakeFiles/xddtlu.dir/build.make:194: TESTING/xddtlu] Error 1
-     4612    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4613    make[1]: *** [CMakeFiles/Makefile2:741: TESTING/LIN/CMakeFiles/xddtlu.dir/all] Error 2
-  >> 4614    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4615    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4616    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4617    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4618    make[2]: *** [TESTING/LIN/CMakeFiles/xsdtlu.dir/build.make:194: TESTING/xsdtlu] Error 1
-     4619    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4620    make[1]: *** [CMakeFiles/Makefile2:715: TESTING/LIN/CMakeFiles/xsdtlu.dir/all] Error 2
-  >> 4621    make[2]: *** [TESTING/LIN/CMakeFiles/xsgblu.dir/build.make:194: TESTING/xsgblu] Error 1
-     4622    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4623    make[1]: *** [CMakeFiles/Makefile2:819: TESTING/LIN/CMakeFiles/xsgblu.dir/all] Error 2
-  >> 4624    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4625    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4626    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4627    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4628    make[2]: *** [TESTING/LIN/CMakeFiles/xcdblu.dir/build.make:194: TESTING/xcdblu] Error 1
-     4629    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4630    make[1]: *** [CMakeFiles/Makefile2:663: TESTING/LIN/CMakeFiles/xcdblu.dir/all] Error 2
-  >> 4631    make[2]: *** [TESTING/LIN/CMakeFiles/xzdblu.dir/build.make:194: TESTING/xzdblu] Error 1
-     4632    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4633    make[1]: *** [CMakeFiles/Makefile2:689: TESTING/LIN/CMakeFiles/xzdblu.dir/all] Error 2
-  >> 4634    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4635    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4636    make[2]: *** [TESTING/LIN/CMakeFiles/xzgblu.dir/build.make:194: TESTING/xzgblu] Error 1
-     4637    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4638    make[1]: *** [CMakeFiles/Makefile2:897: TESTING/LIN/CMakeFiles/xzgblu.dir/all] Error 2
-  >> 4639    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4640    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4641    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4642    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4643    make[2]: *** [TESTING/LIN/CMakeFiles/xcgblu.dir/build.make:194: TESTING/xcgblu] Error 1
-     4644    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4645    make[1]: *** [CMakeFiles/Makefile2:871: TESTING/LIN/CMakeFiles/xcgblu.dir/all] Error 2
-  >> 4646    make[2]: *** [TESTING/LIN/CMakeFiles/xzdtlu.dir/build.make:194: TESTING/xzdtlu] Error 1
-     4647    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4648    make[1]: *** [CMakeFiles/Makefile2:793: TESTING/LIN/CMakeFiles/xzdtlu.dir/all] Error 2
-  >> 4649    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4650    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4651    make[2]: *** [TESTING/LIN/CMakeFiles/xcdtlu.dir/build.make:194: TESTING/xcdtlu] Error 1
-     4652    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4653    make[1]: *** [CMakeFiles/Makefile2:767: TESTING/LIN/CMakeFiles/xcdtlu.dir/all] Error 2
-  >> 4654    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4655    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4656    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_idmin_'
-  >> 4657    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: ../../lib/libscalapack.so: undefined reference to `_ismin_'
-  >> 4658    make[2]: *** [TESTING/LIN/CMakeFiles/xzlu.dir/build.make:194: TESTING/xzlu] Error 1
-     4659    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4660    make[1]: *** [CMakeFiles/Makefile2:585: TESTING/LIN/CMakeFiles/xzlu.dir/all] Error 2
-  >> 4661    make[2]: *** [TESTING/LIN/CMakeFiles/xclu.dir/build.make:194: TESTING/xclu] Error 1
-     4662    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4663    make[1]: *** [CMakeFiles/Makefile2:559: TESTING/LIN/CMakeFiles/xclu.dir/all] Error 2
-     4664    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build
-             -hplida2'
-  >> 4665    make: *** [Makefile:169: all] Error 2
-
-See build log for details:
-  /tmp/lpeyrala/spack-stage/spack-stage-netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt/spack-build-out.txt
-
-==> Warning: Skipping build of strumpack-6.3.1-mfw3pfgcayybhrsxx3ecz5jiklzj2qui since netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt failed
-==> Warning: Skipping build of butterflypack-2.1.1-p2m3zn3dk66akvgbxuv3tfjervclmo55 since netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt failed
-==> Warning: Skipping build of strumpack-6.3.1-phjlfzsltqwbsjtvm2hnwssnjynunkzf since butterflypack-2.1.1-p2m3zn3dk66akvgbxuv3tfjervclmo55 failed
-==> Warning: Skipping build of slate-2021.05.02-4s2md4kmd5fsmlhpextcnqb4hkflbd4p since netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt failed
-==> Warning: Skipping build of slate-2021.05.02-dvad6tzoi422hlwevvpiuv23vqkarye5 since netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt failed
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/blaspp-2021.04.01-o4t2ji35elmeb724wluvxjx3bl2zruz2
-==> Installing arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl
-==> No binary for arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl found: installing from source
-==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/ad/ada5aeb3878874383307239c9235b716a8a170c6d096a6625bfd529844df003d.tar.gz
-==> No patches needed for arpack-ng
-==> arpack-ng: Executing phase: 'install'
-==> Error: ProcessError: Command exited with status 2:
-    'make' '-j16'
-
-61 errors found in build log:
-     446    [ 34%] Linking Fortran executable EXAMPLES/BAND/dsbdr3
-     447    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-wjqbfvsyvnq
-            rhdcqn6vdc5dsi2ybczld/bin/cmake -E cmake_link_script CMakeFiles/dsbdr3.dir/link.txt --verbose=1
-     448    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/dsbdr5.dir/EXAMPLES
-            /BAND/dsbdr5.f.o CMakeFiles/dsbdr5.dir/EXAMPLES/BAND/dsband.f.o -o EXAMPLES/BAND/dsbdr5  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-st
-            age-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/
-            spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib lib/libarpack.so.2.1.0 /gpfs/alpine/csc
-            439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusm
-            x6jolsy/lib/libopenblas.so
-     449    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/dsbdr1.dir/EXAMPLES
-            /BAND/dsbdr1.f.o CMakeFiles/dsbdr1.dir/EXAMPLES/BAND/dsband.f.o -o EXAMPLES/BAND/dsbdr1  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-st
-            age-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/
-            spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib lib/libarpack.so.2.1.0 /gpfs/alpine/csc
-            439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusm
-            x6jolsy/lib/libopenblas.so
-     450    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/dsbdr3.dir/EXAMPLES
-            /BAND/dsbdr3.f.o CMakeFiles/dsbdr3.dir/EXAMPLES/BAND/dsband.f.o -o EXAMPLES/BAND/dsbdr3  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-st
-            age-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/
-            spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib lib/libarpack.so.2.1.0 /gpfs/alpine/csc
-            439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusm
-            x6jolsy/lib/libopenblas.so
-     451    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -dynamic CMakeFiles/dsbdr4.dir/EXAMPLES
-            /BAND/dsbdr4.f.o CMakeFiles/dsbdr4.dir/EXAMPLES/BAND/dsband.f.o -o EXAMPLES/BAND/dsbdr4  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-st
-            age-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/
-            spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib lib/libarpack.so.2.1.0 /gpfs/alpine/csc
-            439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusm
-            x6jolsy/lib/libopenblas.so
-  >> 452    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 453    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 454    make[2]: *** [CMakeFiles/cnbdr2.dir/build.make:116: EXAMPLES/BAND/cnbdr2] Error 1
-     455    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 456    make[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/cnbdr2.dir/all] Error 2
-     457    make[1]: *** Waiting for unfinished jobs....
-  >> 458    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 459    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 460    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 461    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 462    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 463    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 464    make[2]: *** [CMakeFiles/cnbdr3.dir/build.make:116: EXAMPLES/BAND/cnbdr3] Error 1
-     465    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 466    make[1]: *** [CMakeFiles/Makefile2:368: CMakeFiles/cnbdr3.dir/all] Error 2
-  >> 467    make[2]: *** [CMakeFiles/cnbdr1.dir/build.make:116: EXAMPLES/BAND/cnbdr1] Error 1
-     468    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 469    make[1]: *** [CMakeFiles/Makefile2:316: CMakeFiles/cnbdr1.dir/all] Error 2
-  >> 470    make[2]: *** [CMakeFiles/cnbdr4.dir/build.make:116: EXAMPLES/BAND/cnbdr4] Error 1
-     471    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 472    make[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/cnbdr4.dir/all] Error 2
-     473    [ 35%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnapps.f.o
-     474    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pcnapps.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnapps.f.o
-     475    [ 35%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaup2.f.o
-     476    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pcnaup2.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaup2.f.o
-     477    [ 35%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaupd.f.o
-     478    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pcnaupd.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaupd.f.o
-     479    [ 36%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneigh.f.o
-     480    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pcneigh.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneigh.f.o
-     481    [ 36%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneupd.f.o
-     482    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pcneupd.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneupd.f.o
-  >> 483    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 484    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 485    make[2]: *** [CMakeFiles/dsbdr2.dir/build.make:116: EXAMPLES/BAND/dsbdr2] Error 1
-     486    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 487    make[1]: *** [CMakeFiles/Makefile2:602: CMakeFiles/dsbdr2.dir/all] Error 2
-  >> 488    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 489    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 490    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 491    make[2]: *** [CMakeFiles/dsbdr5.dir/build.make:116: EXAMPLES/BAND/dsbdr5] Error 1
-     492    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 493    make[1]: *** [CMakeFiles/Makefile2:680: CMakeFiles/dsbdr5.dir/all] Error 2
-  >> 494    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 495    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 496    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-     497    [ 36%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcngets.f.o
-     498    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pcngets.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcngets.f.o
-  >> 499    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 500    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 501    make[2]: *** [CMakeFiles/dsbdr1.dir/build.make:116: EXAMPLES/BAND/dsbdr1] Error 1
-     502    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 503    make[1]: *** [CMakeFiles/Makefile2:576: CMakeFiles/dsbdr1.dir/all] Error 2
-  >> 504    make[2]: *** [CMakeFiles/dsbdr4.dir/build.make:116: EXAMPLES/BAND/dsbdr4] Error 1
-     505    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 506    make[2]: *** [CMakeFiles/dsbdr3.dir/build.make:116: EXAMPLES/BAND/dsbdr3] Error 1
-     507    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 508    make[1]: *** [CMakeFiles/Makefile2:654: CMakeFiles/dsbdr4.dir/all] Error 2
-  >> 509    make[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/dsbdr3.dir/all] Error 2
-     510    [ 36%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcontext.f.o
-     511    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pcontext.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcontext.f.o
-     512    [ 37%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdgetv0.f.o
-     513    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pdgetv0.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdgetv0.f.o
-     514    [ 37%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdlarnv.f.o
-     515    [ 37%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdlamch10.f.o
-
-     ...
-
-     564    [ 42%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsgets.f.o
-     565    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pdsgets.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsgets.f.o
-     566    [ 43%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdznorm2.f.o
-     567    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pdznorm2.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdznorm2.f.o
-     568    [ 43%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pscnorm2.f.o
-     569    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pscnorm2.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pscnorm2.f.o
-  >> 570    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 571    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 572    make[2]: *** [CMakeFiles/dnbdr1.dir/build.make:116: EXAMPLES/BAND/dnbdr1] Error 1
-     573    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 574    make[1]: *** [CMakeFiles/Makefile2:420: CMakeFiles/dnbdr1.dir/all] Error 2
-     575    [ 43%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psgetv0.f.o
-     576    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/psgetv0.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psgetv0.f.o
-     577    [ 43%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pslamch10.f.o
-     578    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pslamch10.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pslamch10.f.o
-  >> 579    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 580    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 581    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 582    make[2]: *** [CMakeFiles/dnbdr5.dir/build.make:116: EXAMPLES/BAND/dnbdr5] Error 1
-     583    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 584    make[1]: *** [CMakeFiles/Makefile2:524: CMakeFiles/dnbdr5.dir/all] Error 2
-  >> 585    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 586    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 587    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 588    make[2]: *** [CMakeFiles/dnbdr2.dir/build.make:116: EXAMPLES/BAND/dnbdr2] Error 1
-     589    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 590    make[1]: *** [CMakeFiles/Makefile2:446: CMakeFiles/dnbdr2.dir/all] Error 2
-  >> 591    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 592    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_ismin_'
-  >> 593    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 594    make[2]: *** [CMakeFiles/dnbdr4.dir/build.make:116: EXAMPLES/BAND/dnbdr4] Error 1
-     595    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 596    /opt/cray/pe/cce/13.0.0/binutils/x86_64/x86_64-pc-linux-gnu/bin/ld: lib/libarpack.so.2.1.0: undefined reference to `_idmin_'
-  >> 597    make[1]: *** [CMakeFiles/Makefile2:498: CMakeFiles/dnbdr4.dir/all] Error 2
-  >> 598    make[2]: *** [CMakeFiles/dnbdr3.dir/build.make:116: EXAMPLES/BAND/dnbdr3] Error 1
-     599    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 600    make[2]: *** [CMakeFiles/dnbdr6.dir/build.make:116: EXAMPLES/BAND/dnbdr6] Error 1
-  >> 601    make[1]: *** [CMakeFiles/Makefile2:472: CMakeFiles/dnbdr3.dir/all] Error 2
-     602    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 603    make[1]: *** [CMakeFiles/Makefile2:550: CMakeFiles/dnbdr6.dir/all] Error 2
-     604    [ 44%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pslarnv.f.o
-     605    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/pslarnv.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pslarnv.f.o
-     606    [ 44%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnaitr.f.o
-     607    [ 44%] Building Fortran object CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnapps.f.o
-     608    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/psnaitr.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnaitr.f.o
-     609    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -Dparpack_EXPORTS -I/tmp/lpeyrala/spack
-            -stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src -I/opt/cray/pe/mpich/8.1.12/ofi/cray/10.0/include -I/opt
-            /cray/pe/mpich/8.1.12/ofi/crayclang/10.0/include -em -J. -h PIC -c /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjc
-            jgawzdcvk5i6jkxlvfl/spack-src/PARPACK/SRC/MPI/psnapps.f -o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnapps.f.o
-
-     ...
-
-     677    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-wjqbfvsyvnq
-            rhdcqn6vdc5dsi2ybczld/bin/cmake -E cmake_link_script CMakeFiles/parpack.dir/link.txt --verbose=1
-     678    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/ftn -h PIC -L/opt/cray/pe/mpich/8.1.12/ofi/
-            cray/10.0/lib -shared -Wl,-soname,libparpack.so.2 -o lib/libparpack.so.2.1.0 CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcgetv0.f.o CMakeF
-            iles/parpack.dir/PARPACK/SRC/MPI/pclarnv.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaitr.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI
-            /pcnapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcnaupd.f.o CMakeFiles/parpack.
-            dir/PARPACK/SRC/MPI/pcneigh.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcneupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcngets.f.o 
-            CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pcontext.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdgetv0.f.o CMakeFiles/parpack.dir/PARPACK/
-            SRC/MPI/pdlamch10.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdlarnv.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnaitr.f.o CMakeFiles
-            /parpack.dir/PARPACK/SRC/MPI/pdnapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdn
-            aupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdneigh.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdneupd.f.o CMakeFiles/parpack.dir/
-            PARPACK/SRC/MPI/pdngets.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdnorm2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaitr.f.o CMak
-            eFiles/parpack.dir/PARPACK/SRC/MPI/pdsapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdsaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/M
-            PI/pdsaupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdseigt.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdseupd.f.o CMakeFiles/parpac
-            k.dir/PARPACK/SRC/MPI/pdsgets.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pdznorm2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pscnorm2.
-            f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psgetv0.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pslamch10.f.o CMakeFiles/parpack.dir/PAR
-            PACK/SRC/MPI/pslarnv.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnaitr.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnapps.f.o CMakeFi
-            les/parpack.dir/PARPACK/SRC/MPI/psnaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psnaupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/
-            psneigh.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psneupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psngets.f.o CMakeFiles/parpack.d
-            ir/PARPACK/SRC/MPI/psnorm2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssaitr.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssapps.f.o C
-            MakeFiles/parpack.dir/PARPACK/SRC/MPI/pssaup2.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssaupd.f.o CMakeFiles/parpack.dir/PARPACK/SR
-            C/MPI/psseigt.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/psseupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pssgets.f.o CMakeFiles/par
-            pack.dir/PARPACK/SRC/MPI/pzgetv0.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pzlarnv.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pznaitr
-            .f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pznapps.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pznaup2.f.o CMakeFiles/parpack.dir/PARP
-            ACK/SRC/MPI/pznaupd.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pzneigh.f.o CMakeFiles/parpack.dir/PARPACK/SRC/MPI/pzneupd.f.o CMakeFil
-            es/parpack.dir/PARPACK/SRC/MPI/pzngets.f.o CMakeFiles/parpack.dir/dbgini.f.o CMakeFiles/parpack.dir/staini.f.o CMakeFiles/parpack.dir/
-            PARPACK/UTIL/MPI/pcmout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/pcvout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/pdmout.f.o CMak
-            eFiles/parpack.dir/PARPACK/UTIL/MPI/pdvout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/pivout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/
-            MPI/psmout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/psvout.f.o CMakeFiles/parpack.dir/PARPACK/UTIL/MPI/pzmout.f.o CMakeFiles/parpac
-            k.dir/PARPACK/UTIL/MPI/pzvout.f.o  -Wl,-rpath,/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/s
-            pack-src/lib:/opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0/lib:/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack
-            /opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy/lib:::::::::::::::::::::::::::::::::::::::::::::
-            ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-            ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: lib/libarpack.so.2.1.0 /opt/cray/pe/mpich/8.
-            1.12/ofi/crayclang/10.0/lib/libmpifort_cray.so /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0/lib/libmpi_cray.so /gpfs/alpine/csc439/wor
-            ld-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/gcc-7.5.0/openblas-0.3.20-7qcfzerz6zfr6aouxnlpqjusmx6jolsy
-            /lib/libopenblas.so
-     679    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/cmake-3.23.1-wjqbfvsyvnq
-            rhdcqn6vdc5dsi2ybczld/bin/cmake -E cmake_symlink_library lib/libparpack.so.2.1.0 lib/libparpack.so.2 lib/libparpack.so
-     680    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-     681    [ 54%] Built target parpack
-     682    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-src'
-  >> 683    make: *** [Makefile:169: all] Error 2
-
-See build log for details:
-  /tmp/lpeyrala/spack-stage/spack-stage-arpack-ng-3.8.0-fmumdmlgidbjcjgawzdcvk5i6jkxlvfl/spack-build-out.txt
-
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/zfp-0.5.5-vnx7jradj6q7dojju7bt3kw2zpg3eyaz
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/metis-5.1.0-dlkms3bw6aszrictwuviwnpsrhcjmor5
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/blaspp-2021.04.01-kpiggqr3dlrwoaiitwdtdkkehmfa6oyw
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/py-pip-21.3.1-xusohbnepnezxcqlmlzpa633tz56r7vj
-==> Installing kokkos-3.6.00-c7cuzyza3lxeduyok3jnq3za5dteuf3q
-==> No binary for kokkos-3.6.00-c7cuzyza3lxeduyok3jnq3za5dteuf3q found: installing from source
-==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/53/53b11fffb53c5d48da5418893ac7bc814ca2fde9c86074bdfeaa967598c918f4.tar.gz
-==> No patches needed for kokkos
-==> kokkos: Executing phase: 'cmake'
-==> Error: ProcessError: Command exited with status 1:
-    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/kokkos-3.6.00-c7cuzyza3lxeduyok3jnq3za5dteuf3q' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/kokkos-3.6.00-c7cuzyza3lxeduyok3jnq3za5dteuf3q/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/kokkos-3.6.00-c7cuzyza3lxeduyok3jnq3za5dteuf3q/lib64;/opt/rocm-5.1.0/hip/lib;/opt/rocm-5.1.0/lib;/opt/rocm-5.1.0/llvm/lib;/opt/rocm-5.1.0/lib64;/opt/cray/pe/cce/13.0.0/cce-clang/x86_64' '-DCMAKE_PREFIX_PATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wdass5lsywo;/opt/rocm-5.1.0/llvm;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/hip' '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF' '-DKokkos_CXX_STANDARD:STRING=14' '-DBUILD_SHARED_LIBS:BOOL=ON' '-DKokkos_ARCH_ZEN2:BOOL=ON' '-DKokkos_ARCH_VEGA900:BOOL=ON' '-DKokkos_ARCH_VEGA90A:BOOL=ON' '-DKokkos_ENABLE_CUDA:BOOL=OFF' '-DKokkos_ENABLE_OPENMP:BOOL=OFF' '-DKokkos_ENABLE_PTHREAD:BOOL=OFF' '-DKokkos_ENABLE_SERIAL:BOOL=ON' '-DKokkos_ENABLE_HIP:BOOL=ON' '-DKokkos_ENABLE_SYCL:BOOL=OFF' '-DKokkos_ENABLE_AGGRESSIVE_VECTORIZATION:BOOL=OFF' '-DKokkos_ENABLE_COMPILER_WARNINGS:BOOL=OFF' '-DKokkos_ENABLE_CUDA_CONSTEXPR:BOOL=OFF' '-DKokkos_ENABLE_CUDA_LAMBDA:BOOL=OFF' '-DKokkos_ENABLE_CUDA_LDG_INTRINSIC:BOOL=OFF' '-DKokkos_ENABLE_CUDA_RELOCATABLE_DEVICE_CODE:BOOL=OFF' '-DKokkos_ENABLE_CUDA_UVM:BOOL=OFF' '-DKokkos_ENABLE_DEBUG:BOOL=OFF' '-DKokkos_ENABLE_DEBUG_BOUNDS_CHECK:BOOL=OFF' '-DKokkos_ENABLE_DEBUG_DUALVIEW_MODIFY_CHECK:BOOL=OFF' '-DKokkos_ENABLE_DEPRECATED_CODE:BOOL=OFF' '-DKokkos_ENABLE_EXAMPLES:BOOL=OFF' '-DKokkos_ENABLE_EXPLICIT_INSTANTIATION:BOOL=OFF' '-DKokkos_ENABLE_HPX_ASYNC_DISPATCH:BOOL=OFF' '-DKokkos_ENABLE_PROFILING:BOOL=ON' '-DKokkos_ENABLE_TUNING:BOOL=OFF' '-DKokkos_ENABLE_PROFILING_LOAD_PRINT:BOOL=OFF' '-DKokkos_ENABLE_QTHREAD:BOOL=OFF' '-DKokkos_ENABLE_TESTS:BOOL=OFF' '-DKokkos_ENABLE_HPX:BOOL=OFF' '-DKokkos_ENABLE_HWLOC:BOOL=OFF' '-DKokkos_ENABLE_NUMACTL:BOOL=OFF' '-DKokkos_ENABLE_MEMKIND:BOOL=OFF' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.1.0/hip/bin/hipcc' '/tmp/lpeyrala/spack-stage/spack-stage-kokkos-3.6.00-c7cuzyza3lxeduyok3jnq3za5dteuf3q/spack-src'
-
-1 error found in build log:
-     9     -- Detecting CXX compile features
-     10    -- Detecting CXX compile features - done
-     11    -- Setting policy CMP0074 to use <Package>_ROOT variables
-     12    -- The project name is: Kokkos
-     13    -- Compiler Version: 5.1.20531
-     14    -- Using -std=gnu++14 for C++14 extensions as feature
-  >> 15    CMake Error at cmake/kokkos_arch.cmake:468 (MESSAGE):
-     16      Multiple GPU architectures given! Already have VEGA900, but trying to add
-     17      VEGA90A.  If you are re-running CMake, try clearing the cache and running
-     18      again.
-     19    Call Stack (most recent call first):
-     20      cmake/kokkos_arch.cmake:489 (CHECK_AMDGPU_ARCH)
-     21      cmake/kokkos_tribits.cmake:240 (INCLUDE)
-
-See build log for details:
-  /tmp/lpeyrala/spack-stage/spack-stage-kokkos-3.6.00-c7cuzyza3lxeduyok3jnq3za5dteuf3q/spack-build-out.txt
-
-==> Warning: Skipping build of arborx-1.2-qoryp7tiyaoslgy26oyh6e453bxf4eqk since kokkos-3.6.00-c7cuzyza3lxeduyok3jnq3za5dteuf3q failed
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/hdf5-1.12.2-ng3ayiv2rgcphz2jfvhws43jcm3dhvi3
+==> Installing pmix-4.1.2-ohvld77mlmlzdgpc7abdvtfdpmnd7sdt
+==> No binary for pmix-4.1.2-ohvld77mlmlzdgpc7abdvtfdpmnd7sdt found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/67/670d3a02b39fb2126fe8084174cf03c484e027b5921b5c98a851108134e2597a.tar.bz2
+==> No patches needed for pmix
+==> pmix: Executing phase: 'autoreconf'
+==> pmix: Executing phase: 'configure'
+==> pmix: Executing phase: 'build'
+==> pmix: Executing phase: 'install'
+==> pmix: Successfully installed pmix-4.1.2-ohvld77mlmlzdgpc7abdvtfdpmnd7sdt
+  Fetch: 0.27s.  Build: 2m 2.43s.  Total: 2m 2.70s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/pmix-4.1.2-ohvld77mlmlzdgpc7abdvtfdpmnd7sdt
+==> Installing py-pip-21.3.1-qiapjlsd7svnczy3el5w3s7wfoh3ymhy
+==> No binary for py-pip-21.3.1-qiapjlsd7svnczy3el5w3s7wfoh3ymhy found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/de/deaf32dcd9ab821e359cd8330786bcd077604b5c5730c0b096eda46f95c24a2d
+==> No patches needed for py-pip
+==> py-pip: Executing phase: 'install'
+==> py-pip: Successfully installed py-pip-21.3.1-qiapjlsd7svnczy3el5w3s7wfoh3ymhy
+  Fetch: 0.28s.  Build: 7.30s.  Total: 7.58s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-pip-21.3.1-qiapjlsd7svnczy3el5w3s7wfoh3ymhy
+==> Installing numactl-2.0.14-4z22iywflrccxtwghdys6iabptnc6i33
+==> No binary for numactl-2.0.14-4z22iywflrccxtwghdys6iabptnc6i33 found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/1e/1ee27abd07ff6ba140aaf9bc6379b37825e54496e01d6f7343330cf1a4487035.tar.gz
+==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/numactl/numactl-2.0.14-symver.patch
+==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/numactl/fix-empty-block.patch
+==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/numactl/link-with-latomic-if-needed.patch
+==> numactl: Executing phase: 'autoreconf'
+==> numactl: Executing phase: 'configure'
+==> numactl: Executing phase: 'build'
+==> numactl: Executing phase: 'install'
+==> numactl: Successfully installed numactl-2.0.14-4z22iywflrccxtwghdys6iabptnc6i33
+  Fetch: 0.19s.  Build: 9.90s.  Total: 10.09s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/numactl-2.0.14-4z22iywflrccxtwghdys6iabptnc6i33
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/eigen-3.4.0-zf633a4hfvzkpfkgrnjhm4wmo6cd77lk
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/lapackpp-2021.04.00-kku4vf3qvxbi24raye53pq24duftl3zs
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/parmetis-4.0.3-yys6du5e7dyidrccvn5mel4n4yw7hwci
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/lapackpp-2021.04.00-lh4beq3konqn64unitgychoisfcfb4uv
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/py-wheel-0.37.0-cevozcl5hlhug47wicxqsanhbigbt3iu
+==> Installing py-wheel-0.37.0-wpvvyfie5vzqdxpz3qsnmbldemkfbyq7
+==> No binary for py-wheel-0.37.0-wpvvyfie5vzqdxpz3qsnmbldemkfbyq7 found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/21/21014b2bd93c6d0034b6ba5d35e4eb284340e09d63c59aef6fc14b0f346146fd
+==> No patches needed for py-wheel
+==> py-wheel: Executing phase: 'install'
+==> py-wheel: Successfully installed py-wheel-0.37.0-wpvvyfie5vzqdxpz3qsnmbldemkfbyq7
+  Fetch: 0.17s.  Build: 0.53s.  Total: 0.69s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-wheel-0.37.0-wpvvyfie5vzqdxpz3qsnmbldemkfbyq7
 [+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/py-setuptools-59.4.0-sgudftw6mdmw55gfr2srionuosbxwdn3
+==> Installing py-setuptools-59.4.0-jcoo45oxvecfnbgh4lkst3nzblihyqqs
+==> No binary for py-setuptools-59.4.0-jcoo45oxvecfnbgh4lkst3nzblihyqqs found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/b4/b4c634615a0cf5b02cf83c7bedffc8da0ca439f00e79452699454da6fbd4153d.tar.gz
+==> No patches needed for py-setuptools
+==> py-setuptools: Executing phase: 'install'
+==> py-setuptools: Successfully installed py-setuptools-59.4.0-jcoo45oxvecfnbgh4lkst3nzblihyqqs
+  Fetch: 0.27s.  Build: 2.47s.  Total: 2.74s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-setuptools-59.4.0-jcoo45oxvecfnbgh4lkst3nzblihyqqs
 ==> Installing superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m
 ==> No binary for superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m found: installing from source
-==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/20/20b60bd8a3d88031c9ce6511ae9700b7a8dcf12e2fd704e74b1af762b3468b8c.tar.gz
+==> Fetching https://mirror.spack.io/_source-cache/archive/20/20b60bd8a3d88031c9ce6511ae9700b7a8dcf12e2fd704e74b1af762b3468b8c.tar.gz
 ==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/superlu-dist/CMAKE_INSTALL_LIBDIR.patch
 ==> superlu-dist: Executing phase: 'cmake'
 ==> superlu-dist: Executing phase: 'build'
@@ -522,135 +232,132 @@ See build log for details:
     'make' '-j16'
 
 7 errors found in build log:
-     148    [  8%] Linking Fortran static library libftestmod.a
-     149    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/FORTRAN && /gpfs/alpi
-            ne/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi4
-            3wdass5lsywo/bin/cmake -P CMakeFiles/ftestmod.dir/cmake_clean_target.cmake
-     150    [  9%] Building C object SRC/CMakeFiles/superlu_dist.dir/colamd.c.o
-     151    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /opt/cray/pe/m
-            pich/8.1.12/ofi/crayclang/10.0/bin/mpicc -DSUPERLU_DIST_EXPORTS -Dsuperlu_dist_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-superlu
-            -dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-c
-            ray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -I/gpfs/alpine/csc439/world-sh
-            ared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/includ
-            e -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2
-            lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen
-            3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt
-            /cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist.dir/c
-            olamd.c.o -MF CMakeFiles/superlu_dist.dir/colamd.c.o.d -o CMakeFiles/superlu_dist.dir/colamd.c.o -c /tmp/lpeyrala/spack-stage/spack-st
-            age-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-src/SRC/colamd.c
-     152    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/FORTRAN && /gpfs/alpi
-            ne/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi4
-            3wdass5lsywo/bin/cmake -E cmake_link_script CMakeFiles/ftestmod.dir/link.txt --verbose=1
-     153    /opt/rocm-5.1.0/llvm/bin/llvm-ar qc libftestmod.a -L/opt/amdgpu/lib64/ CMakeFiles/ftestmod.dir/superlupara.f90.o CMakeFiles/ftestmod.d
-            ir/superlu_mod.f90.o
-  >> 154    /opt/rocm-5.1.0/llvm/bin/llvm-ar: error: unknown option /
-     155    OVERVIEW: LLVM Archiver
-     156    
-     157    USAGE: llvm-ar [options] [-]<operation>[modifiers] [relpos] [count] <archive> [files]
-     158           llvm-ar -M [<mri-script]
-     159    
-     160    OPTIONS:
+     150    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/FORTRAN && /gpfs/alpine/csc439/world-shar
+            ed/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wdass5lsywo/bin/cmake -E cmake_link_scr
+            ipt CMakeFiles/ftestmod.dir/link.txt --verbose=1
+     151    [  9%] Building C object SRC/CMakeFiles/superlu_dist-static.dir/psymbfact.c.o
+     152    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /opt/cray/pe/mpich/8.1.12/ofi/cray
+            clang/10.0/bin/mpicc  -I/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC -I/gpfs/alpine/c
+            sc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -
+            I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7
+            zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e7
+            3z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seu
+            jhd2ihxcohmwj3eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0
+            .0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist-static.dir/psymbfact.c.o -MF CMakeFiles/superlu_dist-static.dir/psymbfact.c.
+            o.d -o CMakeFiles/superlu_dist-static.dir/psymbfact.c.o -c /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack
+            -src/SRC/psymbfact.c
+     153    /opt/rocm-5.1.0/llvm/bin/llvm-ar qc libftestmod.a -L/opt/amdgpu/lib64/ CMakeFiles/ftestmod.dir/superlupara.f90.o CMakeFiles/ftestmod.dir/superlu_mod.f90.o
+     154    [  9%] Building C object SRC/CMakeFiles/superlu_dist-static.dir/psymbfact_util.c.o
+     155    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /opt/cray/pe/mpich/8.1.12/ofi/cray
+            clang/10.0/bin/mpicc  -I/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC -I/gpfs/alpine/c
+            sc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -
+            I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7
+            zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e7
+            3z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seu
+            jhd2ihxcohmwj3eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0
+            .0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist-static.dir/psymbfact_util.c.o -MF CMakeFiles/superlu_dist-static.dir/psymbfa
+            ct_util.c.o.d -o CMakeFiles/superlu_dist-static.dir/psymbfact_util.c.o -c /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx
+            3ptuyjd3m/spack-src/SRC/psymbfact_util.c
+  >> 156    /opt/rocm-5.1.0/llvm/bin/llvm-ar: error: unknown option /
+     157    OVERVIEW: LLVM Archiver
+     158    
+     159    USAGE: llvm-ar [options] [-]<operation>[modifiers] [relpos] [count] <archive> [files]
+     160           llvm-ar -M [<mri-script]
+     161    
+     162    OPTIONS:
 
      ...
 
-     198      [S] - do not build a symbol table
-     199      [T] - create a thin archive
-     200      [u] - update only [files] newer than archive contents
-     201      [U] - use actual timestamps and uids/gids
-     202      [v] - be verbose about actions taken
-     203      [V] - display the version and exit
-  >> 204    make[2]: *** [FORTRAN/CMakeFiles/ftestmod.dir/build.make:115: FORTRAN/libftestmod.a] Error 1
-     205    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbab
-            qx4'
-  >> 206    make[1]: *** [CMakeFiles/Makefile2:1103: FORTRAN/CMakeFiles/ftestmod.dir/all] Error 2
-     207    make[1]: *** Waiting for unfinished jobs....
-     208    [  9%] Building C object SRC/CMakeFiles/superlu_dist.dir/superlu_dist_version.c.o
-     209    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /opt/cray/pe/m
-            pich/8.1.12/ofi/crayclang/10.0/bin/mpicc -DSUPERLU_DIST_EXPORTS -Dsuperlu_dist_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-superlu
-            -dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-c
-            ray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -I/gpfs/alpine/csc439/world-sh
-            ared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/includ
-            e -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2
-            lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen
-            3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt
-            /cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist.dir/s
-            uperlu_dist_version.c.o -MF CMakeFiles/superlu_dist.dir/superlu_dist_version.c.o.d -o CMakeFiles/superlu_dist.dir/superlu_dist_version
-            .c.o -c /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-src/SRC/superlu_dist_version.c
-     210    [  9%] Building CXX object SRC/CMakeFiles/superlu_dist.dir/TreeInterface.cpp.o
-     211    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /opt/cray/pe/m
-            pich/8.1.12/ofi/crayclang/10.0/bin/mpicxx -DSUPERLU_DIST_EXPORTS -Dsuperlu_dist_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-superl
-            u-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-
-            cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -I/gpfs/alpine/csc439/world-s
-            hared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/inclu
-            de -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include -std=c++11 -O2 -g -DNDE
-            BUG -fPIC -std=gnu++11 -MD -MT SRC/CMakeFiles/superlu_dist.dir/TreeInterface.cpp.o -MF CMakeFiles/superlu_dist.dir/TreeInterface.cpp.o
-            .d -o CMakeFiles/superlu_dist.dir/TreeInterface.cpp.o -c /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymig
-            bzx3ptuyjd3m/spack-src/SRC/TreeInterface.cpp
-     212    [ 10%] Building C object SRC/CMakeFiles/superlu_dist-static.dir/util.c.o
+     200      [S] - do not build a symbol table
+     201      [T] - create a thin archive
+     202      [u] - update only [files] newer than archive contents
+     203      [U] - use actual timestamps and uids/gids
+     204      [v] - be verbose about actions taken
+     205      [V] - display the version and exit
+  >> 206    make[2]: *** [FORTRAN/CMakeFiles/ftestmod.dir/build.make:115: FORTRAN/libftestmod.a] Error 1
+     207    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4'
+  >> 208    make[1]: *** [CMakeFiles/Makefile2:1103: FORTRAN/CMakeFiles/ftestmod.dir/all] Error 2
+     209    make[1]: *** Waiting for unfinished jobs....
+     210    [  9%] Building C object SRC/CMakeFiles/superlu_dist.dir/psymbfact_util.c.o
+     211    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /opt/cray/pe/mpich/8.1.12/ofi/cray
+            clang/10.0/bin/mpicc -DSUPERLU_DIST_EXPORTS -Dsuperlu_dist_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuy
+            jd3m/spack-build-hbabqx4/SRC -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0
+            .3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0
+            .0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-z
+            en3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/c
+            ray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt/cray/
+            pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist.dir/psymbfact_util.c.o -MF CMak
+            eFiles/superlu_dist.dir/psymbfact_util.c.o.d -o CMakeFiles/superlu_dist.dir/psymbfact_util.c.o -c /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0
+            -hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-src/SRC/psymbfact_util.c
+     212    [  9%] Building C object SRC/CMakeFiles/superlu_dist.dir/get_perm_c_parmetis.c.o
+     213    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /opt/cray/pe/mpich/8.1.12/ofi/cray
+            clang/10.0/bin/mpicc -DSUPERLU_DIST_EXPORTS -Dsuperlu_dist_EXPORTS -I/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuy
+            jd3m/spack-build-hbabqx4/SRC -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0
+            .3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0
+            .0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-z
+            en3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/c
+            ray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt/cray/
+            pe/cce/13.0.0/cce-clang/x86_64/lib/clang/13.0.0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist.dir/get_perm_c_parmetis.c.o -MF
+             CMakeFiles/superlu_dist.dir/get_perm_c_parmetis.c.o.d -o CMakeFiles/superlu_dist.dir/get_perm_c_parmetis.c.o -c /tmp/lpeyrala/spack-stage/spack-stage-sup
+            erlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-src/SRC/get_perm_c_parmetis.c
+     214    [ 10%] Building C object SRC/CMakeFiles/superlu_dist-static.dir/get_perm_c_parmetis.c.o
 
      ...
 
-     748    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbab
-            qx4'
+     748    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4'
      749    [ 72%] Built target superlu_dist
      750    [ 72%] Linking CXX static library libsuperlu_dist.a
-     751    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /gpfs/alpine/c
-            sc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wda
-            ss5lsywo/bin/cmake -P CMakeFiles/superlu_dist-static.dir/cmake_clean_target.cmake
-     752    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /gpfs/alpine/c
-            sc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wda
-            ss5lsywo/bin/cmake -E cmake_link_script CMakeFiles/superlu_dist-static.dir/link.txt --verbose=1
-     753    /opt/rocm-5.1.0/llvm/bin/llvm-ar qc libsuperlu_dist.a -L/opt/amdgpu/lib64/ "CMakeFiles/superlu_dist-static.dir/sp_ienv.c.o" "CMakeFile
-            s/superlu_dist-static.dir/etree.c.o" "CMakeFiles/superlu_dist-static.dir/sp_colorder.c.o" "CMakeFiles/superlu_dist-static.dir/get_perm
-            _c.c.o" "CMakeFiles/superlu_dist-static.dir/mmd.c.o" "CMakeFiles/superlu_dist-static.dir/comm.c.o" "CMakeFiles/superlu_dist-static.dir
-            /memory.c.o" "CMakeFiles/superlu_dist-static.dir/util.c.o" "CMakeFiles/superlu_dist-static.dir/cublas_utils.c.o" "CMakeFiles/superlu_d
-            ist-static.dir/superlu_grid.c.o" "CMakeFiles/superlu_dist-static.dir/pxerr_dist.c.o" "CMakeFiles/superlu_dist-static.dir/superlu_timer
-            .c.o" "CMakeFiles/superlu_dist-static.dir/symbfact.c.o" "CMakeFiles/superlu_dist-static.dir/psymbfact.c.o" "CMakeFiles/superlu_dist-st
-            atic.dir/psymbfact_util.c.o" "CMakeFiles/superlu_dist-static.dir/get_perm_c_parmetis.c.o" "CMakeFiles/superlu_dist-static.dir/mc64ad_d
-            ist.c.o" "CMakeFiles/superlu_dist-static.dir/xerr_dist.c.o" "CMakeFiles/superlu_dist-static.dir/smach_dist.c.o" "CMakeFiles/superlu_di
-            st-static.dir/dmach_dist.c.o" "CMakeFiles/superlu_dist-static.dir/colamd.c.o" "CMakeFiles/superlu_dist-static.dir/superlu_dist_version
-            .c.o" "CMakeFiles/superlu_dist-static.dir/TreeInterface.cpp.o" "CMakeFiles/superlu_dist-static.dir/superlu_grid3d.c.o" "CMakeFiles/sup
-            erlu_dist-static.dir/supernodal_etree.c.o" "CMakeFiles/superlu_dist-static.dir/supernodalForest.c.o" "CMakeFiles/superlu_dist-static.d
-            ir/trfAux.c.o" "CMakeFiles/superlu_dist-static.dir/communication_aux.c.o" "CMakeFiles/superlu_dist-static.dir/treeFactorization.c.o" "
-            CMakeFiles/superlu_dist-static.dir/sec_structs.c.o" "CMakeFiles/superlu_dist-static.dir/dlangs_dist.c.o" "CMakeFiles/superlu_dist-stat
-            ic.dir/dgsequ_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dlaqgs_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dutil_dist.c.o" "CMak
-            eFiles/superlu_dist-static.dir/dmemory_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dmyblas2_dist.c.o" "CMakeFiles/superlu_dist-stati
-            c.dir/dsp_blas2_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dsp_blas3_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pdgssvx.c.o" "CM
-            akeFiles/superlu_dist-static.dir/pdgssvx_ABglobal.c.o" "CMakeFiles/superlu_dist-static.dir/dreadhb.c.o" "CMakeFiles/superlu_dist-stati
-            c.dir/dreadrb.c.o" "CMakeFiles/superlu_dist-static.dir/dreadtriple.c.o" "CMakeFiles/superlu_dist-static.dir/dreadtriple_noheader.c.o" 
-            "CMakeFiles/superlu_dist-static.dir/dbinary_io.c.o" "CMakeFiles/superlu_dist-static.dir/dreadMM.c.o" "CMakeFiles/superlu_dist-static.d
-            ir/pdgsequ.c.o" "CMakeFiles/superlu_dist-static.dir/pdlaqgs.c.o" "CMakeFiles/superlu_dist-static.dir/dldperm_dist.c.o" "CMakeFiles/sup
-            erlu_dist-static.dir/pdlangs.c.o" "CMakeFiles/superlu_dist-static.dir/pdutil.c.o" "CMakeFiles/superlu_dist-static.dir/pdsymbfact_distd
-            ata.c.o" "CMakeFiles/superlu_dist-static.dir/ddistribute.c.o" "CMakeFiles/superlu_dist-static.dir/pddistribute.c.o" "CMakeFiles/superl
-            u_dist-static.dir/pdgstrf.c.o" "CMakeFiles/superlu_dist-static.dir/dstatic_schedule.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrf2.
-            c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs1.c.o" "CMakeFiles/superlu_dist-stati
-            c.dir/pdgstrs_lsum.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs_Bglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pdgsrfs.c.o" "CMa
-            keFiles/superlu_dist-static.dir/pdgsmv.c.o" "CMakeFiles/superlu_dist-static.dir/pdgsrfs_ABXglobal.c.o" "CMakeFiles/superlu_dist-static
-            .dir/pdgsmv_AXglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pdGetDiagU.c.o" "CMakeFiles/superlu_dist-static.dir/pdgssvx3d.c.o" "CMak
-            eFiles/superlu_dist-static.dir/dnrformat_loc3d.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrf3d.c.o" "CMakeFiles/superlu_dist-static
-            .dir/dtreeFactorization.c.o" "CMakeFiles/superlu_dist-static.dir/dtreeFactorizationGPU.c.o" "CMakeFiles/superlu_dist-static.dir/dgathe
-            r.c.o" "CMakeFiles/superlu_dist-static.dir/dscatter3d.c.o" "CMakeFiles/superlu_dist-static.dir/pd3dcomm.c.o" "CMakeFiles/superlu_dist-
-            static.dir/dtrfAux.c.o" "CMakeFiles/superlu_dist-static.dir/dcommunication_aux.c.o" "CMakeFiles/superlu_dist-static.dir/dtrfCommWrappe
-            r.c.o" "CMakeFiles/superlu_dist-static.dir/dsuperlu_blas.c.o" "CMakeFiles/superlu_dist-static.dir/dcomplex_dist.c.o" "CMakeFiles/super
-            lu_dist-static.dir/zlangs_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zgsequ_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zlaqgs_di
-            st.c.o" "CMakeFiles/superlu_dist-static.dir/zutil_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zmemory_dist.c.o" "CMakeFiles/superlu_
-            dist-static.dir/zmyblas2_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zsp_blas2_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zsp_bla
-            s3_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pzgssvx.c.o" "CMakeFiles/superlu_dist-static.dir/pzgssvx_ABglobal.c.o" "CMakeFiles/su
-            perlu_dist-static.dir/zreadhb.c.o" "CMakeFiles/superlu_dist-static.dir/zreadrb.c.o" "CMakeFiles/superlu_dist-static.dir/zreadtriple.c.
-            o" "CMakeFiles/superlu_dist-static.dir/zreadtriple_noheader.c.o" "CMakeFiles/superlu_dist-static.dir/zbinary_io.c.o" "CMakeFiles/super
-            lu_dist-static.dir/zreadMM.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsequ.c.o" "CMakeFiles/superlu_dist-static.dir/pzlaqgs.c.o" "CMa
-            keFiles/superlu_dist-static.dir/zldperm_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pzlangs.c.o" "CMakeFiles/superlu_dist-static.dir
-            /pzutil.c.o" "CMakeFiles/superlu_dist-static.dir/pzsymbfact_distdata.c.o" "CMakeFiles/superlu_dist-static.dir/zdistribute.c.o" "CMakeF
-            iles/superlu_dist-static.dir/pzdistribute.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrf.c.o" "CMakeFiles/superlu_dist-static.dir/zs
-            tatic_schedule.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrf2.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrs.c.o" "CMakeFiles/sup
-            erlu_dist-static.dir/pzgstrs1.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrs_lsum.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrs_B
-            global.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsrfs.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsmv.c.o" "CMakeFiles/superlu_dist-
-            static.dir/pzgsrfs_ABXglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsmv_AXglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pzGetDi
-            agU.c.o" "CMakeFiles/superlu_dist-static.dir/pzgssvx3d.c.o" "CMakeFiles/superlu_dist-static.dir/znrformat_loc3d.c.o" "CMakeFiles/super
-            lu_dist-static.dir/pzgstrf3d.c.o" "CMakeFiles/superlu_dist-static.dir/ztreeFactorization.c.o" "CMakeFiles/superlu_dist-static.dir/ztre
-            eFactorizationGPU.c.o" "CMakeFiles/superlu_dist-static.dir/zscatter3d.c.o" "CMakeFiles/superlu_dist-static.dir/zgather.c.o" "CMakeFile
-            s/superlu_dist-static.dir/pz3dcomm.c.o" "CMakeFiles/superlu_dist-static.dir/ztrfAux.c.o" "CMakeFiles/superlu_dist-static.dir/zcommunic
-            ation_aux.c.o" "CMakeFiles/superlu_dist-static.dir/ztrfCommWrapper.c.o" "CMakeFiles/superlu_dist-static.dir/zsuperlu_blas.c.o"
+     751    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /gpfs/alpine/csc439/world-shared/E
+            4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wdass5lsywo/bin/cmake -P CMakeFiles/superlu
+            _dist-static.dir/cmake_clean_target.cmake
+     752    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4/SRC && /gpfs/alpine/csc439/world-shared/E
+            4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wdass5lsywo/bin/cmake -E cmake_link_script 
+            CMakeFiles/superlu_dist-static.dir/link.txt --verbose=1
+     753    /opt/rocm-5.1.0/llvm/bin/llvm-ar qc libsuperlu_dist.a -L/opt/amdgpu/lib64/ "CMakeFiles/superlu_dist-static.dir/sp_ienv.c.o" "CMakeFiles/superlu_dist-stati
+            c.dir/etree.c.o" "CMakeFiles/superlu_dist-static.dir/sp_colorder.c.o" "CMakeFiles/superlu_dist-static.dir/get_perm_c.c.o" "CMakeFiles/superlu_dist-static.
+            dir/mmd.c.o" "CMakeFiles/superlu_dist-static.dir/comm.c.o" "CMakeFiles/superlu_dist-static.dir/memory.c.o" "CMakeFiles/superlu_dist-static.dir/util.c.o" "
+            CMakeFiles/superlu_dist-static.dir/cublas_utils.c.o" "CMakeFiles/superlu_dist-static.dir/superlu_grid.c.o" "CMakeFiles/superlu_dist-static.dir/pxerr_dist.
+            c.o" "CMakeFiles/superlu_dist-static.dir/superlu_timer.c.o" "CMakeFiles/superlu_dist-static.dir/symbfact.c.o" "CMakeFiles/superlu_dist-static.dir/psymbfac
+            t.c.o" "CMakeFiles/superlu_dist-static.dir/psymbfact_util.c.o" "CMakeFiles/superlu_dist-static.dir/get_perm_c_parmetis.c.o" "CMakeFiles/superlu_dist-stati
+            c.dir/mc64ad_dist.c.o" "CMakeFiles/superlu_dist-static.dir/xerr_dist.c.o" "CMakeFiles/superlu_dist-static.dir/smach_dist.c.o" "CMakeFiles/superlu_dist-sta
+            tic.dir/dmach_dist.c.o" "CMakeFiles/superlu_dist-static.dir/colamd.c.o" "CMakeFiles/superlu_dist-static.dir/superlu_dist_version.c.o" "CMakeFiles/superlu_
+            dist-static.dir/TreeInterface.cpp.o" "CMakeFiles/superlu_dist-static.dir/superlu_grid3d.c.o" "CMakeFiles/superlu_dist-static.dir/supernodal_etree.c.o" "CM
+            akeFiles/superlu_dist-static.dir/supernodalForest.c.o" "CMakeFiles/superlu_dist-static.dir/trfAux.c.o" "CMakeFiles/superlu_dist-static.dir/communication_a
+            ux.c.o" "CMakeFiles/superlu_dist-static.dir/treeFactorization.c.o" "CMakeFiles/superlu_dist-static.dir/sec_structs.c.o" "CMakeFiles/superlu_dist-static.di
+            r/dlangs_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dgsequ_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dlaqgs_dist.c.o" "CMakeFiles/superlu_dist-stat
+            ic.dir/dutil_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dmemory_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dmyblas2_dist.c.o" "CMakeFiles/superlu_di
+            st-static.dir/dsp_blas2_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dsp_blas3_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pdgssvx.c.o" "CMakeFiles/sup
+            erlu_dist-static.dir/pdgssvx_ABglobal.c.o" "CMakeFiles/superlu_dist-static.dir/dreadhb.c.o" "CMakeFiles/superlu_dist-static.dir/dreadrb.c.o" "CMakeFiles/s
+            uperlu_dist-static.dir/dreadtriple.c.o" "CMakeFiles/superlu_dist-static.dir/dreadtriple_noheader.c.o" "CMakeFiles/superlu_dist-static.dir/dbinary_io.c.o" 
+            "CMakeFiles/superlu_dist-static.dir/dreadMM.c.o" "CMakeFiles/superlu_dist-static.dir/pdgsequ.c.o" "CMakeFiles/superlu_dist-static.dir/pdlaqgs.c.o" "CMakeF
+            iles/superlu_dist-static.dir/dldperm_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pdlangs.c.o" "CMakeFiles/superlu_dist-static.dir/pdutil.c.o" "CMakeFile
+            s/superlu_dist-static.dir/pdsymbfact_distdata.c.o" "CMakeFiles/superlu_dist-static.dir/ddistribute.c.o" "CMakeFiles/superlu_dist-static.dir/pddistribute.c
+            .o" "CMakeFiles/superlu_dist-static.dir/pdgstrf.c.o" "CMakeFiles/superlu_dist-static.dir/dstatic_schedule.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrf
+            2.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs1.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs_lsum
+            .c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs_Bglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pdgsrfs.c.o" "CMakeFiles/superlu_dist-static.dir/pdgsmv
+            .c.o" "CMakeFiles/superlu_dist-static.dir/pdgsrfs_ABXglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pdgsmv_AXglobal.c.o" "CMakeFiles/superlu_dist-static.
+            dir/pdGetDiagU.c.o" "CMakeFiles/superlu_dist-static.dir/pdgssvx3d.c.o" "CMakeFiles/superlu_dist-static.dir/dnrformat_loc3d.c.o" "CMakeFiles/superlu_dist-s
+            tatic.dir/pdgstrf3d.c.o" "CMakeFiles/superlu_dist-static.dir/dtreeFactorization.c.o" "CMakeFiles/superlu_dist-static.dir/dtreeFactorizationGPU.c.o" "CMake
+            Files/superlu_dist-static.dir/dgather.c.o" "CMakeFiles/superlu_dist-static.dir/dscatter3d.c.o" "CMakeFiles/superlu_dist-static.dir/pd3dcomm.c.o" "CMakeFil
+            es/superlu_dist-static.dir/dtrfAux.c.o" "CMakeFiles/superlu_dist-static.dir/dcommunication_aux.c.o" "CMakeFiles/superlu_dist-static.dir/dtrfCommWrapper.c.
+            o" "CMakeFiles/superlu_dist-static.dir/dsuperlu_blas.c.o" "CMakeFiles/superlu_dist-static.dir/dcomplex_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zlang
+            s_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zgsequ_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zlaqgs_dist.c.o" "CMakeFiles/superlu_dist-static.dir/
+            zutil_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zmemory_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zmyblas2_dist.c.o" "CMakeFiles/superlu_dist-stat
+            ic.dir/zsp_blas2_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zsp_blas3_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pzgssvx.c.o" "CMakeFiles/superlu_di
+            st-static.dir/pzgssvx_ABglobal.c.o" "CMakeFiles/superlu_dist-static.dir/zreadhb.c.o" "CMakeFiles/superlu_dist-static.dir/zreadrb.c.o" "CMakeFiles/superlu_
+            dist-static.dir/zreadtriple.c.o" "CMakeFiles/superlu_dist-static.dir/zreadtriple_noheader.c.o" "CMakeFiles/superlu_dist-static.dir/zbinary_io.c.o" "CMakeF
+            iles/superlu_dist-static.dir/zreadMM.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsequ.c.o" "CMakeFiles/superlu_dist-static.dir/pzlaqgs.c.o" "CMakeFiles/su
+            perlu_dist-static.dir/zldperm_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pzlangs.c.o" "CMakeFiles/superlu_dist-static.dir/pzutil.c.o" "CMakeFiles/super
+            lu_dist-static.dir/pzsymbfact_distdata.c.o" "CMakeFiles/superlu_dist-static.dir/zdistribute.c.o" "CMakeFiles/superlu_dist-static.dir/pzdistribute.c.o" "CM
+            akeFiles/superlu_dist-static.dir/pzgstrf.c.o" "CMakeFiles/superlu_dist-static.dir/zstatic_schedule.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrf2.c.o" 
+            "CMakeFiles/superlu_dist-static.dir/pzgstrs.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrs1.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrs_lsum.c.o" "
+            CMakeFiles/superlu_dist-static.dir/pzgstrs_Bglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsrfs.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsmv.c.o" "
+            CMakeFiles/superlu_dist-static.dir/pzgsrfs_ABXglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsmv_AXglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pzG
+            etDiagU.c.o" "CMakeFiles/superlu_dist-static.dir/pzgssvx3d.c.o" "CMakeFiles/superlu_dist-static.dir/znrformat_loc3d.c.o" "CMakeFiles/superlu_dist-static.d
+            ir/pzgstrf3d.c.o" "CMakeFiles/superlu_dist-static.dir/ztreeFactorization.c.o" "CMakeFiles/superlu_dist-static.dir/ztreeFactorizationGPU.c.o" "CMakeFiles/s
+            uperlu_dist-static.dir/zscatter3d.c.o" "CMakeFiles/superlu_dist-static.dir/zgather.c.o" "CMakeFiles/superlu_dist-static.dir/pz3dcomm.c.o" "CMakeFiles/supe
+            rlu_dist-static.dir/ztrfAux.c.o" "CMakeFiles/superlu_dist-static.dir/zcommunication_aux.c.o" "CMakeFiles/superlu_dist-static.dir/ztrfCommWrapper.c.o" "CMa
+            keFiles/superlu_dist-static.dir/zsuperlu_blas.c.o"
   >> 754    /opt/rocm-5.1.0/llvm/bin/llvm-ar: error: unknown option /
      755    OVERVIEW: LLVM Archiver
      756    
@@ -668,264 +375,103 @@ See build log for details:
      802      [v] - be verbose about actions taken
      803      [V] - display the version and exit
   >> 804    make[2]: *** [SRC/CMakeFiles/superlu_dist-static.dir/build.make:2117: SRC/libsuperlu_dist.a] Error 1
-     805    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbab
-            qx4'
+     805    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4'
   >> 806    make[1]: *** [CMakeFiles/Makefile2:244: SRC/CMakeFiles/superlu_dist-static.dir/all] Error 2
-     807    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbab
-            qx4'
+     807    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-hbabqx4'
   >> 808    make: *** [Makefile:149: all] Error 2
 
 See build log for details:
   /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m/spack-build-out.txt
 
-==> Installing superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz
-==> No binary for superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz found: installing from source
-==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/cache/_source-cache/archive/20/20b60bd8a3d88031c9ce6511ae9700b7a8dcf12e2fd704e74b1af762b3468b8c.tar.gz
-==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/superlu-dist/CMAKE_INSTALL_LIBDIR.patch
-==> superlu-dist: Executing phase: 'cmake'
-==> superlu-dist: Executing phase: 'build'
+==> Installing py-cython-0.29.24-tgbghn7ofsrklirjx3jly4lykufdhbsf
+==> No binary for py-cython-0.29.24-tgbghn7ofsrklirjx3jly4lykufdhbsf found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/cd/cdf04d07c3600860e8c2ebaad4e8f52ac3feb212453c1764a49ac08c827e8443.tar.gz
+==> No patches needed for py-cython
+==> py-cython: Executing phase: 'install'
+==> py-cython: Successfully installed py-cython-0.29.24-tgbghn7ofsrklirjx3jly4lykufdhbsf
+  Fetch: 0.30s.  Build: 1m 11.19s.  Total: 1m 11.49s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-cython-0.29.24-tgbghn7ofsrklirjx3jly4lykufdhbsf
+==> Installing py-numpy-1.22.3-lvijd46n6bm7guohdi4r7pxusuwd55gh
+==> No binary for py-numpy-1.22.3-lvijd46n6bm7guohdi4r7pxusuwd55gh found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/db/dbc7601a3b7472d559dc7b933b18b4b66f9aa7452c120e87dfb33d02008c8a18.zip
+==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/py-numpy/check_executables.patch
+==> py-numpy: Executing phase: 'install'
+==> py-numpy: Successfully installed py-numpy-1.22.3-lvijd46n6bm7guohdi4r7pxusuwd55gh
+  Fetch: 0.48s.  Build: 3m 9.52s.  Total: 3m 10.00s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/py-numpy-1.22.3-lvijd46n6bm7guohdi4r7pxusuwd55gh
+==> Installing boost-1.79.0-2tdzlcvzm6w25jwot3bddzbcccvfcwpp
+==> No binary for boost-1.79.0-2tdzlcvzm6w25jwot3bddzbcccvfcwpp found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/47/475d589d51a7f8b3ba2ba4eda022b170e562ca3b760ee922c146b6c65856ef39.tar.bz2
+==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/boost/python_jam-1_77.patch
+==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/boost/bootstrap-path.patch
+==> Applied patch /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/var/spack/repos/builtin/packages/boost/bootstrap-compiler.patch
+==> Ran patch() for boost
+==> boost: Executing phase: 'install'
+==> boost: Successfully installed boost-1.79.0-2tdzlcvzm6w25jwot3bddzbcccvfcwpp
+  Fetch: 3.44s.  Build: 2m 13.34s.  Total: 2m 16.77s.
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen/cce-13.0.0/boost-1.79.0-2tdzlcvzm6w25jwot3bddzbcccvfcwpp
+==> Installing valgrind-3.18.1-rgfmdn5la2n47mom7zxgc34jqf44rxj2
+==> No binary for valgrind-3.18.1-rgfmdn5la2n47mom7zxgc34jqf44rxj2 found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/00/00859aa13a772eddf7822225f4b46ee0d39afbe071d32778da4d99984081f7f5.tar.bz2
+==> Ran patch() for valgrind
+==> valgrind: Executing phase: 'autoreconf'
+==> valgrind: Executing phase: 'configure'
+==> valgrind: Executing phase: 'build'
 ==> Error: ProcessError: Command exited with status 2:
-    'make' '-j16'
+    'make' '-j16' 'V=1'
 
 7 errors found in build log:
-     148    [  9%] Linking Fortran static library libftestmod.a
-     149    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/FORTRAN && /gpfs/alpi
-            ne/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi4
-            3wdass5lsywo/bin/cmake -P CMakeFiles/ftestmod.dir/cmake_clean_target.cmake
-     150    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/FORTRAN && /gpfs/alpi
-            ne/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi4
-            3wdass5lsywo/bin/cmake -E cmake_link_script CMakeFiles/ftestmod.dir/link.txt --verbose=1
-     151    [  9%] Building C object SRC/CMakeFiles/superlu_dist-static.dir/symbfact.c.o
-     152    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/SRC && /opt/cray/pe/m
-            pich/8.1.12/ofi/crayclang/10.0/bin/mpicc  -I/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/
-            spack-build-6qbllrx/SRC -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0
-            .0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/
-            opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/Para
-            Tools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alp
-            ine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3
-            eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clan
-            g/13.0.0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist-static.dir/symbfact.c.o -MF CMakeFiles/superlu_dis
-            t-static.dir/symbfact.c.o.d -o CMakeFiles/superlu_dist-static.dir/symbfact.c.o -c /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7
-            .2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-src/SRC/symbfact.c
-     153    /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/bin/llvm-ar qc libftestmod.a -L/opt/amdgpu/lib64/ CMakeFiles/ftestmod.dir/superlupara.f90.o C
-            MakeFiles/ftestmod.dir/superlu_mod.f90.o
-  >> 154    /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/bin/llvm-ar: error: unknown option /
-     155    OVERVIEW: LLVM Archiver
-     156    
-     157    USAGE: llvm-ar [options] [-]<operation>[modifiers] [relpos] [count] <archive> [files]
-     158           llvm-ar -M [<mri-script]
-     159    
-     160    OPTIONS:
-
-     ...
-
-     198      [S] - do not build a symbol table
-     199      [T] - create a thin archive
-     200      [u] - update only [files] newer than archive contents
-     201      [U] - use actual timestamps and uids/gids
-     202      [v] - be verbose about actions taken
-     203      [V] - display the version and exit
-  >> 204    make[2]: *** [FORTRAN/CMakeFiles/ftestmod.dir/build.make:115: FORTRAN/libftestmod.a] Error 1
-     205    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbl
-            lrx'
-  >> 206    make[1]: *** [CMakeFiles/Makefile2:1103: FORTRAN/CMakeFiles/ftestmod.dir/all] Error 2
-     207    make[1]: *** Waiting for unfinished jobs....
-     208    [  9%] Building C object SRC/CMakeFiles/superlu_dist-static.dir/psymbfact.c.o
-     209    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/SRC && /opt/cray/pe/m
-            pich/8.1.12/ofi/crayclang/10.0/bin/mpicc  -I/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/
-            spack-build-6qbllrx/SRC -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0
-            .0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/
-            opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/Para
-            Tools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alp
-            ine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3
-            eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clan
-            g/13.0.0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist-static.dir/psymbfact.c.o -MF CMakeFiles/superlu_di
-            st-static.dir/psymbfact.c.o.d -o CMakeFiles/superlu_dist-static.dir/psymbfact.c.o -c /tmp/lpeyrala/spack-stage/spack-stage-superlu-dis
-            t-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-src/SRC/psymbfact.c
-     210    [  9%] Building C object SRC/CMakeFiles/superlu_dist-static.dir/psymbfact_util.c.o
-     211    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/SRC && /opt/cray/pe/m
-            pich/8.1.12/ofi/crayclang/10.0/bin/mpicc  -I/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/
-            spack-build-6qbllrx/SRC -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0
-            .0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/include -I/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/
-            opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alpine/csc439/world-shared/E4S/Para
-            Tools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7i2lomww2co7e73z6tvr4wcda7zz/include -I/gpfs/alp
-            ine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3
-            eoevtlacbheiifb/include -DUSE_VENDOR_BLAS  -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/lib/clan
-            g/13.0.0/include -std=c99 -O2 -g -DNDEBUG -fPIC -MD -MT SRC/CMakeFiles/superlu_dist-static.dir/psymbfact_util.c.o -MF CMakeFiles/super
-            lu_dist-static.dir/psymbfact_util.c.o.d -o CMakeFiles/superlu_dist-static.dir/psymbfact_util.c.o -c /tmp/lpeyrala/spack-stage/spack-st
-            age-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-src/SRC/psymbfact_util.c
-     212    [  9%] Building C object SRC/CMakeFiles/superlu_dist.dir/get_perm_c_parmetis.c.o
-
-     ...
-
-     745    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/SRC && /gpfs/alpine/c
-            sc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wda
-            ss5lsywo/bin/cmake -E cmake_link_script CMakeFiles/superlu_dist.dir/link.txt --verbose=1
-     746    /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0/bin/mpicxx -fPIC  -Xclang -enable-noundef-analysis -isystem /opt/cray/pe/cce/13.0.0/cce-c
-            lang/x86_64/lib/clang/13.0.0/include -std=c++11 -O2 -g -DNDEBUG -L/opt/amdgpu/lib64/ -shared -Wl,-soname,libsuperlu_dist.so.7 -o libsu
-            perlu_dist.so.7.2.0 CMakeFiles/superlu_dist.dir/sp_ienv.c.o CMakeFiles/superlu_dist.dir/etree.c.o CMakeFiles/superlu_dist.dir/sp_color
-            der.c.o CMakeFiles/superlu_dist.dir/get_perm_c.c.o CMakeFiles/superlu_dist.dir/mmd.c.o CMakeFiles/superlu_dist.dir/comm.c.o CMakeFiles
-            /superlu_dist.dir/memory.c.o CMakeFiles/superlu_dist.dir/util.c.o CMakeFiles/superlu_dist.dir/cublas_utils.c.o CMakeFiles/superlu_dist
-            .dir/superlu_grid.c.o CMakeFiles/superlu_dist.dir/pxerr_dist.c.o CMakeFiles/superlu_dist.dir/superlu_timer.c.o CMakeFiles/superlu_dist
-            .dir/symbfact.c.o CMakeFiles/superlu_dist.dir/psymbfact.c.o CMakeFiles/superlu_dist.dir/psymbfact_util.c.o CMakeFiles/superlu_dist.dir
-            /get_perm_c_parmetis.c.o CMakeFiles/superlu_dist.dir/mc64ad_dist.c.o CMakeFiles/superlu_dist.dir/xerr_dist.c.o CMakeFiles/superlu_dist
-            .dir/smach_dist.c.o CMakeFiles/superlu_dist.dir/dmach_dist.c.o CMakeFiles/superlu_dist.dir/colamd.c.o CMakeFiles/superlu_dist.dir/supe
-            rlu_dist_version.c.o CMakeFiles/superlu_dist.dir/TreeInterface.cpp.o CMakeFiles/superlu_dist.dir/superlu_grid3d.c.o CMakeFiles/superlu
-            _dist.dir/supernodal_etree.c.o CMakeFiles/superlu_dist.dir/supernodalForest.c.o CMakeFiles/superlu_dist.dir/trfAux.c.o CMakeFiles/supe
-            rlu_dist.dir/communication_aux.c.o CMakeFiles/superlu_dist.dir/treeFactorization.c.o CMakeFiles/superlu_dist.dir/sec_structs.c.o CMake
-            Files/superlu_dist.dir/dlangs_dist.c.o CMakeFiles/superlu_dist.dir/dgsequ_dist.c.o CMakeFiles/superlu_dist.dir/dlaqgs_dist.c.o CMakeFi
-            les/superlu_dist.dir/dutil_dist.c.o CMakeFiles/superlu_dist.dir/dmemory_dist.c.o CMakeFiles/superlu_dist.dir/dmyblas2_dist.c.o CMakeFi
-            les/superlu_dist.dir/dsp_blas2_dist.c.o CMakeFiles/superlu_dist.dir/dsp_blas3_dist.c.o CMakeFiles/superlu_dist.dir/pdgssvx.c.o CMakeFi
-            les/superlu_dist.dir/pdgssvx_ABglobal.c.o CMakeFiles/superlu_dist.dir/dreadhb.c.o CMakeFiles/superlu_dist.dir/dreadrb.c.o CMakeFiles/s
-            uperlu_dist.dir/dreadtriple.c.o CMakeFiles/superlu_dist.dir/dreadtriple_noheader.c.o CMakeFiles/superlu_dist.dir/dbinary_io.c.o CMakeF
-            iles/superlu_dist.dir/dreadMM.c.o CMakeFiles/superlu_dist.dir/pdgsequ.c.o CMakeFiles/superlu_dist.dir/pdlaqgs.c.o CMakeFiles/superlu_d
-            ist.dir/dldperm_dist.c.o CMakeFiles/superlu_dist.dir/pdlangs.c.o CMakeFiles/superlu_dist.dir/pdutil.c.o CMakeFiles/superlu_dist.dir/pd
-            symbfact_distdata.c.o CMakeFiles/superlu_dist.dir/ddistribute.c.o CMakeFiles/superlu_dist.dir/pddistribute.c.o CMakeFiles/superlu_dist
-            .dir/pdgstrf.c.o CMakeFiles/superlu_dist.dir/dstatic_schedule.c.o CMakeFiles/superlu_dist.dir/pdgstrf2.c.o CMakeFiles/superlu_dist.dir
-            /pdgstrs.c.o CMakeFiles/superlu_dist.dir/pdgstrs1.c.o CMakeFiles/superlu_dist.dir/pdgstrs_lsum.c.o CMakeFiles/superlu_dist.dir/pdgstrs
-            _Bglobal.c.o CMakeFiles/superlu_dist.dir/pdgsrfs.c.o CMakeFiles/superlu_dist.dir/pdgsmv.c.o CMakeFiles/superlu_dist.dir/pdgsrfs_ABXglo
-            bal.c.o CMakeFiles/superlu_dist.dir/pdgsmv_AXglobal.c.o CMakeFiles/superlu_dist.dir/pdGetDiagU.c.o CMakeFiles/superlu_dist.dir/pdgssvx
-            3d.c.o CMakeFiles/superlu_dist.dir/dnrformat_loc3d.c.o CMakeFiles/superlu_dist.dir/pdgstrf3d.c.o CMakeFiles/superlu_dist.dir/dtreeFact
-            orization.c.o CMakeFiles/superlu_dist.dir/dtreeFactorizationGPU.c.o CMakeFiles/superlu_dist.dir/dgather.c.o CMakeFiles/superlu_dist.di
-            r/dscatter3d.c.o CMakeFiles/superlu_dist.dir/pd3dcomm.c.o CMakeFiles/superlu_dist.dir/dtrfAux.c.o CMakeFiles/superlu_dist.dir/dcommuni
-            cation_aux.c.o CMakeFiles/superlu_dist.dir/dtrfCommWrapper.c.o CMakeFiles/superlu_dist.dir/dsuperlu_blas.c.o CMakeFiles/superlu_dist.d
-            ir/dcomplex_dist.c.o CMakeFiles/superlu_dist.dir/zlangs_dist.c.o CMakeFiles/superlu_dist.dir/zgsequ_dist.c.o CMakeFiles/superlu_dist.d
-            ir/zlaqgs_dist.c.o CMakeFiles/superlu_dist.dir/zutil_dist.c.o CMakeFiles/superlu_dist.dir/zmemory_dist.c.o CMakeFiles/superlu_dist.dir
-            /zmyblas2_dist.c.o CMakeFiles/superlu_dist.dir/zsp_blas2_dist.c.o CMakeFiles/superlu_dist.dir/zsp_blas3_dist.c.o CMakeFiles/superlu_di
-            st.dir/pzgssvx.c.o CMakeFiles/superlu_dist.dir/pzgssvx_ABglobal.c.o CMakeFiles/superlu_dist.dir/zreadhb.c.o CMakeFiles/superlu_dist.di
-            r/zreadrb.c.o CMakeFiles/superlu_dist.dir/zreadtriple.c.o CMakeFiles/superlu_dist.dir/zreadtriple_noheader.c.o CMakeFiles/superlu_dist
-            .dir/zbinary_io.c.o CMakeFiles/superlu_dist.dir/zreadMM.c.o CMakeFiles/superlu_dist.dir/pzgsequ.c.o CMakeFiles/superlu_dist.dir/pzlaqg
-            s.c.o CMakeFiles/superlu_dist.dir/zldperm_dist.c.o CMakeFiles/superlu_dist.dir/pzlangs.c.o CMakeFiles/superlu_dist.dir/pzutil.c.o CMak
-            eFiles/superlu_dist.dir/pzsymbfact_distdata.c.o CMakeFiles/superlu_dist.dir/zdistribute.c.o CMakeFiles/superlu_dist.dir/pzdistribute.c
-            .o CMakeFiles/superlu_dist.dir/pzgstrf.c.o CMakeFiles/superlu_dist.dir/zstatic_schedule.c.o CMakeFiles/superlu_dist.dir/pzgstrf2.c.o C
-            MakeFiles/superlu_dist.dir/pzgstrs.c.o CMakeFiles/superlu_dist.dir/pzgstrs1.c.o CMakeFiles/superlu_dist.dir/pzgstrs_lsum.c.o CMakeFile
-            s/superlu_dist.dir/pzgstrs_Bglobal.c.o CMakeFiles/superlu_dist.dir/pzgsrfs.c.o CMakeFiles/superlu_dist.dir/pzgsmv.c.o CMakeFiles/super
-            lu_dist.dir/pzgsrfs_ABXglobal.c.o CMakeFiles/superlu_dist.dir/pzgsmv_AXglobal.c.o CMakeFiles/superlu_dist.dir/pzGetDiagU.c.o CMakeFile
-            s/superlu_dist.dir/pzgssvx3d.c.o CMakeFiles/superlu_dist.dir/znrformat_loc3d.c.o CMakeFiles/superlu_dist.dir/pzgstrf3d.c.o CMakeFiles/
-            superlu_dist.dir/ztreeFactorization.c.o CMakeFiles/superlu_dist.dir/ztreeFactorizationGPU.c.o CMakeFiles/superlu_dist.dir/zscatter3d.c
-            .o CMakeFiles/superlu_dist.dir/zgather.c.o CMakeFiles/superlu_dist.dir/pz3dcomm.c.o CMakeFiles/superlu_dist.dir/ztrfAux.c.o CMakeFiles
-            /superlu_dist.dir/zcommunication_aux.c.o CMakeFiles/superlu_dist.dir/ztrfCommWrapper.c.o CMakeFiles/superlu_dist.dir/zsuperlu_blas.c.o
-              -Wl,-rpath,/opt/cray/pe/libsci/21.08.1.2/CRAY/9.0/x86_64/lib::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-            ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: /opt/cray/pe/libsci/21.08.1.2/CRAY/9.0
-            /x86_64/lib/libsci_cray_mpi.so /opt/cray/pe/libsci/21.08.1.2/CRAY/9.0/x86_64/lib/libsci_cray.so /opt/cray/pe/libsci/21.08.1.2/CRAY/9.0
-            /x86_64/lib/libsci_cray_mpi.so /opt/cray/pe/libsci/21.08.1.2/CRAY/9.0/x86_64/lib/libsci_cray.so -L/gpfs/alpine/csc439/world-shared/E4S
-            /ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/parmetis-4.0.3-seujhd2ihxcohmwj3eoevtlacbheiifb/lib -lparme
-            tis -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/metis-5.1.0-23va7
-            i2lomww2co7e73z6tvr4wcda7zz/lib -lmetis -lm -ldl
-     747    [ 72%] Linking CXX static library libsuperlu_dist.a
-     748    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/SRC && /gpfs/alpine/c
-            sc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wda
-            ss5lsywo/bin/cmake -P CMakeFiles/superlu_dist-static.dir/cmake_clean_target.cmake
-     749    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/SRC && /gpfs/alpine/c
-            sc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wda
-            ss5lsywo/bin/cmake -E cmake_link_script CMakeFiles/superlu_dist-static.dir/link.txt --verbose=1
-     750    /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/bin/llvm-ar qc libsuperlu_dist.a -L/opt/amdgpu/lib64/ "CMakeFiles/superlu_dist-static.dir/sp_
-            ienv.c.o" "CMakeFiles/superlu_dist-static.dir/etree.c.o" "CMakeFiles/superlu_dist-static.dir/sp_colorder.c.o" "CMakeFiles/superlu_dist
-            -static.dir/get_perm_c.c.o" "CMakeFiles/superlu_dist-static.dir/mmd.c.o" "CMakeFiles/superlu_dist-static.dir/comm.c.o" "CMakeFiles/sup
-            erlu_dist-static.dir/memory.c.o" "CMakeFiles/superlu_dist-static.dir/util.c.o" "CMakeFiles/superlu_dist-static.dir/cublas_utils.c.o" "
-            CMakeFiles/superlu_dist-static.dir/superlu_grid.c.o" "CMakeFiles/superlu_dist-static.dir/pxerr_dist.c.o" "CMakeFiles/superlu_dist-stat
-            ic.dir/superlu_timer.c.o" "CMakeFiles/superlu_dist-static.dir/symbfact.c.o" "CMakeFiles/superlu_dist-static.dir/psymbfact.c.o" "CMakeF
-            iles/superlu_dist-static.dir/psymbfact_util.c.o" "CMakeFiles/superlu_dist-static.dir/get_perm_c_parmetis.c.o" "CMakeFiles/superlu_dist
-            -static.dir/mc64ad_dist.c.o" "CMakeFiles/superlu_dist-static.dir/xerr_dist.c.o" "CMakeFiles/superlu_dist-static.dir/smach_dist.c.o" "C
-            MakeFiles/superlu_dist-static.dir/dmach_dist.c.o" "CMakeFiles/superlu_dist-static.dir/colamd.c.o" "CMakeFiles/superlu_dist-static.dir/
-            superlu_dist_version.c.o" "CMakeFiles/superlu_dist-static.dir/TreeInterface.cpp.o" "CMakeFiles/superlu_dist-static.dir/superlu_grid3d.
-            c.o" "CMakeFiles/superlu_dist-static.dir/supernodal_etree.c.o" "CMakeFiles/superlu_dist-static.dir/supernodalForest.c.o" "CMakeFiles/s
-            uperlu_dist-static.dir/trfAux.c.o" "CMakeFiles/superlu_dist-static.dir/communication_aux.c.o" "CMakeFiles/superlu_dist-static.dir/tree
-            Factorization.c.o" "CMakeFiles/superlu_dist-static.dir/sec_structs.c.o" "CMakeFiles/superlu_dist-static.dir/dlangs_dist.c.o" "CMakeFil
-            es/superlu_dist-static.dir/dgsequ_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dlaqgs_dist.c.o" "CMakeFiles/superlu_dist-static.dir/d
-            util_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dmemory_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dmyblas2_dist.c.o" "CMakeFile
-            s/superlu_dist-static.dir/dsp_blas2_dist.c.o" "CMakeFiles/superlu_dist-static.dir/dsp_blas3_dist.c.o" "CMakeFiles/superlu_dist-static.
-            dir/pdgssvx.c.o" "CMakeFiles/superlu_dist-static.dir/pdgssvx_ABglobal.c.o" "CMakeFiles/superlu_dist-static.dir/dreadhb.c.o" "CMakeFile
-            s/superlu_dist-static.dir/dreadrb.c.o" "CMakeFiles/superlu_dist-static.dir/dreadtriple.c.o" "CMakeFiles/superlu_dist-static.dir/dreadt
-            riple_noheader.c.o" "CMakeFiles/superlu_dist-static.dir/dbinary_io.c.o" "CMakeFiles/superlu_dist-static.dir/dreadMM.c.o" "CMakeFiles/s
-            uperlu_dist-static.dir/pdgsequ.c.o" "CMakeFiles/superlu_dist-static.dir/pdlaqgs.c.o" "CMakeFiles/superlu_dist-static.dir/dldperm_dist.
-            c.o" "CMakeFiles/superlu_dist-static.dir/pdlangs.c.o" "CMakeFiles/superlu_dist-static.dir/pdutil.c.o" "CMakeFiles/superlu_dist-static.
-            dir/pdsymbfact_distdata.c.o" "CMakeFiles/superlu_dist-static.dir/ddistribute.c.o" "CMakeFiles/superlu_dist-static.dir/pddistribute.c.o
-            " "CMakeFiles/superlu_dist-static.dir/pdgstrf.c.o" "CMakeFiles/superlu_dist-static.dir/dstatic_schedule.c.o" "CMakeFiles/superlu_dist-
-            static.dir/pdgstrf2.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs1.c.o" "CMakeFile
-            s/superlu_dist-static.dir/pdgstrs_lsum.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrs_Bglobal.c.o" "CMakeFiles/superlu_dist-static.d
-            ir/pdgsrfs.c.o" "CMakeFiles/superlu_dist-static.dir/pdgsmv.c.o" "CMakeFiles/superlu_dist-static.dir/pdgsrfs_ABXglobal.c.o" "CMakeFiles
-            /superlu_dist-static.dir/pdgsmv_AXglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pdGetDiagU.c.o" "CMakeFiles/superlu_dist-static.dir/
-            pdgssvx3d.c.o" "CMakeFiles/superlu_dist-static.dir/dnrformat_loc3d.c.o" "CMakeFiles/superlu_dist-static.dir/pdgstrf3d.c.o" "CMakeFiles
-            /superlu_dist-static.dir/dtreeFactorization.c.o" "CMakeFiles/superlu_dist-static.dir/dtreeFactorizationGPU.c.o" "CMakeFiles/superlu_di
-            st-static.dir/dgather.c.o" "CMakeFiles/superlu_dist-static.dir/dscatter3d.c.o" "CMakeFiles/superlu_dist-static.dir/pd3dcomm.c.o" "CMak
-            eFiles/superlu_dist-static.dir/dtrfAux.c.o" "CMakeFiles/superlu_dist-static.dir/dcommunication_aux.c.o" "CMakeFiles/superlu_dist-stati
-            c.dir/dtrfCommWrapper.c.o" "CMakeFiles/superlu_dist-static.dir/dsuperlu_blas.c.o" "CMakeFiles/superlu_dist-static.dir/dcomplex_dist.c.
-            o" "CMakeFiles/superlu_dist-static.dir/zlangs_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zgsequ_dist.c.o" "CMakeFiles/superlu_dist-
-            static.dir/zlaqgs_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zutil_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zmemory_dist.c.o" 
-            "CMakeFiles/superlu_dist-static.dir/zmyblas2_dist.c.o" "CMakeFiles/superlu_dist-static.dir/zsp_blas2_dist.c.o" "CMakeFiles/superlu_dis
-            t-static.dir/zsp_blas3_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pzgssvx.c.o" "CMakeFiles/superlu_dist-static.dir/pzgssvx_ABglobal
-            .c.o" "CMakeFiles/superlu_dist-static.dir/zreadhb.c.o" "CMakeFiles/superlu_dist-static.dir/zreadrb.c.o" "CMakeFiles/superlu_dist-stati
-            c.dir/zreadtriple.c.o" "CMakeFiles/superlu_dist-static.dir/zreadtriple_noheader.c.o" "CMakeFiles/superlu_dist-static.dir/zbinary_io.c.
-            o" "CMakeFiles/superlu_dist-static.dir/zreadMM.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsequ.c.o" "CMakeFiles/superlu_dist-static.d
-            ir/pzlaqgs.c.o" "CMakeFiles/superlu_dist-static.dir/zldperm_dist.c.o" "CMakeFiles/superlu_dist-static.dir/pzlangs.c.o" "CMakeFiles/sup
-            erlu_dist-static.dir/pzutil.c.o" "CMakeFiles/superlu_dist-static.dir/pzsymbfact_distdata.c.o" "CMakeFiles/superlu_dist-static.dir/zdis
-            tribute.c.o" "CMakeFiles/superlu_dist-static.dir/pzdistribute.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrf.c.o" "CMakeFiles/superl
-            u_dist-static.dir/zstatic_schedule.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrf2.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrs.
-            c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrs1.c.o" "CMakeFiles/superlu_dist-static.dir/pzgstrs_lsum.c.o" "CMakeFiles/superlu_dist-
-            static.dir/pzgstrs_Bglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsrfs.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsmv.c.o" "CMak
-            eFiles/superlu_dist-static.dir/pzgsrfs_ABXglobal.c.o" "CMakeFiles/superlu_dist-static.dir/pzgsmv_AXglobal.c.o" "CMakeFiles/superlu_dis
-            t-static.dir/pzGetDiagU.c.o" "CMakeFiles/superlu_dist-static.dir/pzgssvx3d.c.o" "CMakeFiles/superlu_dist-static.dir/znrformat_loc3d.c.
-            o" "CMakeFiles/superlu_dist-static.dir/pzgstrf3d.c.o" "CMakeFiles/superlu_dist-static.dir/ztreeFactorization.c.o" "CMakeFiles/superlu_
-            dist-static.dir/ztreeFactorizationGPU.c.o" "CMakeFiles/superlu_dist-static.dir/zscatter3d.c.o" "CMakeFiles/superlu_dist-static.dir/zga
-            ther.c.o" "CMakeFiles/superlu_dist-static.dir/pz3dcomm.c.o" "CMakeFiles/superlu_dist-static.dir/ztrfAux.c.o" "CMakeFiles/superlu_dist-
-            static.dir/zcommunication_aux.c.o" "CMakeFiles/superlu_dist-static.dir/ztrfCommWrapper.c.o" "CMakeFiles/superlu_dist-static.dir/zsuper
-            lu_blas.c.o"
-  >> 751    /opt/cray/pe/cce/13.0.0/cce-clang/x86_64/bin/llvm-ar: error: unknown option /
-     752    OVERVIEW: LLVM Archiver
-     753    
-     754    USAGE: llvm-ar [options] [-]<operation>[modifiers] [relpos] [count] <archive> [files]
-     755           llvm-ar -M [<mri-script]
-     756    
-     757    OPTIONS:
-
-     ...
-
-     795      [S] - do not build a symbol table
-     796      [T] - create a thin archive
-     797      [u] - update only [files] newer than archive contents
-     798      [U] - use actual timestamps and uids/gids
-     799      [v] - be verbose about actions taken
-     800      [V] - display the version and exit
-  >> 801    make[2]: *** [SRC/CMakeFiles/superlu_dist-static.dir/build.make:2117: SRC/libsuperlu_dist.a] Error 1
-     802    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbl
-            lrx'
-  >> 803    make[1]: *** [CMakeFiles/Makefile2:244: SRC/CMakeFiles/superlu_dist-static.dir/all] Error 2
-     804    cd /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbllrx/SRC && /gpfs/alpine/c
-            sc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-d6hskn5p62tvdkbhaxi43wda
-            ss5lsywo/bin/cmake -E cmake_symlink_library libsuperlu_dist.so.7.2.0 libsuperlu_dist.so.7 libsuperlu_dist.so
-     805    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbl
-            lrx'
-     806    [ 72%] Built target superlu_dist
-     807    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-6qbl
-            lrx'
-  >> 808    make: *** [Makefile:149: all] Error 2
+     1022    mv -f .deps/memcheck_amd64_linux-mc_leakcheck.Tpo .deps/memcheck_amd64_linux-mc_leakcheck.Po
+     1023    mv -f .deps/vgpreload_memcheck_amd64_linux_so-mc_replace_strmem.Tpo .deps/vgpreload_memcheck_amd64_linux_so-mc_replace_strmem.Po
+     1024    /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/cc -m64 -O2 -g -Wall -Wmissing-prototypes -Wshadow -Wpointer-a
+             rith -Wstrict-prototypes -Wmissing-declarations -Wcast-align -Wcast-qual -Wwrite-strings -Wempty-body -Wformat -Wformat-security -Wignored-qualifiers -We
+             num-conversion -finline-functions -fno-stack-protector -fno-strict-aliasing -fno-builtin -Wno-cast-align -Wno-self-assign -Wno-tautological-compare  -O -
+             g -fno-omit-frame-pointer -fno-strict-aliasing -fpic -fno-builtin  -O2  -nodefaultlibs -shared -Wl,-z,interpose,-z,initfirst  -m64 -Wl,--whole-archive ..
+             /coregrind/libreplacemalloc_toolpreload-amd64-linux.a -Wl,--no-whole-archive  -o vgpreload_memcheck-amd64-linux.so vgpreload_memcheck_amd64_linux_so-mc_r
+             eplace_strmem.o
+     1025    mv -f .deps/memcheck_amd64_linux-mc_translate.Tpo .deps/memcheck_amd64_linux-mc_translate.Po
+     1026    mv -f .deps/memcheck_amd64_linux-mc_main.Tpo .deps/memcheck_amd64_linux-mc_main.Po
+     1027    ../coregrind/link_tool_exe_linux 0x58000000 /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/lib/spack/env/cce/cc     -o memcheck
+             -amd64-linux  -m64 -O2 -g -Wall -Wmissing-prototypes -Wshadow -Wpointer-arith -Wstrict-prototypes -Wmissing-declarations -Wcast-align -Wcast-qual -Wwrite
+             -strings -Wempty-body -Wformat -Wformat-security -Wignored-qualifiers -Wenum-conversion -finline-functions -fno-stack-protector -fno-strict-aliasing -fno
+             -builtin -Wno-cast-align -Wno-self-assign -Wno-tautological-compare  -fomit-frame-pointer -O2 -static -nodefaultlibs -nostartfiles -u _start -Wl,--build-
+             id=none -m64 memcheck_amd64_linux-mc_leakcheck.o memcheck_amd64_linux-mc_malloc_wrappers.o memcheck_amd64_linux-mc_main.o memcheck_amd64_linux-mc_main_as
+             m.o memcheck_amd64_linux-mc_translate.o memcheck_amd64_linux-mc_machine.o memcheck_amd64_linux-mc_errors.o ../coregrind/libcoregrind-amd64-linux.a ../VEX
+             /libvex-amd64-linux.a -lgcc ../coregrind/libgcc-sup-amd64-linux.a
+  >> 1028    ld.lld: error: undefined symbol: strncmp
+     1029    >>> referenced by no_mmap.c
+     1030    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+     1031    >>> referenced by no_mmap.c
+     1032    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+     1033    >>> referenced by no_mmap.c
+     1034    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+     1035    
+  >> 1036    ld.lld: error: undefined symbol: mallopt
+     1037    >>> referenced by no_mmap.c
+     1038    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+     1039    >>> referenced by no_mmap.c
+     1040    >>>               /opt/cray/pe/cce/13.0.0/cce/x86_64/lib/no_mmap.o:(__no_mmap_for_malloc)
+  >> 1041    clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+  >> 1042    make[3]: *** [Makefile:1109: memcheck-amd64-linux] Error 1
+     1043    make[3]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-valgrind-3.18.1-rgfmdn5la2n47mom7zxgc34jqf44rxj2/spack-src/memcheck'
+  >> 1044    make[2]: *** [Makefile:1420: all-recursive] Error 1
+     1045    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-valgrind-3.18.1-rgfmdn5la2n47mom7zxgc34jqf44rxj2/spack-src/memcheck'
+  >> 1046    make[1]: *** [Makefile:889: all-recursive] Error 1
+     1047    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-valgrind-3.18.1-rgfmdn5la2n47mom7zxgc34jqf44rxj2/spack-src'
+  >> 1048    make: *** [Makefile:754: all] Error 2
 
 See build log for details:
-  /tmp/lpeyrala/spack-stage/spack-stage-superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz/spack-build-out.txt
+  /tmp/lpeyrala/spack-stage/spack-stage-valgrind-3.18.1-rgfmdn5la2n47mom7zxgc34jqf44rxj2/spack-build-out.txt
 
-==> Warning: Skipping build of petsc-3.17.1-ivrtgwvmxecnqrkladqxoncss5b42erx since superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz failed
-==> Warning: Skipping build of py-petsc4py-3.17.1-wujes52ldphtr3zw3adfg6gadym4nknm since petsc-3.17.1-ivrtgwvmxecnqrkladqxoncss5b42erx failed
-==> Warning: Skipping build of precice-2.3.0-c2cgl5hdk2vwa5p62lxftdflccmnnp7n since petsc-3.17.1-ivrtgwvmxecnqrkladqxoncss5b42erx failed
+==> Warning: Skipping build of openmpi-4.1.3-a3mkdtyencgvizf5hjcejqjgojgyarmy since valgrind-3.18.1-rgfmdn5la2n47mom7zxgc34jqf44rxj2 failed
+==> Warning: Skipping build of caliper-2.7.0-2sh4upzygtnkfkokpnd4bsxghenssyn3 since openmpi-4.1.3-a3mkdtyencgvizf5hjcejqjgojgyarmy failed
+==> Warning: Skipping build of adiak-0.2.1-fee2qzfsmahkv5vqwbr3pg25gy6ddkjl since openmpi-4.1.3-a3mkdtyencgvizf5hjcejqjgojgyarmy failed
 ==> Error: superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m: ProcessError: Command exited with status 2:
     'make' '-j16'
-==> Error: butterflypack-2.1.1-p2m3zn3dk66akvgbxuv3tfjervclmo55: Package was not installed
-==> Error: netlib-scalapack-2.2.0-hplida2gn7sha6pb47g3k4bwej425avt: Package was not installed
-==> Error: petsc-3.17.1-ivrtgwvmxecnqrkladqxoncss5b42erx: Package was not installed
-==> Error: precice-2.3.0-c2cgl5hdk2vwa5p62lxftdflccmnnp7n: Package was not installed
-==> Error: py-petsc4py-3.17.1-wujes52ldphtr3zw3adfg6gadym4nknm: Package was not installed
-==> Error: slate-2021.05.02-dvad6tzoi422hlwevvpiuv23vqkarye5: Package was not installed
-==> Error: strumpack-6.3.1-phjlfzsltqwbsjtvm2hnwssnjynunkzf: Package was not installed
-==> Error: superlu-dist-7.2.0-6qbllrxt7gg3gy5xfcaxv2sceeywxsvz: Package was not installed
-==> Error: arborx-1.2-qoryp7tiyaoslgy26oyh6e453bxf4eqk: Package was not installed
-==> Error: slate-2021.05.02-4s2md4kmd5fsmlhpextcnqb4hkflbd4p: Package was not installed
-==> Error: strumpack-6.3.1-mfw3pfgcayybhrsxx3ecz5jiklzj2qui: Package was not installed
+==> Error: caliper-2.7.0-2sh4upzygtnkfkokpnd4bsxghenssyn3: Package was not installed
 ==> Error: superlu-dist-7.2.0-hbabqx4ingvlbtmaymigbzx3ptuyjd3m: Package was not installed
 ==> Error: Installation request failed.  Refer to reported errors for failing package(s).
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/py-mpi4py-3.1.2-uwvkd7y6omboi2hkod3nzhu4e7aevdfi
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/py-cython-0.29.24-kawmie6odmz3lbujk2w2zvn3yh5qwuvk
-[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/py-numpy-1.22.3-f5pnrxyao7f4sjtpjlsxu4xwfob445cf
 
-real	2m39.620s
-user	10m42.564s
-sys	1m31.344s
+real	14m59.493s
+user	30m17.580s
+sys	3m27.596s
