@@ -306,7 +306,7 @@ spack:
     - amrex
     - arborx
     - argobots
-    - ascent                  # vtk-m: vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
+    - ascent
     - axom
     - bolt
     - chai ~benchmarks ~tests
@@ -330,7 +330,7 @@ spack:
     - legion
     - libquo
     - libunwind
-    - loki                    # SmallObj.h:462:57: error: ISO C++17 does not allow dynamic exception specifications
+    - loki
     - mercury
     - metall
     - mfem
@@ -349,7 +349,7 @@ spack:
     - py-libensemble
     - qthreads scheduler=distrib
     - raja
-    - rempi                   # rempi_message_manager.h:53:3: error: 'string' does not name a type; did you mean 'stdin'?
+    - rempi
     - stc
     - sundials
     - superlu
@@ -363,17 +363,11 @@ spack:
     - umpire
     - unifyfs
     - upcxx
-    - variorum                # /usr/bin/ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform';
+    - variorum
     - veloc
-    - vtk-m                   # vtkmdiy/mpi/point-to-point.hpp:51:26: error: 'size_t' does not name a type
-    - wannier90               # comms.F90:247:19: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8))
+    - vtk-m
+    - wannier90
     - zfp
-    # CONFLICTS
-  # - caliper%cce ^openblas%gcc # issue with mpich concretization
-  # - dyninst
-  # - hpctoolkit
-  # - libnrm                  # explicit depends_on('mpich')
-  # - plasma
     # FAILURES
   # - alquimia                # pflotran: ftn-855 ftn: ERROR FIELD_MODULE, File = ../../lpeyrala/spack-stage/spack-stage-pflotran-3.0.2-jbvewmt6ej47lhx7ho6lkf4tft3qhaku/spack-src/src/pflotran/field.F90, Line 
   # - archer                  # llvm@8: spack-src/compiler-rt/lib/sanitizer_common/sanitizer_internal_defs.h:343:72: error:size of array 'assertion_failed__1121' is negative
@@ -408,6 +402,12 @@ spack:
   # - strumpack ~slate %cce ^openblas%gcc # netlib-scalapack
   # - superlu-dist #
   # - trilinos +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long # /opt/cray/pe/cce/13.0.0/cce/x86_64/include/craylibs/xmmintrin.h:127:19: error: use of undeclared identifier '__builtin_ia32_addss'
+    # CONFLICTS
+  # - caliper%cce ^openblas%gcc # issue with mpich concretization
+  # - dyninst
+  # - hpctoolkit
+  # - libnrm                  # explicit depends_on('mpich')
+  # - plasma
     # SKIPPED FOR FACILITY
   # - flux-core
   # - nvhpc
@@ -428,7 +428,6 @@ spack:
     - sundials +rocm amdgpu_target=gfx90a
     - tasmanian +rocm amdgpu_target=gfx90a
     - umpire +rocm amdgpu_target=gfx90a
-    - vtk-m +rocm amdgpu_target=gfx90a
   # FAILURES
   # - arborx +rocm ^kokkos +rocm amdgpu_target=gfx90a # kokkos: cmake: Multiple GPU architectures given
   # - cabana +rocm                                    # g++: error: unrecognized command-line option '-fno-gpu-rdc' (https://github.com/spack/spack/issues/27967)
@@ -438,7 +437,8 @@ spack:
   # - slate +rocm amdgpu_target=gfx90a %cce ^openblas%gcc # netlib-scalapack
   # - slepc +rocm amdgpu_target=gfx90a                # petsc: petscsys.h:69:12: fatal error: 'mpi.h' file not found
   # - strumpack ~slate +rocm amdgpu_target=gfx90a %cce ^openblas%gcc # netlib-scalapack
-  # - superlu-dist +rocm amdgpu_target=gfx90a # 
+  # - superlu-dist +rocm amdgpu_target=gfx90a         # 
+  # - vtk-m +rocm amdgpu_target=gfx90a                # vtkm/filter/particleadvection/Messenger.h:26:10: fatal error: 'mpi.h' file not found
   # RELEASE-TIME FAILURES
   # CONCRETIZATION
   # - hpctoolkit +rocm                                # INFO: Not ROCmPackage
