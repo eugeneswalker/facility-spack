@@ -1,0 +1,1812 @@
+==> Starting concretization pool with 16 processes
+==> Environment concretized in 45.01 seconds.
+==> Concretized alquimia
+ -   ozs652w  alquimia@1.0.9%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  sd5xtvx      ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  efegzfa          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   auhx4eu      ^pflotran@3.0.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  r6wxbiu          ^petsc@3.17.1%cce@13.0.0~X+batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C arch=cray-sles15-zen3
+[+]  bhm2qz5              ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  lk7hv6s              ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                  ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  rez4jrh              ^hypre@2.24.0%cce@13.0.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+[+]  uzliqtk              ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4              ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  j2rtdrx              ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  xjbsvet                  ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                      ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                          ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik                  ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs                  ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                      ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                          ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop                      ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7                  ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng                  ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo                  ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  f3eoho6              ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized archer
+ -   oes6vdu  archer@2.0.0%gcc@7.5.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   rwkquat      ^cmake@3.23.1%gcc@7.5.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen
+[+]  5peuggt          ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=cray-sles15-zen
+[+]  3javkah              ^pkgconf@1.8.0%gcc@7.5.0 arch=cray-sles15-zen
+ -   fenjasf          ^openssl@1.1.1n%gcc@7.5.0~docs~shared certs=system arch=cray-sles15-zen
+ -   l23u6bx      ^llvm@8.0.0%gcc@7.5.0+clang~code_signing+compiler-rt~cuda~flang+gold+internal_unwind~ipo+libcxx~link_llvm_dylib+lld+lldb~llvm_dylib~mlir~omp_as_runtime~omp_debug~omp_tsan+polly~python~shared_libs~split_dwarf~z3 build_type=Release patches=3fa900e,92781f9,af41889 targets=none version_suffix=none arch=cray-sles15-zen
+[+]  34abiny          ^binutils@2.38%gcc@7.5.0~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=cray-sles15-zen
+[+]  lrwse2y              ^diffutils@3.8%gcc@7.5.0 arch=cray-sles15-zen
+[+]  wouvpbb                  ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=cray-sles15-zen
+[+]  56rp7iz              ^zlib@1.2.12%gcc@7.5.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen
+[+]  ymw5rij          ^hwloc@2.7.1%gcc@7.5.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen
+[+]  3swuv2n              ^libpciaccess@0.16%gcc@7.5.0 arch=cray-sles15-zen
+[+]  df6f2qp                  ^libtool@2.4.7%gcc@7.5.0 arch=cray-sles15-zen
+[+]  nc2fmc7                      ^m4@1.4.19%gcc@7.5.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen
+[+]  f3yitk2                          ^libsigsegv@2.13%gcc@7.5.0 arch=cray-sles15-zen
+[+]  ullehkw                  ^util-macros@1.19.3%gcc@7.5.0 arch=cray-sles15-zen
+[+]  zgtazdd              ^libxml2@2.9.13%gcc@7.5.0~python arch=cray-sles15-zen
+[+]  nz6rrov                  ^xz@5.2.5%gcc@7.5.0+pic libs=shared,static arch=cray-sles15-zen
+[+]  fq5besp          ^libedit@3.1-20210216%gcc@7.5.0 arch=cray-sles15-zen
+[+]  lf2fnfu          ^ninja@1.10.2%gcc@7.5.0 arch=cray-sles15-zen
+ -   j576qqz              ^python@3.8.12%gcc@7.5.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen
+[+]  fdia2lu                  ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=cray-sles15-zen
+[+]  prd7ivo                  ^expat@2.4.8%gcc@7.5.0+libbsd arch=cray-sles15-zen
+[+]  mm4un3l                      ^libbsd@0.11.5%gcc@7.5.0 arch=cray-sles15-zen
+[+]  gdqz2wj                          ^libmd@1.0.4%gcc@7.5.0 arch=cray-sles15-zen
+[+]  dcjwwsw                  ^gdbm@1.19%gcc@7.5.0 arch=cray-sles15-zen
+[+]  ewf3f76                      ^readline@8.1%gcc@7.5.0 arch=cray-sles15-zen
+[+]  ss6yrqx                  ^gettext@0.21%gcc@7.5.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen
+[+]  nmx5rbg                      ^tar@1.34%gcc@7.5.0 arch=cray-sles15-zen
+[+]  pdokkyo                  ^libffi@3.4.2%gcc@7.5.0 arch=cray-sles15-zen
+[+]  gm6hs6f                  ^sqlite@3.38.3%gcc@7.5.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen
+[+]  a2opeaq                  ^util-linux-uuid@2.37.4%gcc@7.5.0 arch=cray-sles15-zen
+[+]  me2oihe          ^perl-data-dumper@2.173%gcc@7.5.0 arch=cray-sles15-zen
+[+]  kxbl5nj              ^perl@5.34.1%gcc@7.5.0+cpanm+shared+threads arch=cray-sles15-zen
+[+]  aeucfow                  ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen
+[+]  radrjhk          ^swig@4.0.2%gcc@7.5.0 arch=cray-sles15-zen
+[+]  y4md2xs              ^pcre@8.45%gcc@7.5.0~jit+multibyte+utf arch=cray-sles15-zen
+ -   zuemc37      ^llvm-openmp-ompt@tr6_forwards%gcc@7.5.0~ipo+libomptarget~standalone build_type=Release arch=cray-sles15-zen
+[+]  6ym4ieh          ^elfutils@0.186%gcc@7.5.0+bzip2~debuginfod~nls+xz arch=cray-sles15-zen
+
+==> Concretized butterflypack%cce ^openblas%gcc
+ -   wkpmbam  butterflypack@2.1.1%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   ezeon2i      ^arpack-ng@3.8.0%cce@13.0.0+mpi+shared arch=cray-sles15-zen
+[+]  bldcj62          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen
+[+]  xzigy24              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen
+[+]  kzfdenz              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen
+[+]  gppad7n          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen
+[+]  7qcfzer          ^openblas@0.3.20%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen
+[+]  hbsl26u              ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen
+[+]  chjv3j6                  ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen
+[+]  rm5eeqv                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen
+[+]  pqjoznp                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen
+[+]  wpkrou7                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen
+[+]  zxmxfeo                  ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen
+[+]  wi3ognr                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen
+[+]  ifucpwz                  ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen
+ -   kj4u5ws      ^netlib-scalapack@2.2.0%cce@13.0.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen
+
+==> Concretized cabana
+ -   lk55aiy  cabana@0.4.0%cce@13.0.0~arborx~cuda~heffte~hypre~ipo+mpi~openmp~pthread~rocm+serial+shared~sycl build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   waug34o      ^googletest@1.10.0%cce@13.0.0~gmock~ipo+pthreads+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  ghlhymk      ^kokkos@3.6.00%cce@13.0.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning~wrapper build_type=RelWithDebInfo std=14 arch=cray-sles15-zen3
+
+==> Concretized catalyst
+ -   qv5e6u3  catalyst@5.6.0%cce@13.0.0~essentials~extras~ipo+osmesa~python~python3+rendering build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   wh6atz2      ^git@2.35.2%cce@13.0.0+man+nls+perl+subtree~svn~tcltk arch=cray-sles15-zen3
+[+]  kurtcqa          ^autoconf@2.69%cce@13.0.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+[+]  envw7u7              ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                  ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3g6ss7s              ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  scuc5r6                  ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  wovu742                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  4b6edda                  ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr                  ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  a5osy3q          ^automake@1.16.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  qcn3vjl          ^curl@7.82.0%cce@13.0.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=cray-sles15-zen3
+[+]  efegzfa              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xjbsvet          ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf              ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                  ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs          ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop              ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+ -   52odnx3          ^libidn2@2.3.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   irirecj              ^libunistring@0.9.10%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn          ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+ -   j7lb3mg          ^openssh@9.0p1%cce@13.0.0 arch=cray-sles15-zen3
+ -   i5p3wdi              ^libedit@3.1-20210216%cce@13.0.0 arch=cray-sles15-zen3
+ -   d63qhx5          ^pcre2@10.39%cce@13.0.0~jit+multibyte arch=cray-sles15-zen3
+ -   7cn3q6d      ^mesa@22.0.2%cce@13.0.0+glx+llvm+opengl~opengles+osmesa~strip buildtype=release default_library=shared patches=ada85be arch=cray-sles15-zen3
+[+]  zepvbwg          ^bison@3.8.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  dnlejnk          ^flex@2.6.3%cce@13.0.0+lex~nls arch=cray-sles15-zen3
+[+]  kaetsnt              ^findutils@4.9.0%cce@13.0.0 patches=440b954 arch=cray-sles15-zen3
+ -   ipi7yin          ^glproto@1.4.17%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56              ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  nymz7u7          ^libunwind@1.6.2%cce@13.0.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=cray-sles15-zen3
+ -   2xydvpt          ^libx11@1.7.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   dwiqgrw              ^inputproto@2.3.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   lzjn4a3              ^kbproto@1.0.7%cce@13.0.0 arch=cray-sles15-zen3
+ -   2xby7uu              ^libxcb@1.14%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t6wblpe                  ^libpthread-stubs@0.4%cce@13.0.0 arch=cray-sles15-zen3
+ -   sj3pxlc                  ^libxau@1.0.8%cce@13.0.0 arch=cray-sles15-zen3
+ -   ckxglvg                      ^xproto@7.0.31%cce@13.0.0 arch=cray-sles15-zen3
+ -   uvio46x                  ^libxdmcp@1.1.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   ipgc2j5                  ^xcb-proto@1.14.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   zbnsd75              ^xextproto@7.3.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   hd7tcdl              ^xtrans@1.3.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   xz365lv          ^libxext@1.3.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   4bdmq4f          ^libxt@1.1.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   rvq5exc              ^libice@1.0.9%cce@13.0.0 arch=cray-sles15-zen3
+ -   4gn56u5              ^libsm@1.2.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ho3tylo                  ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6aoidd          ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+ -   zv4dplm          ^meson@0.62.1%cce@13.0.0 patches=aa6c50d arch=cray-sles15-zen3
+[+]  d67cutj              ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6vwnbkp                  ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  667sxo7                      ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng                      ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  idj7gxr              ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  op5ofiv              ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  exj55bi                  ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   btabvt2          ^py-mako@1.1.6%cce@13.0.0 arch=cray-sles15-zen3
+ -   7ed3qy7              ^py-markupsafe@2.0.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   wy4k7pc          ^xrandr@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   pxs6ilu              ^libxrandr@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   pqietzj                  ^libxrender@0.9.10%cce@13.0.0 arch=cray-sles15-zen3
+ -   5fl53vj                      ^renderproto@0.11.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   p4ooe3o                  ^randrproto@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized datatransferkit
+ -   z5qf2zl  datatransferkit@3.1-rc3%cce@13.0.0~external-arborx~ipo~openmp+serial+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  wf7hwoz      ^boost@1.79.0%cce@13.0.0+atomic+chrono~clanglibcpp~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math+mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+[+]  wovu742          ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s              ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                  ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   ji345w2      ^trilinos@13.0.1%cce@13.0.0~adios2+amesos+amesos2+anasazi+aztec~basker+belos+boost~chaco~complex~cuda~cuda_rdc~debug~dtk+epetra+epetraext~epetraextbtf~epetraextexperimental~epetraextgraphreorderings~exodus+explicit_template_instantiation~float+fortran~gtest~hdf5~hypre+ifpack+ifpack2+intrepid+intrepid2~ipo+isorropia+kokkos~mesquite+minitensor+ml+mpi+muelu~mumps+nox~openmp~panzer+phalanx+piro~python~rocm~rocm_rdc+rol+rythmos+sacado~scorec+shards+shared+shylu+stk+stokhos+stratimikos~strumpack~suite-sparse~superlu+superlu-dist+teko+tempus+thyra+tpetra+trilinoscouplings~wrapper~x11+zoltan+zoltan2 build_type=RelWithDebInfo cxxstd=14 gotype=long_long arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  hcble2g          ^hwloc@2.7.1%cce@13.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+[+]  zh5se3i              ^libpciaccess@0.16%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn                  ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  envw7u7                      ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                          ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  efegzfa                  ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56                  ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  uzliqtk          ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4          ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  f3eoho6          ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized exaworks
+ -   ivdp5vm  exaworks@0.1.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   6pzvkfw      ^flux-core@0.37.0%cce@13.0.0~cuda~docs arch=cray-sles15-zen3
+ -   u7o7efr          ^czmq@4.1.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  kurtcqa              ^autoconf@2.69%cce@13.0.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+[+]  envw7u7                  ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                      ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3g6ss7s                  ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  scuc5r6                      ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  wovu742                      ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  4b6edda                      ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                          ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  jl6t5nr                      ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  a5osy3q              ^automake@1.16.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   ognv5zb              ^docbook-xml@4.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zfo3gwk                  ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa                      ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike                      ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+ -   3efwe2k              ^docbook-xsl@1.79.2%cce@13.0.0 patches=a92c397 arch=cray-sles15-zen3
+[+]  iufb3vn              ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xofizwn              ^libzmq@4.3.4%cce@13.0.0~docs~drafts+libbsd+libsodium arch=cray-sles15-zen3
+[+]  ez5z7mf                  ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                      ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6c46kdx                  ^libsodium@1.0.18%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ho3tylo              ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  hcble2g          ^hwloc@2.7.1%cce@13.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+[+]  zh5se3i              ^libpciaccess@0.16%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56                  ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  33aw6av          ^jansson@2.13.1%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw              ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  3o5u7p7                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  iye26je          ^lua@5.3.5%cce@13.0.0~pcfile+shared fetcher=curl arch=cray-sles15-zen3
+[+]  qcn3vjl              ^curl@7.82.0%cce@13.0.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=cray-sles15-zen3
+[+]  uwhsjdl              ^unzip@6.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   fe33vzn          ^lua-luaposix@35.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  tbpm7gq          ^lz4@1.9.3%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+ -   kuh6h3u          ^py-cffi@1.15.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7              ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  idj7gxr              ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6vwnbkp                  ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  xjbsvet                      ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  je5ogzs                      ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  padjbop                          ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng                      ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+ -   o73iqsy              ^py-pycparser@2.20%cce@13.0.0 arch=cray-sles15-zen3
+[+]  op5ofiv                  ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  exj55bi                      ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   c2vwh42          ^py-docutils@0.18.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   wqrj6p4          ^py-jsonschema@4.4.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   afwmjbf              ^py-attrs@21.4.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   tmpdcb3              ^py-importlib-resources@5.3.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   tmiobod                  ^py-setuptools-scm@6.3.2%cce@13.0.0+toml arch=cray-sles15-zen3
+ -   mk4t5i3                      ^py-packaging@21.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   bemw4h4                          ^py-pyparsing@3.0.6%cce@13.0.0 arch=cray-sles15-zen3
+ -   sm26gi6                      ^py-tomli@1.2.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   a4zpfsf                  ^py-zipp@3.6.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   6rxw6gj              ^py-pyrsistent@0.18.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   hlbi3ah          ^py-pyyaml@6.0%cce@13.0.0+libyaml arch=cray-sles15-zen3
+ -   yccnq7q              ^libyaml@0.2.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   hwc3j24              ^py-cython@3.0.0a9%cce@13.0.0 arch=cray-sles15-zen3
+ -   vujdyy5      ^flux-sched@0.22.0%cce@13.0.0~cuda patches=e200867 arch=cray-sles15-zen3
+ -   e3dtso3          ^boost@1.79.0%cce@13.0.0~atomic~chrono~clanglibcpp+container~context~contract~coroutine~date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu~iostreams~json~locale~log~math+mpi+multithreaded~nowide~numpy~pic~program_options~python~random+regex+serialization+shared~signals~singlethreaded~stacktrace+system~taggedlayout~test~thread~timer~type_erasure~versionedlayout~wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+[+]  6zbp2cm              ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   i5p3wdi          ^libedit@3.1-20210216%cce@13.0.0 arch=cray-sles15-zen3
+ -   mu2se4g          ^yaml-cpp@0.6.3%cce@13.0.0~ipo+pic+shared~tests build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   wofpcqu      ^py-parsl@1.1.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   kcczhdr          ^py-dill@0.3.4%cce@13.0.0 arch=cray-sles15-zen3
+ -   lppxl4a          ^py-globus-sdk@3.0.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   5r3udpb              ^py-cryptography@3.4.8%cce@13.0.0 arch=cray-sles15-zen3
+ -   v6iu4jp                  ^py-setuptools-rust@0.12.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   hhwhqxl                      ^py-semantic-version@2.8.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  4b4dba6                      ^py-toml@0.10.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   4zj77hd                      ^rust@1.60.0%cce@13.0.0+analysis+clippy~rls+rustfmt+src extra_targets=none arch=cray-sles15-zen3
+[+]  ffz2j47                          ^gmake@4.3%cce@13.0.0~guile+nls arch=cray-sles15-zen3
+[+]  sil46uw                              ^texinfo@6.5%cce@13.0.0 patches=12f6edb,1732115 arch=cray-sles15-zen3
+ -   sn23rxm                          ^libgit2@1.3.1%cce@13.0.0~curl~ipo+mmap+ssh build_type=RelWithDebInfo https=system arch=cray-sles15-zen3
+ -   zntw3pm                              ^libssh2@1.10.0%cce@13.0.0~ipo+shared build_type=RelWithDebInfo crypto=openssl arch=cray-sles15-zen3
+[+]  d67cutj                          ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   d4vql4p              ^py-pyjwt@2.1.0%cce@13.0.0+crypto arch=cray-sles15-zen3
+[+]  wsjz4cc              ^py-requests@2.26.0%cce@13.0.0~socks arch=cray-sles15-zen3
+[+]  eeuodaf                  ^py-certifi@2021.10.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  byngio7                  ^py-charset-normalizer@2.0.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  n6uwziw                  ^py-idna@3.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  qnrmjdk                  ^py-urllib3@1.26.6%cce@13.0.0~brotli~secure~socks arch=cray-sles15-zen3
+ -   36z64q5          ^py-paramiko@2.7.1%cce@13.0.0~invoke arch=cray-sles15-zen3
+ -   kohwhll              ^py-bcrypt@3.2.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   o57t254                  ^py-six@1.16.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   wt4wd6v              ^py-pynacl@1.4.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   3ytn52z          ^py-psutil@5.8.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   er3qblo          ^py-pyzmq@22.3.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   je5r35t              ^py-gevent@21.12.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   kurvrsd                  ^py-greenlet@1.1.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   67y7imx                  ^py-zope-event@4.5.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   wvipkqf                  ^py-zope-interface@5.4.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   4rmfuwh              ^py-py@1.11.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   vyfvl67          ^py-tblib@1.6.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   o2vvb66          ^py-typeguard@2.12.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   x7azvu2          ^py-typing-extensions@4.1.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   gnzcrmy              ^py-flit-core@3.6.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   zu37bvq      ^py-radical-entk@1.11.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   msw7r3n          ^py-pika@0.13.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   r2hhm6a          ^py-radical-pilot@1.11.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   szahcil              ^py-pymongo@3.12.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   d6ajtfu              ^py-radical-saga@1.11.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   nwc4qzq                  ^py-apache-libcloud@1.2.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   nrsqvik                  ^py-parse@1.18.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   ajcs7re                  ^py-radical-utils@1.11.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   gdrgopr                      ^py-colorama@0.4.4%cce@13.0.0 arch=cray-sles15-zen3
+ -   p7bfpoh                      ^py-msgpack@1.0.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   hofnrf6                      ^py-netifaces@0.10.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   uws2zzv                      ^py-ntplib@0.4.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   2w45tit                      ^py-radical-gtod@1.6.7%cce@13.0.0 arch=cray-sles15-zen3
+ -   gdivfvx                      ^py-regex@2020.11.13%cce@13.0.0 arch=cray-sles15-zen3
+ -   vwiu3tm                      ^py-setproctitle@1.1.10%cce@13.0.0 arch=cray-sles15-zen3
+[+]  5zm2iz2      ^stc@0.9.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iffj2kv          ^ant@1.10.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  dgw3qy5              ^openjdk@11.0.14.1_1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  qndogo2          ^turbine@1.3.0%cce@13.0.0~hdf5~python~r arch=cray-sles15-zen3
+[+]  va2zx5n              ^adlbx@1.0.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6vh54jy                  ^exmcutils@0.6.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bs6pbni              ^swig@4.0.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  sqgmzjy                  ^pcre@8.45%cce@13.0.0~jit+multibyte+utf arch=cray-sles15-zen3
+[+]  q7gpajp              ^tcl@8.6.11%cce@13.0.0 arch=cray-sles15-zen3
+[+]  smh2qht              ^zsh@5.8%cce@13.0.0+skip-tcsetpgrp-test arch=cray-sles15-zen3
+
+==> Concretized fortrilinos
+ -   vsygvwc  fortrilinos@2.0.0%cce@13.0.0+hl~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   ji345w2      ^trilinos@13.0.1%cce@13.0.0~adios2+amesos+amesos2+anasazi+aztec~basker+belos+boost~chaco~complex~cuda~cuda_rdc~debug~dtk+epetra+epetraext~epetraextbtf~epetraextexperimental~epetraextgraphreorderings~exodus+explicit_template_instantiation~float+fortran~gtest~hdf5~hypre+ifpack+ifpack2+intrepid+intrepid2~ipo+isorropia+kokkos~mesquite+minitensor+ml+mpi+muelu~mumps+nox~openmp~panzer+phalanx+piro~python~rocm~rocm_rdc+rol+rythmos+sacado~scorec+shards+shared+shylu+stk+stokhos+stratimikos~strumpack~suite-sparse~superlu+superlu-dist+teko+tempus+thyra+tpetra+trilinoscouplings~wrapper~x11+zoltan+zoltan2 build_type=RelWithDebInfo cxxstd=14 gotype=long_long arch=cray-sles15-zen3
+[+]  wf7hwoz          ^boost@1.79.0%cce@13.0.0+atomic+chrono~clanglibcpp~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math+mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+[+]  wovu742              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                  ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                      ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  6zbp2cm              ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  hcble2g          ^hwloc@2.7.1%cce@13.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+[+]  zh5se3i              ^libpciaccess@0.16%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn                  ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  envw7u7                      ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                          ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  efegzfa                  ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56                  ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  uzliqtk          ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4          ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  f3eoho6          ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized geopm
+ -   hbxbv4p  geopm@1.1.0%cce@13.0.0~coverage~debug+doc+fortran~gnu-ld+mpi~ompt+openmp~overhead+procfs arch=cray-sles15-zen3
+[+]  kurtcqa      ^autoconf@2.69%cce@13.0.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+[+]  envw7u7          ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j              ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3g6ss7s          ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  scuc5r6              ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  wovu742              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                  ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                      ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  4b6edda              ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                  ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                      ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  a5osy3q      ^automake@1.16.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   d22w55i      ^doxygen@1.9.3%cce@13.0.0~graphviz~ipo~mscgen build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  zepvbwg          ^bison@3.8.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  dnlejnk          ^flex@2.6.3%cce@13.0.0+lex~nls arch=cray-sles15-zen3
+[+]  kaetsnt              ^findutils@4.9.0%cce@13.0.0 patches=440b954 arch=cray-sles15-zen3
+[+]  6vwnbkp          ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  xjbsvet              ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                  ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                      ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs              ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                  ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa                      ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike                      ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop                  ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7              ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng              ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo              ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn      ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+ -   kuh6h3u      ^py-cffi@1.15.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  idj7gxr          ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   o73iqsy          ^py-pycparser@2.20%cce@13.0.0 arch=cray-sles15-zen3
+[+]  op5ofiv              ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  exj55bi                  ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   avqzwpv      ^py-cycler@0.11.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   7wnnbmk      ^py-future@0.18.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   p7j27pn      ^py-matplotlib@3.5.2%cce@13.0.0~animation~fonts+image~latex~movies backend=agg arch=cray-sles15-zen3
+ -   6frqkrm          ^freetype@2.11.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  yjrztdk              ^libpng@1.6.37%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eeuodaf          ^py-certifi@2021.10.8%cce@13.0.0 arch=cray-sles15-zen3
+ -   ob3hpvc          ^py-fonttools@4.31.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   7umatbo          ^py-kiwisolver@1.3.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   ikvqk5j              ^py-cppy@1.1.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   iihf7fo          ^py-numpy@1.22.3%cce@13.0.0+blas+lapack patches=873745d arch=cray-sles15-zen3
+[+]  bhm2qz5              ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+ -   qokg3qi              ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen3
+ -   mk4t5i3          ^py-packaging@21.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   bemw4h4              ^py-pyparsing@3.0.6%cce@13.0.0 arch=cray-sles15-zen3
+ -   zupegeb          ^py-pillow@9.0.0%cce@13.0.0~freetype~imagequant+jpeg~jpeg2000~lcms~tiff~webp~webpmux~xcb+zlib arch=cray-sles15-zen3
+ -   hk2y76x              ^libjpeg-turbo@2.1.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   i2ue5ng                  ^nasm@2.15.05%cce@13.0.0 arch=cray-sles15-zen3
+ -   myx7m2i          ^py-python-dateutil@2.8.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   tmiobod              ^py-setuptools-scm@6.3.2%cce@13.0.0+toml arch=cray-sles15-zen3
+ -   sm26gi6                  ^py-tomli@1.2.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   o57t254              ^py-six@1.16.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   3dnz3hu          ^py-setuptools-scm-git-archive@1.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   3dnu3yu          ^qhull@2020.2%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   bonfnq5      ^py-mock@4.0.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   wxsprlf      ^py-natsort@7.1.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   5nge74a      ^py-pandas@1.4.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   w7c2kr6          ^py-bottleneck@1.3.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   kdbycsk          ^py-numexpr@2.7.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   w2q2c7a          ^py-pytz@2021.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   3ytn52z      ^py-psutil@5.8.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   t22nkoi      ^py-pylint@2.11.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   4cgvovb          ^py-astroid@2.8.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   7pphtko              ^py-lazy-object-proxy@1.4.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   x7azvu2              ^py-typing-extensions@4.1.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   gnzcrmy                  ^py-flit-core@3.6.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   vu6jys2              ^py-wrapt@1.13.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   rxdrjiw          ^py-isort@5.9.3%cce@13.0.0~colors arch=cray-sles15-zen3
+ -   wzu6e3k              ^py-poetry-core@1.0.8%cce@13.0.0 arch=cray-sles15-zen3
+ -   l6w5pjt          ^py-mccabe@0.6.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   om5cumw          ^py-platformdirs@2.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  4b4dba6          ^py-toml@0.10.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   hlbi3ah      ^py-pyyaml@6.0%cce@13.0.0+libyaml arch=cray-sles15-zen3
+ -   yccnq7q          ^libyaml@0.2.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   p2kc7fm      ^py-tables@3.6.1%cce@13.0.0~bzip2~lzo+zlib arch=cray-sles15-zen3
+[+]  dtboydf          ^c-blosc@1.21.1%cce@13.0.0+avx2~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  tbpm7gq              ^lz4@1.9.3%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  gu63wdt              ^snappy@1.1.8%cce@13.0.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=cray-sles15-zen3
+[+]  hszw6k5              ^zstd@1.5.2%cce@13.0.0~programs libs=shared,static arch=cray-sles15-zen3
+[+]  sd5xtvx          ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   f2brzwl      ^ruby-ronn@0.7.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   h7gkjmx          ^ruby@3.1.0%cce@13.0.0+openssl~readline arch=cray-sles15-zen3
+ -   2sqdkep          ^ruby-hpricot@0.8.6%cce@13.0.0 arch=cray-sles15-zen3
+ -   fukwvt6          ^ruby-mustache@1.1.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   g6riy65          ^ruby-rdiscount@2.2.0.2%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized gptune%cce ^openblas%gcc
+ -   vbun3b2  gptune@3.0.0%cce@13.0.0~hypre~ipo~mpispawn~superlu build_type=RelWithDebInfo arch=cray-sles15-zen
+[+]  bldcj62      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen
+[+]  xzigy24          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen
+[+]  kzfdenz          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen
+[+]  gppad7n      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen
+ -   iiqqp4f      ^jq@1.6%cce@13.0.0 arch=cray-sles15-zen
+ -   fysbhd4          ^bison@3.8.2%cce@13.0.0 arch=cray-sles15-zen
+[+]  pqjoznp              ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen
+[+]  wpkrou7                  ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen
+[+]  ln4lmpa              ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen
+[+]  jebtogj                  ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen
+[+]  hbsl26u              ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen
+[+]  chjv3j6                  ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen
+[+]  rm5eeqv                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen
+[+]  zxmxfeo                  ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen
+[+]  wi3ognr                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen
+[+]  ifucpwz                  ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen
+ -   kmj7tcx          ^oniguruma@6.9.4%cce@13.0.0 arch=cray-sles15-zen
+ -   kj4u5ws      ^netlib-scalapack@2.2.0%cce@13.0.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen
+[+]  7qcfzer          ^openblas@0.3.20%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen
+ -   e4odlpk      ^openturns@1.18%cce@13.0.0~ipo+python build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   lk44aza          ^boost@1.79.0%cce@13.0.0~atomic~chrono~clanglibcpp~container~context~contract~coroutine~date_time~debug~exception~fiber~filesystem~graph~graph_parallel~icu~iostreams~json~locale~log~math+mpi+multithreaded~nowide~numpy~pic~program_options~python~random~regex+serialization+shared~signals~singlethreaded~stacktrace+system~taggedlayout~test+thread~timer~type_erasure~versionedlayout~wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen
+ -   7hzjtgu          ^intel-tbb@2020.3%cce@13.0.0~ipo+shared+tm build_type=RelWithDebInfo cxxstd=default patches=62ba015,ce1fb16,d62cb66 arch=cray-sles15-zen
+ -   5i5pwmc          ^py-cloudpickle@1.6.0%cce@13.0.0 arch=cray-sles15-zen
+[+]  twdxfnm              ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen
+[+]  zc3pi35                  ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen
+[+]  uyfwqrj                      ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen
+[+]  iuuga2u                          ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen
+[+]  u4isc5y                              ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen
+[+]  zl2mcvw                      ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen
+[+]  yo2aena                          ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen
+[+]  ymmjxfi                              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen
+[+]  47wp2ty                              ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen
+[+]  vxmhbsn                          ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen
+[+]  ltok65b                      ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen
+[+]  ct23oei                      ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen
+[+]  abyw2ha                      ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen
+[+]  gyrnezi              ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen
+[+]  plbggvj                  ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen
+ -   4bmkziz          ^py-matplotlib@3.5.2%cce@13.0.0~animation~fonts+image~latex~movies backend=agg arch=cray-sles15-zen
+ -   d4eqm22              ^freetype@2.11.1%cce@13.0.0 arch=cray-sles15-zen
+ -   uteydfv                  ^libpng@1.6.37%cce@13.0.0 arch=cray-sles15-zen
+ -   cwxceub              ^py-certifi@2021.10.8%cce@13.0.0 arch=cray-sles15-zen
+ -   4fekubk              ^py-cycler@0.11.0%cce@13.0.0 arch=cray-sles15-zen
+ -   zit7ing              ^py-fonttools@4.31.2%cce@13.0.0 arch=cray-sles15-zen
+ -   a6slvmw              ^py-kiwisolver@1.3.2%cce@13.0.0 arch=cray-sles15-zen
+ -   l5gi7zh                  ^py-cppy@1.1.0%cce@13.0.0 arch=cray-sles15-zen
+ -   uuznqao              ^py-numpy@1.21.5%cce@13.0.0+blas+lapack patches=802970a,873745d arch=cray-sles15-zen
+[+]  olhxxrg                  ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen
+ -   k3fp3ap              ^py-packaging@21.3%cce@13.0.0 arch=cray-sles15-zen
+ -   jf7tjlj                  ^py-pyparsing@3.0.6%cce@13.0.0 arch=cray-sles15-zen
+ -   h23zgwi              ^py-pillow@9.0.0%cce@13.0.0~freetype~imagequant+jpeg~jpeg2000~lcms~tiff~webp~webpmux~xcb+zlib arch=cray-sles15-zen
+ -   vldfjz3                  ^libjpeg-turbo@2.1.3%cce@13.0.0 arch=cray-sles15-zen
+ -   kkaxkq4                      ^nasm@2.15.05%cce@13.0.0 arch=cray-sles15-zen
+ -   4nwnwsm              ^py-python-dateutil@2.8.2%cce@13.0.0 arch=cray-sles15-zen
+ -   cfhzsyx                  ^py-setuptools-scm@6.3.2%cce@13.0.0+toml arch=cray-sles15-zen
+ -   4rdm3s6                      ^py-tomli@1.2.2%cce@13.0.0 arch=cray-sles15-zen
+ -   vjn5ky5                  ^py-six@1.16.0%cce@13.0.0 arch=cray-sles15-zen
+ -   ia6dua3              ^py-setuptools-scm-git-archive@1.1%cce@13.0.0 arch=cray-sles15-zen
+ -   d2usz7m              ^qhull@2020.2%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   ubs7ww2          ^py-pandas@1.4.2%cce@13.0.0 arch=cray-sles15-zen
+ -   s6xjsej              ^py-bottleneck@1.3.2%cce@13.0.0 arch=cray-sles15-zen
+ -   jw4xlkh              ^py-numexpr@2.7.3%cce@13.0.0 arch=cray-sles15-zen
+ -   j4kot6w              ^py-pytz@2021.3%cce@13.0.0 arch=cray-sles15-zen
+ -   rqqzpme          ^py-urllib3@1.26.6%cce@13.0.0~brotli~secure~socks arch=cray-sles15-zen
+ -   kj4fzne          ^swig@4.0.2%cce@13.0.0 arch=cray-sles15-zen
+ -   q2wz3ah              ^pcre@8.45%cce@13.0.0~jit+multibyte+utf arch=cray-sles15-zen
+ -   vxolv6i      ^py-filelock@3.5.0%cce@13.0.0 arch=cray-sles15-zen
+ -   cosvmej      ^py-gpy@1.9.9%cce@13.0.0 arch=cray-sles15-zen
+ -   zvplmd7          ^py-paramz@0.9.5%cce@13.0.0 arch=cray-sles15-zen
+ -   b2os4wt              ^py-decorator@5.1.1%cce@13.0.0 arch=cray-sles15-zen
+ -   jl3l4nw              ^py-scipy@1.8.0%cce@13.0.0 arch=cray-sles15-zen
+ -   7s7rxva                  ^py-pybind11@2.8.1%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   3bntqzl                      ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen
+ -   x2fsiu7                  ^py-pythran@0.10.0%cce@13.0.0 arch=cray-sles15-zen
+ -   ynlytz2                      ^py-beniget@0.4.1%cce@13.0.0 arch=cray-sles15-zen
+ -   gfrz5nd                          ^py-gast@0.5.3%cce@13.0.0 arch=cray-sles15-zen
+ -   bv5nwap                      ^py-ply@3.11%cce@13.0.0 arch=cray-sles15-zen
+ -   xdocbtc      ^py-hpbandster@0.7.4%cce@13.0.0 arch=cray-sles15-zen
+ -   qoijjd4          ^py-configspace@0.4.20%cce@13.0.0 arch=cray-sles15-zen
+ -   ij2vakh          ^py-netifaces@0.10.5%cce@13.0.0 arch=cray-sles15-zen
+ -   qk7hywr          ^py-pyro4@4.81%cce@13.0.0 arch=cray-sles15-zen
+ -   vf5daim              ^py-serpent@1.40%cce@13.0.0 arch=cray-sles15-zen
+ -   24yrlfr          ^py-statsmodels@0.13.1%cce@13.0.0~plotting arch=cray-sles15-zen
+ -   6ff7qgf              ^py-patsy@0.5.2%cce@13.0.0~splines arch=cray-sles15-zen
+ -   q3psi3u      ^py-ipyparallel@8.0.0%cce@13.0.0 arch=cray-sles15-zen
+ -   tfnw3vo          ^py-entrypoints@0.4%cce@13.0.0 arch=cray-sles15-zen
+ -   roav7ea              ^py-flit-core@3.6.0%cce@13.0.0 arch=cray-sles15-zen
+ -   ifjhk5i          ^py-ipykernel@6.9.1%cce@13.0.0 arch=cray-sles15-zen
+ -   asivouw              ^py-debugpy@1.5.1%cce@13.0.0 arch=cray-sles15-zen
+ -   znr6yy5              ^py-ipython@8.0.1%cce@13.0.0 arch=cray-sles15-zen
+ -   msutpdp                  ^py-backcall@0.2.0%cce@13.0.0 arch=cray-sles15-zen
+ -   neup5f3                  ^py-black@22.1.0%cce@13.0.0~colorama~d arch=cray-sles15-zen
+ -   tcdqu5d                      ^py-click@8.0.3%cce@13.0.0 arch=cray-sles15-zen
+ -   mtkylln                      ^py-mypy-extensions@0.4.3%cce@13.0.0 arch=cray-sles15-zen
+ -   mpvkxyo                      ^py-pathspec@0.9.0%cce@13.0.0 arch=cray-sles15-zen
+ -   li3o2fr                      ^py-platformdirs@2.4.0%cce@13.0.0 arch=cray-sles15-zen
+ -   7chzhui                      ^py-typing-extensions@4.1.1%cce@13.0.0 arch=cray-sles15-zen
+ -   cixkfq6                  ^py-jedi@0.18.1%cce@13.0.0 arch=cray-sles15-zen
+ -   ygmzdnj                      ^py-parso@0.8.2%cce@13.0.0 arch=cray-sles15-zen
+ -   6bllorh                  ^py-matplotlib-inline@0.1.3%cce@13.0.0 arch=cray-sles15-zen
+ -   hrsz7pb                      ^py-traitlets@5.1.1%cce@13.0.0 arch=cray-sles15-zen
+ -   a3prbtq                  ^py-pexpect@4.8.0%cce@13.0.0 arch=cray-sles15-zen
+ -   3retxk3                      ^py-ptyprocess@0.7.0%cce@13.0.0 arch=cray-sles15-zen
+ -   2fjok56                  ^py-pickleshare@0.7.5%cce@13.0.0 arch=cray-sles15-zen
+ -   23lvffy                  ^py-prompt-toolkit@3.0.29%cce@13.0.0 arch=cray-sles15-zen
+ -   azhqbqb                      ^py-wcwidth@0.2.5%cce@13.0.0 arch=cray-sles15-zen
+ -   cp3rs4x                  ^py-pygments@2.10.0%cce@13.0.0 arch=cray-sles15-zen
+ -   mgin3dz                  ^py-stack-data@0.2.0%cce@13.0.0 arch=cray-sles15-zen
+ -   ilugxho                      ^py-asttokens@2.0.5%cce@13.0.0 arch=cray-sles15-zen
+ -   ewbvyhz                      ^py-executing@0.8.2%cce@13.0.0 arch=cray-sles15-zen
+ -   ng2quat                      ^py-pure-eval@0.2.2%cce@13.0.0 arch=cray-sles15-zen
+ -   wke2bie              ^py-jupyter-client@7.1.2%cce@13.0.0 arch=cray-sles15-zen
+ -   dzyaqmy                  ^py-jupyter-core@4.9.2%cce@13.0.0 arch=cray-sles15-zen
+ -   oyc2jxp                  ^py-nest-asyncio@1.5.4%cce@13.0.0 arch=cray-sles15-zen
+ -   ovmlvfm                  ^py-pyzmq@22.3.0%cce@13.0.0 arch=cray-sles15-zen
+ -   tkfsdot                      ^libzmq@4.3.4%cce@13.0.0~docs~drafts+libbsd+libsodium arch=cray-sles15-zen
+ -   fxwth2k                          ^libsodium@1.0.18%cce@13.0.0 arch=cray-sles15-zen
+ -   btmudo6                      ^py-cffi@1.15.0%cce@13.0.0 arch=cray-sles15-zen
+ -   fuvsjlo                          ^py-pycparser@2.20%cce@13.0.0 arch=cray-sles15-zen
+ -   rht4xpq                      ^py-gevent@1.5.0%cce@13.0.0 arch=cray-sles15-zen
+ -   3hh5lpg                          ^py-greenlet@1.1.2%cce@13.0.0 arch=cray-sles15-zen
+ -   qgibdmj                      ^py-py@1.11.0%cce@13.0.0 arch=cray-sles15-zen
+ -   y756zx3                  ^py-tornado@6.1%cce@13.0.0 arch=cray-sles15-zen
+ -   mgjgaco          ^py-jupyterlab@3.2.9%cce@13.0.0 arch=cray-sles15-zen
+ -   fzn5eiy              ^py-jinja2@3.0.3%cce@13.0.0~i18n arch=cray-sles15-zen
+ -   ssynqoy                  ^py-markupsafe@2.0.1%cce@13.0.0 arch=cray-sles15-zen
+ -   akp7ucu              ^py-jupyter-packaging11@0.11.1%cce@13.0.0 arch=cray-sles15-zen
+ -   wzsoi67                  ^py-deprecation@2.1.0%cce@13.0.0 arch=cray-sles15-zen
+ -   4qd4he7                  ^py-tomlkit@0.7.2%cce@13.0.0 arch=cray-sles15-zen
+ -   avxoiwv                      ^py-poetry-core@1.0.8%cce@13.0.0 arch=cray-sles15-zen
+ -   37ib4h6              ^py-jupyter-server@1.13.5%cce@13.0.0 arch=cray-sles15-zen
+ -   5scq5n6                  ^py-anyio@3.5.0%cce@13.0.0 arch=cray-sles15-zen
+ -   zvo5xss                      ^py-idna@3.3%cce@13.0.0 arch=cray-sles15-zen
+ -   kabndna                      ^py-sniffio@1.2.0%cce@13.0.0 arch=cray-sles15-zen
+ -   te6jqv6                  ^py-argon2-cffi@21.3.0%cce@13.0.0 arch=cray-sles15-zen
+ -   if3fpuk                      ^py-argon2-cffi-bindings@21.2.0%cce@13.0.0 arch=cray-sles15-zen
+ -   4yyxquv                  ^py-ipython-genutils@0.2.0%cce@13.0.0 arch=cray-sles15-zen
+ -   kbuc7oy                  ^py-nbconvert@6.4.2%cce@13.0.0+serve arch=cray-sles15-zen
+ -   kut5rpm                      ^py-bleach@4.1.0%cce@13.0.0 arch=cray-sles15-zen
+ -   5bje4vg                          ^py-webencodings@0.5.1%cce@13.0.0 arch=cray-sles15-zen
+ -   5y73vz2                      ^py-defusedxml@0.7.1%cce@13.0.0 arch=cray-sles15-zen
+ -   5vy6uur                      ^py-jupyterlab-pygments@0.1.2%cce@13.0.0 arch=cray-sles15-zen
+ -   skxoo2v                      ^py-mistune@0.8.4%cce@13.0.0 arch=cray-sles15-zen
+ -   rpl45g5                      ^py-nbclient@0.5.5%cce@13.0.0 arch=cray-sles15-zen
+ -   ftjmmnq                          ^py-nbformat@5.1.3%cce@13.0.0 arch=cray-sles15-zen
+ -   wvabm5z                              ^py-jsonschema@4.4.0%cce@13.0.0 arch=cray-sles15-zen
+ -   mwmzoqe                                  ^py-attrs@21.4.0%cce@13.0.0 arch=cray-sles15-zen
+ -   atvmdmq                                  ^py-importlib-resources@5.3.0%cce@13.0.0 arch=cray-sles15-zen
+ -   e4m4u2v                                      ^py-zipp@3.6.0%cce@13.0.0 arch=cray-sles15-zen
+ -   wqwo55n                                  ^py-pyrsistent@0.18.0%cce@13.0.0 arch=cray-sles15-zen
+ -   amju3wa                      ^py-pandocfilters@1.5.0%cce@13.0.0 arch=cray-sles15-zen
+ -   ktney6t                      ^py-testpath@0.6.0%cce@13.0.0 arch=cray-sles15-zen
+ -   jnsiova                  ^py-prometheus-client@0.12.0%cce@13.0.0~twisted arch=cray-sles15-zen
+ -   ghsix6s                  ^py-send2trash@1.8.0%cce@13.0.0 arch=cray-sles15-zen
+ -   7gofyzf                  ^py-terminado@0.12.1%cce@13.0.0 arch=cray-sles15-zen
+ -   smunjhf                  ^py-websocket-client@1.2.1%cce@13.0.0 arch=cray-sles15-zen
+ -   sl5fjz5              ^py-jupyterlab-server@2.10.3%cce@13.0.0 arch=cray-sles15-zen
+ -   w7daxz3                  ^py-babel@2.9.1%cce@13.0.0 arch=cray-sles15-zen
+ -   ctuivog                  ^py-json5@0.9.6%cce@13.0.0 arch=cray-sles15-zen
+ -   r5ecsyk                  ^py-requests@2.26.0%cce@13.0.0~socks arch=cray-sles15-zen
+ -   2pqxlzr                      ^py-charset-normalizer@2.0.12%cce@13.0.0 arch=cray-sles15-zen
+ -   kdgu2ck              ^py-nbclassic@0.3.5%cce@13.0.0 arch=cray-sles15-zen
+ -   umeshen                  ^py-notebook@6.4.5%cce@13.0.0 arch=cray-sles15-zen
+ -   cyosdms          ^py-psutil@5.8.0%cce@13.0.0 arch=cray-sles15-zen
+ -   p7syldh          ^py-tqdm@4.62.3%cce@13.0.0~notebook~telegram arch=cray-sles15-zen
+ -   mkvcr65      ^py-joblib@1.1.0%cce@13.0.0 arch=cray-sles15-zen
+ -   uytn53c      ^py-lhsmdu@1.1%cce@13.0.0 arch=cray-sles15-zen
+ -   qsjsjlf      ^py-mpi4py@3.1.2%cce@13.0.0 arch=cray-sles15-zen
+ -   bwm7r3b      ^py-opentuner@0.8.7%cce@13.0.0 arch=cray-sles15-zen
+ -   eksg7lv          ^py-fn-py@0.5.2%cce@13.0.0 arch=cray-sles15-zen
+ -   6gpain2          ^py-future@0.18.2%cce@13.0.0 arch=cray-sles15-zen
+ -   o5ztrml          ^py-sqlalchemy@1.4.20%cce@13.0.0 backend=none arch=cray-sles15-zen
+ -   rok7ure      ^py-pyaml@21.8.3%cce@13.0.0 arch=cray-sles15-zen
+ -   tkow6ec          ^py-pyyaml@6.0%cce@13.0.0+libyaml arch=cray-sles15-zen
+ -   h7xy5hq              ^libyaml@0.2.5%cce@13.0.0 arch=cray-sles15-zen
+ -   55jiw2l      ^py-pymoo@0.5.0%cce@13.0.0 arch=cray-sles15-zen
+ -   6af3vzo          ^py-autograd@1.3%cce@13.0.0 arch=cray-sles15-zen
+ -   u3xss2d      ^py-scikit-learn@1.0.2%cce@13.0.0+openmp arch=cray-sles15-zen
+ -   5aqw62x          ^py-threadpoolctl@3.0.0%cce@13.0.0 arch=cray-sles15-zen
+ -   ifwmjto              ^py-flit@3.6.0%cce@13.0.0 arch=cray-sles15-zen
+ -   43xtqw7                  ^py-docutils@0.18.1%cce@13.0.0 arch=cray-sles15-zen
+ -   3fnvxut                  ^py-tomli-w@1.0.0%cce@13.0.0 arch=cray-sles15-zen
+ -   rihwpan      ^py-scikit-optimize@master%cce@13.0.0+gptune+plots patches=21f43c9 arch=cray-sles15-zen
+ -   svnbuvo      ^py-ytopt-autotune@1.1.0%cce@13.0.0 patches=60375df arch=cray-sles15-zen
+ -   pnseyyy      ^pygmo@2.18.0%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   r3hmvuo          ^pagmo2@2.18.0%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+
+==> Concretized h5bench
+ -   hdkardb  h5bench@1.2%cce@13.0.0~all~amrex~e3sm~exerciser~ipo~metadata~openpmd build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  sd5xtvx      ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  efegzfa          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+
+==> Concretized hpx networking=mpi
+ -   3ah5oeh  hpx@1.7.1%cce@13.0.0~async_cuda~async_mpi~cuda~examples~generic_coroutines~ipo~rocm~tools build_type=RelWithDebInfo cxxstd=17 instrumentation=none malloc=tcmalloc max_cpu_count=64 networking=mpi arch=cray-sles15-zen3
+ -   4gzqfj3      ^asio@1.21.0%cce@13.0.0~boost_coroutine~boost_regex~separate_compilation cxxstd=17 arch=cray-sles15-zen3
+[+]  kurtcqa          ^autoconf@2.69%cce@13.0.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+[+]  envw7u7              ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                  ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3g6ss7s              ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  scuc5r6                  ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  wovu742                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  4b6edda                  ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  jl6t5nr                  ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  a5osy3q          ^automake@1.16.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   xggfca3          ^boost@1.79.0%cce@13.0.0+atomic+chrono~clanglibcpp~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math+mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=17 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+[+]  6zbp2cm              ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn          ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   wh6atz2      ^git@2.35.2%cce@13.0.0+man+nls+perl+subtree~svn~tcltk arch=cray-sles15-zen3
+[+]  qcn3vjl          ^curl@7.82.0%cce@13.0.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=cray-sles15-zen3
+[+]  efegzfa              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xjbsvet          ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf              ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                  ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs          ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop              ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+ -   52odnx3          ^libidn2@2.3.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   irirecj              ^libunistring@0.9.10%cce@13.0.0 arch=cray-sles15-zen3
+ -   j7lb3mg          ^openssh@9.0p1%cce@13.0.0 arch=cray-sles15-zen3
+ -   i5p3wdi              ^libedit@3.1-20210216%cce@13.0.0 arch=cray-sles15-zen3
+ -   d63qhx5          ^pcre2@10.39%cce@13.0.0~jit+multibyte arch=cray-sles15-zen3
+ -   aomaxg6      ^gperftools@2.9.1%cce@13.0.0+debugalloc~dynamic_sized_delete_support+libunwind~sized_delete arch=cray-sles15-zen3
+[+]  nymz7u7          ^libunwind@1.6.2%cce@13.0.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=cray-sles15-zen3
+[+]  hcble2g      ^hwloc@2.7.1%cce@13.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+[+]  zh5se3i          ^libpciaccess@0.16%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56              ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  d67cutj      ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6vwnbkp          ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  667sxo7              ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng              ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo              ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized lammps
+ -   ohehqih  lammps@20220107%cce@13.0.0~asphere~body~class2~colloid~compress~coreshell~cuda~cuda_mps~dipole~exceptions+ffmpeg~granular~ipo+jpeg+kim~kokkos~kspace~latte+lib~manybody~mc~meam~misc~mliap~molecule+mpi~mpiio~opencl+openmp~opt~peri+png~poems~python~qeq~replica~rigid~shock~snap~spin~srd~user-adios~user-atc~user-awpmd~user-bocs~user-cgsdk~user-colvars~user-diffraction~user-dpd~user-drude~user-eff~user-fep~user-h5md~user-lb~user-manifold~user-meamc~user-mesodpd~user-mesont~user-mgpt~user-misc~user-mofff~user-netcdf~user-omp~user-phonon~user-plumed~user-ptm~user-qtb~user-reaction~user-reaxc~user-sdpd~user-smd~user-smtbq~user-sph~user-tally~user-uef~user-yaff~voronoi build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   ndwkvom      ^ffmpeg@4.4.1%cce@13.0.0~X~avresample+bzlib~drawtext+gpl~libaom~libmp3lame~libopenjpeg~libopus~libsnappy~libspeex~libssh~libvorbis~libvpx~libwebp~libx264~libzmq~lzma~nonfree~openssl~sdl2+shared+version3 arch=cray-sles15-zen3
+[+]  wovu742          ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s              ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                  ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+ -   ub6piwr          ^yasm@1.3.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   y3hxgs7      ^kim-api@2.2.1%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   hk2y76x      ^libjpeg-turbo@2.1.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   i2ue5ng          ^nasm@2.15.05%cce@13.0.0 arch=cray-sles15-zen3
+[+]  yjrztdk      ^libpng@1.6.37%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized netlib-scalapack%cce ^openblas%gcc
+ -   kj4u5ws  netlib-scalapack@2.2.0%cce@13.0.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen
+[+]  bldcj62      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen
+[+]  xzigy24          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen
+[+]  kzfdenz          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen
+[+]  gppad7n      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen
+[+]  7qcfzer      ^openblas@0.3.20%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen
+[+]  hbsl26u          ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen
+[+]  chjv3j6              ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen
+[+]  rm5eeqv              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen
+[+]  pqjoznp                  ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen
+[+]  wpkrou7                      ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen
+[+]  zxmxfeo              ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen
+[+]  wi3ognr                  ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen
+[+]  ifucpwz              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen
+
+==> Concretized nrm
+ -   uhdafr3  nrm@0.1.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   gvy6wvm      ^py-jsonschema@2.6.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  75kzp6u          ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  j2rtdrx              ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  xjbsvet                  ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                      ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                          ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik                  ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  je5ogzs                  ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                      ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa                          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike                          ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  jl6t5nr                          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  padjbop                      ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7                  ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3o5u7p7                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  2snfnng                  ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo                  ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  42iikt2          ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  k7fq4ls              ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   i2iyx57          ^py-vcversioner@2.16.0.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3jrzlhy      ^py-numpy@1.22.3%cce@13.0.0+blas+lapack patches=873745d arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  fbr4l4h          ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen3
+ -   wrbkgea      ^py-pyyaml@6.0%cce@13.0.0+libyaml arch=cray-sles15-zen3
+ -   yccnq7q          ^libyaml@0.2.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   5rp5hrf      ^py-pyzmq@17.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xofizwn          ^libzmq@4.3.4%cce@13.0.0~docs~drafts+libbsd+libsodium arch=cray-sles15-zen3
+[+]  6c46kdx              ^libsodium@1.0.18%cce@13.0.0 arch=cray-sles15-zen3
+[+]  nzwysnr          ^py-cffi@1.15.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ssckj7v              ^py-pycparser@2.20%cce@13.0.0 arch=cray-sles15-zen3
+ -   v2jvwap          ^py-gevent@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  b5qtfnv              ^py-greenlet@1.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zfnnzfs          ^py-py@1.11.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  rn7jmqr              ^py-setuptools-scm@6.3.2%cce@13.0.0+toml arch=cray-sles15-zen3
+[+]  cqkpytn                  ^py-packaging@21.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ycqotvf                      ^py-pyparsing@3.0.6%cce@13.0.0 arch=cray-sles15-zen3
+[+]  7dsmsrj                  ^py-tomli@1.2.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   tmittjd      ^py-scipy@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lriiubm          ^py-pybind11@2.8.1%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw              ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  d67cutj              ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   taczr6w          ^py-pythran@0.10.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lhpf5np              ^py-beniget@0.4.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   yc4xfw2                  ^py-gast@0.5.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   kjft5k4              ^py-ply@3.11%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6cka2xg      ^py-six@1.16.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   dqbvmpc      ^py-tornado@5.1.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   nomqylw      ^py-warlock@1.3.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   nq4f7hg          ^py-jsonpatch@1.23%cce@13.0.0 arch=cray-sles15-zen3
+ -   6satxlx              ^py-jsonpointer@1.9%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized omega-h
+ -   2pgdtoc  omega-h@9.34.1%cce@13.0.0~examples~ipo+mpi+optimize+shared+symbols~throw+trilinos~warnings+zlib build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   ji345w2      ^trilinos@13.0.1%cce@13.0.0~adios2+amesos+amesos2+anasazi+aztec~basker+belos+boost~chaco~complex~cuda~cuda_rdc~debug~dtk+epetra+epetraext~epetraextbtf~epetraextexperimental~epetraextgraphreorderings~exodus+explicit_template_instantiation~float+fortran~gtest~hdf5~hypre+ifpack+ifpack2+intrepid+intrepid2~ipo+isorropia+kokkos~mesquite+minitensor+ml+mpi+muelu~mumps+nox~openmp~panzer+phalanx+piro~python~rocm~rocm_rdc+rol+rythmos+sacado~scorec+shards+shared+shylu+stk+stokhos+stratimikos~strumpack~suite-sparse~superlu+superlu-dist+teko+tempus+thyra+tpetra+trilinoscouplings~wrapper~x11+zoltan+zoltan2 build_type=RelWithDebInfo cxxstd=14 gotype=long_long arch=cray-sles15-zen3
+[+]  wf7hwoz          ^boost@1.79.0%cce@13.0.0+atomic+chrono~clanglibcpp~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math+mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+[+]  wovu742              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                  ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                      ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  hcble2g          ^hwloc@2.7.1%cce@13.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+[+]  zh5se3i              ^libpciaccess@0.16%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn                  ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  envw7u7                      ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                          ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  efegzfa                  ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56                  ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  uzliqtk          ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4          ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  f3eoho6          ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized paraview
+ -   4mejaoc  paraview@5.10.1%cce@13.0.0~adios2~advanced_debug~cuda+development_files~examples~eyedomelighting~fortran~hdf5~ipo+kits+mpi+opengl2~osmesa~pagosa~python~python3~qt+shared build_edition=canonical build_type=RelWithDebInfo patches=acb3805 use_vtkm=default arch=cray-sles15-zen3
+[+]  wovu742      ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+ -   yeqdys5      ^cli11@1.9.1%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   esfsiri      ^double-conversion@3.1.5%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  d62clpw      ^eigen@3.4.0%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  xjbsvet      ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf          ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt              ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+ -   6frqkrm      ^freetype@2.11.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  yjrztdk          ^libpng@1.6.37%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  efegzfa          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   myzv3cc      ^jsoncpp@1.9.4%cce@13.0.0~ipo build_type=RelWithDebInfo cxxstd=default arch=cray-sles15-zen3
+ -   hk2y76x      ^libjpeg-turbo@2.1.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   i2ue5ng          ^nasm@2.15.05%cce@13.0.0 arch=cray-sles15-zen3
+ -   5iqs54w      ^libogg@1.3.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   hxifqaw      ^libtheora@1.1.1%cce@13.0.0~doc patches=057836e,2e4f891,ff8478d arch=cray-sles15-zen3
+[+]  kurtcqa          ^autoconf@2.69%cce@13.0.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+[+]  envw7u7              ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                  ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3g6ss7s              ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  scuc5r6                  ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  4b6edda                  ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  a5osy3q          ^automake@1.16.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn          ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+ -   2hk2pol      ^libtiff@4.3.0%cce@13.0.0~jbig~jpeg~jpeg12~lerc~libdeflate~lzma~old-jpeg~pixarlog~webp~zlib~zstd arch=cray-sles15-zen3
+[+]  zfo3gwk      ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike          ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  tbpm7gq      ^lz4@1.9.3%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+ -   7cn3q6d      ^mesa@22.0.2%cce@13.0.0+glx+llvm+opengl~opengles+osmesa~strip buildtype=release default_library=shared patches=ada85be arch=cray-sles15-zen3
+[+]  zepvbwg          ^bison@3.8.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  dnlejnk          ^flex@2.6.3%cce@13.0.0+lex~nls arch=cray-sles15-zen3
+[+]  kaetsnt              ^findutils@4.9.0%cce@13.0.0 patches=440b954 arch=cray-sles15-zen3
+[+]  je5ogzs          ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  padjbop              ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+ -   ipi7yin          ^glproto@1.4.17%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56              ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  nymz7u7          ^libunwind@1.6.2%cce@13.0.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=cray-sles15-zen3
+ -   2xydvpt          ^libx11@1.7.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   dwiqgrw              ^inputproto@2.3.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   lzjn4a3              ^kbproto@1.0.7%cce@13.0.0 arch=cray-sles15-zen3
+ -   2xby7uu              ^libxcb@1.14%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t6wblpe                  ^libpthread-stubs@0.4%cce@13.0.0 arch=cray-sles15-zen3
+ -   sj3pxlc                  ^libxau@1.0.8%cce@13.0.0 arch=cray-sles15-zen3
+ -   ckxglvg                      ^xproto@7.0.31%cce@13.0.0 arch=cray-sles15-zen3
+ -   uvio46x                  ^libxdmcp@1.1.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   ipgc2j5                  ^xcb-proto@1.14.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   zbnsd75              ^xextproto@7.3.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   hd7tcdl              ^xtrans@1.3.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   xz365lv          ^libxext@1.3.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   4bdmq4f          ^libxt@1.1.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   rvq5exc              ^libice@1.0.9%cce@13.0.0 arch=cray-sles15-zen3
+ -   4gn56u5              ^libsm@1.2.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ho3tylo                  ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6aoidd          ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+ -   zv4dplm          ^meson@0.62.1%cce@13.0.0 patches=aa6c50d arch=cray-sles15-zen3
+[+]  d67cutj              ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6vwnbkp                  ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  667sxo7                      ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng                      ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  idj7gxr              ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  op5ofiv              ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  exj55bi                  ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   btabvt2          ^py-mako@1.1.6%cce@13.0.0 arch=cray-sles15-zen3
+ -   7ed3qy7              ^py-markupsafe@2.0.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   wy4k7pc          ^xrandr@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   pxs6ilu              ^libxrandr@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   pqietzj                  ^libxrender@0.9.10%cce@13.0.0 arch=cray-sles15-zen3
+ -   5fl53vj                      ^renderproto@0.11.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   p4ooe3o                  ^randrproto@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2ghybi      ^netcdf-c@4.8.1%cce@13.0.0~dap~fsync~hdf4~jna+mpi+parallel-netcdf+pic+shared patches=de556da arch=cray-sles15-zen3
+[+]  sd5xtvx          ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  k5wzhlr          ^parallel-netcdf@1.12.2%cce@13.0.0~burstbuffer+cxx+fortran+pic+shared arch=cray-sles15-zen3
+ -   nbavgpl      ^pegtl@3.2.0%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   ojshuwo      ^protobuf@3.18.0%cce@13.0.0+shared build_type=Release arch=cray-sles15-zen3
+ -   b3wfnzx      ^pugixml@1.11.4%cce@13.0.0~ipo+pic+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+
+==> Concretized parsec~cuda
+ -   ohr2yku  parsec@3.0.2012%cce@13.0.0~cuda~debug_verbose~ipo~profile+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  zepvbwg      ^bison@3.8.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  lk7hv6s          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  envw7u7          ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j              ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3g6ss7s          ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  scuc5r6              ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  wovu742              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  4b6edda              ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                  ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                      ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  dnlejnk      ^flex@2.6.3%cce@13.0.0+lex~nls arch=cray-sles15-zen3
+[+]  kaetsnt          ^findutils@4.9.0%cce@13.0.0 patches=440b954 arch=cray-sles15-zen3
+[+]  hcble2g      ^hwloc@2.7.1%cce@13.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+[+]  zh5se3i          ^libpciaccess@0.16%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn              ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  efegzfa              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56              ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zfo3gwk          ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike              ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  6vwnbkp      ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  xjbsvet          ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf              ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                  ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs          ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  padjbop              ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7          ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng          ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo          ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized petsc
+[+]  r6wxbiu  petsc@3.17.1%cce@13.0.0~X+batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C arch=cray-sles15-zen3
+[+]  bhm2qz5      ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  lk7hv6s      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  sd5xtvx      ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  efegzfa          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  rez4jrh      ^hypre@2.24.0%cce@13.0.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+[+]  uzliqtk      ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4      ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  j2rtdrx      ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742          ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  xjbsvet          ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf              ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                  ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik          ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw              ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs          ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop              ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7          ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng          ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo          ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  f3eoho6      ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized phist
+ -   txblovl  phist@1.9.5%cce@13.0.0+fortran+host+int64~ipo+mpi+openmp~parmetis+scamac+shared~trilinos build_type=RelWithDebInfo kernel_lib=builtin outlev=2 patches=1fc9ac6 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  bhm2qz5      ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  j2rtdrx      ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742          ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s              ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                  ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  xjbsvet          ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf              ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                  ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik          ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw              ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs          ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa                  ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  jl6t5nr                  ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  padjbop              ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7          ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng          ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo          ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized plumed
+ -   q2tuylk  plumed@2.6.3%cce@13.0.0+gsl+mpi+shared arrayfire=none optional_modules=all arch=cray-sles15-zen3
+[+]  kurtcqa      ^autoconf@2.69%cce@13.0.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+[+]  envw7u7          ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j              ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3g6ss7s          ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  scuc5r6              ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  wovu742              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                  ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                      ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  4b6edda              ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                  ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                      ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  a5osy3q      ^automake@1.16.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bhm2qz5      ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  q5rygvh      ^gsl@2.7.1%cce@13.0.0~external-cblas arch=cray-sles15-zen3
+[+]  iufb3vn      ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+ -   qokg3qi      ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen3
+[+]  idj7gxr          ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6vwnbkp              ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  xjbsvet                  ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                      ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                          ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs                  ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                      ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa                          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike                          ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop                      ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7                  ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3o5u7p7                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  2snfnng                  ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo                  ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  op5ofiv          ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  exj55bi              ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized precice
+[+]  hconj2l  precice@2.3.0%cce@13.0.0~ipo+mpi+petsc~python+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  eemsmv6      ^boost@1.78.0%cce@13.0.0+atomic+chrono~clanglibcpp~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math+mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+[+]  wovu742          ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s              ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                  ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  d62clpw      ^eigen@3.4.0%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  zfo3gwk      ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike          ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  r6wxbiu      ^petsc@3.17.1%cce@13.0.0~X+batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  sd5xtvx          ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  rez4jrh          ^hypre@2.24.0%cce@13.0.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+[+]  uzliqtk          ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4          ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  j2rtdrx          ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  xjbsvet              ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                  ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                      ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik              ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                  ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs              ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  padjbop                  ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7              ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng              ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo              ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  f3eoho6          ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized py-cinemasci
+ -   cr5rfue  py-cinemasci@1.7.0%cce@13.0.0+mpi arch=cray-sles15-zen3
+[+]  sd5xtvx      ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  efegzfa          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+ -   mnmzz6y      ^py-h5py@3.6.0%cce@13.0.0+mpi arch=cray-sles15-zen3
+[+]  fbr4l4h          ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen3
+[+]  75kzp6u              ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  j2rtdrx                  ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742                      ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  xjbsvet                      ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                          ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                              ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik                      ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                          ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs                      ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                          ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                              ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop                          ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7                      ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng                      ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo                      ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  42iikt2              ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  k7fq4ls                  ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  imtsn4f          ^py-mpi4py@3.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3jrzlhy          ^py-numpy@1.22.3%cce@13.0.0+blas+lapack patches=873745d arch=cray-sles15-zen3
+[+]  bhm2qz5              ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+ -   zctyvii          ^py-pkgconfig@1.5.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   5433sgb              ^py-poetry-core@1.0.8%cce@13.0.0 arch=cray-sles15-zen3
+ -   llm2wcd      ^py-ipywidgets@7.7.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   vg4zkie          ^py-ipykernel@6.9.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  biatomh              ^py-debugpy@1.5.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bblvxoi              ^py-ipython@8.0.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  cx7cbxg                  ^py-backcall@0.2.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  rui3btg                      ^py-flit-core@3.6.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6xkvfbs                  ^py-black@22.1.0%cce@13.0.0~colorama~d arch=cray-sles15-zen3
+[+]  t5qkmns                      ^py-click@8.0.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  kahvwq7                      ^py-mypy-extensions@0.4.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3l4z4vh                      ^py-pathspec@0.9.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  4heoddf                      ^py-platformdirs@2.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  rn7jmqr                          ^py-setuptools-scm@6.3.2%cce@13.0.0+toml arch=cray-sles15-zen3
+[+]  cqkpytn                              ^py-packaging@21.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ycqotvf                                  ^py-pyparsing@3.0.6%cce@13.0.0 arch=cray-sles15-zen3
+[+]  7dsmsrj                              ^py-tomli@1.2.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zlkjk3s                      ^py-typing-extensions@4.1.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  gwxptd3                  ^py-decorator@5.1.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  htinfaq                  ^py-jedi@0.18.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3k7m2jc                      ^py-parso@0.8.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  qkyeo3u                  ^py-matplotlib-inline@0.1.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  i647ouo                      ^py-traitlets@5.1.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  gfi224r                  ^py-pexpect@4.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  kd4jmiq                      ^py-ptyprocess@0.7.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  uqqy7dr                  ^py-pickleshare@0.7.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  hllqcoi                  ^py-prompt-toolkit@3.0.29%cce@13.0.0 arch=cray-sles15-zen3
+[+]  wgdeg44                      ^py-wcwidth@0.2.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2nk4vi4                  ^py-pygments@2.10.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  tuffdaw                  ^py-stack-data@0.2.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  24jzp5s                      ^py-asttokens@2.0.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6cka2xg                          ^py-six@1.16.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  dy4xtuu                      ^py-executing@0.8.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  5ah7m62                      ^py-pure-eval@0.2.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   c4ymvil              ^py-jupyter-client@7.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  cuutvdv                  ^py-entrypoints@0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  4jysfnq                  ^py-jupyter-core@4.9.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ymm5niu                  ^py-nest-asyncio@1.5.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  hncossm                  ^py-python-dateutil@2.8.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   3kxtb5i                  ^py-pyzmq@22.3.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xofizwn                      ^libzmq@4.3.4%cce@13.0.0~docs~drafts+libbsd+libsodium arch=cray-sles15-zen3
+[+]  6c46kdx                          ^libsodium@1.0.18%cce@13.0.0 arch=cray-sles15-zen3
+[+]  nzwysnr                      ^py-cffi@1.15.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ssckj7v                          ^py-pycparser@2.20%cce@13.0.0 arch=cray-sles15-zen3
+ -   v2jvwap                      ^py-gevent@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  b5qtfnv                          ^py-greenlet@1.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zfnnzfs                      ^py-py@1.11.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ffnyv6d                  ^py-tornado@6.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  kbwb2jq          ^py-ipython-genutils@0.2.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   jh4n2o3          ^py-jupyterlab-widgets@1.1.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   ulspjvs              ^py-jupyter-packaging7@0.7.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   6qb4qqz              ^py-jupyterlab@3.2.9%cce@13.0.0 arch=cray-sles15-zen3
+[+]  yo64h7r                  ^py-jinja2@3.0.3%cce@13.0.0~i18n arch=cray-sles15-zen3
+[+]  g27rygn                      ^py-markupsafe@2.0.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   zp4bn27                  ^py-jupyter-packaging11@0.11.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   quyv35h                      ^py-deprecation@2.1.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   l4leuij                      ^py-tomlkit@0.7.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   q65up3s                  ^py-jupyter-server@1.13.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   kdyyk3e                      ^py-anyio@3.5.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  s7dzn7l                          ^py-idna@3.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   ewt7g3v                          ^py-sniffio@1.2.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  gkdmsta                      ^py-argon2-cffi@21.3.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  lts2lkd                          ^py-argon2-cffi-bindings@21.2.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   o4yly2m                      ^py-nbconvert@6.4.2%cce@13.0.0+serve arch=cray-sles15-zen3
+[+]  aw5ci6k                          ^py-bleach@4.1.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2du7tsz                              ^py-webencodings@0.5.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  pcfw5cn                          ^py-defusedxml@0.7.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6nux5tz                          ^py-jupyterlab-pygments@0.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ly6a5dq                          ^py-mistune@0.8.4%cce@13.0.0 arch=cray-sles15-zen3
+ -   4mnccc7                          ^py-nbclient@0.5.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  men5ddk                              ^py-nbformat@5.1.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bwseewn                                  ^py-jsonschema@4.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  gumwpyt                                      ^py-attrs@21.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  nmzukid                                      ^py-importlib-resources@5.3.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  riemikb                                          ^py-zipp@3.6.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ybzyi2w                                      ^py-pyrsistent@0.18.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bjgnrw5                          ^py-pandocfilters@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  5do4wjn                          ^py-testpath@0.6.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjnicn                      ^py-prometheus-client@0.12.0%cce@13.0.0~twisted arch=cray-sles15-zen3
+[+]  vcg5wgv                      ^py-send2trash@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  qmrnkhp                      ^py-terminado@0.12.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   mok3yth                      ^py-websocket-client@1.2.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   nw5jdbr                  ^py-jupyterlab-server@2.10.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   ulsktot                      ^py-babel@2.9.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   ikztjr7                          ^py-pytz@2021.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   sqpsg36                      ^py-json5@0.9.6%cce@13.0.0 arch=cray-sles15-zen3
+[+]  obrpeqq                      ^py-requests@2.26.0%cce@13.0.0~socks arch=cray-sles15-zen3
+[+]  67cjh27                          ^py-certifi@2021.10.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  fp5dnui                          ^py-charset-normalizer@2.0.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6e6rikn                          ^py-urllib3@1.26.6%cce@13.0.0~brotli~secure~socks arch=cray-sles15-zen3
+ -   i7jpitr                  ^py-nbclassic@0.3.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   xba7w3k                      ^py-notebook@6.4.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   aj42p6o          ^py-widgetsnbextension@3.6.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   4ec4udr      ^py-matplotlib@3.5.2%cce@13.0.0~animation~fonts+image~latex~movies backend=agg arch=cray-sles15-zen3
+ -   6frqkrm          ^freetype@2.11.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  yjrztdk              ^libpng@1.6.37%cce@13.0.0 arch=cray-sles15-zen3
+ -   4g64vzu          ^py-cycler@0.11.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   4eicacn          ^py-fonttools@4.31.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   xqvgd5j          ^py-kiwisolver@1.3.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   7hbp5at              ^py-cppy@1.1.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   ikmxqa3          ^py-pillow@9.0.0%cce@13.0.0~freetype~imagequant+jpeg~jpeg2000~lcms~tiff~webp~webpmux~xcb+zlib arch=cray-sles15-zen3
+ -   hk2y76x              ^libjpeg-turbo@2.1.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   i2ue5ng                  ^nasm@2.15.05%cce@13.0.0 arch=cray-sles15-zen3
+ -   yy5fq7w          ^py-setuptools-scm-git-archive@1.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   3dnu3yu          ^qhull@2020.2%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   sxlbmj4      ^py-pandas@1.4.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   qf3tnel          ^py-bottleneck@1.3.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   yqykt5n          ^py-numexpr@2.7.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   wrbkgea      ^py-pyyaml@6.0%cce@13.0.0+libyaml arch=cray-sles15-zen3
+ -   yccnq7q          ^libyaml@0.2.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   p3csizl      ^py-scikit-image@0.18.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   pzoeq3h          ^py-imageio@2.16.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   ndwkvom              ^ffmpeg@4.4.1%cce@13.0.0~X~avresample+bzlib~drawtext+gpl~libaom~libmp3lame~libopenjpeg~libopus~libsnappy~libspeex~libssh~libvorbis~libvpx~libwebp~libx264~libzmq~lzma~nonfree~openssl~sdl2+shared+version3 arch=cray-sles15-zen3
+ -   ub6piwr                  ^yasm@1.3.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   wntjlo5          ^py-networkx@2.7.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   6cijfsr          ^py-pywavelets@1.1.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   tmittjd          ^py-scipy@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lriiubm              ^py-pybind11@2.8.1%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  d67cutj                  ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   taczr6w              ^py-pythran@0.10.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lhpf5np                  ^py-beniget@0.4.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   yc4xfw2                      ^py-gast@0.5.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   kjft5k4                  ^py-ply@3.11%cce@13.0.0 arch=cray-sles15-zen3
+ -   gopmtfa          ^py-tifffile@2021.11.2%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized py-petsc4py
+[+]  6sjn3zt  py-petsc4py@3.17.1%cce@13.0.0+mpi patches=d344e0e arch=cray-sles15-zen3
+[+]  r6wxbiu      ^petsc@3.17.1%cce@13.0.0~X+batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  lk7hv6s          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  sd5xtvx          ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw              ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw                  ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  efegzfa              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  rez4jrh          ^hypre@2.24.0%cce@13.0.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+[+]  uzliqtk          ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4          ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  j2rtdrx          ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  xjbsvet              ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                  ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                      ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik              ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                  ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs              ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                  ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                      ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop                  ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7              ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng              ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo              ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  f3eoho6          ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+[+]  imtsn4f      ^py-mpi4py@3.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  75kzp6u          ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  42iikt2          ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  k7fq4ls              ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3jrzlhy      ^py-numpy@1.22.3%cce@13.0.0+blas+lapack patches=873745d arch=cray-sles15-zen3
+[+]  fbr4l4h          ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized py-warpx ^warpx dims=2
+ -   rajm5rj  py-warpx@22.05%cce@13.0.0+mpi arch=cray-sles15-zen3
+[+]  imtsn4f      ^py-mpi4py@3.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  75kzp6u          ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  j2rtdrx              ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  xjbsvet                  ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                      ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                          ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik                  ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  je5ogzs                  ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                      ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa                          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike                          ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  jl6t5nr                          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  padjbop                      ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7                  ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3o5u7p7                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  2snfnng                  ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo                  ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  42iikt2          ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  k7fq4ls              ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3jrzlhy      ^py-numpy@1.22.3%cce@13.0.0+blas+lapack patches=873745d arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  fbr4l4h          ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen3
+ -   7rhlter      ^py-periodictable@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ycqotvf          ^py-pyparsing@3.0.6%cce@13.0.0 arch=cray-sles15-zen3
+ -   2vc66tk      ^py-picmistandard@0.0.19%cce@13.0.0 arch=cray-sles15-zen3
+ -   tmittjd          ^py-scipy@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lriiubm              ^py-pybind11@2.8.1%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw                  ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  d67cutj                  ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   taczr6w              ^py-pythran@0.10.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lhpf5np                  ^py-beniget@0.4.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   yc4xfw2                      ^py-gast@0.5.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   kjft5k4                  ^py-ply@3.11%cce@13.0.0 arch=cray-sles15-zen3
+ -   ji2cfvr      ^warpx@22.05%cce@13.0.0+app~ascent~eb~ipo+lib+mpi+mpithreadmultiple+openpmd+psatd+qed~qedtablegen+shared+tprof build_type=RelWithDebInfo compute=omp dims=2 precision=double arch=cray-sles15-zen3
+ -   5pk4hws          ^fftw@3.3.10%cce@13.0.0+mpi+openmp~pfft_patches precision=double,float,long_double arch=cray-sles15-zen3
+[+]  6cbi6vd          ^openpmd-api@0.14.4%cce@13.0.0~adios1+adios2+hdf5~ipo+mpi~python+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  7dmosgt              ^adios2@2.8.0%cce@13.0.0+blosc+bzip2~cuda~dataman~dataspaces+fortran~hdf5~ipo+mpi+pic+png~python+shared+ssc+sst+sz+zfp build_type=Release arch=cray-sles15-zen3
+[+]  dtboydf                  ^c-blosc@1.21.1%cce@13.0.0+avx2~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  tbpm7gq                      ^lz4@1.9.3%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  gu63wdt                      ^snappy@1.1.8%cce@13.0.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=cray-sles15-zen3
+[+]  hszw6k5                      ^zstd@1.5.2%cce@13.0.0~programs libs=shared,static arch=cray-sles15-zen3
+[+]  xylzysm                  ^libfabric@1.15%cce@13.0.0~debug~kdreg fabrics=sockets,tcp,udp arch=cray-sles15-zen3
+[+]  yjrztdk                  ^libpng@1.6.37%cce@13.0.0 arch=cray-sles15-zen3
+[+]  z6yo5dv                  ^sz@2.1.12%cce@13.0.0~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  qa4sqmk                  ^zfp@0.5.5%cce@13.0.0~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  sd5xtvx              ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  22qsj7e              ^mpark-variant@1.4.0%cce@13.0.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=cray-sles15-zen3
+[+]  vrbwk66              ^nlohmann-json@3.10.5%cce@13.0.0~ipo~multiple_headers build_type=RelWithDebInfo arch=cray-sles15-zen3
+
+==> Concretized py-warpx ^warpx dims=3
+ -   mly3mhr  py-warpx@22.05%cce@13.0.0+mpi arch=cray-sles15-zen3
+[+]  imtsn4f      ^py-mpi4py@3.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  75kzp6u          ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  j2rtdrx              ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  xjbsvet                  ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                      ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                          ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik                  ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  je5ogzs                  ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                      ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa                          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike                          ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  jl6t5nr                          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  padjbop                      ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7                  ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3o5u7p7                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  2snfnng                  ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo                  ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  42iikt2          ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  k7fq4ls              ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3jrzlhy      ^py-numpy@1.22.3%cce@13.0.0+blas+lapack patches=873745d arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  fbr4l4h          ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen3
+ -   7rhlter      ^py-periodictable@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ycqotvf          ^py-pyparsing@3.0.6%cce@13.0.0 arch=cray-sles15-zen3
+ -   2vc66tk      ^py-picmistandard@0.0.19%cce@13.0.0 arch=cray-sles15-zen3
+ -   tmittjd          ^py-scipy@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lriiubm              ^py-pybind11@2.8.1%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw                  ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  d67cutj                  ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   taczr6w              ^py-pythran@0.10.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lhpf5np                  ^py-beniget@0.4.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   yc4xfw2                      ^py-gast@0.5.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   kjft5k4                  ^py-ply@3.11%cce@13.0.0 arch=cray-sles15-zen3
+ -   q2e6dih      ^warpx@22.05%cce@13.0.0+app~ascent~eb~ipo+lib+mpi+mpithreadmultiple+openpmd+psatd+qed~qedtablegen+shared+tprof build_type=RelWithDebInfo compute=omp dims=3 precision=double arch=cray-sles15-zen3
+ -   5pk4hws          ^fftw@3.3.10%cce@13.0.0+mpi+openmp~pfft_patches precision=double,float,long_double arch=cray-sles15-zen3
+[+]  6cbi6vd          ^openpmd-api@0.14.4%cce@13.0.0~adios1+adios2+hdf5~ipo+mpi~python+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  7dmosgt              ^adios2@2.8.0%cce@13.0.0+blosc+bzip2~cuda~dataman~dataspaces+fortran~hdf5~ipo+mpi+pic+png~python+shared+ssc+sst+sz+zfp build_type=Release arch=cray-sles15-zen3
+[+]  dtboydf                  ^c-blosc@1.21.1%cce@13.0.0+avx2~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  tbpm7gq                      ^lz4@1.9.3%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  gu63wdt                      ^snappy@1.1.8%cce@13.0.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=cray-sles15-zen3
+[+]  hszw6k5                      ^zstd@1.5.2%cce@13.0.0~programs libs=shared,static arch=cray-sles15-zen3
+[+]  xylzysm                  ^libfabric@1.15%cce@13.0.0~debug~kdreg fabrics=sockets,tcp,udp arch=cray-sles15-zen3
+[+]  yjrztdk                  ^libpng@1.6.37%cce@13.0.0 arch=cray-sles15-zen3
+[+]  z6yo5dv                  ^sz@2.1.12%cce@13.0.0~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  qa4sqmk                  ^zfp@0.5.5%cce@13.0.0~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  sd5xtvx              ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  22qsj7e              ^mpark-variant@1.4.0%cce@13.0.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=cray-sles15-zen3
+[+]  vrbwk66              ^nlohmann-json@3.10.5%cce@13.0.0~ipo~multiple_headers build_type=RelWithDebInfo arch=cray-sles15-zen3
+
+==> Concretized py-warpx ^warpx dims=rz
+ -   ecyuox7  py-warpx@22.05%cce@13.0.0+mpi arch=cray-sles15-zen3
+[+]  imtsn4f      ^py-mpi4py@3.1.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  75kzp6u          ^py-pip@21.3.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  j2rtdrx              ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  xjbsvet                  ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                      ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                          ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik                  ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  je5ogzs                  ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                      ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  efegzfa                          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xyaxike                          ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  jl6t5nr                          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  padjbop                      ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7                  ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3o5u7p7                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  2snfnng                  ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo                  ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  42iikt2          ^py-setuptools@59.4.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  k7fq4ls              ^py-wheel@0.37.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3jrzlhy      ^py-numpy@1.22.3%cce@13.0.0+blas+lapack patches=873745d arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  fbr4l4h          ^py-cython@0.29.24%cce@13.0.0 arch=cray-sles15-zen3
+ -   7rhlter      ^py-periodictable@1.5.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ycqotvf          ^py-pyparsing@3.0.6%cce@13.0.0 arch=cray-sles15-zen3
+ -   2vc66tk      ^py-picmistandard@0.0.19%cce@13.0.0 arch=cray-sles15-zen3
+ -   tmittjd          ^py-scipy@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lriiubm              ^py-pybind11@2.8.1%cce@13.0.0~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw                  ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  d67cutj                  ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+ -   taczr6w              ^py-pythran@0.10.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   lhpf5np                  ^py-beniget@0.4.1%cce@13.0.0 arch=cray-sles15-zen3
+ -   yc4xfw2                      ^py-gast@0.5.3%cce@13.0.0 arch=cray-sles15-zen3
+ -   kjft5k4                  ^py-ply@3.11%cce@13.0.0 arch=cray-sles15-zen3
+ -   pboz2na      ^warpx@22.05%cce@13.0.0+app~ascent~eb~ipo+lib+mpi+mpithreadmultiple+openpmd+psatd+qed~qedtablegen+shared+tprof build_type=RelWithDebInfo compute=omp dims=rz precision=double arch=cray-sles15-zen3
+ -   eedqdpo          ^blaspp@2021.04.01%cce@13.0.0~cuda~ipo+openmp~rocm+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   5pk4hws          ^fftw@3.3.10%cce@13.0.0+mpi+openmp~pfft_patches precision=double,float,long_double arch=cray-sles15-zen3
+ -   spfnlhl          ^lapackpp@2021.04.00%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  6cbi6vd          ^openpmd-api@0.14.4%cce@13.0.0~adios1+adios2+hdf5~ipo+mpi~python+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  7dmosgt              ^adios2@2.8.0%cce@13.0.0+blosc+bzip2~cuda~dataman~dataspaces+fortran~hdf5~ipo+mpi+pic+png~python+shared+ssc+sst+sz+zfp build_type=Release arch=cray-sles15-zen3
+[+]  dtboydf                  ^c-blosc@1.21.1%cce@13.0.0+avx2~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  tbpm7gq                      ^lz4@1.9.3%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  gu63wdt                      ^snappy@1.1.8%cce@13.0.0~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb arch=cray-sles15-zen3
+[+]  hszw6k5                      ^zstd@1.5.2%cce@13.0.0~programs libs=shared,static arch=cray-sles15-zen3
+[+]  xylzysm                  ^libfabric@1.15%cce@13.0.0~debug~kdreg fabrics=sockets,tcp,udp arch=cray-sles15-zen3
+[+]  yjrztdk                  ^libpng@1.6.37%cce@13.0.0 arch=cray-sles15-zen3
+[+]  z6yo5dv                  ^sz@2.1.12%cce@13.0.0~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  qa4sqmk                  ^zfp@0.5.5%cce@13.0.0~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  sd5xtvx              ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  22qsj7e              ^mpark-variant@1.4.0%cce@13.0.0~ipo build_type=RelWithDebInfo patches=21a4f8d,4e173fe,b3501f7 arch=cray-sles15-zen3
+[+]  vrbwk66              ^nlohmann-json@3.10.5%cce@13.0.0~ipo~multiple_headers build_type=RelWithDebInfo arch=cray-sles15-zen3
+
+==> Concretized scr
+ -   ubfjpsg  scr@3.0rc2%cce@13.0.0+bbapi~bbapi_fallback~dw+examples+fortran~ipo+libyogrt+pdsh+shared+tests build_type=RelWithDebInfo cache_base=/dev/shm cntl_base=/dev/shm copy_config=none file_lock=FLOCK resource_manager=SLURM scr_config=scr.conf arch=cray-sles15-zen3
+ -   wyiqew5      ^axl@0.5.0%cce@13.0.0+bbapi~bbapi_fallback~dw~ipo+shared async_api=daemon build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  tr5lqls          ^kvtree@1.2.0%cce@13.0.0~ipo+mpi+shared build_type=RelWithDebInfo file_lock=FLOCK arch=cray-sles15-zen3
+[+]  6zbp2cm              ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  yljwktz      ^dtcmp@1.1.4%cce@13.0.0+shared arch=cray-sles15-zen3
+[+]  lgpp4j5          ^lwgrp@1.0.5%cce@13.0.0+shared arch=cray-sles15-zen3
+[+]  2h4suf7      ^er@0.1.0%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  6zbnyvb          ^rankstr@0.1.0%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  hwbweob          ^redset@0.1.0%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  qj2rn6v          ^shuffile@0.1.0%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   mfqyxfq      ^libyogrt@1.27%cce@13.0.0~static scheduler=slurm arch=cray-sles15-zen3
+ -   zce7woc          ^slurm@21.08.6%cce@13.0.0~gtk~hdf5~hwloc~mariadb~pmix+readline~restd sysconfdir=PREFIX/etc arch=cray-sles15-zen3
+ -   cye63m2      ^pdsh@2.31%cce@13.0.0+ssh+static_modules arch=cray-sles15-zen3
+ -   65rs573      ^spath@0.1.0%cce@13.0.0~ipo+mpi+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+
+==> Concretized slate%cce~cuda ^openblas%gcc
+ -   l6u3rvk  slate@2021.05.02%cce@13.0.0~cuda~ipo+mpi+openmp~rocm+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+[+]  ldmw43q      ^blaspp@2021.04.01%cce@13.0.0~cuda~ipo+openmp~rocm+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+[+]  bldcj62          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen
+[+]  xzigy24              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen
+[+]  kzfdenz              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen
+[+]  7qcfzer          ^openblas@0.3.20%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen
+[+]  hbsl26u              ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen
+[+]  chjv3j6                  ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen
+[+]  rm5eeqv                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen
+[+]  pqjoznp                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen
+[+]  wpkrou7                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen
+[+]  zxmxfeo                  ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen
+[+]  wi3ognr                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen
+[+]  ifucpwz                  ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen
+[+]  gppad7n      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen
+[+]  zcjwc2c      ^lapackpp@2021.04.00%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   kj4u5ws      ^netlib-scalapack@2.2.0%cce@13.0.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen
+
+==> Concretized slepc
+ -   34rju6a  slepc@3.17.1%cce@13.0.0+arpack~blopex~cuda~rocm arch=cray-sles15-zen3
+ -   sdouqx6      ^arpack-ng@3.8.0%cce@13.0.0+mpi+shared arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  r6wxbiu      ^petsc@3.17.1%cce@13.0.0~X+batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123~rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind clanguage=C arch=cray-sles15-zen3
+[+]  lk7hv6s          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  sd5xtvx          ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  efegzfa              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  rez4jrh          ^hypre@2.24.0%cce@13.0.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+[+]  uzliqtk          ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4          ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  j2rtdrx          ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  xjbsvet              ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                  ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                      ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik              ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                  ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs              ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                  ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                      ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop                  ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7              ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng              ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo              ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  f3eoho6          ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized strumpack%cce~slate ^openblas%gcc
+ -   boey55e  strumpack@6.3.1%cce@13.0.0+butterflypack+c_interface~count_flops~cuda~ipo+mpi+openmp+parmetis~rocm~scotch+shared~slate~task_timers+zfp build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   wkpmbam      ^butterflypack@2.1.1%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   ezeon2i          ^arpack-ng@3.8.0%cce@13.0.0+mpi+shared arch=cray-sles15-zen
+[+]  bldcj62              ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen
+[+]  xzigy24                  ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen
+[+]  kzfdenz                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen
+[+]  gppad7n              ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen
+[+]  7qcfzer              ^openblas@0.3.20%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen
+[+]  hbsl26u                  ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen
+[+]  chjv3j6                      ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen
+[+]  rm5eeqv                      ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen
+[+]  pqjoznp                          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen
+[+]  wpkrou7                              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen
+[+]  zxmxfeo                      ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen
+[+]  wi3ognr                          ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen
+[+]  ifucpwz                      ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen
+ -   kj4u5ws          ^netlib-scalapack@2.2.0%cce@13.0.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen
+[+]  vy6tvrj      ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen
+[+]  6hrbrff      ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen
+[+]  3ymasvr      ^zfp@0.5.5%cce@13.0.0~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo arch=cray-sles15-zen
+
+==> Concretized superlu-dist
+[+]  f3eoho6  superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  bhm2qz5      ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  uzliqtk      ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4      ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+
+==> Concretized trilinos+amesos+amesos2+anasazi+aztec+belos+boost+epetra+epetraext+ifpack+ifpack2+intrepid+intrepid2+isorropia+kokkos+minitensor+ml+muelu+nox+phalanx+piro+rol+rythmos+sacado+shards+shylu+stk+stokhos+stratimikos+superlu-dist+teko+tempus+tpetra+trilinoscouplings+zoltan+zoltan2 gotype=long_long
+ -   ji345w2  trilinos@13.0.1%cce@13.0.0~adios2+amesos+amesos2+anasazi+aztec~basker+belos+boost~chaco~complex~cuda~cuda_rdc~debug~dtk+epetra+epetraext~epetraextbtf~epetraextexperimental~epetraextgraphreorderings~exodus+explicit_template_instantiation~float+fortran~gtest~hdf5~hypre+ifpack+ifpack2+intrepid+intrepid2~ipo+isorropia+kokkos~mesquite+minitensor+ml+mpi+muelu~mumps+nox~openmp~panzer+phalanx+piro~python~rocm~rocm_rdc+rol+rythmos+sacado~scorec+shards+shared+shylu+stk+stokhos+stratimikos~strumpack~suite-sparse~superlu+superlu-dist+teko+tempus+thyra+tpetra+trilinoscouplings~wrapper~x11+zoltan+zoltan2 build_type=RelWithDebInfo cxxstd=14 gotype=long_long arch=cray-sles15-zen3
+[+]  wf7hwoz      ^boost@1.79.0%cce@13.0.0+atomic+chrono~clanglibcpp~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math+mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+[+]  wovu742          ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s              ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                  ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  bhm2qz5      ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  hcble2g      ^hwloc@2.7.1%cce@13.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+[+]  zh5se3i          ^libpciaccess@0.16%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn              ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  envw7u7                  ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                      ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  efegzfa              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56              ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  zfo3gwk          ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike              ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  uzliqtk      ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4      ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  f3eoho6      ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized arborx+rocm ^kokkos+rocm amdgpu_target=gfx90a
+ -   qrrf4sl  arborx@1.2%cce@13.0.0~cuda~ipo+mpi~openmp+rocm+serial~sycl~trilinos amdgpu_target=gfx900 build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ac5gxas      ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  pk6ynkl      ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+ -   gw2jnsu      ^kokkos@3.6.00%cce@13.0.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread+rocm+serial+shared~sycl~tests~tuning~wrapper amdgpu_target=gfx900,gfx90a build_type=RelWithDebInfo std=14 arch=cray-sles15-zen3
+[+]  u6aoidd          ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+ -   gkg7ai6      ^rocthrust@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+
+==> Concretized cabana+rocm
+ -   ar5dfqk  cabana@0.4.0%cce@13.0.0~arborx~cuda~heffte~hypre~ipo+mpi~openmp~pthread+rocm+serial+shared~sycl build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+ -   waug34o      ^googletest@1.10.0%cce@13.0.0~gmock~ipo+pthreads+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
+ -   ddzo52l      ^kokkos@3.6.00%cce@13.0.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread+rocm+serial+shared~sycl~tests~tuning~wrapper amdgpu_target=gfx900 build_type=RelWithDebInfo std=14 arch=cray-sles15-zen3
+[+]  ac5gxas          ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  pk6ynkl          ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+[+]  u6aoidd          ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+
+==> Concretized hpx+rocm amdgpu_target=gfx90a
+ -   x73kjwy  hpx@1.7.1%cce@13.0.0~async_cuda~async_mpi~cuda~examples~generic_coroutines~ipo+rocm~tools amdgpu_target=gfx90a build_type=RelWithDebInfo cxxstd=17 instrumentation=none malloc=tcmalloc max_cpu_count=64 networking=tcp arch=cray-sles15-zen3
+ -   4gzqfj3      ^asio@1.21.0%cce@13.0.0~boost_coroutine~boost_regex~separate_compilation cxxstd=17 arch=cray-sles15-zen3
+[+]  kurtcqa          ^autoconf@2.69%cce@13.0.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
+[+]  envw7u7              ^m4@1.4.19%cce@13.0.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
+[+]  l73yi5j                  ^libsigsegv@2.13%cce@13.0.0 arch=cray-sles15-zen3
+[+]  3g6ss7s              ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen3
+[+]  scuc5r6                  ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen3
+[+]  wovu742                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  lk7hv6s                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  4b6edda                  ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ggjvfhw                          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  jl6t5nr                  ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  a5osy3q          ^automake@1.16.5%cce@13.0.0 arch=cray-sles15-zen3
+ -   xggfca3          ^boost@1.79.0%cce@13.0.0+atomic+chrono~clanglibcpp~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math+mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=17 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
+[+]  6zbp2cm              ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  iufb3vn          ^libtool@2.4.7%cce@13.0.0 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+ -   wh6atz2      ^git@2.35.2%cce@13.0.0+man+nls+perl+subtree~svn~tcltk arch=cray-sles15-zen3
+[+]  qcn3vjl          ^curl@7.82.0%cce@13.0.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=cray-sles15-zen3
+[+]  efegzfa              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  xjbsvet          ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf              ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                  ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs          ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop              ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+ -   52odnx3          ^libidn2@2.3.0%cce@13.0.0 arch=cray-sles15-zen3
+ -   irirecj              ^libunistring@0.9.10%cce@13.0.0 arch=cray-sles15-zen3
+ -   j7lb3mg          ^openssh@9.0p1%cce@13.0.0 arch=cray-sles15-zen3
+ -   i5p3wdi              ^libedit@3.1-20210216%cce@13.0.0 arch=cray-sles15-zen3
+ -   d63qhx5          ^pcre2@10.39%cce@13.0.0~jit+multibyte arch=cray-sles15-zen3
+ -   aomaxg6      ^gperftools@2.9.1%cce@13.0.0+debugalloc~dynamic_sized_delete_support+libunwind~sized_delete arch=cray-sles15-zen3
+[+]  nymz7u7          ^libunwind@1.6.2%cce@13.0.0~block_signals~conservative_checks~cxx_exceptions~debug~debug_frame+docs+pic+tests+weak_backtrace+xz~zlib components=none libs=shared,static arch=cray-sles15-zen3
+[+]  ac5gxas      ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  pk6ynkl      ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+[+]  hcble2g      ^hwloc@2.7.1%cce@13.0.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~opencl+pci~rocm+shared arch=cray-sles15-zen3
+[+]  zh5se3i          ^libpciaccess@0.16%cce@13.0.0 arch=cray-sles15-zen3
+[+]  bllnm56              ^util-macros@1.19.3%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6aoidd      ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+[+]  d67cutj      ^ninja@1.10.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  6vwnbkp          ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  667sxo7              ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng              ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo              ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+
+==> Concretized mfem+rocm amdgpu_target=gfx90a
+ -   2kwt3ep  mfem@4.4.0%cce@13.0.0~amgx~conduit~cuda~debug~examples~gnutls~gslib~lapack~libceed~libunwind+metis~miniapps~mpfr+mpi~netcdf~occa~openmp~petsc~pumi~raja+rocm~shared~slepc+static~strumpack~suite-sparse~sundials~superlu-dist~threadsafe~umpire+zlib amdgpu_target=gfx90a timer=auto arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ac5gxas      ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  pk6ynkl      ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+[+]  rez4jrh      ^hypre@2.24.0%cce@13.0.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  u6aoidd      ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+[+]  uzliqtk      ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  jl6t5nr      ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+
+==> Concretized petsc+rocm amdgpu_target=gfx90a
+ -   brsz2g2  petsc@3.17.1%cce@13.0.0~X+batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123+rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind amdgpu_target=gfx90a clanguage=C arch=cray-sles15-zen3
+[+]  bhm2qz5      ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  lk7hv6s      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  sd5xtvx      ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  efegzfa          ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr          ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  ac5gxas      ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  q6loazh      ^hipblas@5.1.0%cce@13.0.0~ipo build_type=Release patches=0100382 arch=cray-sles15-zen3
+[+]  mayil2o      ^hipsparse@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  pk6ynkl      ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+[+]  rez4jrh      ^hypre@2.24.0%cce@13.0.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+[+]  u6aoidd      ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+[+]  uzliqtk      ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4      ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  j2rtdrx      ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742          ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  xjbsvet          ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf              ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                  ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik          ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw              ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs          ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk              ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                  ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop              ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7          ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng          ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo          ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  mmkrfys      ^rocblas@5.1.0%cce@13.0.0~ipo+tensile amdgpu_target=auto build_type=Release patches=6a52b28 arch=cray-sles15-zen3
+ -   2jo5bse      ^rocprim@5.1.0%cce@13.0.0~ipo amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+[+]  slipvrs      ^rocrand@5.1.0%cce@13.0.0~ipo amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+[+]  7ebf2x4      ^rocsolver@5.1.0%cce@13.0.0~ipo+optimal amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+[+]  jg5jspo      ^rocsparse@5.1.0%cce@13.0.0~ipo amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+ -   gkg7ai6      ^rocthrust@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  f3eoho6      ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized slate%cce+rocm amdgpu_target=gfx90a ^openblas%gcc
+ -   tk2zka4  slate@2021.05.02%cce@13.0.0~cuda~ipo+mpi+openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen
+[+]  37rvw32      ^blaspp@2021.04.01%cce@13.0.0~cuda~ipo+openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen
+[+]  bldcj62          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen
+[+]  xzigy24              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen
+[+]  kzfdenz              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen
+[+]  3xoeiit          ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen
+[+]  bluqqwo          ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen
+[+]  itm7446          ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen
+[+]  7qcfzer          ^openblas@0.3.20%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen
+[+]  hbsl26u              ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen
+[+]  chjv3j6                  ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen
+[+]  rm5eeqv                  ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen
+[+]  pqjoznp                      ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen
+[+]  wpkrou7                          ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen
+[+]  zxmxfeo                  ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen
+[+]  wi3ognr                      ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen
+[+]  ifucpwz                  ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen
+[+]  bcioucf          ^rocblas@5.1.0%cce@13.0.0~ipo+tensile amdgpu_target=auto build_type=Release patches=6a52b28 arch=cray-sles15-zen
+[+]  gppad7n      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen
+[+]  kqmmgwv      ^lapackpp@2021.04.00%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   kj4u5ws      ^netlib-scalapack@2.2.0%cce@13.0.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen
+
+==> Concretized slepc+rocm amdgpu_target=gfx90a
+ -   pbuh7j3  slepc@3.17.1%cce@13.0.0+arpack~blopex~cuda+rocm amdgpu_target=gfx90a arch=cray-sles15-zen3
+ -   sdouqx6      ^arpack-ng@3.8.0%cce@13.0.0+mpi+shared arch=cray-sles15-zen3
+[+]  43p2nzw          ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw              ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7              ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  bhm2qz5          ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm          ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ac5gxas      ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  pk6ynkl      ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+[+]  u6aoidd      ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+ -   brsz2g2      ^petsc@3.17.1%cce@13.0.0~X+batch~cgns~complex~cuda~debug+double~exodusii~fftw+fortran~giflib+hdf5~hpddm~hwloc+hypre~int64~jpeg~knl~kokkos~libpng~libyaml~memkind+metis~mkl-pardiso~mmg~moab~mpfr+mpi~mumps~openmp~p4est~parmmg~ptscotch~random123+rocm~saws~scalapack+shared~strumpack~suite-sparse+superlu-dist~tetgen~trilinos~valgrind amdgpu_target=gfx90a clanguage=C arch=cray-sles15-zen3
+[+]  lk7hv6s          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen3
+[+]  eb5tcwv              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen3
+[+]  sd5xtvx          ^hdf5@1.12.2%cce@13.0.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  efegzfa              ^pkgconf@1.8.0%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jl6t5nr              ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
+[+]  q6loazh          ^hipblas@5.1.0%cce@13.0.0~ipo build_type=Release patches=0100382 arch=cray-sles15-zen3
+[+]  mayil2o          ^hipsparse@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  rez4jrh          ^hypre@2.24.0%cce@13.0.0~complex~cuda~debug+fortran~gptune~int64~internal-superlu~mixedint+mpi~openmp~rocm+shared~superlu-dist~unified-memory arch=cray-sles15-zen3
+[+]  uzliqtk          ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4          ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  j2rtdrx          ^python@3.8.12%cce@13.0.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
+[+]  wovu742              ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen3
+[+]  xjbsvet              ^expat@2.4.8%cce@13.0.0+libbsd arch=cray-sles15-zen3
+[+]  ez5z7mf                  ^libbsd@0.11.5%cce@13.0.0 arch=cray-sles15-zen3
+[+]  t2y54mt                      ^libmd@1.0.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  u6gbhik              ^gdbm@1.23%cce@13.0.0 arch=cray-sles15-zen3
+[+]  jrogpnw                  ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen3
+[+]  je5ogzs              ^gettext@0.21%cce@13.0.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-sles15-zen3
+[+]  zfo3gwk                  ^libxml2@2.9.13%cce@13.0.0~python arch=cray-sles15-zen3
+[+]  xyaxike                      ^xz@5.2.5%cce@13.0.0+pic libs=shared,static arch=cray-sles15-zen3
+[+]  padjbop                  ^tar@1.34%cce@13.0.0 arch=cray-sles15-zen3
+[+]  667sxo7              ^libffi@3.4.2%cce@13.0.0 arch=cray-sles15-zen3
+[+]  2snfnng              ^sqlite@3.38.3%cce@13.0.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=cray-sles15-zen3
+[+]  ho3tylo              ^util-linux-uuid@2.37.4%cce@13.0.0 arch=cray-sles15-zen3
+[+]  mmkrfys          ^rocblas@5.1.0%cce@13.0.0~ipo+tensile amdgpu_target=auto build_type=Release patches=6a52b28 arch=cray-sles15-zen3
+ -   2jo5bse          ^rocprim@5.1.0%cce@13.0.0~ipo amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+[+]  slipvrs          ^rocrand@5.1.0%cce@13.0.0~ipo amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+[+]  7ebf2x4          ^rocsolver@5.1.0%cce@13.0.0~ipo+optimal amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+[+]  jg5jspo          ^rocsparse@5.1.0%cce@13.0.0~ipo amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+ -   gkg7ai6          ^rocthrust@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  f3eoho6          ^superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+
+==> Concretized strumpack%cce+rocm~slate amdgpu_target=gfx90a ^openblas%gcc
+ -   g5wbnpf  strumpack@6.3.1%cce@13.0.0+butterflypack+c_interface~count_flops~cuda~ipo+mpi+openmp+parmetis+rocm~scotch+shared~slate~task_timers+zfp amdgpu_target=gfx90a build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   wkpmbam      ^butterflypack@2.1.1%cce@13.0.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen
+ -   ezeon2i          ^arpack-ng@3.8.0%cce@13.0.0+mpi+shared arch=cray-sles15-zen
+[+]  bldcj62              ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen
+[+]  xzigy24                  ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen
+[+]  kzfdenz                  ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen
+[+]  gppad7n              ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen
+[+]  7qcfzer              ^openblas@0.3.20%gcc@7.5.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen
+[+]  hbsl26u                  ^perl@5.34.1%cce@13.0.0+cpanm+shared+threads arch=cray-sles15-zen
+[+]  chjv3j6                      ^berkeley-db@18.1.40%cce@13.0.0+cxx~docs+stl patches=b231fcc arch=cray-sles15-zen
+[+]  rm5eeqv                      ^bzip2@1.0.8%cce@13.0.0~debug~pic+shared arch=cray-sles15-zen
+[+]  pqjoznp                          ^diffutils@3.8%cce@13.0.0 arch=cray-sles15-zen
+[+]  wpkrou7                              ^libiconv@1.16%cce@13.0.0 libs=shared,static arch=cray-sles15-zen
+[+]  zxmxfeo                      ^gdbm@1.19%cce@13.0.0 arch=cray-sles15-zen
+[+]  wi3ognr                          ^readline@8.1%cce@13.0.0 arch=cray-sles15-zen
+[+]  ifucpwz                      ^zlib@1.2.12%cce@13.0.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen
+ -   kj4u5ws          ^netlib-scalapack@2.2.0%cce@13.0.0~ipo~pic+shared build_type=Release patches=072b006,1c9ce5f arch=cray-sles15-zen
+[+]  3xoeiit      ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen
+ -   coh46o4      ^hipblas@5.1.0%cce@13.0.0~ipo build_type=Release patches=0100382 arch=cray-sles15-zen
+[+]  bluqqwo      ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen
+[+]  itm7446      ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen
+[+]  vy6tvrj      ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen
+[+]  6hrbrff      ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen
+ -   5k6cgrd      ^rocsolver@5.1.0%cce@13.0.0~ipo+optimal amdgpu_target=auto build_type=Release arch=cray-sles15-zen
+[+]  3ymasvr      ^zfp@0.5.5%cce@13.0.0~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo arch=cray-sles15-zen
+
+==> Concretized superlu-dist+rocm amdgpu_target=gfx90a
+[+]  xjnt37o  superlu-dist@7.2.0%cce@13.0.0~cuda~int64~ipo~openmp+rocm+shared amdgpu_target=gfx90a build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  bhm2qz5      ^cray-libsci@21.08.1.2%cce@13.0.0+mpi~openmp+shared arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ac5gxas      ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  q6loazh      ^hipblas@5.1.0%cce@13.0.0~ipo build_type=Release patches=0100382 arch=cray-sles15-zen3
+[+]  pk6ynkl      ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+[+]  u6aoidd      ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+[+]  uzliqtk      ^metis@5.1.0%cce@13.0.0~gdb~int64~real64+shared build_type=Release patches=4991da9 arch=cray-sles15-zen3
+[+]  xolwft4      ^parmetis@4.0.3%cce@13.0.0~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f89253,50ed208,704b84f arch=cray-sles15-zen3
+[+]  7ebf2x4      ^rocsolver@5.1.0%cce@13.0.0~ipo+optimal amdgpu_target=auto build_type=Release arch=cray-sles15-zen3
+
+==> Concretized vtk-m+rocm amdgpu_target=gfx90a
+ -   bkpnw2k  vtk-m@1.7.1%cce@13.0.0~64bitids+ascent_types~cuda+doubleprecision~ipo+kokkos~logging+mpi+openmp+rendering+rocm~shared~tbb~testlib~virtuals amdgpu_target=gfx90a build_type=Release arch=cray-sles15-zen3
+[+]  43p2nzw      ^cmake@3.23.1%cce@13.0.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
+[+]  ggjvfhw          ^ncurses@6.2%cce@13.0.0~symlinks+termlib abi=none arch=cray-sles15-zen3
+[+]  3o5u7p7          ^openssl@1.1.1n%cce@13.0.0~docs~shared certs=system arch=cray-sles15-zen3
+[+]  6zbp2cm      ^cray-mpich@8.1.12%cce@13.0.0 arch=cray-sles15-zen3
+[+]  ac5gxas      ^hip@5.1.0%cce@13.0.0~ipo build_type=Release arch=cray-sles15-zen3
+[+]  pk6ynkl      ^hsa-rocr-dev@5.1.0%cce@13.0.0+image~ipo+shared build_type=Release patches=71e6851 arch=cray-sles15-zen3
+[+]  wf5ra7u      ^kokkos@3.6.00%cce@13.0.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread+rocm+serial+shared~sycl~tests~tuning~wrapper amdgpu_target=gfx90a build_type=RelWithDebInfo std=14 arch=cray-sles15-zen3
+[+]  u6aoidd          ^llvm-amdgpu@5.1.0%cce@13.0.0~ipo~link_llvm_dylib~llvm_dylib~openmp+rocm-device-libs build_type=Release arch=cray-sles15-zen3
+
