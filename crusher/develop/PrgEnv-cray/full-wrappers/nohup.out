@@ -1,0 +1,81 @@
+==> Installing environment /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/full-wrappers
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/ncurses-6.2-yabalh6o7h3rfrk7wi5mbttohb2abnn5 (external ncurses-6.2-ggjvfhwys5rs3hwpkysba2pf6g5la6ji)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-x86_64/gcc-7.5.0/openssl-1.1.1n-ywgio6z6dmcyxlu6raprgckivzfk7kg6 (external openssl-1.1.1n-3o5u7p7rjz7c7sl7m24x6vwmw7p7edj5)
+==> cray-mpich@8.1.12 : has external module in ['cray-mpich/8.1.12', 'libfabric/1.15.0.0']
+[+] /opt/cray/pe/mpich/8.1.12/ofi/crayclang/10.0 (external cray-mpich-8.1.12-6zbp2cmod2b226ri6tsp44imkmst2ouv)
+[+] /opt/rocm-5.1.0/hip (external hip-5.1.0-ac5gxaskcubq6vrmfrhx6nmybxryrzbb)
+[+] /opt/rocm-5.1.0/ (external hsa-rocr-dev-5.1.0-pk6ynklwsp4vjipepjhohun3n2bmn3q3)
+[+] /opt/rocm-5.1.0/llvm (external llvm-amdgpu-5.1.0-u6aoiddstx2flvjms7foz6gwctsywhbp)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzgbisxawyuxkmqqgm
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/kokkos-3.6.00-wf5ra7u2k35d5hfjbtm6vmpddfcsb3ca
+==> Installing vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc
+==> No binary for vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/7e/7ea3e945110b837a8c2ba49b41e45e1a1d8d0029bb472b291f7674871dbbbb63.tar.gz
+==> No patches needed for vtk-m
+==> vtk-m: Executing phase: 'cmake'
+==> vtk-m: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+6 errors found in build log:
+     510    cd /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k/vtkm/filter && /gpfs/alpi
+            ne/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzg
+            bisxawyuxkmqqgm/bin/cmake -E cmake_link_script CMakeFiles/vtkm_filter_gradient.dir/link.txt --verbose=1
+     511    /opt/rocm-5.1.0/llvm/bin/llvm-ar qc ../../lib/libvtkm_filter_gradient-1.7.a CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiati
+            on0.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation1.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiatio
+            n2.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation3.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation
+            4.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation5.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation6
+            .cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation7.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation8.
+            cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation9.cxx.o CMakeFiles/vtkm_filter_gradient.dir/GradientInstantiation10.
+            cxx.o
+     512    /opt/rocm-5.1.0/llvm/bin/llvm-ranlib ../../lib/libvtkm_filter_gradient-1.7.a
+     513    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k'
+     514    [ 74%] Built target vtkm_filter_gradient
+     515    In file included from /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/part
+            icleadvection/Messenger.cxx:15:
+  >> 516    /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/particleadvection/Messenge
+            r.h:26:10: fatal error: 'mpi.h' file not found
+     517    #include <mpi.h>
+     518             ^~~~~~~
+     519    1 error generated when compiling for gfx90a.
+  >> 520    make[2]: *** [vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/build.make:468: vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/particleadv
+            ection/Messenger.cxx.o] Error 1
+     521    make[2]: *** Waiting for unfinished jobs....
+     522    In file included from /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/part
+            icleadvection/ParticleMessenger.cxx:11:
+     523    In file included from /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/part
+            icleadvection/ParticleMessenger.h:18:
+  >> 524    /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-src/vtkm/filter/particleadvection/BoundsMa
+            p.h:24:10: fatal error: 'mpi.h' file not found
+     525    #include <mpi.h>
+     526             ^~~~~~~
+     527    1 error generated when compiling for gfx90a.
+  >> 528    make[2]: *** [vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/build.make:481: vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/particleadv
+            ection/ParticleMessenger.cxx.o] Error 1
+     529    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k'
+  >> 530    make[1]: *** [CMakeFiles/Makefile2:1696: vtkm/filter/CMakeFiles/vtkm_filter_extra.dir/all] Error 2
+     531    make[1]: *** Waiting for unfinished jobs....
+     532    [ 75%] Linking HIP static library ../../lib/libvtkm_filter_contour-1.7.a
+     533    cd /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k/vtkm/filter && /gpfs/alpi
+            ne/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzg
+            bisxawyuxkmqqgm/bin/cmake -P CMakeFiles/vtkm_filter_contour.dir/cmake_clean_target.cmake
+     534    cd /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k/vtkm/filter && /gpfs/alpi
+            ne/csc439/world-shared/E4S/ParaTools/develop/PrgEnv-cray/spack/opt/spack/cray-sles15-zen3/cce-13.0.0/cmake-3.23.1-43p2nzwlogeiyozzg
+            bisxawyuxkmqqgm/bin/cmake -E cmake_link_script CMakeFiles/vtkm_filter_contour.dir/link.txt --verbose=1
+     535    /opt/rocm-5.1.0/llvm/bin/llvm-ar qc ../../lib/libvtkm_filter_contour-1.7.a CMakeFiles/vtkm_filter_contour.dir/Contour.cxx.o CMakeFi
+            les/vtkm_filter_contour.dir/ContourInstantiation0.cxx.o CMakeFiles/vtkm_filter_contour.dir/ContourInstantiation1.cxx.o CMakeFiles/v
+            tkm_filter_contour.dir/ContourInstantiation2.cxx.o CMakeFiles/vtkm_filter_contour.dir/ContourInstantiation3.cxx.o CMakeFiles/vtkm_f
+            ilter_contour.dir/Slice.cxx.o
+     536    /opt/rocm-5.1.0/llvm/bin/llvm-ranlib ../../lib/libvtkm_filter_contour-1.7.a
+     537    make[2]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k'
+     538    [ 75%] Built target vtkm_filter_contour
+     539    make[1]: Leaving directory '/tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-bkpnw2k'
+  >> 540    make: *** [Makefile:159: all] Error 2
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-vtk-m-1.7.1-bkpnw2kygu6cae2dtklhtywza5oxdjbc/spack-build-out.txt
+
+
+real	20m51.101s
+user	61m50.206s
+sys	0m41.768s
