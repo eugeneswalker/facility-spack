@@ -257,7 +257,6 @@ spack:
   - nco
   - netlib-scalapack
   - nrm
-  - nvhpc
   - omega-h
   - openmpi
   - openpmd-api
