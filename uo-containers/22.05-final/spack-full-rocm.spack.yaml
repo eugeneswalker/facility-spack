@@ -266,7 +266,7 @@ spack:
   - papi@6.0.0.1
   - papyrus@1.0.2
   - parallel-netcdf@1.12.2
-  - paraview@5.10.1 +qt
+  - paraview@5.10.1 +qt ^llvm@12.0.1
   - parsec@3.0.2012 ~cuda
   - pdt@3.25.1
   - petsc@3.17.1
