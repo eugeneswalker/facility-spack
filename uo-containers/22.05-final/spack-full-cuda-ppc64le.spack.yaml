@@ -8,20 +8,20 @@ spack:
 
   packages:
     all:
-      compiler: [gcc@9.4.0]
+      compiler: [gcc@7.5.0]
       providers:
         blas: [openblas]
         mpi: [mpich]
-      target: [x86_64]
+      target: [ppc64le]
       variants: +mpi
     binutils:
       variants: +ld +gold +headers +libiberty ~nls
     cuda:
       buildable: false
-      version: [11.4.2]
+      version: [11.0.3]
       externals:
-      - spec: cuda@11.4.2
-        prefix: /usr/local/cuda-11.4
+      - spec: cuda@11.0.3
+        prefix: /usr/local/cuda-11.0
     elfutils:
       variants: +bzip2 ~nls +xz
     hdf5:
@@ -47,7 +47,8 @@ spack:
       variants: +pic
     mesa:
       version: [21.3.8]
-  specs:
+
+  specs: 
   # CPU
   - adios@1.13.1
   - adios2@2.8.0
@@ -71,13 +72,12 @@ spack:
   - datatransferkit@3.1-rc3
   - dyninst@12.1.0
   - exaworks@0.1.0
-  - faodel@1.2108.1
+  - faodel@1.2108.1 ~tcmalloc
   - flecsi@1.4.2
   - flit@2.1.0
   - flux-core@0.38.0
   - fortrilinos@2.0.0
   - gasnet@2022.3.0
-  - geopm@1.1.0
   - ginkgo@1.4.0
   - globalarrays@5.8
   - gmp@6.2.1
@@ -113,11 +113,9 @@ spack:
   - papi@6.0.0.1
   - papyrus@1.0.2
   - parallel-netcdf@1.12.2
-  - paraview@5.10.1 +qt
   - parsec@3.0.2012 ~cuda
   - pdt@3.25.1
   - petsc@3.17.1
-  - phist@1.9.5
   - plasma@21.8.29
   - plumed@2.6.3
   - precice@2.4.0
@@ -155,55 +153,59 @@ spack:
   - umpire@6.0.0
   - unifyfs@0.9.2
   - upcxx@2022.3.0
-  - variorum@0.4.1
   - veloc@1.5
   - vtk-m@1.7.1
   - wannier90@3.1.0
   - zfp@0.5.5
 
   # GPU
-  - adios2 +cuda cuda_arch=80
-  - amrex +cuda cuda_arch=80
-  - arborx +cuda cuda_arch=80 ^kokkos +wrapper
-  - cabana +cuda ^kokkos +wrapper +cuda_lambda +cuda cuda_arch=80
-  - caliper +cuda cuda_arch=80
-  - chai ~benchmarks ~tests +cuda cuda_arch=80 ^umpire@6.0.0 ~shared
-  - flecsi +cuda cuda_arch=80
+  - adios2 +cuda cuda_arch=70
+  - amrex +cuda cuda_arch=70
+  - arborx +cuda cuda_arch=70 ^kokkos +wrapper
+  - cabana +cuda ^kokkos +wrapper +cuda_lambda +cuda cuda_arch=70
+  - caliper +cuda cuda_arch=70
+  - chai ~benchmarks ~tests +cuda cuda_arch=70 ^umpire@6.0.0 ~shared
+  - flecsi +cuda cuda_arch=70
   - flux-core +cuda
-  - ginkgo +cuda cuda_arch=80
-  - heffte +cuda cuda_arch=80
+  - ginkgo +cuda cuda_arch=70
+  - heffte +cuda cuda_arch=70
   - hpctoolkit +cuda
-  - hpx +cuda cuda_arch=80
-  - hypre +cuda cuda_arch=80
-  - kokkos +wrapper +cuda cuda_arch=80
-  - kokkos-kernels +cuda cuda_arch=80 ^kokkos@3.5.00 +wrapper +cuda cuda_arch=80
-  - magma +cuda cuda_arch=80
-  - mfem +cuda cuda_arch=80
+  - hpx +cuda cuda_arch=70
+  - hypre +cuda cuda_arch=70
+  - kokkos +wrapper +cuda cuda_arch=70
+  - kokkos-kernels +cuda cuda_arch=70 ^kokkos@3.5.00 +wrapper +cuda cuda_arch=70
+  - magma +cuda cuda_arch=70
+  - mfem +cuda cuda_arch=70
   - papi +cuda
-  - parsec +cuda cuda_arch=80
-  - petsc +cuda cuda_arch=80
-  - raja +cuda cuda_arch=80
-  - slate +cuda cuda_arch=80
-  - slepc +cuda cuda_arch=80
-  - strumpack ~slate +cuda cuda_arch=80
-  - sundials +cuda cuda_arch=80
-  - superlu-dist +cuda cuda_arch=80
-  - tasmanian +cuda cuda_arch=80
-  - trilinos@13.2.0 +cuda cuda_arch=80
-  - umpire ~shared +cuda cuda_arch=80
-  - vtk-m +cuda cuda_arch=80
-  - zfp +cuda cuda_arch=80
+  - parsec +cuda cuda_arch=70
+  - petsc +cuda cuda_arch=70
+  - raja +cuda cuda_arch=70
+  - slate +cuda cuda_arch=70
+  - slepc +cuda cuda_arch=70
+  - strumpack ~slate +cuda cuda_arch=70
+  - sundials +cuda cuda_arch=70
+  - superlu-dist +cuda cuda_arch=70
+  - tasmanian +cuda cuda_arch=70
+  - trilinos@13.2.0 +cuda cuda_arch=70
+  - umpire ~shared +cuda cuda_arch=70
+  - vtk-m +cuda cuda_arch=70
+  - zfp +cuda cuda_arch=70
 
-  # SKIPPED
-  #- gasnet +cuda cuda_arch=80 conduits=mpi     # requires driver
-  #- legion +cuda cuda_arch=80                  # requires driver
-  #- upcxx +cuda                                # requires driver
+  # REQUIRES CUDA DRIVER
+  #- gasnet +cuda cuda_arch=70 conduits=mpi     # requires driver
+  #- legion +cuda cuda_arch=70                  # requires driver
+  #- upcxx +cuda                                # requires driver; not CudaPackage
 
   # BROKEN
-  #- ascent ~shared +cuda cuda_arch=80          # https://github.com/spack/spack/issues/27954
-  #- axom +cuda cuda_arch=80 ^umpire ~shared    # https://github.com/spack/spack/issues/29520
+  #- ascent ~shared +cuda cuda_arch=70          # https://github.com/spack/spack/issues/27954
+  #- axom +cuda cuda_arch=70 ^umpire ~shared    # https://github.com/spack/spack/issues/29520
   #- catalyst@5.6.0                             # https://github.com/spack/spack/issues/30478
-  #- dealii +cuda cuda_arch=80                  # https://github.com/spack/spack/issues/29523
+  #- dealii +cuda cuda_arch=70                  # https://github.com/spack/spack/issues/29523
   #- dealii@9.3.3
-  #- lammps +cuda cuda_arch=80                  # https://github.com/spack/spack/issues/30590
+  #- geopm@1.1.0
+  #- lammps +cuda cuda_arch=70                  # https://github.com/spack/spack/issues/30590
+  #- paraview +cuda cuda_arch=70
+  #- paraview@5.10.1 +qt
+  #- phist@1.9.5
   #- stat@4.1.0
+  #- variorum@0.4.1

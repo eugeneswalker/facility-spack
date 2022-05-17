@@ -331,10 +331,13 @@ spack:
   - superlu-dist +rocm amdgpu_target=gfx90a
   - umpire +rocm amdgpu_target=gfx90a
   - upcxx +rocm amdgpu_target=gfx90a
+
   # SKIPPED
   #- nvhpc@22.3
+
   # CONCRETIZATION
   #- hpctoolkit +rocm
+
   # FAILED
   #- cabana +rocm                               # https://github.com/spack/spack/issues/27967
   #- catalyst@5.6.0                             # https://github.com/spack/spack/issues/30478
