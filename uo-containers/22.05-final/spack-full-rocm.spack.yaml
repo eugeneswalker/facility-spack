@@ -1,8 +1,11 @@
 spack:
+
   view: false
   concretization: separately
+
   config:
     concretizer: clingo
+
   packages:
     all:
       compiler: [gcc@9.4.0]

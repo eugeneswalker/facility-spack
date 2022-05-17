@@ -1,8 +1,11 @@
 spack:
+
   view: false
   concretization: separately
+
   config:
     concretizer: clingo
+
   packages:
     all:
       compiler: [gcc@9.4.0]
@@ -44,7 +47,8 @@ spack:
       variants: +pic
     mesa:
       version: [21.3.8]
-  specs: 
+  specs:
+  # CPU
   - adios@1.13.1
   - adios2@2.8.0
   - alquimia@1.0.9
@@ -156,6 +160,8 @@ spack:
   - vtk-m@1.7.1
   - wannier90@3.1.0
   - zfp@0.5.5
+
+  # GPU
   - adios2 +cuda cuda_arch=80
   - amrex +cuda cuda_arch=80
   - arborx +cuda cuda_arch=80 ^kokkos +wrapper
@@ -187,6 +193,7 @@ spack:
   - umpire ~shared +cuda cuda_arch=80
   - vtk-m +cuda cuda_arch=80
   - zfp +cuda cuda_arch=80
+
   # SKIPPED
   #- gasnet +cuda cuda_arch=80 conduits=mpi     # requires driver
   #- legion +cuda cuda_arch=80                  # requires driver
