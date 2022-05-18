@@ -36,7 +36,7 @@ spack:
       providers:
         blas: [openblas]
         mpi: [mpich]
-      target: [x86_64]
+      target: [icelake]
       variants: +mpi
     binutils:
       variants: +ld +gold +headers +libiberty ~nls
@@ -51,7 +51,11 @@ spack:
     libunwind:
       variants: +pic +xz
     mpich:
-      variants: ~wrapperrpath
+      buildable: false
+      externals:
+      - spec: mpich@4.0a2~hydra device=ch4
+        prefix: /soft/restricted/CNDA/mpich/drop45.3/mpich-ofi-sockets-icc-default-ats-drop45
+        modules: [mpi/aurora_mpich/icc-sockets/45.3]
     ncurses:
       variants: +termlib
     openblas:
@@ -67,13 +71,6 @@ spack:
       variants: +pic
     mesa:
       version: [21.3.8]
-
-    mpich:
-      buildable: false
-      externals:
-      - spec: mpich@4.0a2~hydra device=ch4
-        prefix: /soft/restricted/CNDA/mpich/drop45.3/mpich-ofi-sockets-icc-default-ats-drop45 
-        modules: [mpi/aurora_mpich/icc-sockets/45.3]
   specs:
   
   # CPU
