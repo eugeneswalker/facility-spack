@@ -72,7 +72,7 @@ spack:
     mesa:
       version: [21.3.8]
   specs: 
-  # CPU SPECS
+  # CPU
   - adios@1.13.1
   - aml@0.1.0
   - amrex@22.05
@@ -130,8 +130,12 @@ spack:
   - upcxx@2022.3.0
   - veloc@1.5
   - zfp@0.5.5
+
+  # GPU
+
   # SKIPPED
   #- nvhpc@22.3
+
   # BROKEN
   #- adios2@2.8.0                               # adios2
   #- alquimia@1.0.9                             # hdf5@1.12.2
