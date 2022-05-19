@@ -1,39 +1,59 @@
 spack:
-
   view: false
   concretization: separately
-
   config:
     concretizer: clingo
-
   compilers:
-  - compiler:
-      spec: oneapi@2022.1.0
-      paths:
-        cc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/icx
-        cxx: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/icpx
-        f77: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/ifx
-        fc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/ifx
-      flags: {}
-      operating_system: opensuse_leap15
-      target: x86_64
-      modules: [oneapi/eng-compiler/2022.01.30.005]
-      environment: {}
-      extra_rpaths: []
   - compiler:
       spec: dpcpp@2022.1.0
       paths:
-        cc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/icx
-        cxx: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/dpcpp
-        f77: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/ifx
-        fc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/ifx
+        cc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/icx
+        cxx: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/dpcpp
+        f77: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/ifx
+        fc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/ifx
       flags: {}
       operating_system: opensuse_leap15
       target: x86_64
-      modules: [oneapi/eng-compiler/2022.01.30.005]
-      environment: {}
-      extra_rpaths: []
-
+      modules:
+      - oneapi/eng-compiler/2022.01.30.007
+      - spack/linux-opensuse_leap15-x86_64
+      - libnl/3.3.0-gcc-10.2.0-h7m7thf
+      - rdma-core/36.3-gcc-10.2.0-l2rnrjy
+      - libfabric/1.14.0-gcc-10.2.0-hp2bsva
+      - libpciaccess/0.16-gcc-10.2.0-kluhisj
+      - hwloc/master-gcc-10.2.0-fbu4tbk
+      - intel_compute_runtime/release/agama-prerelease-438
+      - .igc/release/20220510.1
+      environment:
+        prepend_path:
+          LD_LIBRARY_PATH: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/compiler/lib/intel64_lin:/soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r/lib
+      extra_rpaths:
+      - /soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r/lib
+  - compiler:
+      spec: oneapi@2022.1.0
+      paths:
+        cc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/icx
+        cxx: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/icpx
+        f77: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/ifx
+        fc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/ifx
+      flags: {}
+      operating_system: opensuse_leap15
+      target: x86_64
+      modules:
+      - oneapi/eng-compiler/2022.01.30.007
+      - spack/linux-opensuse_leap15-x86_64
+      - libnl/3.3.0-gcc-10.2.0-h7m7thf
+      - rdma-core/36.3-gcc-10.2.0-l2rnrjy
+      - libfabric/1.14.0-gcc-10.2.0-hp2bsva
+      - libpciaccess/0.16-gcc-10.2.0-kluhisj
+      - hwloc/master-gcc-10.2.0-fbu4tbk
+      - intel_compute_runtime/release/agama-prerelease-438
+      - .igc/release/20220510.1
+      environment:
+        prepend_path:
+          LD_LIBRARY_PATH: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/compiler/lib/intel64_lin:/soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r/lib
+      extra_rpaths:
+      - /soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r/lib
   packages:
     all:
       compiler: [oneapi]
@@ -51,15 +71,16 @@ spack:
     hdf5:
       variants: +fortran +hl +shared
     libfabric:
-      variants: fabrics=sockets,tcp,udp,rxm
-    libunwind:
-      variants: +pic +xz
-    mpich:
       buildable: false
       externals:
-      - spec: mpich@4.0a2~hydra device=ch4
-        prefix: /soft/restricted/CNDA/mpich/drop45.3/mpich-ofi-sockets-icc-default-ats-drop45
-        modules: [mpi/aurora_mpich/icc-sockets/45.3]
+      - spec: libfabric@1.14.0 fabrics=psm3,rxm,shm,sockets,tcp,udp,verbs ~kdreg ~debug
+        prefix: /soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r
+        modules:
+        - spack/linux-opensuse_leap15-x86_64
+        - libfabric/1.14.0-gcc-10.2.0-hp2bsva
+
+    libunwind:
+      variants: +pic +xz
     ncurses:
       variants: +termlib
     openblas:
@@ -75,6 +96,16 @@ spack:
       variants: +pic
     mesa:
       version: [21.3.8]
+    mpich:
+      buildable: false
+      externals:
+      - spec: mpich@4.0a2~hydra device=ch4
+        prefix: /soft/restricted/CNDA/mpich/drop45.3/mpich-ofi-sockets-icc-default-ats-drop45
+        modules:
+        - oneapi/eng-compiler/2022.01.30.007
+        - mpi/aurora_mpich/icc-sockets/45.3
+        - spack/linux-opensuse_leap15-x86_64
+        - libfabric/1.14.0-gcc-10.2.0-hp2bsva
 
   specs:
   - adios@1.13.1
