@@ -8,29 +8,29 @@ spack:
 
   compilers:
   - compiler:
-      spec: dpcpp@2022.1.0
+      spec: oneapi@2022.1.0
       paths:
-        cc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/icx
-        cxx: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/dpcpp
-        f77: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/ifx
-        fc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/ifx
+        cc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/icx
+        cxx: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/icpx
+        f77: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/ifx
+        fc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/ifx
       flags: {}
       operating_system: opensuse_leap15
       target: x86_64
-      modules: [oneapi/eng-compiler/2022.01.30.007]
+      modules: [oneapi/eng-compiler/2022.01.30.005]
       environment: {}
       extra_rpaths: []
   - compiler:
-      spec: oneapi@2022.1.0
+      spec: dpcpp@2022.1.0
       paths:
-        cc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/icx
-        cxx: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/icpx
-        f77: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/ifx
-        fc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/bin/ifx
+        cc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/icx
+        cxx: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/dpcpp
+        f77: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/ifx
+        fc: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/pseudo-20220223/compiler/linux/bin/ifx
       flags: {}
       operating_system: opensuse_leap15
       target: x86_64
-      modules: [oneapi/eng-compiler/2022.01.30.007]
+      modules: [oneapi/eng-compiler/2022.01.30.005]
       environment: {}
       extra_rpaths: []
 
