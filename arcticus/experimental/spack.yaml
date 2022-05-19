@@ -1,8 +1,11 @@
 spack:
+
   view: false
   concretization: separately
+
   config:
     concretizer: clingo
+
   compilers:
   - compiler:
       spec: dpcpp@2022.1.0
@@ -54,6 +57,7 @@ spack:
           LD_LIBRARY_PATH: /soft/restricted/CNDA/sdk/2022.01.30.001/oneapi/compiler/20220503/linux/compiler/lib/intel64_lin:/soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r/lib
       extra_rpaths:
       - /soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r/lib
+
   packages:
     all:
       compiler: [oneapi]
@@ -70,15 +74,6 @@ spack:
       variants: +bzip2 ~nls +xz
     hdf5:
       variants: +fortran +hl +shared
-    libfabric:
-      buildable: false
-      externals:
-      - spec: libfabric@1.14.0 fabrics=psm3,rxm,shm,sockets,tcp,udp,verbs ~kdreg ~debug
-        prefix: /soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r
-        modules:
-        - spack/linux-opensuse_leap15-x86_64
-        - libfabric/1.14.0-gcc-10.2.0-hp2bsva
-
     libunwind:
       variants: +pic +xz
     ncurses:
@@ -96,6 +91,17 @@ spack:
       variants: +pic
     mesa:
       version: [21.3.8]
+
+    # FACILITY EXTERNALS
+    libfabric:
+      buildable: false
+      externals:
+      - spec: libfabric@1.14.0 fabrics=psm3,rxm,shm,sockets,tcp,udp,verbs ~kdreg ~debug
+        prefix: /soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r
+        modules:
+        - spack/linux-opensuse_leap15-x86_64
+        - libfabric/1.14.0-gcc-10.2.0-hp2bsva
+
     mpich:
       buildable: false
       externals:
