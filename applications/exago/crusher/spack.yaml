@@ -232,8 +232,13 @@ spack:
     - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a
   - hiop:
     - ^hiop@develop +mpi +raja +sparse +rocm amdgpu_target=gfx90a
+    - ^hiop@develop +mpi +raja +sparse +rocm amdgpu_target=gfx90a +kron
+    - ^hiop@develop +mpi +raja ~sparse +rocm amdgpu_target=gfx90a
+    - ^hiop@develop +mpi +raja ~sparse +rocm amdgpu_target=gfx90a +kron
     - ^hiop@0.6.2 +mpi +raja +sparse +rocm amdgpu_target=gfx90a
-    - ^hiop@0.5.3 +mpi +raja +sparse +rocm amdgpu_target=gfx90a
+    - ^hiop@0.6.2 +mpi +raja +sparse +rocm amdgpu_target=gfx90a +kron
+    - ^hiop@0.6.2 +mpi +raja ~sparse +rocm amdgpu_target=gfx90a
+    - ^hiop@0.6.2 +mpi +raja ~sparse +rocm amdgpu_target=gfx90a +kron
   - coinhsl:
     - ^coinhsl@2015.06.23
     - ^coinhsl@2019.05.21
