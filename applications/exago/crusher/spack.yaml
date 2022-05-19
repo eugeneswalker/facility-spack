@@ -227,6 +227,7 @@ spack:
       externals:
       - spec: rocthrust@5.1.0
         prefix: /opt/rocm-5.1.0
+
   definitions:
   - exago:
     - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a
@@ -239,4 +240,3 @@ spack:
   - matrix:
     - - $exago
     - - $hiop
-
