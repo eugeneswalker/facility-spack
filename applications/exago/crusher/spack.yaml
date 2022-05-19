@@ -62,10 +62,10 @@ spack:
     cray-mpich:
       buildable: false
       externals:
-      - spec: cray-mpich@8.1.12 %gcc@11.2.0
-        prefix: /opt/cray/pe/mpich/8.1.12/ofi/gnu/9.1
+      - spec: cray-mpich@8.1.16 %gcc@11.2.0
+        prefix: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1
         modules:
-        - cray-mpich/8.1.12
+        - cray-mpich/8.1.16
         - libfabric/1.15.0.0
 
     # ROCm 5.1.0
