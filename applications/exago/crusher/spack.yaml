@@ -2,10 +2,13 @@
 # Mon May 2 14:17:48 2022 -0700
 
 spack:
+
   view: false
   concretization: separately
+
   config:
     concretizer: clingo
+
   compilers:
   - compiler:
       spec: gcc@11.2.0
@@ -22,6 +25,7 @@ spack:
       - gcc/11.2.0
       environment: {}
       extra_rpaths: []
+
   packages:
     all:
       compiler: [gcc@11.2.0]
@@ -59,6 +63,8 @@ spack:
         +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long
     xz:
       variants: +pic
+
+    # EXTERNALS
     cray-mpich:
       buildable: false
       externals:
@@ -227,20 +233,23 @@ spack:
       externals:
       - spec: rocthrust@5.1.0
         prefix: /opt/rocm-5.1.0
+
   definitions:
   - exago:
-    - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a
-      ~ipopt
+    - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a ~ipopt
+
   - hiop-sparse:
-    - ^hiop@develop +mpi +raja +sparse +rocm amdgpu_target=gfx90a
-    - ^hiop@develop +mpi +raja +sparse +rocm amdgpu_target=gfx90a +kron
-    - ^hiop@0.6.2 +mpi +raja +sparse +rocm amdgpu_target=gfx90a
-    - ^hiop@0.6.2 +mpi +raja +sparse +rocm amdgpu_target=gfx90a +kron
+    - ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a
+    - ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
+    - ^hiop@0.6.2 +sparse +mpi +raja +rocm amdgpu_target=gfx90a
+    - ^hiop@0.6.2 +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
+
   - hiop-no-sparse:
-    - ^hiop@develop +mpi +raja ~sparse +rocm amdgpu_target=gfx90a
-    - ^hiop@develop +mpi +raja ~sparse +rocm amdgpu_target=gfx90a +kron
-    - ^hiop@0.6.2 +mpi +raja ~sparse +rocm amdgpu_target=gfx90a
-    - ^hiop@0.6.2 +mpi +raja ~sparse +rocm amdgpu_target=gfx90a +kron
+    - ^hiop@develop ~sparse +mpi +raja +rocm amdgpu_target=gfx90a
+    - ^hiop@develop ~sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
+    - ^hiop@0.6.2 ~sparse +mpi +raja +rocm amdgpu_target=gfx90a
+    - ^hiop@0.6.2 ~sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
+
   - coinhsl:
     - ^coinhsl@2015.06.23
     - ^coinhsl@2019.05.21
@@ -250,6 +259,7 @@ spack:
     - - $exago
     - - $hiop-sparse
     - - $coinhsl
+
   - matrix:
     - - $exago
     - - $hiop-no-sparse
