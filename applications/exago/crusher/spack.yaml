@@ -1,14 +1,11 @@
-# spack/develop 2c211d95ee7257d9ca258fac4f6ccb0f56d63e39
-# Thu May 19 03:47:20 2022 +0300
+# spack/develop 8ed8922af5a36a53876f4385096fc3ef2b7876ec
+# Mon May 2 14:17:48 2022 -0700
 
 spack:
-
   view: false
   concretization: separately
-
   config:
     concretizer: clingo
-
   compilers:
   - compiler:
       spec: gcc@11.2.0
@@ -230,22 +227,20 @@ spack:
       externals:
       - spec: rocthrust@5.1.0
         prefix: /opt/rocm-5.1.0
-
   definitions:
-
   - exago:
     - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a
-
-  - hiop:
+      ~ipopt
+  - hiop-sparse:
     - ^hiop@develop +mpi +raja +sparse +rocm amdgpu_target=gfx90a
     - ^hiop@develop +mpi +raja +sparse +rocm amdgpu_target=gfx90a +kron
-    - ^hiop@develop +mpi +raja ~sparse +rocm amdgpu_target=gfx90a
-    - ^hiop@develop +mpi +raja ~sparse +rocm amdgpu_target=gfx90a +kron
     - ^hiop@0.6.2 +mpi +raja +sparse +rocm amdgpu_target=gfx90a
     - ^hiop@0.6.2 +mpi +raja +sparse +rocm amdgpu_target=gfx90a +kron
+  - hiop-no-sparse:
+    - ^hiop@develop +mpi +raja ~sparse +rocm amdgpu_target=gfx90a
+    - ^hiop@develop +mpi +raja ~sparse +rocm amdgpu_target=gfx90a +kron
     - ^hiop@0.6.2 +mpi +raja ~sparse +rocm amdgpu_target=gfx90a
     - ^hiop@0.6.2 +mpi +raja ~sparse +rocm amdgpu_target=gfx90a +kron
-
   - coinhsl:
     - ^coinhsl@2015.06.23
     - ^coinhsl@2019.05.21
@@ -253,5 +248,8 @@ spack:
   specs:
   - matrix:
     - - $exago
-    - - $hiop
+    - - $hiop-sparse
     - - $coinhsl
+  - matrix:
+    - - $exago
+    - - $hiop-no-sparse
