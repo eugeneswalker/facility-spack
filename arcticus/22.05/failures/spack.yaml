@@ -1,8 +1,14 @@
+# spack/e4s-22.05
+# Sun May 15 06:59:11 2022 -0400
+
 spack:
+
   view: false
   concretization: separately
+
   config:
     concretizer: clingo
+
   compilers:
   - compiler:
       spec: dpcpp@2022.1.0
@@ -88,6 +94,8 @@ spack:
       variants: +pic
     mesa:
       version: [21.3.8]
+
+    # EXTERNALS
     libfabric:
       buildable: false
       externals:
@@ -96,7 +104,6 @@ spack:
         modules:
         - spack/linux-opensuse_leap15-x86_64
         - libfabric/1.14.0-gcc-10.2.0-hp2bsva
-
     mpich:
       buildable: false
       externals:
