@@ -26,6 +26,8 @@ spack:
           load: []
           suffixes:
             ^mpich: mpi
+            +sycl: sycl
+            ^kokkos+sycl: sycl
         verbose: false
 
   compilers:
