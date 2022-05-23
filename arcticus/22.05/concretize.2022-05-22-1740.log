@@ -1,5 +1,5 @@
 ==> Starting concretization pool with 16 processes
-==> Environment concretized in 35.28 seconds.
+==> Environment concretized in 37.43 seconds.
 ==> Concretized adios@1.13.1
 [+]  l4xbjwj  adios@1.13.1%oneapi@2022.1.0+blosc~bzip2~fortran~hdf5~infiniband+lz4+mpi~netcdf+shared+sz~szip+zfp+zlib patches=8ae17f6,aea47e5,d24b79b staging=none arch=linux-opensuse_leap15-icelake
 [+]  jhva3pv      ^autoconf@2.69%oneapi@2022.1.0 patches=35c4492,7793209,a49dd5b arch=linux-opensuse_leap15-icelake
@@ -1153,4 +1153,35 @@
 [+]  fpqrm3j                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
 [+]  cjkvlws                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
 [+]  lnegt5k                  ^zlib@1.2.12%oneapi@2022.1.0+optimize+pic+shared patches=0d38234 arch=linux-opensuse_leap15-icelake
+
+==> Concretized kokkos@3.6.00+examples+openmp+sycl+tests std=17
+ -   7vc3dlu  kokkos@3.6.00%oneapi@2022.1.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code+examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl+openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared+sycl+tests~tuning~wrapper build_type=RelWithDebInfo std=17 arch=linux-opensuse_leap15-icelake
+[+]  bgqm6kf      ^cmake@3.23.1%oneapi@2022.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  txrtp7f          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  3sw5euq              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  7ix7k5v          ^openssl@1.1.1o%oneapi@2022.1.0~docs~shared certs=system arch=linux-opensuse_leap15-icelake
+[+]  j4aozhe              ^perl@5.34.1%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  6p7ldcf                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc arch=linux-opensuse_leap15-icelake
+[+]  4c4ozlq                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  p6gwpa7                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xthrjr7                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  fpqrm3j                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  cjkvlws                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  lnegt5k                  ^zlib@1.2.12%oneapi@2022.1.0+optimize+pic+shared patches=0d38234 arch=linux-opensuse_leap15-icelake
+
+==> Concretized kokkos-kernels@3.6.00 build_type=Release ^kokkos@3.6.00+examples+openmp+sycl+tests std=17
+ -   d226ahj  kokkos-kernels@3.6.00%oneapi@2022.1.0~blas~cblas~cublas~cuda~cusparse~ipo~lapack~lapacke~mkl~openmp~pthread~serial+shared~superlu build_type=Release execspace_cuda=auto execspace_openmp=auto execspace_serial=auto execspace_threads=auto layouts=left memspace_cudaspace=auto memspace_cudauvmspace=auto offsets=int,size_t ordinals=int scalars=double arch=linux-opensuse_leap15-icelake
+[+]  bgqm6kf      ^cmake@3.23.1%oneapi@2022.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=linux-opensuse_leap15-icelake
+[+]  txrtp7f          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-opensuse_leap15-icelake
+[+]  3sw5euq              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  7ix7k5v          ^openssl@1.1.1o%oneapi@2022.1.0~docs~shared certs=system arch=linux-opensuse_leap15-icelake
+[+]  j4aozhe              ^perl@5.34.1%oneapi@2022.1.0+cpanm+shared+threads arch=linux-opensuse_leap15-icelake
+[+]  6p7ldcf                  ^berkeley-db@18.1.40%oneapi@2022.1.0+cxx~docs+stl patches=b231fcc arch=linux-opensuse_leap15-icelake
+[+]  4c4ozlq                  ^bzip2@1.0.8%oneapi@2022.1.0~debug~pic+shared arch=linux-opensuse_leap15-icelake
+[+]  p6gwpa7                      ^diffutils@3.8%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  xthrjr7                          ^libiconv@1.16%oneapi@2022.1.0 libs=shared,static arch=linux-opensuse_leap15-icelake
+[+]  fpqrm3j                  ^gdbm@1.19%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  cjkvlws                      ^readline@8.1%oneapi@2022.1.0 arch=linux-opensuse_leap15-icelake
+[+]  lnegt5k                  ^zlib@1.2.12%oneapi@2022.1.0+optimize+pic+shared patches=0d38234 arch=linux-opensuse_leap15-icelake
+ -   7vc3dlu      ^kokkos@3.6.00%oneapi@2022.1.0~aggressive_vectorization~compiler_warnings~cuda~cuda_constexpr~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code+examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl+openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared+sycl+tests~tuning~wrapper build_type=RelWithDebInfo std=17 arch=linux-opensuse_leap15-icelake
 
