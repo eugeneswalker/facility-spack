@@ -27,6 +27,7 @@ spack:
           suffixes:
             ^mpich: mpi
             +sycl: sycl
+            +level_zero: level-zero
             ^kokkos+sycl: sycl
         verbose: false
 
