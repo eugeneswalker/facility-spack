@@ -143,6 +143,12 @@ spack:
   - upcxx@2022.3.0
   - veloc@1.5
   - zfp@0.5.5
+  
+  - mfem@4.4.0                                 # mfem
+  - nrm@0.1.0                                  # py-scipy
+  - plasma@21.8.29                             # plasma
+  - slate@2021.05.02 ~cuda                     # blaspp
+  - superlu-dist@7.2.0                         # superlu-dist
 
   # GPU
   - kokkos-kernels@3.6.00 build_type=Release ^kokkos@3.6.00 +sycl +openmp std=17 +tests +examples
