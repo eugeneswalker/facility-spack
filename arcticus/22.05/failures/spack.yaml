@@ -130,17 +130,19 @@ spack:
 
   specs:
   # RESOLVED
+  - alquimia@1.0.9                             # superlu-dist
   - fortrilinos@2.0.0                          # superlu-dist
   - mfem@4.4.0                                 # mfem
   - petsc@3.17.1                               # superlu-dist
   - plasma@21.8.29                             # plasma
   - plumed@2.6.3                               # plumed
+  - precice@2.4.0                              # superlu-dist
+  - py-petsc4py@3.17.1                         # superlu-dist
   - slate@2021.05.02 ~cuda                     # blaspp
   - slepc@3.17.1                               # superlu-dist
   - superlu-dist@7.2.0                         # superlu-dist
   
   # FAILING
-  - alquimia@1.0.9                             # superlu-dist
   - archer@2.0.0                               # binutils
   - ascent@0.8.0                               # vtk-m
   - axom@0.6.1                                 # axom
@@ -164,10 +166,8 @@ spack:
   - paraview@5.10.1 +qt                        # binutils
   - pdt@3.25.1                                 # pdt
   - phist@1.9.5                                # phist
-  - precice@2.4.0                              # superlu-dist
   - pruners-ninja@1.0.1                        # pruners-ninja
   - py-cinemasci@1.7.0                         # py-scipy
-  - py-petsc4py@3.17.1                         # superlu-dist
   - py-warpx@22.05 ^warpx dims=2               # blaspp
   - py-warpx@22.05 ^warpx dims=3               # blaspp
   - py-warpx@22.05 ^warpx dims=rz              # blaspp

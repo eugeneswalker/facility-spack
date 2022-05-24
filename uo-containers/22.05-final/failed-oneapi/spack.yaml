@@ -1,8 +1,11 @@
 spack:
+
   view: false
   concretization: separately
+
   config:
     concretizer: clingo
+
   compilers:
   - compiler:
       spec: dpcpp@2022.1.0
@@ -43,6 +46,7 @@ spack:
       modules: []
       environment: {}
       extra_rpaths: []
+
   packages:
     all:
       compiler: [oneapi]
@@ -83,18 +87,10 @@ spack:
   specs:
   - arborx@1.2 +sycl ^kokkos@3.6.00 +sycl +openmp std=17 +tests +examples
   - cabana@0.4.0 +sycl ^kokkos@3.6.00 +sycl +openmp std=17 +tests +examples
-  - ginkgo@1.4.0 +oneapi
+  - ginkgo@1.4.0 +oneapi                       # ginkgo
   - hpctoolkit@2022.04.15 +level_zero
   - sundials@6.2.0 +sycl
 
-
-
-
-  
-  # SKIPPED
-  #- nvhpc@22.3
-
-  # BROKEN
   - adios2@2.8.0                               # adios2
   - alquimia@1.0.9                             # hdf5@1.12.2
   - archer@2.0.0                               # binutils
@@ -104,7 +100,7 @@ spack:
   - catalyst@5.6.0                             # https://github.com/spack/spack/issues/30478
   - conduit@0.8.3                              # hdf5@1.8.22
   - datatransferkit@3.1-rc3                    # superlu-dist
-  - dealii@9.3.3
+  - dealii@9.3.3                               # gmsh
   - dyninst@12.1.0                             # intel-tbb
   - exaworks@0.1.0                             # rust, flux-sched
   - flecsi@1.4.2                               # pfunit
@@ -138,7 +134,7 @@ spack:
   - scr@3.0rc2                                 # glib
   - slate@2021.05.02 ~cuda                     # blaspp
   - slepc@3.17.1                               # hdf5@1.12.2
-  - stat@4.1.0
+  - stat@4.1.0                                 # binutils
   - strumpack@6.3.1 ~slate                     # butterflypack
   - superlu-dist@7.2.0                         # superlu-dist
   - tasmanian@7.7                              # tasmanian
@@ -154,20 +150,25 @@ spack:
 
   # ERROR SUMMARY
   # adios2: /usr/bin/ld: ../../lib/libadios2_fortran.so.2.8.0: version node not found for symbol adios2_adios_init_mod@adios2_adios_init_serial_smod._
+  # binutils: gold/powerpc.cc:3590: undefined reference to `gold::Sized_symbol<32>::Value_typegold::Symbol_table::compute_final_value<32>(gold::Sized_symbol<32> const*, gold::Symbol_table::Compute_final_value_status*) const'
+  # blaspp: CMake Error at CMakeLists.txt:372: BLAS++ requires a BLAS library and none was found
   # boost@1.79.0: clang++: error: no such file or directory: 'bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden/pch.pchi'; clang++: error: unsupported argument 'h-create' to option '-pc'
   # butterflypack: ifx: command line warning #10006: ignoring unknown option '-rpath'
+  # ginkgo: InstallError: Ginkgo's oneAPI backend requires theDPC++ compiler as main CXX compiler
   # glib: ../meson.build:1:0: ERROR: Unknown compiler(s): [['/spack/lib/spack/env/oneapi/icx']]
   # hdf5: ifx: command line warning #10006: ignoring unknown option '-rpath'
-  # mfem: openblas-0.3.20-q6ovcjsiw3mkzigitn7q4vvidcrki424/lib/libopenblas.so: undefined reference to `for_cpstr'
+  # intel-tbb: clang++: error: unknown argument: '-flifetime-dse=1'
+  # mfem: libopenblas.so: undefined reference to `for_cpstr'
   # parallel-netcdf: configure: checking if Fortran "integer*1" is ... configure: error: Could not link conftestf.o and conftest.o
   # pfunit: /spack/var/spack/repos/builtin/packages/pfunit/package.py:113, in compiler_vendor: raise InstallError('Unsupported compiler.')
   # phist: ifx: command line warning #10006: ignoring unknown option '-rpath'
   # plumed: configure: error: C++ compiler cannot create executables
   # pruners-ninja: test/ninja_test_util.c:34: multiple definition of `a';
-  # py-scipy: openblas-0.3.20-q6ovcjsiw3mkzigitn7q4vvidcrki424/lib/libopenblas.so: undefined reference to `for_cpstr'
+  # py-scipy: libopenblas.so: undefined reference to `for_cpstr'
   # rempi: ./rempi_message_manager.h:53:3: error: unknown type name 'string'
+  # ruby: limits.c:415:34: error: invalid suffix 'D' on floating constant
   # rust: libm_feature_flag.c:(.text+0x25): undefined reference to `__intel_cpu_feature_indicator_x'
-  # superlu-dist: openblas-0.3.20-q6ovcjsiw3mkzigitn7q4vvidcrki424/lib/libopenblas.so: undefined reference to `for_cpstr'
+  # superlu-dist: libopenblas.so: undefined reference to `for_cpstr'
   # tasmanian: SparseGrids/tsgLinearSolvers.cpp:281:30: error: no member named 'numeric_limits' in namespace 'std'
   # unifyfs: src/unifyfs.c:1502:7: error: unused function 'next_page_align' [-Werror,-Wunused-function]
   # variorum: ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform'; CMakeFiles/variorum.dir/config_architecture.c.o:(.bss+0x0): first defined here
