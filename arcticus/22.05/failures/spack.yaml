@@ -129,6 +129,17 @@ spack:
         - libfabric/1.14.0-gcc-10.2.0-hp2bsva
 
   specs:
+  # RESOLVED
+  - fortrilinos@2.0.0                          # superlu-dist
+  - mfem@4.4.0                                 # mfem
+  - petsc@3.17.1                               # superlu-dist
+  - plasma@21.8.29                             # plasma
+  - plumed@2.6.3                               # plumed
+  - slate@2021.05.02 ~cuda                     # blaspp
+  - slepc@3.17.1                               # superlu-dist
+  - superlu-dist@7.2.0                         # superlu-dist
+  
+  # FAILING
   - alquimia@1.0.9                             # superlu-dist
   - archer@2.0.0                               # binutils
   - ascent@0.8.0                               # vtk-m
@@ -140,25 +151,19 @@ spack:
   - dealii@9.3.3
   - dyninst@12.1.0                             # intel-tbb
   - exaworks@0.1.0                             # rust, czmq
-  - flecsi@1.4.2                               # pfunit
   - flux-core@0.38.0                           # czmq
-  - fortrilinos@2.0.0                          # superlu-dist
   - geopm@1.1.0                                # ruby
   - gptune@3.0.0                               # intel-tbb
   - h5bench@1.2                                # h5bench
   - hpctoolkit@2022.04.15                      # binutils
   - hpx@1.7.1 networking=mpi                   # boost@1.79
-  - mfem@4.4.0                                 # mfem
   - nrm@0.1.0                                  # py-scipy
   - omega-h@9.34.1                             # superlu-dist
   - openmpi@4.1.3                              # openssh
   - papi@6.0.0.1                               # papi
   - paraview@5.10.1 +qt                        # binutils
   - pdt@3.25.1                                 # pdt
-  - petsc@3.17.1                               # superlu-dist
   - phist@1.9.5                                # phist
-  - plasma@21.8.29                             # plasma
-  - plumed@2.6.3                               # plumed
   - precice@2.4.0                              # superlu-dist
   - pruners-ninja@1.0.1                        # pruners-ninja
   - py-cinemasci@1.7.0                         # py-scipy
@@ -168,11 +173,8 @@ spack:
   - py-warpx@22.05 ^warpx dims=rz              # blaspp
   - rempi@1.1.0                                # rempi
   - scr@3.0rc2                                 # glib
-  - slate@2021.05.02 ~cuda                     # blaspp
-  - slepc@3.17.1                               # superlu-dist
   - stat@4.1.0
   - strumpack@6.3.1 ~slate                     # butterflypack
-  - superlu-dist@7.2.0                         # superlu-dist
   - tau@2.31 +mpi +python                      # binutils
   - trilinos@13.0.1 +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext
     +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu
@@ -182,10 +184,17 @@ spack:
   - variorum@0.4.1                             # variorum
   - vtk-m@1.7.1                                # vtk-m
 
+  # OPENBLAS ERRORS
+  # blaspp: CMake Error at CMakeLists.txt:372: BLAS++ requires a BLAS library and none was found.
+  # mfem: libopenblas.so: undefined reference to `for_cpstr'
+  # phist: libopenblas.so: undefined reference to `for_cpstr'
+  # plasma: libopenblas.so: undefined reference to `for_cpstr'
+  # py-scipy: libopenblas.so: undefined reference to `for_cpstr'
+  # superlu-dist: libopenblas.so: undefined reference to `for_cpstr'
+
   # ERROR SUMMARY
   # axom: /home/abuild/rpmbuild/BUILD/glibc-2.31/csu/../sysdeps/x86_64/start.S:104: undefined reference to `main'
   # binutils: powerpc.cc:3590: undefined reference to `gold::Sized_symbol<32>::Value_type gold::Symbol_table::compute_final_value<32>(gold::Sized_symbol<32> const*, gold::Symbol_table::Compute_final_value_status*) const'
-  # blaspp: CMake Error at CMakeLists.txt:372: BLAS++ requires a BLAS library and none was found.
   # boost@1.76.0: /usr/bin/ld: cannot find -lm, cannot find -ldl, cannot find -lc
   # boost@1.79.0: icpx: error: unsupported argument 'h-create' to option '--pc'
   # butterflypack: SRC_DOUBLE/dMAGMA_utilities.f90(306): error #5192: Lead underscore not allowed
@@ -194,20 +203,15 @@ spack:
   # h5bench: commons/h5bench_util.h:196: multiple definition of `has_vol_async'
   # intel-tbb: icpx: error: unknown argument: '-flifetime-dse=1'
   # libxkbcommon: /meson.build:1:0: ERROR: Unknown compiler(s): [['/soft/ecp/ParaTools/E4S/22.05/spack/lib/spack/env/oneapi/icx']]
-  # mfem: libopenblas.so: undefined reference to `for_cpstr'
   # openssh: /usr/bin/bash: line 2: 91992 Segmentation fault ./ssh-keygen -A
   # papi: pfmlib_common.c:1752:12: error: variable 'n' set but not used [-Werror,-Wunused-but-set-variable]
   # pdt: make[2]: libpdb.a: Command not found
   # pfunit: /spack/var/spack/repos/builtin/packages/pfunit/package.py:113, in compiler_vendor: raise InstallError('Unsupported compiler.')
-  # phist: libopenblas.so: undefined reference to `for_cpstr'
-  # plasma: libopenblas.so: undefined reference to `for_cpstr'
   # plumed: configure: error: C++ compiler cannot create executables
   # pruners-ninja: test/ninja_test_util.c:34: multiple definition of `a';
-  # py-scipy: libopenblas.so: undefined reference to `for_cpstr'
   # rempi: ./rempi_message_manager.h:53:3: error: unknown type name 'string'
   # ruby: limits.c:415:34: error: invalid suffix 'D' on floating constant
   # rust: libm_feature_flag.c:(.text+0x25): undefined reference to `__intel_cpu_feature_indicator_x'
-  # superlu-dist: libopenblas.so: undefined reference to `for_cpstr'
   # unifyfs: src/unifyfs.c:1502:7: error: unused function 'next_page_align' [-Werror,-Wunused-function]
   # variorum: ld: Intel/CMakeFiles/variorum_intel.dir/IvyBridge_3E.c.o:(.bss+0x0): multiple definition of `g_platform'; CMakeFiles/variorum.dir/config_architecture.c.o:(.bss+0x0): first defined here
   # vtk-m: clang++: error: clang frontend command failed with exit code 139 (segfault?)

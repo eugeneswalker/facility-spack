@@ -223,6 +223,9 @@ spack:
   # SKIPPED
   #- nvhpc@22.3
 
+  # CONFLICTED
+  #- flecsi@1.4.2                               # dependency pfunit cannot be built with %oneapi
+
   # NOT TRIED
   #- alquimia@1.0.9                             # hdf5@1.12.2
   #- archer@2.0.0                               # binutils
