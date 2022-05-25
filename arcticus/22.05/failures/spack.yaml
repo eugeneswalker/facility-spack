@@ -130,17 +130,17 @@ spack:
 
   specs:
   # RESOLVED
-  - alquimia@1.0.9                             # superlu-dist
-  - fortrilinos@2.0.0                          # superlu-dist
-  - mfem@4.4.0                                 # mfem
-  - petsc@3.17.1                               # superlu-dist
-  - plasma@21.8.29                             # plasma
-  - plumed@2.6.3                               # plumed
-  - precice@2.4.0                              # superlu-dist
-  - py-petsc4py@3.17.1                         # superlu-dist
-  - slate@2021.05.02 ~cuda                     # blaspp
-  - slepc@3.17.1                               # superlu-dist
-  - superlu-dist@7.2.0                         # superlu-dist
+  #- alquimia@1.0.9                             # superlu-dist
+  #- fortrilinos@2.0.0                          # superlu-dist
+  #- mfem@4.4.0                                 # mfem
+  #- petsc@3.17.1                               # superlu-dist
+  #- plasma@21.8.29                             # plasma
+  #- plumed@2.6.3                               # plumed
+  #- precice@2.4.0                              # superlu-dist
+  #- py-petsc4py@3.17.1                         # superlu-dist
+  #- slate@2021.05.02 ~cuda                     # blaspp
+  #- slepc@3.17.1                               # superlu-dist
+  #- superlu-dist@7.2.0                         # superlu-dist
   
   # FAILING
   - archer@2.0.0                               # binutils
