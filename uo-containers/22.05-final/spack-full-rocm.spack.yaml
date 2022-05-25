@@ -298,7 +298,7 @@ spack:
   - swig@4.0.2-fortran
   - sz@2.1.12
   - tasmanian@7.7
-  - tau@2.31 +mpi +python
+  - tau@2.31.1 +mpi +python
   - trilinos@13.0.1 +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack
     +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro
     +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko
@@ -348,6 +348,6 @@ spack:
   #- stat@4.1.0
   #- sundials +rocm amdgpu_target=gfx90a        # https://github.com/spack/spack/issues/29526
   #- tasmanian +rocm amdgpu_target=gfx90a       # https://github.com/spack/spack/issues/27896
-  #- tau +mpi +python +rocm +roctracer
+  #- tau@2.31.1 +mpi +python +rocm +roctracer
   #- trilinos@13.2.0 +rocm amdgpu_target=gfx90a
   #- vtk-m +rocm amdgpu_target=gfx90a           # https://github.com/spack/spack/issues/29527
