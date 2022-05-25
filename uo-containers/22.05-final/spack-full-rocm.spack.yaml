@@ -321,6 +321,7 @@ spack:
   - gasnet +rocm amdgpu_target=gfx90a
   - ginkgo +rocm amdgpu_target=gfx90a
   - heffte +rocm amdgpu_target=gfx90a
+  - hpctoolkit@2022.04.15 +rocm
   - hpx +rocm amdgpu_target=gfx90a
   - kokkos +rocm amdgpu_target=gfx90a
   - magma ~cuda +rocm amdgpu_target=gfx90a
@@ -334,9 +335,6 @@ spack:
 
   # SKIPPED
   #- nvhpc@22.3
-
-  # CONCRETIZATION
-  #- hpctoolkit +rocm
 
   # FAILED
   #- cabana +rocm                               # https://github.com/spack/spack/issues/27967
