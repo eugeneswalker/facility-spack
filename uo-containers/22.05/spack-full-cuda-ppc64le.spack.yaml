@@ -61,6 +61,7 @@ spack:
   - ascent@0.8.0
   - axom@0.6.1
   - bolt@2.0
+  - bricks@r0.1
   - butterflypack@2.1.1
   - cabana@0.4.0
   - caliper@2.7.0
@@ -162,6 +163,7 @@ spack:
   - adios2 +cuda cuda_arch=70
   - amrex +cuda cuda_arch=70
   - arborx +cuda cuda_arch=70 ^kokkos +wrapper
+  - bricks@r0.1 +cuda
   - cabana +cuda ^kokkos +wrapper +cuda_lambda +cuda cuda_arch=70
   - caliper +cuda cuda_arch=70
   - chai ~benchmarks ~tests +cuda cuda_arch=70 ^umpire@6.0.0 ~shared

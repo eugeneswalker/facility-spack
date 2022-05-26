@@ -92,6 +92,7 @@ spack:
   - arborx@1.2
   - argobots@1.1
   - bolt@2.0
+  - bricks@r0.1
   - cabana@0.4.0
   - caliper@2.7.0
   - chai@2.4.0 ~benchmarks ~tests
