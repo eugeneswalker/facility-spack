@@ -196,9 +196,11 @@ spack:
   #- legion +cuda cuda_arch=70                  # requires driver
   #- upcxx +cuda                                # requires driver; not CudaPackage
 
-  # BROKEN
+  # BUILD FAILED
   #- ascent ~shared +cuda cuda_arch=70          # https://github.com/spack/spack/issues/27954
   #- axom +cuda cuda_arch=70 ^umpire ~shared    # https://github.com/spack/spack/issues/29520
+  #- bricks@r0.1
+  #- bricks@r0.1 +cuda
   #- catalyst@5.6.0                             # https://github.com/spack/spack/issues/30478
   #- dealii +cuda cuda_arch=70                  # https://github.com/spack/spack/issues/29523
   #- dealii@9.3.3

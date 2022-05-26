@@ -337,7 +337,7 @@ spack:
   # SKIPPED
   #- nvhpc@22.3
 
-  # FAILED
+  # BUILD FAILED
   #- cabana +rocm                               # https://github.com/spack/spack/issues/27967
   #- catalyst@5.6.0                             # https://github.com/spack/spack/issues/30478
   #- dealii@9.3.3

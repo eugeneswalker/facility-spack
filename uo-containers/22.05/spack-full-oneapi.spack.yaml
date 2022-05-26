@@ -164,7 +164,7 @@ spack:
   # SKIPPED
   #- nvhpc@22.3
 
-  # BROKEN
+  # BUILD FAILED
   #- adios2@2.8.0                               # adios2
   #- alquimia@1.0.9                             # hdf5@1.12.2
   #- archer@2.0.0                               # binutils
