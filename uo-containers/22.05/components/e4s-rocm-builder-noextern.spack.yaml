@@ -65,7 +65,6 @@ spack:
   - arborx +rocm amdgpu_target=gfx90a
   - chai ~benchmarks +rocm amdgpu_target=gfx90a
   - gasnet +rocm amdgpu_target=gfx90a
-  - ginkgo +rocm amdgpu_target=gfx90a
   - heffte +rocm amdgpu_target=gfx90a
   - hpctoolkit@2022.04.15 +rocm
   - hpx +rocm amdgpu_target=gfx90a
@@ -83,7 +82,6 @@ spack:
   - arborx +rocm amdgpu_target=gfx908
   - chai ~benchmarks +rocm amdgpu_target=gfx908
   - gasnet +rocm amdgpu_target=gfx908
-  - ginkgo +rocm amdgpu_target=gfx908
   - heffte +rocm amdgpu_target=gfx908
   - hpx +rocm amdgpu_target=gfx908
   - kokkos +rocm amdgpu_target=gfx908
@@ -98,6 +96,7 @@ spack:
 
   # BUILD FAILED
   #- cabana +rocm                               # https://github.com/spack/spack/issues/27967
+  #- ginkgo +rocm amdgpu_target=gfx90a
   #- mfem +rocm amdgpu_target=gfx90a            # https://github.com/spack/spack/issues/30483
   #- papi +rocm amdgpu_target=gfx90a            # https://github.com/spack/spack/issues/27898
   #- slate +rocm amdgpu_target=gfx90a           # https://github.com/spack/spack/issues/30596
