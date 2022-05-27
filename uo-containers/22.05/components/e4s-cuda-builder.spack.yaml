@@ -98,6 +98,35 @@ spack:
   - vtk-m +cuda cuda_arch=80
   - zfp +cuda cuda_arch=80
 
+  - adios2 +cuda cuda_arch=70
+  - amrex +cuda cuda_arch=70
+  - arborx +cuda cuda_arch=70 ^kokkos +wrapper
+  - cabana +cuda ^kokkos +wrapper +cuda_lambda +cuda cuda_arch=70
+  - caliper +cuda cuda_arch=70
+  - chai ~benchmarks ~tests +cuda cuda_arch=70 ^umpire@6.0.0 ~shared
+  - flecsi +cuda cuda_arch=70
+  - ginkgo +cuda cuda_arch=70
+  - heffte +cuda cuda_arch=70
+  - hpx +cuda cuda_arch=70
+  - hypre +cuda cuda_arch=70
+  - kokkos +wrapper +cuda cuda_arch=70
+  - kokkos-kernels +cuda cuda_arch=70 ^kokkos@3.5.00 +wrapper +cuda cuda_arch=70
+  - magma +cuda cuda_arch=70
+  - mfem +cuda cuda_arch=70
+  - parsec +cuda cuda_arch=70
+  - petsc +cuda cuda_arch=70
+  - raja +cuda cuda_arch=70
+  - slate +cuda cuda_arch=70
+  - slepc +cuda cuda_arch=70
+  - strumpack ~slate +cuda cuda_arch=70
+  - sundials +cuda cuda_arch=70
+  - superlu-dist +cuda cuda_arch=70
+  - tasmanian +cuda cuda_arch=70
+  - trilinos@13.2.0 +cuda cuda_arch=70
+  - umpire ~shared +cuda cuda_arch=70
+  - vtk-m +cuda cuda_arch=70
+  - zfp +cuda cuda_arch=70
+
   # SKIPPED
   #- gasnet +cuda cuda_arch=80 conduits=mpi     # requires driver
   #- legion +cuda cuda_arch=80                  # requires driver

@@ -239,6 +239,23 @@ spack:
   - umpire +rocm amdgpu_target=gfx90a
   - upcxx +rocm amdgpu_target=gfx90a
 
+  - amrex +rocm amdgpu_target=gfx908
+  - arborx +rocm amdgpu_target=gfx908
+  - chai ~benchmarks +rocm amdgpu_target=gfx908
+  - gasnet +rocm amdgpu_target=gfx908
+  - ginkgo +rocm amdgpu_target=gfx908
+  - heffte +rocm amdgpu_target=gfx908
+  - hpx +rocm amdgpu_target=gfx908
+  - kokkos +rocm amdgpu_target=gfx908
+  - magma ~cuda +rocm amdgpu_target=gfx908
+  - petsc +rocm amdgpu_target=gfx908
+  - raja ~openmp +rocm amdgpu_target=gfx908
+  - slepc +rocm amdgpu_target=gfx908 ^petsc +rocm amdgpu_target=gfx908
+  - strumpack ~slate +rocm amdgpu_target=gfx908
+  - superlu-dist +rocm amdgpu_target=gfx908
+  - umpire +rocm amdgpu_target=gfx908
+  - upcxx +rocm amdgpu_target=gfx908
+
   # BUILD FAILED
   #- cabana +rocm                               # https://github.com/spack/spack/issues/27967
   #- mfem +rocm amdgpu_target=gfx90a            # https://github.com/spack/spack/issues/30483
