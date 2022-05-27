@@ -10,11 +10,12 @@ spack:
     default:
       enable:: [lmod]
       lmod:
-        core_compilers: [gcc@9.4.0]
+        core_compilers: [oneapi@2022.1.0]
         blacklist_implicits: true
         verbose: true
         hash_length: 0
-        hierarchy: []
+        whitelist: [mpich]
+        hierarchy: [mpi]
         projections: {}
         core_specs: []
         all:
@@ -25,19 +26,9 @@ spack:
           suffixes:
             +sycl: sycl
             +level_zero: level-zero
-        boost:
+        kokkos-kernels:
           suffixes:
-            boost cxxstd=17: cxx17
-        py-warpx:
-          suffixes:
-            ^warpx dims=2: dims2
-            ^warpx dims=3: dims3
-            ^warpx dims=rz: dimsRZ
-        warpx:
-          suffixes:
-            dims=2: dims2
-            dims=3: dims3
-            dims=rz: dimsRZ
+            ^kokkos+sycl: sycl
 
   compilers:
   - compiler:
