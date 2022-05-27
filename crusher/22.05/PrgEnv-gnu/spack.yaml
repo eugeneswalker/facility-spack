@@ -293,7 +293,6 @@ spack:
   - axom@0.6.1
   - bolt@2.0
   - butterflypack@2.1.1
-  - bricks@r0.1
   - cabana@0.4.0
   - caliper@2.7.0
   - chai@2.4.0 ~benchmarks ~tests
@@ -410,6 +409,7 @@ spack:
   # FAILED BUILDS
   #- alquimia@1.0.9                              # pflotran
   #- ascent@0.8.0                                # vtk-m
+  #- bricks@r0.1                                 # bricks
   #- cabana@0.4.0 +rocm                          # cabana: https://github.com/spack/spack/issues/27967
   #- catalyst@5.6.0                              # mesa; https://github.com/spack/spack/issues/30478
   #- dealii@9.3.3                                # mesa
@@ -432,6 +432,7 @@ spack:
   #- wannier90@3.1.0                             # wannier90
 
   # ERROR ANNOTATIONS
+  # bricks: VSBrick-mpi9pt.py-Scalar-4x4x4x4-1:84:3: error: 'vfloat256' was not declared in this scope
   # cabana: g++: error: unrecognized command-line option '-fno-gpu-rdc'
   # geopm: configure: error: Failed to determine MPI Fortran build flags use --with-mpi-bin or --with-mpicxx or --disable-mpi
   # h5bench: commons/h5bench_util.h:196: multiple definition of `has_vol_async'
