@@ -80,13 +80,11 @@ spack:
   specs:
   # GPU
   - adios2@2.8.0 +cuda cuda_arch=80
-  - amrex@2.8.0 +cuda cuda_arch=80
   - arborx@1.2 +cuda cuda_arch=80 ^kokkos@3.6.00 +wrapper
   - bricks@r0.1 +cuda
   - cabana@0.4.0 +cuda ^kokkos@3.6.00 +wrapper +cuda_lambda +cuda cuda_arch=80
   - caliper@2.7.0 +cuda cuda_arch=80
   - chai@2.4.0 ~benchmarks ~tests +cuda cuda_arch=80 ^umpire@6.0.0 ~shared
-  - flecsi@1.4.2 +cuda cuda_arch=80
   - flux-core@0.38.0 +cuda
   - ginkgo@1.4.0 +cuda cuda_arch=80
   - heffte@2.2.0 +cuda cuda_arch=80
@@ -114,13 +112,11 @@ spack:
   - zfp@0.5.5 +cuda cuda_arch=80
 
   - adios2@2.8.0 +cuda cuda_arch=70
-  - amrex@2.8.0 +cuda cuda_arch=70
   - arborx@1.2 +cuda cuda_arch=70 ^kokkos@3.6.00 +wrapper
   - bricks@r0.1 +cuda
   - cabana@0.4.0 +cuda ^kokkos@3.6.00 +wrapper +cuda_lambda +cuda cuda_arch=70
   - caliper@2.7.0 +cuda cuda_arch=70
   - chai@2.4.0 ~benchmarks ~tests +cuda cuda_arch=70 ^umpire@6.0.0 ~shared
-  - flecsi@1.4.2 +cuda cuda_arch=70
   - flux-core@0.38.0 +cuda
   - ginkgo@1.4.0 +cuda cuda_arch=70
   - heffte@2.2.0 +cuda cuda_arch=70
@@ -146,6 +142,10 @@ spack:
   - umpire@6.0.0 ~shared +cuda cuda_arch=70
   - vtk-m@1.7.1 +cuda cuda_arch=70
   - zfp@0.5.5 +cuda cuda_arch=70
+
+  # CONCRETIZATION ISSUE
+  #- amrex@2.8.0 +cuda cuda_arch=80
+  #- flecsi@1.4.2 +cuda cuda_arch=80
 
   # SKIPPED
   #- gasnet@2022.3.0 +cuda cuda_arch=80 conduits=mpi       # requires driver
