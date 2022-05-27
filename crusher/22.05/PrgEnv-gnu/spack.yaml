@@ -6,6 +6,26 @@ spack:
   config:
     concretizer: clingo
 
+  modules:
+    default:
+      enable:: [lmod]
+      lmod:
+        core_compilers: [gcc@11.2.0]
+        blacklist_implicits: true
+        verbose: true
+        hash_length: 0
+        whitelist: [cray-mpich]
+        hierarchy: [mpi]
+        projections: {}
+        core_specs: []
+        all:
+          autoload: direct
+          environment:
+            set:
+              ${PACKAGE}_ROOT: ${PREFIX}
+          suffixes:
+            +rocm: rocm
+
   compilers:
   - compiler:
       spec: gcc@11.2.0
