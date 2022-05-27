@@ -6,6 +6,39 @@ spack:
   config:
     concretizer: clingo
 
+  modules:
+    default:
+      enable:: [lmod]
+      lmod:
+        core_compilers: [gcc@9.4.0]
+        blacklist_implicits: true
+        verbose: true
+        hash_length: 0
+        hierarchy: []
+        projections: {}
+        core_specs: []
+        all:
+          autoload: direct
+          environment:
+            set:
+              ${PACKAGE}_ROOT: ${PREFIX}
+          suffixes:
+            +sycl: sycl
+            +level_zero: level-zero
+        boost:
+          suffixes:
+            boost cxxstd=17: cxx17
+        py-warpx:
+          suffixes:
+            ^warpx dims=2: dims2
+            ^warpx dims=3: dims3
+            ^warpx dims=rz: dimsRZ
+        warpx:
+          suffixes:
+            dims=2: dims2
+            dims=3: dims3
+            dims=rz: dimsRZ
+
   compilers:
   - compiler:
       spec: dpcpp@2022.1.0
