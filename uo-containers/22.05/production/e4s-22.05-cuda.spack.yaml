@@ -26,6 +26,14 @@ spack:
           suffixes:
             +cuda: cuda
             +openmp: openmp
+        mpich:
+          suffixes:
+            ^hwloc+cuda: hwloc-cuda
+        py-warpx:
+          suffixes:
+            ^warpx dims=2: dims2
+            ^warpx dims=3: dims3
+            ^warpx dims=rz: dimsRZ
 
   packages:
     all:
