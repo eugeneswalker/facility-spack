@@ -198,7 +198,6 @@ spack:
   - cabana@0.4.0 +cuda ^kokkos@3.6.00 +wrapper +cuda_lambda +cuda cuda_arch=70
   - caliper@2.7.0 +cuda cuda_arch=70
   - chai@2.4.0 ~benchmarks ~tests +cuda cuda_arch=70 ^umpire@6.0.0 ~shared
-  - flecsi@2.1.0 +cuda cuda_arch=70
   - flux-core@0.38.0 +cuda
   - ginkgo@1.4.0 +cuda cuda_arch=70
   - heffte@2.2.0 +cuda cuda_arch=70
@@ -223,6 +222,9 @@ spack:
   - umpire@6.0.0 ~shared +cuda cuda_arch=70
   - vtk-m@1.7.1 +cuda cuda_arch=70
   - zfp@0.5.5 +cuda cuda_arch=70
+
+  # CONCRETIZATION ISSUES
+  #- flecsi@2.1.0 +cuda cuda_arch=70 ^cuda@11.0.3
 
   # REQUIRES CUDA DRIVER
   #- gasnet@2022.3.0 +cuda cuda_arch=70 conduits=mpi      # requires driver
