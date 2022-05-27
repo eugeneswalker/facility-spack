@@ -85,7 +85,7 @@ spack:
   - bricks@r0.1 +cuda
   - cabana@0.4.0 +cuda ^kokkos@3.6.00 +wrapper +cuda_lambda +cuda cuda_arch=80
   - caliper@2.7.0 +cuda cuda_arch=80
-  - chai@2.7.0 ~benchmarks ~tests +cuda cuda_arch=80 ^umpire@6.0.0 ~shared
+  - chai@2.4.0 ~benchmarks ~tests +cuda cuda_arch=80 ^umpire@6.0.0 ~shared
   - flecsi@1.4.2 +cuda cuda_arch=80
   - flux-core@0.38.0 +cuda
   - ginkgo@1.4.0 +cuda cuda_arch=80
@@ -119,7 +119,7 @@ spack:
   - bricks@r0.1 +cuda
   - cabana@0.4.0 +cuda ^kokkos@3.6.00 +wrapper +cuda_lambda +cuda cuda_arch=70
   - caliper@2.7.0 +cuda cuda_arch=70
-  - chai@2.7.0 ~benchmarks ~tests +cuda cuda_arch=70 ^umpire@6.0.0 ~shared
+  - chai@2.4.0 ~benchmarks ~tests +cuda cuda_arch=70 ^umpire@6.0.0 ~shared
   - flecsi@1.4.2 +cuda cuda_arch=70
   - flux-core@0.38.0 +cuda
   - ginkgo@1.4.0 +cuda cuda_arch=70
