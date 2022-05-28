@@ -169,7 +169,6 @@ spack:
   - nco@5.0.1
   - netlib-scalapack@2.2.0
   - nrm@0.1.0
-  - nvhpc@22.3
   - omega-h@9.34.1
   - openmpi@4.1.3
   - openpmd-api@0.14.4
