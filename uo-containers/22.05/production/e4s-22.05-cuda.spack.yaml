@@ -24,8 +24,25 @@ spack:
             set:
               ${PACKAGE}_ROOT: ${PREFIX}
           suffixes:
-            +cuda: cuda
+            +cuda cuda_arch=70: cuda70
+            +cuda cuda_arch=80: cuda80
             +openmp: openmp
+        cabana:
+          suffixes:
+            ^kokkos +cuda cuda_arch=70: cuda70
+            ^kokkos +cuda cuda_arch=80: cuda80
+        hpctoolkit:
+          suffixes:
+            +cuda: cuda   
+        bricks:
+          suffixes:
+            +cuda: cuda     
+        flux-core:
+          suffixes:
+            +cuda: cuda
+        papi:
+          suffixes:
+            +cuda: cuda
         mpich:
           suffixes:
             ^hwloc+cuda: hwloc-cuda
