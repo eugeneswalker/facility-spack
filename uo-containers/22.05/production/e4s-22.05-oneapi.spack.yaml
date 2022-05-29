@@ -14,7 +14,7 @@ spack:
         blacklist_implicits: true
         verbose: true
         hash_length: 0
-        whitelist: [mpich]
+        whitelist: [mpich, cmake]
         hierarchy: [mpi]
         projections: {}
         core_specs: []
@@ -24,11 +24,20 @@ spack:
             set:
               ${PACKAGE}_ROOT: ${PREFIX}
           suffixes:
+            '%oneapi': oneapi
             +sycl: sycl
             +level_zero: level-zero
         kokkos-kernels:
           suffixes:
             ^kokkos+sycl: sycl
+        mpich:
+          suffixes:
+            ^hwloc+cuda: hwloc-cuda
+        py-warpx:
+          suffixes:
+            ^warpx dims=2: dims2
+            ^warpx dims=3: dims3
+            ^warpx dims=rz: dimsRZ
 
   compilers:
   - compiler:
