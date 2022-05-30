@@ -20,30 +20,7 @@ spack:
           environment:
             set:
               ${PACKAGE}_ROOT: ${PREFIX}
-          suffixes:
-            +cuda cuda_arch=70: cuda70
-        flux-core:
-          suffixes:
-            +cuda: cuda
-        hpctoolkit:
-          suffixes:
-            +cuda: cuda
-        cabana:
-          suffixes:
-            +cuda: cuda
-        mpich:
-          suffixes:
-            ^hwloc+cuda: hwloc-cuda
-        py-warpx:
-          suffixes:
-            ^warpx dims=2: dims2
-            ^warpx dims=3: dims3
-            ^warpx dims=rz: dimsRZ
-        warpx:
-          suffixes:
-            dims=2: dims2
-            dims=3: dims3
-            dims=rz: dimsRZ
+          suffixes: {}
   packages:
     all:
       compiler: [gcc@7.5.0]
