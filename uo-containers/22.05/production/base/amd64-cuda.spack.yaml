@@ -20,34 +20,7 @@ spack:
           environment:
             set:
               ${PACKAGE}_ROOT: ${PREFIX}
-          suffixes:
-            +cuda cuda_arch=70: cuda70
-            +cuda cuda_arch=80: cuda80
-            +openmp: openmp
-        cabana:
-          suffixes:
-            ^kokkos +cuda cuda_arch=70: cuda70
-            ^kokkos +cuda cuda_arch=80: cuda80
-        hpctoolkit:
-          suffixes:
-            +cuda: cuda
-        bricks:
-          suffixes:
-            +cuda: cuda
-        flux-core:
-          suffixes:
-            +cuda: cuda
-        papi:
-          suffixes:
-            +cuda: cuda
-        mpich:
-          suffixes:
-            ^hwloc+cuda: hwloc-cuda
-        py-warpx:
-          suffixes:
-            ^warpx dims=2: dims2
-            ^warpx dims=3: dims3
-            ^warpx dims=rz: dimsRZ
+          suffixes: {} 
   packages:
     all:
       compiler: [gcc@9.4.0]
