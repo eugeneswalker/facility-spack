@@ -25,6 +25,9 @@ spack:
               ${PACKAGE}_ROOT: ${PREFIX}
           suffixes:
             +cuda cuda_arch=70: cuda70
+        tau:
+          suffixes:
+            +cuda: cuda
         flux-core:
           suffixes:
             +cuda: cuda
