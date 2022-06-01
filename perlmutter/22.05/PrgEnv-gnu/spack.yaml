@@ -261,7 +261,6 @@ spack:
   - magma@2.6.2 +cuda cuda_arch=80
   - mfem@4.4.0 +cuda cuda_arch=80
   - papi@6.0.0.1 +cuda
-  - parsec@3.0.2012 +cuda cuda_arch=80
   - petsc@3.17.1+cuda cuda_arch=80
   - raja@0.14.0 +cuda cuda_arch=80
   - slate@2021.05.02 +cuda cuda_arch=80
@@ -271,10 +270,17 @@ spack:
   - superlu-dist@7.2.0 +cuda cuda_arch=80
   - tasmanian@7.7 +cuda cuda_arch=80
   - tau@2.31.1 +mpi +cuda ^mpich@4.0.2
-  - trilinos@13.2.0 +cuda cuda_arch=80
   - umpire@6.0.0 ~shared +cuda cuda_arch=80
-  - vtk-m@1.7.1 +cuda cuda_arch=80
   - zfp@0.5.5 +cuda cuda_arch=80
+
+  # FACILITY BUILD FAILED - GPU
+  #- parsec@3.0.2012 +cuda cuda_arch=80       # parsec
+  #- vtk-m@1.7.1 +cuda cuda_arch=80           # vtk-m
+  #- trilinos@13.2.0 +cuda cuda_arch=80       # trilinos
+  
+  # parsec: parsec/mca/device/cuda/transfer.c:168: multiple definition of `parsec_CUDA_d2h_max_flows'
+  # trilinos: /opt/cray/pe/mpich/8.1.15/ofi/gnu/9.1/bin/mpicxx unable to compile test program
+  # vtk-m: vtkmdiy/mpi/datatypes.hpp:42:12: error: 'size_t' has not been declared
 
   # CONCRETIZATION ISSUE
   #- amrex@2.8.0 +cuda cuda_arch=80
