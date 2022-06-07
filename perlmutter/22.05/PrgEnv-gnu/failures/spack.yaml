@@ -244,7 +244,7 @@ spack:
   - sundials@6.2.0 +cuda cuda_arch=80
   - superlu-dist@7.2.0 +cuda cuda_arch=80
   - tasmanian@7.7 +cuda cuda_arch=80
-  - tau@2.31.1 +mpi +cuda ^mpich@4.0.2
+  - tau@2.31.1 +mpi +cuda
   - umpire@6.0.0 ~shared +cuda cuda_arch=80
   - zfp@0.5.5 +cuda cuda_arch=80
 
@@ -263,8 +263,7 @@ spack:
   #- variorum@0.4.1                           # variorum
   #- vtk-m@1.7.1                              # vtk-m
   #- wannier90@3.1.0                          # wannier90
-
-  # FACILITY BUILD FAILED - CPU - ERROR INFORMATION
+  # -----
   # bricks: fetch error
   # font-util: fonts/X11/cyrillic: failed to write cache
   # geopm: configure: error: Failed to determine MPI Fortran build flags use --with-mpi-bin or --with-mpicxx or --disable-mpi
@@ -284,8 +283,7 @@ spack:
   #- parsec@3.0.2012 +cuda cuda_arch=80       # parsec
   #- trilinos@13.2.0 +cuda cuda_arch=80       # trilinos
   #- vtk-m@1.7.1 +cuda cuda_arch=80           # vtk-m
-
-  # FACILITY BUILD FAILED - GPU - ERROR INFORMATION
+  # -----
   # bricks: fetch error
   # parsec: parsec/mca/device/cuda/transfer.c:168: multiple definition of `parsec_CUDA_d2h_max_flows'
   # trilinos: /opt/cray/pe/mpich/8.1.15/ofi/gnu/9.1/bin/mpicxx unable to compile test program
