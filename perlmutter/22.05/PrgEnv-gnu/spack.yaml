@@ -1,8 +1,10 @@
 spack:
   view: false
   concretization: separately
+
   config:
     concretizer: clingo
+
   compilers:
   - compiler:
       spec: gcc@11.2.0
@@ -18,6 +20,7 @@ spack:
       - PrgEnv-gnu
       - gcc/11.2.0
       extra_rpaths: []
+
   modules:
     default:
       'enable:': [lmod]
@@ -63,13 +66,14 @@ spack:
             ^warpx dims=2: dims2
             ^warpx dims=3: dims3
             ^warpx dims=rz: dimsRZ
+
   packages:
     all:
       compiler: [gcc@11.2.0]
       providers:
-        blas: [openblas, cray-libsci]
+        blas: [openblas]
         mpi: [mpich]
-      target: [x86_64]
+      target: [zen3]
       variants: +mpi
     binutils:
       variants: +ld +gold +headers +libiberty ~nls
@@ -104,6 +108,8 @@ spack:
       variants: +pic
     mesa:
       version: [21.3.8]
+
+    # EXTERNALS
     slurm:
       buildable: false
       version: [21.08.6]
