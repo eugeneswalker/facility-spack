@@ -130,7 +130,6 @@ spack:
   - argobots@1.1
   - axom@0.6.1
   - bolt@2.0
-  - bricks@r0.1
   - butterflypack@2.1.1
   - cabana@0.4.0
   - caliper@2.7.0
@@ -162,7 +161,6 @@ spack:
   - kokkos-kernels@3.6.00 +openmp
   - lammps@20220107
   - legion@21.03.0
-  - libnrm@0.1.0
   - libquo@1.3.1
   - libunwind@1.6.2
   - mercury@2.1.0
@@ -224,7 +222,6 @@ spack:
   # GPU
   - adios2@2.8.0 +cuda cuda_arch=80
   - arborx@1.2 +cuda cuda_arch=80 ^kokkos@3.6.00 +wrapper
-  - bricks@r0.1 +cuda
   - cabana@0.4.0 +cuda ^kokkos@3.6.00 +wrapper +cuda_lambda +cuda cuda_arch=80
   - caliper@2.7.0 +cuda cuda_arch=80
   - chai@2.4.0 ~benchmarks ~tests +cuda cuda_arch=80 ^umpire@6.0.0 ~shared
@@ -251,19 +248,10 @@ spack:
   - umpire@6.0.0 ~shared +cuda cuda_arch=80
   - zfp@0.5.5 +cuda cuda_arch=80
 
-  # FACILITY BUILD FAILED - GPU
-  #- parsec@3.0.2012 +cuda cuda_arch=80       # parsec
-  #- trilinos@13.2.0 +cuda cuda_arch=80       # trilinos
-  #- vtk-m@1.7.1 +cuda cuda_arch=80           # vtk-m
-
-  # FACILITY BUILD FAILED - GPU - ERROR INFORMATION
-  # parsec: parsec/mca/device/cuda/transfer.c:168: multiple definition of `parsec_CUDA_d2h_max_flows'
-  # trilinos: /opt/cray/pe/mpich/8.1.15/ofi/gnu/9.1/bin/mpicxx unable to compile test program
-  # vtk-m: vtkmdiy/mpi/datatypes.hpp:42:12: error: 'size_t' has not been declared
-
   # FACILITY BUILD FAILED - CPU
   #- alquimia@1.0.9                           # pflotran
   #- ascent@0.8.0                             # vtk-m
+  #- bricks@r0.1                              # bricks
   #- geopm@1.1.0                              # geopm
   #- h5bench@1.2                              # h5bench
   #- loki@0.1.7                               # loki
@@ -291,6 +279,18 @@ spack:
   # vtk-m: vtkmdiy/mpi/datatypes.hpp:42:12: error: 'size_t' has not been declared
   # wannier90: ../comms.F90:1214:22: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/INTEGER(4)).
 
+  # FACILITY BUILD FAILED - GPU
+  #- bricks@r0.1 +cuda                        # bricks
+  #- parsec@3.0.2012 +cuda cuda_arch=80       # parsec
+  #- trilinos@13.2.0 +cuda cuda_arch=80       # trilinos
+  #- vtk-m@1.7.1 +cuda cuda_arch=80           # vtk-m
+
+  # FACILITY BUILD FAILED - GPU - ERROR INFORMATION
+  # bricks: fetch error
+  # parsec: parsec/mca/device/cuda/transfer.c:168: multiple definition of `parsec_CUDA_d2h_max_flows'
+  # trilinos: /opt/cray/pe/mpich/8.1.15/ofi/gnu/9.1/bin/mpicxx unable to compile test program
+  # vtk-m: vtkmdiy/mpi/datatypes.hpp:42:12: error: 'size_t' has not been declared
+
   # CONCRETIZATION ISSUE
   #- amrex@2.8.0 +cuda cuda_arch=80
   #- flecsi@1.4.2 +cuda cuda_arch=80
@@ -298,6 +298,7 @@ spack:
   # SKIPPED
   #- gasnet@2022.3.0 +cuda cuda_arch=80 conduits=mpi       # requires driver
   #- legion@21.03.0 +cuda cuda_arch=80                     # requires driver
+  #- libnrm@0.1.0                                          # explicit depends_on mpich
   #- upcxx@2022.3.0 +cuda                                  # requires driver
 
   # BUILD FAILED - CPU
