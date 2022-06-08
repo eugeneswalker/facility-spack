@@ -293,11 +293,13 @@ spack:
   #- bricks@r0.1 +cuda                        # bricks
   #- parsec@3.0.2012 +cuda cuda_arch=80       # parsec
   #- trilinos@13.2.0 +cuda cuda_arch=80       # trilinos
+  #- upcxx@2022.3.0 +cuda                     # upcxx
   #- vtk-m@1.7.1 +cuda cuda_arch=80           # vtk-m
   # -----
   # bricks: fetch error
   # parsec: parsec/mca/device/cuda/transfer.c:168: multiple definition of `parsec_CUDA_d2h_max_flows'
   # trilinos: /opt/cray/pe/mpich/8.1.15/ofi/gnu/9.1/bin/mpicxx unable to compile test program
+  # upcxx: configure error: Requested PMI version cray could not be found
   # vtk-m: vtkmdiy/mpi/datatypes.hpp:42:12: error: 'size_t' has not been declared
 
   # CONCRETIZATION ISSUE
