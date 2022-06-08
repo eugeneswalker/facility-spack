@@ -242,8 +242,9 @@ spack:
   - hpctoolkit@2022.04.15 +cuda
   - hpx@1.7.1 +cuda cuda_arch=80
   - hypre@2.24.0 +cuda cuda_arch=80
-  - kokkos@3.6.00 +wrapper +cuda cuda_arch=80
   - kokkos-kernels@3.6.00 +cuda cuda_arch=80 ^kokkos@3.6.00 +wrapper +cuda cuda_arch=80
+  - kokkos@3.6.00 +wrapper +cuda cuda_arch=80
+  - legion@21.03.0 +cuda cuda_arch=80
   - magma@2.6.2 +cuda cuda_arch=80
   - mfem@4.4.0 +cuda cuda_arch=80
   - papi@6.0.0.1 +cuda
@@ -308,7 +309,6 @@ spack:
 
   # SKIPPED
   #- gasnet@2022.3.0 +cuda cuda_arch=80 conduits=mpi       # requires driver
-  #- legion@21.03.0 +cuda cuda_arch=80                     # requires driver
   #- libnrm@0.1.0                                          # explicit depends_on mpich
   #- upcxx@2022.3.0 +cuda                                  # requires driver
 
