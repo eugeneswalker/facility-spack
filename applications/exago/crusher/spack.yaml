@@ -236,7 +236,10 @@ spack:
 
   definitions:
   - exago:
+    - exago@develop +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a ~ipopt
+    - exago@develop +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a +ipopt
     - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a ~ipopt
+    - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a +ipopt
 
   - hiop-sparse:
     - ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a
