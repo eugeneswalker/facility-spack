@@ -237,11 +237,16 @@ spack:
         prefix: /opt/rocm-5.1.0
 
   definitions:
-  - exago:
+  - exago-no-ipopt:
     - exago@develop +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a ~ipopt
-    - exago@develop +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a +ipopt
     - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a ~ipopt
+
+  - exago-ipopt:
+    - exago@develop +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a +ipopt
     - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a +ipopt
+
+  - ipopt:
+    - ^ipopt +metis +coinhsl ~mumps
 
   - hiop-sparse:
     - ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a
@@ -259,12 +264,30 @@ spack:
     - ^coinhsl@2015.06.23
     - ^coinhsl@2019.05.21
 
+  - raja:
+    - ^raja@0.14.0
+
   specs:
   - matrix:
-    - - $exago
+    - - $exago-ipopt
+    - - $ipopt
     - - $hiop-sparse
     - - $coinhsl
+    - - $raja
 
   - matrix:
-    - - $exago
+    - - $exago-ipopt
+    - - $ipopt
     - - $hiop-no-sparse
+    - - $raja
+
+  - matrix:
+    - - $exago-no-ipopt
+    - - $hiop-sparse
+    - - $coinhsl
+    - - $raja
+
+  - matrix:
+    - - $exago-no-ipopt
+    - - $hiop-no-sparse
+    - - $raja
