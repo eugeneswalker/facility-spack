@@ -1,10 +1,12 @@
-# spack/develop 2c211d95ee7257d9ca258fac4f6ccb0f56d63e39
-# Thu May 19 03:47:20 2022 +0300
+# spack/develop d6fabd1533e436cebc94a74fd6d6716f152419fb
+# Wed Jun 8 19:03:18 2022 +0200
 
 spack:
 
   view: false
-  concretization: separately
+
+  concretizer:
+    unify: false
 
   config:
     concretizer: clingo
