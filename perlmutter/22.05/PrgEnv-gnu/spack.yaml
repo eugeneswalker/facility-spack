@@ -71,6 +71,9 @@ spack:
         tau:
           suffixes:
             +cuda: cuda
+        upcxx:
+          suffixes:
+            +cuda: cuda
 
   packages:
     all:
