@@ -57,6 +57,9 @@ spack:
         hpctoolkit:
           suffixes:
             +cuda: cuda
+        legion:
+          suffixes:
+            +cuda: cuda
         mpich:
           suffixes:
             ^hwloc+cuda: hwloc-cuda
