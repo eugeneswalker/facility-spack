@@ -25,6 +25,8 @@ spack:
     default:
       'enable:': [lmod]
       lmod:
+        defaults:
+        - cray-mpich@8.1.15
         core_compilers: [gcc@11.2.0]
         blacklist_implicits: true
         verbose: true
@@ -42,30 +44,33 @@ spack:
             +cuda cuda_arch=70: cuda70
             +cuda cuda_arch=80: cuda80
             +openmp: openmp
+        bricks:
+          suffixes:
+            +cuda: cuda
         cabana:
           suffixes:
             ^kokkos +cuda cuda_arch=70: cuda70
             ^kokkos +cuda cuda_arch=80: cuda80
-        hpctoolkit:
-          suffixes:
-            +cuda: cuda
-        bricks:
-          suffixes:
-            +cuda: cuda
         flux-core:
           suffixes:
             +cuda: cuda
-        papi:
+        hpctoolkit:
           suffixes:
             +cuda: cuda
         mpich:
           suffixes:
             ^hwloc+cuda: hwloc-cuda
+        papi:
+          suffixes:
+            +cuda: cuda
         py-warpx:
           suffixes:
             ^warpx dims=2: dims2
             ^warpx dims=3: dims3
             ^warpx dims=rz: dimsRZ
+        tau:
+          suffixes:
+            +cuda: cuda
 
   packages:
     all:
