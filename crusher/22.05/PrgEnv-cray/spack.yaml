@@ -337,7 +337,6 @@ spack:
   - darshan-runtime@3.3.1
   - darshan-util@3.3.1
   - datatransferkit@3.1-rc3
-  - dyninst@12.1.0
   - exaworks@0.1.0
   - faodel@1.2108.1
   - flecsi@1.4.2
@@ -352,7 +351,6 @@ spack:
   - gptune@3.0.0
   - hdf5@1.10.7 +fortran +hl +shared
   - heffte@2.2.0 +fftw
-  - hpctoolkit@2022.04.15
   - hpx@1.7.1 networking=mpi
   - hypre@2.24.0
   - kokkos-kernels@3.6.00 +openmp
@@ -381,7 +379,6 @@ spack:
   - pdt@3.25.1
   - petsc@3.17.1
   - phist@1.9.5
-  - plasma@21.8.29
   - precice@2.4.0
   - pumi@2.2.7
   - py-cinemasci@1.7.0
@@ -442,6 +439,13 @@ spack:
   # SKIPPED
   #- libnrm@0.1.0 # hard mpich dependency
 
+  # CONFLICTS
+  #- dyninst@12.1.0 # clang conflict
+  #- hpctoolkit@2022.04.15
+  #- hpctoolkit@2022.04.15 +rocm                 # rocprofiler-dev
+  #- plasma@21.8.29
+  #- stat@4.1.0                                  # mesa
+
   # FAILED BUILDS (failed using PrgEnv-gnu)
   - alquimia@1.0.9                              # pflotran
   - ascent@0.8.0                                # vtk-m
@@ -451,7 +455,6 @@ spack:
   - dealii@9.3.3                                # mesa
   - geopm@1.1.0                                 # geopm
   - h5bench@1.2                                 # h5bench
-  - hpctoolkit@2022.04.15 +rocm                 # rocprofiler-dev
   - loki@0.1.7                                  # loki
   - papi@6.0.0.1 +rocm amdgpu_target=gfx90a     # rocprofiler-dev; https://github.com/spack/spack/issues/27898
   - plumed@2.6.3                                # plumed
@@ -459,7 +462,6 @@ spack:
   - rempi@1.1.0                                 # rempi
   - scr@3.0rc2                                  # scr
   - slate@2021.05.02 +rocm amdgpu_target=gfx90a # slate; https://github.com/spack/spack/issues/30596
-  - stat@4.1.0                                  # mesa
   - trilinos@13.2.0 +rocm amdgpu_target=gfx90a  # trilinos
   - variorum@0.4.1                              # variorum
   - vtk-m@1.7.1                                 # vtk-m
