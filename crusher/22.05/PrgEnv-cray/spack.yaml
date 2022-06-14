@@ -118,7 +118,7 @@ spack:
       buildable: false
       externals:
       - spec: cray-mpich@8.1.16 %cce@14.0.0
-        prefix:/opt/cray/pe/mpich/8.1.16/ofi/crayclang/10.0
+        prefix: /opt/cray/pe/mpich/8.1.16/ofi/crayclang/10.0
         modules:
         - cray-mpich/8.1.16
         - libfabric/1.15.0.0
