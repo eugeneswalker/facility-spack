@@ -1,5 +1,5 @@
 ==> Starting concretization pool with 16 processes
-==> Environment concretized in 93.52 seconds.
+==> Environment concretized in 100.06 seconds.
 ==> Concretized adios@1.13.1
 [+]  p5s67xz  adios@1.13.1%clang@14.0.0-rocm5.1.0+blosc~bzip2~fortran~hdf5~infiniband+lz4+mpi~netcdf+shared+sz~szip+zfp+zlib patches=8ae17f6,aea47e5,d24b79b staging=none arch=cray-sles15-zen3
 [+]  b23wmpc      ^autoconf@2.69%clang@14.0.0-rocm5.1.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
@@ -389,8 +389,8 @@
 [+]  thvpmiv          ^superlu-dist@7.2.0%clang@14.0.0-rocm5.1.0~cuda~int64~ipo~openmp~rocm+shared build_type=RelWithDebInfo patches=8da9e21 arch=cray-sles15-zen3
 
 ==> Concretized exaworks@0.1.0
- -   xcabrqd  exaworks@0.1.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   mut3uex      ^flux-core@0.37.0%clang@14.0.0-rocm5.1.0~cuda~docs arch=cray-sles15-zen3
+[+]  xcabrqd  exaworks@0.1.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  mut3uex      ^flux-core@0.37.0%clang@14.0.0-rocm5.1.0~cuda~docs arch=cray-sles15-zen3
 [+]  662j7js          ^czmq@4.1.1%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  b23wmpc              ^autoconf@2.69%clang@14.0.0-rocm5.1.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
 [+]  vrdinj4                  ^m4@1.4.19%clang@14.0.0-rocm5.1.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
@@ -448,10 +448,10 @@
 [+]  usk2ptq                      ^py-tomli@1.2.2%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  ppwbm6t                  ^py-zipp@3.6.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  r6bwun5              ^py-pyrsistent@0.18.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   hmj766o          ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
- -   l6xt6ma              ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  hmj766o          ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
+[+]  l6xt6ma              ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  4f7cda6              ^py-cython@3.0.0a9%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   r4n5yon      ^flux-sched@0.22.0%clang@14.0.0-rocm5.1.0~cuda patches=e200867 arch=cray-sles15-zen3
+[+]  r4n5yon      ^flux-sched@0.22.0%clang@14.0.0-rocm5.1.0~cuda patches=e200867 arch=cray-sles15-zen3
 [+]  f55dtb5          ^boost@1.79.0%clang@14.0.0-rocm5.1.0~atomic~chrono~clanglibcpp+container~context~contract~coroutine~date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu~iostreams~json~locale~log~math+mpi+multithreaded~nowide~numpy~pic~program_options~python~random+regex+serialization+shared~signals~singlethreaded~stacktrace+system~taggedlayout~test~thread~timer~type_erasure~versionedlayout~wave cxxstd=98 patches=57a8401,a440f96 visibility=hidden arch=cray-sles15-zen3
 [+]  qhzn27v              ^cray-mpich@8.1.16%clang@14.0.0-rocm5.1.0+wrappers arch=cray-sles15-zen3
 [+]  ynkhjav          ^libedit@3.1-20210216%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
@@ -600,7 +600,7 @@
 [+]  5p5jgzb      ^py-toml@0.10.2%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 
 ==> Concretized flux-core@0.38.0
- -   a4gfdsb  flux-core@0.38.0%clang@14.0.0-rocm5.1.0~cuda~docs arch=cray-sles15-zen3
+[+]  a4gfdsb  flux-core@0.38.0%clang@14.0.0-rocm5.1.0~cuda~docs arch=cray-sles15-zen3
 [+]  662j7js      ^czmq@4.1.1%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  b23wmpc          ^autoconf@2.69%clang@14.0.0-rocm5.1.0 patches=35c4492,7793209,a49dd5b arch=cray-sles15-zen3
 [+]  vrdinj4              ^m4@1.4.19%clang@14.0.0-rocm5.1.0+sigsegv patches=9dc5fbd,bfdffa7 arch=cray-sles15-zen3
@@ -662,8 +662,8 @@
 [+]  usk2ptq                  ^py-tomli@1.2.2%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  ppwbm6t              ^py-zipp@3.6.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  r6bwun5          ^py-pyrsistent@0.18.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   sx46hwf      ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
- -   l6xt6ma          ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  sx46hwf      ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
+[+]  l6xt6ma          ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  vp4codk          ^py-cython@0.29.24%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 
 ==> Concretized fortrilinos@2.0.0
@@ -763,7 +763,7 @@
 [+]  2qedecx                  ^zlib@1.2.12%clang@14.0.0-rocm5.1.0+optimize+pic+shared patches=0d38234 arch=cray-sles15-zen3
 
 ==> Concretized gptune@3.0.0
- -   j5qjqzs  gptune@3.0.0%clang@14.0.0-rocm5.1.0~hypre~ipo+mpispawn~superlu build_type=RelWithDebInfo arch=cray-sles15-zen3
+[+]  j5qjqzs  gptune@3.0.0%clang@14.0.0-rocm5.1.0~hypre~ipo+mpispawn~superlu build_type=RelWithDebInfo arch=cray-sles15-zen3
 [+]  zwl33v7      ^cmake@3.23.1%clang@14.0.0-rocm5.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
 [+]  dbbicah          ^ncurses@6.2%clang@14.0.0-rocm5.1.0~symlinks+termlib abi=none arch=cray-sles15-zen3
 [+]  6syianw              ^pkgconf@1.8.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
@@ -947,9 +947,9 @@
 [+]  qtaetzi          ^py-fn-py@0.5.2%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  zsl4u24          ^py-future@0.18.2%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  fcxug2g          ^py-sqlalchemy@1.4.20%clang@14.0.0-rocm5.1.0 backend=none arch=cray-sles15-zen3
- -   z3uysgb      ^py-pyaml@21.8.3%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   sx46hwf          ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
- -   l6xt6ma              ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  z3uysgb      ^py-pyaml@21.8.3%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  sx46hwf          ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
+[+]  l6xt6ma              ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  cihf2qf      ^py-pymoo@0.5.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  ycapcpr          ^py-autograd@1.3%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  2h5uxth      ^py-scikit-learn@1.1.0%clang@14.0.0-rocm5.1.0+openmp arch=cray-sles15-zen3
@@ -957,7 +957,7 @@
 [+]  yo2w2h2              ^py-flit@3.6.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  e3o7rtk                  ^py-docutils@0.18.1%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  xrdrxf5                  ^py-tomli-w@1.0.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   v4jfhgv      ^py-scikit-optimize@master%clang@14.0.0-rocm5.1.0+gptune+plots patches=21f43c9 arch=cray-sles15-zen3
+[+]  v4jfhgv      ^py-scikit-optimize@master%clang@14.0.0-rocm5.1.0+gptune+plots patches=21f43c9 arch=cray-sles15-zen3
 [+]  h7pjngx      ^py-ytopt-autotune@1.1.0%clang@14.0.0-rocm5.1.0 patches=60375df arch=cray-sles15-zen3
 [+]  75s6dc7      ^pygmo@2.18.0%clang@14.0.0-rocm5.1.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
 [+]  4mjbckj          ^pagmo2@2.18.0%clang@14.0.0-rocm5.1.0~ipo+shared build_type=RelWithDebInfo arch=cray-sles15-zen3
@@ -1303,7 +1303,7 @@
 [+]  yhvz4ma      ^openblas@0.3.20%clang@14.0.0-rocm5.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
 
 ==> Concretized nrm@0.1.0
- -   z46p4az  nrm@0.1.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  z46p4az  nrm@0.1.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  fyx3jmh      ^py-jsonschema@2.6.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  iexmns6          ^py-pip@21.3.1%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  4hu3yzb              ^python@3.8.13%clang@14.0.0-rocm5.1.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,ebdca64,f2fd060 arch=cray-sles15-zen3
@@ -1334,8 +1334,8 @@
 [+]  63ed7qz      ^py-numpy@1.22.3%clang@14.0.0-rocm5.1.0+blas+lapack patches=873745d,e9508c3 arch=cray-sles15-zen3
 [+]  yhvz4ma          ^openblas@0.3.20%clang@14.0.0-rocm5.1.0~bignuma~consistent_fpcsr~ilp64+locking+pic+shared symbol_suffix=none threads=openmp arch=cray-sles15-zen3
 [+]  vp4codk          ^py-cython@0.29.24%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   sx46hwf      ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
- -   l6xt6ma          ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  sx46hwf      ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
+[+]  l6xt6ma          ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  e35ujzr      ^py-pyzmq@17.1.2%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  zto2uep          ^libzmq@4.3.4%clang@14.0.0-rocm5.1.0~docs~drafts+libbsd+libsodium arch=cray-sles15-zen3
 [+]  cop7w5o              ^libsodium@1.0.18%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
@@ -1759,7 +1759,7 @@
 [+]  qhzn27v      ^cray-mpich@8.1.16%clang@14.0.0-rocm5.1.0+wrappers arch=cray-sles15-zen3
 
 ==> Concretized py-cinemasci@1.7.0
- -   dj6km64  py-cinemasci@1.7.0%clang@14.0.0-rocm5.1.0+mpi arch=cray-sles15-zen3
+[+]  dj6km64  py-cinemasci@1.7.0%clang@14.0.0-rocm5.1.0+mpi arch=cray-sles15-zen3
 [+]  nx4mltt      ^hdf5@1.12.2%clang@14.0.0-rocm5.1.0~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=cray-sles15-zen3
 [+]  zwl33v7          ^cmake@3.23.1%clang@14.0.0-rocm5.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=cray-sles15-zen3
 [+]  dbbicah              ^ncurses@6.2%clang@14.0.0-rocm5.1.0~symlinks+termlib abi=none arch=cray-sles15-zen3
@@ -1901,8 +1901,8 @@
 [+]  wsjaaug      ^py-pandas@1.4.2%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  zmhym36          ^py-bottleneck@1.3.2%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  24can4s          ^py-numexpr@2.7.3%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   sx46hwf      ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
- -   l6xt6ma          ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  sx46hwf      ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
+[+]  l6xt6ma          ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  mva7h7o      ^py-scikit-image@0.18.3%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  h27ijve          ^py-imageio@2.16.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  d7oclmb              ^ffmpeg@4.4.1%clang@14.0.0-rocm5.1.0~X~avresample+bzlib~drawtext+gpl~libaom~libmp3lame~libopenjpeg~libopus~libsnappy~libspeex~libssh~libvorbis~libvpx~libwebp~libx264~libzmq~lzma~nonfree~openssl~sdl2+shared+version3 arch=cray-sles15-zen3
@@ -3619,8 +3619,8 @@
 [+]  3yaeo6j              ^py-poetry-core@1.0.8%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  mwsaf3r          ^py-mccabe@0.6.1%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  edquwsf          ^py-platformdirs@2.4.0%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
- -   sx46hwf      ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
- -   l6xt6ma          ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
+[+]  sx46hwf      ^py-pyyaml@6.0%clang@14.0.0-rocm5.1.0+libyaml arch=cray-sles15-zen3
+[+]  l6xt6ma          ^libyaml@0.2.5%clang@14.0.0-rocm5.1.0 arch=cray-sles15-zen3
 [+]  xobcdpw      ^py-tables@3.6.1%clang@14.0.0-rocm5.1.0~bzip2~lzo+zlib arch=cray-sles15-zen3
 [+]  u2mw5ay          ^c-blosc@1.21.1%clang@14.0.0-rocm5.1.0+avx2~ipo build_type=RelWithDebInfo arch=cray-sles15-zen3
 [+]  nuslc2c              ^lz4@1.9.3%clang@14.0.0-rocm5.1.0 libs=shared,static arch=cray-sles15-zen3
