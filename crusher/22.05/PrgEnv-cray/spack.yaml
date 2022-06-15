@@ -485,7 +485,7 @@ spack:
   - variorum@0.4.1                              # variorum
   - vtk-m@1.7.1                                 # vtk-m
   - vtk-m@1.7.1 +rocm amdgpu_target=gfx90a      # vtk-m, https://github.com/spack/spack/issues/29527
-  - wannier90@3.1.0                             # wannier90
+  - wannier90@3.1.0 %cce ^openblas%gcc          # wannier90
 
   # ERROR ANNOTATIONS (from PrgEnv-gnu failures)
   # openblas%cce: ftn-2307 ftn: ERROR in command line: The "-m" option must be followed by 0, 1, 2, 3 or 4.
