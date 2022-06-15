@@ -337,7 +337,6 @@ spack:
   - datatransferkit@3.1-rc3
   - exaworks@0.1.0
   - faodel@1.2108.1
-  - flecsi@1.4.2
   - flit@2.1.0
   - flux-core@0.38.0
   - fortrilinos@2.0.0
@@ -440,6 +439,7 @@ spack:
   #- catalyst@5.6.0                                     # mesa
   #- conduit@0.8.3                                      # conduit
   #- dealii@9.3.3                                       # arpack-ng, mesa
+  #- flecsi@1.4.2                                       # pfunit
   #- geopm@1.1.0                                        # geopm
   #- h5bench@1.2                                        # h5bench
   #- omega-h@9.34.1                                     # omega-h
