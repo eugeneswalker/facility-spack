@@ -9,7 +9,12 @@ References:
   - E4S GitHub: https://github.com/E4S-Project/e4s
 	]])
 
-prepend_path("MODULEPATH", "/gpfs/alpine/csc439/world-shared/E4S/ParaTools/22.05/PrgEnv-gnu/spack/share/spack/lmod/cray-sles15-x86_64/Core")
-depends_on("PrgEnv-gnu")
-depends_on("gcc/11.2.0")
-depends_on("cray-mpich")
+-- prepend_path("MODULEPATH", "/gpfs/alpine/csc439/world-shared/E4S/ParaTools/22.05/PrgEnv-gnu/spack/share/spack/lmod/cray-sles15-x86_64/Core")
+execute { cmd="module use /gpfs/alpine/csc439/world-shared/E4S/ParaTools/22.05/PrgEnv-gnu/spack/share/spack/lmod/cray-sles15-x86_64/Core", modeA={"load"}}
+execute { cmd="module unuse /gpfs/alpine/csc439/world-shared/E4S/ParaTools/22.05/PrgEnv-gnu/spack/share/spack/lmod/cray-sles15-x86_64/Core", modeA={"unload"}}
+always_load("PrgEnv-gnu")
+always_load("gcc/11.2.0")
+load("cray-mpich")
+-- depends_on("PrgEnv-gnu")
+-- depends_on("gcc/11.2.0")
+-- depends_on("cray-mpich")
