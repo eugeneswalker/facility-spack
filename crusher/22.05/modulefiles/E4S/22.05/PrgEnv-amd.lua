@@ -12,5 +12,5 @@ References:
 execute{cmd="module use /gpfs/alpine/csc439/world-shared/E4S/ParaTools/22.05/PrgEnv-amd/spack/share/spack/lmod/cray-sles15-x86_64/Core", modeA={"load"}}
 execute{cmd="module unuse /gpfs/alpine/csc439/world-shared/E4S/ParaTools/22.05/PrgEnv-amd/spack/share/spack/lmod/cray-sles15-x86_64/Core", modeA={"unload"}}
 always_load("PrgEnv-amd")
-always_load("gcc/5.1.0")
+always_load("amd/5.1.0")
 load("cray-mpich")
