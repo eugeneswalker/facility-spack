@@ -1,0 +1,1293 @@
+==> Concretized adios2@2.7.1
+[+]  55hpsi7  adios2@2.7.1%intel@19.1.2.254+blosc+bzip2~dataman~dataspaces~endian_reverse+fortran~hdf5~ipo+mpi+pic+png~python+shared+ssc+sst+sz+zfp build_type=Release arch=cray-cnl7-haswell
+[+]  hnl63mq      ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4          ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u              ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  t2lvl3r      ^c-blosc@1.21.0%intel@19.1.2.254+avx2~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                  ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                      ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                      ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                          ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  4fhfrxl          ^lz4@1.9.3%intel@19.1.2.254 libs=shared,static arch=cray-cnl7-haswell
+[+]  5bux37h          ^snappy@1.1.8%intel@19.1.2.254~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb1f7a623418590cf4e00ae7d308d1c3faeb15046c2e5090e38221da7cd arch=cray-cnl7-haswell
+[+]  azq4s7p          ^zstd@1.4.9%intel@19.1.2.254~ipo~legacy~lz4~lzma+multithread+programs+shared+static~zlib build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  jafznn3      ^libfabric@1.12.1%intel@19.1.2.254~kdreg fabrics=rxm,sockets,tcp,udp arch=cray-cnl7-haswell
+[+]  kovv5y3      ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  ozfaj2q      ^libpng@1.6.37%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  nnjkj5c      ^sz@2.1.11.1%intel@19.1.2.254~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  d3dhydi      ^zfp@0.5.5%intel@19.1.2.254~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized adios@1.13.1
+[+]  2o6bu6s  adios@1.13.1%intel@19.1.2.254+blosc~bzip2~fortran~hdf5~infiniband+lz4+mpi~netcdf+shared+sz~szip+zfp+zlib patches=01113e9efb929d71c28bf33cc8b7f215d85195ec700e99cb41164e2f8f830640,8ae17f655248e87cbab1d1ed794e15364a38d2f5f8d971b1086702f72d79bd42,d24b79b795f66e40ddcd331ea4be896ac9c393d6f68f4318616d23928b0694e9 staging=none arch=cray-cnl7-haswell
+[+]  slo6op3      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  t2lvl3r      ^c-blosc@1.21.0%intel@19.1.2.254+avx2~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  4fhfrxl          ^lz4@1.9.3%intel@19.1.2.254 libs=shared,static arch=cray-cnl7-haswell
+[+]  5bux37h          ^snappy@1.1.8%intel@19.1.2.254~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb1f7a623418590cf4e00ae7d308d1c3faeb15046c2e5090e38221da7cd arch=cray-cnl7-haswell
+[+]  azq4s7p          ^zstd@1.4.9%intel@19.1.2.254~ipo~legacy~lz4~lzma+multithread+programs+shared+static~zlib build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  4cu2gwi      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  ayh2kbw      ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  weafgyi          ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol              ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  sd4ltxa          ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b              ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                  ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  wx7lxku              ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3          ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kbiux7          ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx          ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  rtp6pfo      ^sz@1.4.12.3%intel@19.1.2.254~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  d3dhydi      ^zfp@0.5.5%intel@19.1.2.254~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized aml@0.1.0
+[+]  c2wgl4f  aml@0.1.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  slo6op3      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  axdiejy      ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+
+==> Concretized amrex@21.05
+[+]  zq4hqjk  amrex@21.05%intel@19.1.2.254~amrdata~cuda~eb~fortran~hdf5~hypre~ipo+linear_solvers+mpi~openmp~particles~petsc~pic~rocm~shared~sundials amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none dimensions=3 precision=double arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized arborx@1.0
+[+]  yc7i2d2  arborx@1.0%intel@19.1.2.254~cuda~ipo+mpi~openmp~rocm+serial~trilinos build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  hkedewy      ^kokkos@3.4.00%intel@19.1.2.254~aggressive_vectorization~compiler_warnings~cuda~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning~wrapper amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none std=14 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized argobots@1.1
+[+]  fk7nsln  argobots@1.1%intel@19.1.2.254~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=cray-cnl7-haswell
+
+==> Concretized ascent@0.7.1~fortran
+[+]  xpgsedb  ascent@0.7.1%intel@19.1.2.254~adios~babelflow~cuda~doc~dray~fortran~mfem+mpi+openmp~python+serial+shared+test+vtkh cuda_arch=none arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  skjqh4v      ^conduit@0.7.2%intel@19.1.2.254~adios~doc~doxygen+fortran+hdf5+hdf5_compat~ipo+mpi~python+shared~silo+test~zfp build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  zupny2z          ^hdf5@1.8.22%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  jymud43              ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  axdiejy              ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3                  ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                      ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                          ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y                  ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi                  ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  d7dkhza      ^vtk-h@0.7.1%intel@19.1.2.254~contourtree~cuda~logging+mpi+openmp+serial+shared cuda_arch=none arch=cray-cnl7-haswell
+[+]  vvwulev          ^vtk-m@1.5.5%intel@19.1.2.254~64bitids+ascent_types~cuda+doubleprecision~hip~ipo~logging+mpi+openmp+rendering~shared~tbb~virtuals amdgpu_target=none build_type=Release cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized bolt@2.0
+[+]  5jpsq27  bolt@2.0%intel@19.1.2.254~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  fk7nsln      ^argobots@1.1%intel@19.1.2.254~affinity~debug+perf~stackunwind~tool~valgrind stackguard=none arch=cray-cnl7-haswell
+[+]  slo6op3      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  4cu2gwi      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized cabana@0.3.0
+[+]  t4tbzrc  cabana@0.3.0%intel@19.1.2.254~cuda~ipo+mpi~openmp+serial+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  hkedewy      ^kokkos@3.4.00%intel@19.1.2.254~aggressive_vectorization~compiler_warnings~cuda~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl~openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning~wrapper amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none std=14 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized caliper@2.5.0
+[+]  krb6pqq  caliper@2.5.0%intel@19.1.2.254+adiak~cuda~fortran+gotcha~ipo+libdw~libpfm+libunwind+mpi+papi+sampler+shared~sosflow build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  qxpr2xl      ^adiak@0.2.1%intel@19.1.2.254~ipo+mpi+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                  ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                      ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                      ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                          ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  jiy2vg6      ^elfutils@0.182%intel@19.1.2.254+bzip2~debuginfod~nls+xz arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  zuprcda          ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  nizkxm3      ^libunwind@1.5.0%intel@19.1.2.254+pic+xz~zlib arch=cray-cnl7-haswell
+[+]  nqo6g7e      ^papi@6.0.0.1%intel@19.1.2.254~cuda+example~infiniband~lmsensors~nvml~powercap~rapl~sde+shared~static_tools arch=cray-cnl7-haswell
+[+]  ayh2kbw      ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  weafgyi          ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol              ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  sd4ltxa          ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b              ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  wx7lxku              ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3          ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kbiux7          ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx          ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized chai@2.3.0~benchmarks~tests
+[+]  klejwkt  chai@2.3.0%intel@19.1.2.254~benchmarks~cuda~enable_pick+examples~ipo~raja~rocm+shared~tests amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  psjkvev      ^blt@0.3.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                  ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                      ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                      ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                          ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  b2gtygk      ^umpire@4.1.2%intel@19.1.2.254+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp~rocm+shared amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none patches=7d912d31cd293df005ba74cb96c6f3e32dc3d84afff49b14509714283693db08 tests=none arch=cray-cnl7-haswell
+[+]  uxncdwi          ^camp@0.1.0%intel@19.1.2.254~cuda~ipo~rocm~tests amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized conduit@0.7.2
+[+]  skjqh4v  conduit@0.7.2%intel@19.1.2.254~adios~doc~doxygen+fortran+hdf5+hdf5_compat~ipo+mpi~python+shared~silo+test~zfp build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  zupny2z      ^hdf5@1.8.22%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  axdiejy          ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3              ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                  ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                      ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y              ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi              ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized darshan-runtime@3.3.0
+[+]  j2xoc7e  darshan-runtime@3.3.0%intel@19.1.2.254~apmpi~apmpi_sync~apxc~cobalt~hdf5+mpi~pbs~slurm arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  dmpdkx6      ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized darshan-util@3.3.0
+[+]  5u7dkze  darshan-util@3.3.0%intel@19.1.2.254~apmpi~apxc~bzip2+shared arch=cray-cnl7-haswell
+[+]  dmpdkx6      ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized faodel@1.1906.1
+[+]  qs5psvk  faodel@1.1906.1%intel@19.1.2.254~cereal~hdf5~ipo+mpi+shared+tcmalloc build_type=RelWithDebInfo logging=stdout network=nnti patches=0d8604c48c421da1a28e5c23493a55c367fc39ebdf054f2978b4b6f2108bef91,823eff7668eb4ac2bac4b2b337d9edbeb486d60fc5a98177e9c9b1883159ef68 arch=cray-cnl7-haswell
+[+]  wvt3kex      ^boost@1.75.0%intel@19.1.2.254+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math+mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=98 patches=57a8401dee8f52b0342e0c8147a5b2db834e8d8f3fbcbbc5950016bd3e9e1ef0,f2409bfa0e69e44817a5f8799e25c2e9e5ee50876a5aaacefd32fa647b80472f visibility=hidden arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  dmpdkx6          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kkboxca      ^googletest@1.10.0%intel@19.1.2.254~gmock~ipo+pthreads+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+
+==> Concretized flecsi@1.4+cinch
+[+]  sokuvyi  flecsi@1.4%intel@19.1.2.254~caliper+cinch~coverage~debug_backend~doc~doxygen~flecstan~flog~graphviz+hdf5~ipo~minimal+shared~tutorial backend=mpi build_type=Release arch=cray-cnl7-haswell
+[+]  tvz4zfr      ^boost@1.75.0%intel@19.1.2.254+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math+mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=17 patches=57a8401dee8f52b0342e0c8147a5b2db834e8d8f3fbcbbc5950016bd3e9e1ef0,f2409bfa0e69e44817a5f8799e25c2e9e5ee50876a5aaacefd32fa647b80472f visibility=hidden arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  dmpdkx6          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  3vzysr2      ^cinch@master%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  6nfqkl6      ^googletest@1.8.1%intel@19.1.2.254+gmock~ipo+pthreads+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  lsstklm      ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  axdiejy          ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3              ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                  ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                      ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y              ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi              ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5y3wwpg      ^metis@5.1.0%intel@19.1.2.254~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-cnl7-haswell
+[+]  qq4bnvl      ^parmetis@4.0.3%intel@19.1.2.254~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=cray-cnl7-haswell
+[+]  cjwynah      ^pfunit@3.3.3%intel@19.1.2.254~docs~ipo+mpi~openmp+shared~use_comm_world build_type=RelWithDebInfo max_array_rank=5 arch=cray-cnl7-haswell
+[+]  ayh2kbw          ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  weafgyi              ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                  ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  sd4ltxa              ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b                  ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                      ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  wx7lxku                  ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3              ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kbiux7              ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx              ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized flit@2.1.0
+[+]  lnagfbj  flit@2.1.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  p4tqruy      ^gmake@4.3%intel@19.1.2.254~guile+nls arch=cray-cnl7-haswell
+[+]  sd4ltxa          ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  hnl63mq              ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4                  ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                      ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jdqp43b              ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  hsctoyo                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  zuprcda                  ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  vdm4hvm              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  wx7lxku              ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  godiel6          ^texinfo@6.5%intel@19.1.2.254 patches=12f6edb0c6b270b8c8dba2ce17998c580db01182d871ee32b7b6e4129bd1d23a,1732115f651cff98989cb0215d8f64da5e0f7911ebf0c13b064920f088f2ffe1 arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ou5masp      ^py-pyelftools@0.26%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5vy4cdj          ^py-setuptools@50.3.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ayh2kbw              ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  weafgyi                  ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                      ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  kovv5y3                  ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kh3ruz                  ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  2kbiux7                  ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx                  ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  rmzrpgi      ^py-toml@0.10.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized gasnet@2021.3.0
+[+]  htymh4j  gasnet@2021.3.0%intel@19.1.2.254~debug conduits=smp arch=cray-cnl7-haswell
+
+==> Concretized ginkgo@1.3.0
+[+]  kp4vogl  ginkgo@1.3.0%intel@19.1.2.254~cuda~develtools~full_optimizations~hwloc~ipo+openmp~rocm+shared amdgpu_target=none build_type=Release cuda_arch=none arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized globalarrays@5.8
+[+]  utr3dj4  globalarrays@5.8%intel@19.1.2.254~scalapack armci=mpi-ts arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  rwfypyn      ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized gmp@6.2.1
+[+]  bisll2y  gmp@6.2.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  slo6op3      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized gotcha@1.0.3
+[+]  wcy3okc  gotcha@1.0.3%intel@19.1.2.254~ipo~test build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized hdf5@1.10.7
+[+]  lsstklm  hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  axdiejy      ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3          ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc              ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                  ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y          ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi          ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6      ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized hypre@2.20.0
+[+]  x7mitev  hypre@2.20.0%intel@19.1.2.254~complex~cuda~debug~int64~internal-superlu~mixedint+mpi~openmp+shared~superlu-dist~unified-memory cuda_arch=none patches=6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  rwfypyn      ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized kokkos-kernels@3.2.00+openmp
+[+]  gkgfhlq  kokkos-kernels@3.2.00%intel@19.1.2.254~blas~cblas~cublas~cuda~cusparse~ipo~lapack~lapacke~mkl+openmp~pthread~serial~superlu build_type=RelWithDebInfo cuda_arch=none execspace_cuda=auto execspace_openmp=auto execspace_serial=auto execspace_threads=auto layouts=left memspace_cudaspace=auto memspace_cudauvmspace=auto offsets=int,size_t ordinals=int scalars=double arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  ghyika4      ^kokkos@3.4.00%intel@19.1.2.254~aggressive_vectorization~compiler_warnings~cuda~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl+openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning~wrapper amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none std=14 arch=cray-cnl7-haswell
+
+==> Concretized kokkos@3.4.00+openmp
+[+]  ghyika4  kokkos@3.4.00%intel@19.1.2.254~aggressive_vectorization~compiler_warnings~cuda~cuda_lambda~cuda_ldg_intrinsic~cuda_relocatable_device_code~cuda_uvm~debug~debug_bounds_check~debug_dualview_modify_check~deprecated_code~examples~explicit_instantiation~hpx~hpx_async_dispatch~hwloc~ipo~memkind~numactl+openmp~pic+profiling~profiling_load_print~pthread~qthread~rocm+serial+shared~sycl~tests~tuning~wrapper amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none std=14 arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized legion@21.03.0
+[+]  ok2or4y  legion@21.03.0%intel@19.1.2.254~bindings~bounds_checks~cuda~cuda_hijack~cuda_unsupported_compiler~enable_tls~fortran~gasnet_debug~hdf5~hwloc~ipo~kokkos+libdl~native~openmp~papi~privilege_checks~python~redop_complex~shared~spy+zlib build_type=RelWithDebInfo conduit=none cuda_arch=70 gasnet_root=none max_dims=3 max_fields=512 network=none output_level=warning arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized libnrm@0.1.0
+[+]  hvq5h3c  libnrm@0.1.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  slo6op3      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  nh52ppz      ^libzmq@4.3.3%intel@19.1.2.254~drafts+libsodium arch=cray-cnl7-haswell
+[+]  qjolxol          ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  whatogp          ^libsodium@1.0.18%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized libquo@1.3.1
+[+]  bqg43tn  libquo@1.3.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized libunwind@1.5.0
+[+]  nizkxm3  libunwind@1.5.0%intel@19.1.2.254+pic+xz~zlib arch=cray-cnl7-haswell
+[+]  zuprcda      ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+
+==> Concretized loki@0.1.7
+[+]  3vgruwk  loki@0.1.7%intel@19.1.2.254+shared arch=cray-cnl7-haswell
+
+==> Concretized mercury@2.0.1
+[+]  go3nqfx  mercury@2.0.1%intel@19.1.2.254~bmi+boostsys~cci+checksum~debug~ipo+mpi+ofi+shared+sm~udreg build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  wvt3kex      ^boost@1.75.0%intel@19.1.2.254+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math+mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=98 patches=57a8401dee8f52b0342e0c8147a5b2db834e8d8f3fbcbbc5950016bd3e9e1ef0,f2409bfa0e69e44817a5f8799e25c2e9e5ee50876a5aaacefd32fa647b80472f visibility=hidden arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  dmpdkx6          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jafznn3      ^libfabric@1.12.1%intel@19.1.2.254~kdreg fabrics=rxm,sockets,tcp,udp arch=cray-cnl7-haswell
+
+==> Concretized metall@0.13
+[+]  jd44jv4  metall@0.13%intel@19.1.2.254~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  wvt3kex      ^boost@1.75.0%intel@19.1.2.254+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math+mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=98 patches=57a8401dee8f52b0342e0c8147a5b2db834e8d8f3fbcbbc5950016bd3e9e1ef0,f2409bfa0e69e44817a5f8799e25c2e9e5ee50876a5aaacefd32fa647b80472f visibility=hidden arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  dmpdkx6          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized mfem@4.2.0
+[+]  nt7u6ue  mfem@4.2.0%intel@19.1.2.254~amgx~conduit~cuda~debug~examples~gnutls~gslib~lapack~libceed~libunwind+metis~miniapps~mpfr+mpi~netcdf~occa~openmp~petsc~pumi~raja~shared+static~strumpack~suite-sparse~sundials~superlu-dist~threadsafe~umpire+zlib cuda_arch=sm_60 timer=auto arch=cray-cnl7-haswell
+[+]  x7mitev      ^hypre@2.20.0%intel@19.1.2.254~complex~cuda~debug~int64~internal-superlu~mixedint+mpi~openmp+shared~superlu-dist~unified-memory cuda_arch=none patches=6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  rwfypyn          ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5y3wwpg      ^metis@5.1.0%intel@19.1.2.254~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized mpark-variant@1.4.0
+[+]  dabx6r6  mpark-variant@1.4.0%intel@19.1.2.254~ipo build_type=RelWithDebInfo patches=21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7,4e173fe8c853eb92956a40371688b4a19498189fe65b7ceac30f6b9d6663a985,b3501f726fd40129b4aaa11453a5891c8953a34af8ac84f5ab10a22afa5e7b9b arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized ninja@1.10.2
+[+]  dwzvqzu  ninja@1.10.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ayh2kbw      ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  weafgyi          ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol              ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  6tjah2c          ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6              ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                  ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                      ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  sd4ltxa          ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b              ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                  ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  wx7lxku              ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3          ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  2kbiux7          ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx          ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized openpmd-api@0.13.4
+[+]  ap3nysb  openpmd-api@0.13.4%intel@19.1.2.254~adios1+adios2+hdf5~ipo+mpi~python+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  55hpsi7      ^adios2@2.7.1%intel@19.1.2.254+blosc+bzip2~dataman~dataspaces~endian_reverse+fortran~hdf5~ipo+mpi+pic+png~python+shared+ssc+sst+sz+zfp build_type=Release arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  t2lvl3r          ^c-blosc@1.21.0%intel@19.1.2.254+avx2~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg              ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm                  ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                      ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz                  ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                      ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                          ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                          ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                              ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                      ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  4fhfrxl              ^lz4@1.9.3%intel@19.1.2.254 libs=shared,static arch=cray-cnl7-haswell
+[+]  5bux37h              ^snappy@1.1.8%intel@19.1.2.254~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb1f7a623418590cf4e00ae7d308d1c3faeb15046c2e5090e38221da7cd arch=cray-cnl7-haswell
+[+]  azq4s7p              ^zstd@1.4.9%intel@19.1.2.254~ipo~legacy~lz4~lzma+multithread+programs+shared+static~zlib build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  jafznn3          ^libfabric@1.12.1%intel@19.1.2.254~kdreg fabrics=rxm,sockets,tcp,udp arch=cray-cnl7-haswell
+[+]  kovv5y3          ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  ozfaj2q          ^libpng@1.6.37%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  nnjkj5c          ^sz@2.1.11.1%intel@19.1.2.254~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  d3dhydi          ^zfp@0.5.5%intel@19.1.2.254~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  lsstklm      ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  axdiejy          ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3              ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                  ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                      ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y              ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi              ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dabx6r6      ^mpark-variant@1.4.0%intel@19.1.2.254~ipo build_type=RelWithDebInfo patches=21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7,4e173fe8c853eb92956a40371688b4a19498189fe65b7ceac30f6b9d6663a985,b3501f726fd40129b4aaa11453a5891c8953a34af8ac84f5ab10a22afa5e7b9b arch=cray-cnl7-haswell
+[+]  4z2vxxe      ^nlohmann-json@3.9.1%intel@19.1.2.254~ipo+single_header build_type=RelWithDebInfo arch=cray-cnl7-haswell
+
+==> Concretized papi@6.0.0.1
+[+]  nqo6g7e  papi@6.0.0.1%intel@19.1.2.254~cuda+example~infiniband~lmsensors~nvml~powercap~rapl~sde+shared~static_tools arch=cray-cnl7-haswell
+
+==> Concretized papyrus@1.0.1
+[+]  b3beenz  papyrus@1.0.1%intel@19.1.2.254~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized parallel-netcdf@1.12.2
+[+]  b4lw4ty  parallel-netcdf@1.12.2%intel@19.1.2.254~burstbuffer+cxx+fortran+pic+shared arch=cray-cnl7-haswell
+[+]  vt7yinc      ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw          ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  5ykizii      ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl          ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c          ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6              ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                  ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                      ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized pdt@3.25.1
+[+]  g3yuqij  pdt@3.25.1%intel@19.1.2.254~pic arch=cray-cnl7-haswell
+
+==> Concretized petsc@3.15.0
+[+]  pn3whcl  petsc@3.15.0%intel@19.1.2.254~X~batch~cgns~complex~cuda~debug+double~exodusii~fftw~giflib+hdf5+hypre~int64~jpeg~knl~libpng~libyaml~memkind+metis~mkl-pardiso~moab~mpfr+mpi~mumps~p4est~ptscotch~random123~saws+shared~suite-sparse+superlu-dist~trilinos~valgrind clanguage=C arch=cray-cnl7-haswell
+[+]  2lrqsx4      ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u          ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  lsstklm      ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  axdiejy          ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3              ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                  ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                      ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii                  ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                      ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                      ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                          ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y              ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi              ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  x7mitev      ^hypre@2.20.0%intel@19.1.2.254~complex~cuda~debug~int64~internal-superlu~mixedint+mpi~openmp+shared~superlu-dist~unified-memory cuda_arch=none patches=6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059 arch=cray-cnl7-haswell
+[+]  rwfypyn          ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  5y3wwpg      ^metis@5.1.0%intel@19.1.2.254~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  qq4bnvl      ^parmetis@4.0.3%intel@19.1.2.254~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=cray-cnl7-haswell
+[+]  ayh2kbw      ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  weafgyi          ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol              ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  sd4ltxa          ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b              ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                  ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  wx7lxku              ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3          ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kbiux7          ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx          ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  lo2by2v      ^superlu-dist@6.4.0%intel@19.1.2.254~cuda~int64~ipo~openmp+shared build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized precice@2.2.1
+[+]  fdujeen  precice@2.2.1%intel@19.1.2.254~ipo+mpi+petsc~python+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  wvt3kex      ^boost@1.75.0%intel@19.1.2.254+atomic+chrono~clanglibcpp~container~context~coroutine+date_time~debug+exception~fiber+filesystem+graph~icu+iostreams+locale+log+math+mpi+multithreaded~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded+system~taggedlayout+test+thread+timer~versionedlayout+wave cxxstd=98 patches=57a8401dee8f52b0342e0c8147a5b2db834e8d8f3fbcbbc5950016bd3e9e1ef0,f2409bfa0e69e44817a5f8799e25c2e9e5ee50876a5aaacefd32fa647b80472f visibility=hidden arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  dmpdkx6          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wupzcvp      ^eigen@3.3.9%intel@19.1.2.254~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  jdqp43b      ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda          ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  pn3whcl      ^petsc@3.15.0%intel@19.1.2.254~X~batch~cgns~complex~cuda~debug+double~exodusii~fftw~giflib+hdf5+hypre~int64~jpeg~knl~libpng~libyaml~memkind+metis~mkl-pardiso~moab~mpfr+mpi~mumps~p4est~ptscotch~random123~saws+shared~suite-sparse+superlu-dist~trilinos~valgrind clanguage=C arch=cray-cnl7-haswell
+[+]  lsstklm          ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  axdiejy              ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3                  ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                      ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                          ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y                  ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi                  ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  x7mitev          ^hypre@2.20.0%intel@19.1.2.254~complex~cuda~debug~int64~internal-superlu~mixedint+mpi~openmp+shared~superlu-dist~unified-memory cuda_arch=none patches=6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059 arch=cray-cnl7-haswell
+[+]  rwfypyn              ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  5y3wwpg          ^metis@5.1.0%intel@19.1.2.254~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-cnl7-haswell
+[+]  qq4bnvl          ^parmetis@4.0.3%intel@19.1.2.254~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=cray-cnl7-haswell
+[+]  ayh2kbw          ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  weafgyi              ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                  ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  sd4ltxa              ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  wx7lxku                  ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3              ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kbiux7              ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx              ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  lo2by2v          ^superlu-dist@6.4.0%intel@19.1.2.254~cuda~int64~ipo~openmp+shared build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized pumi@2.2.5
+[+]  uruuh6c  pumi@2.2.5%intel@19.1.2.254~fortran~int64~ipo~shared+simmodsuite_version_check~zoltan build_type=RelWithDebInfo simmodsuite=none arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized py-libensemble@0.7.2
+[+]  pksjhwe  py-libensemble@0.7.2%intel@19.1.2.254~deap+mpi~mpmath~nlopt~petsc4py~scipy arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  xdmqbrf      ^py-mpi4py@3.0.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5vy4cdj          ^py-setuptools@50.3.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ayh2kbw              ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq                  ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4                      ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                          ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  weafgyi                  ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                      ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  sd4ltxa                  ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b                      ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                          ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  dmpdkx6                          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  wx7lxku                      ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3                  ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kh3ruz                  ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                      ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                          ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  2kbiux7                  ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx                  ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  qy73stt      ^py-numpy@1.20.3%intel@19.1.2.254+blas+lapack patches=873745d7b547857fcfec9cae90b09c133b42a4f0c23b6c2d84cf37e2dd816604 arch=cray-cnl7-haswell
+[+]  rwfypyn          ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  zjsrrrc          ^py-cython@0.29.22%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  327e5lb      ^py-psutil@5.7.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized py-petsc4py@3.15.0
+[+]  rypmgb7  py-petsc4py@3.15.0%intel@19.1.2.254+mpi patches=d344e0e8b4c5ebb96961e1905bdd749162c52b151538238609f4dec77e2a6360 arch=cray-cnl7-haswell
+[+]  pn3whcl      ^petsc@3.15.0%intel@19.1.2.254~X~batch~cgns~complex~cuda~debug+double~exodusii~fftw~giflib+hdf5+hypre~int64~jpeg~knl~libpng~libyaml~memkind+metis~mkl-pardiso~moab~mpfr+mpi~mumps~p4est~ptscotch~random123~saws+shared~suite-sparse+superlu-dist~trilinos~valgrind clanguage=C arch=cray-cnl7-haswell
+[+]  2lrqsx4          ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u              ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  lsstklm          ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  jymud43              ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  axdiejy              ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3                  ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                      ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                          ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii                      ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                          ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                          ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                              ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                                  ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                                      ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y                  ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi                  ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  x7mitev          ^hypre@2.20.0%intel@19.1.2.254~complex~cuda~debug~int64~internal-superlu~mixedint+mpi~openmp+shared~superlu-dist~unified-memory cuda_arch=none patches=6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059 arch=cray-cnl7-haswell
+[+]  rwfypyn              ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  5y3wwpg          ^metis@5.1.0%intel@19.1.2.254~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-cnl7-haswell
+[+]  ozzivdg              ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  2kh3ruz                  ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  qq4bnvl          ^parmetis@4.0.3%intel@19.1.2.254~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=cray-cnl7-haswell
+[+]  ayh2kbw          ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq              ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  weafgyi              ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                  ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  sd4ltxa              ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b                  ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                      ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  wx7lxku                  ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3              ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kbiux7              ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx              ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  lo2by2v          ^superlu-dist@6.4.0%intel@19.1.2.254~cuda~int64~ipo~openmp+shared build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  xdmqbrf      ^py-mpi4py@3.0.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5vy4cdj          ^py-setuptools@50.3.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  qy73stt      ^py-numpy@1.20.3%intel@19.1.2.254+blas+lapack patches=873745d7b547857fcfec9cae90b09c133b42a4f0c23b6c2d84cf37e2dd816604 arch=cray-cnl7-haswell
+[+]  zjsrrrc          ^py-cython@0.29.22%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized py-warpx@21.05 ^warpx dims=2
+[+]  jjyf6nk  py-warpx@21.05%intel@19.1.2.254+mpi arch=cray-cnl7-haswell
+[+]  xdmqbrf      ^py-mpi4py@3.0.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  5vy4cdj          ^py-setuptools@50.3.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ayh2kbw              ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq                  ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4                      ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                          ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  weafgyi                  ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                      ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  sd4ltxa                  ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b                      ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                          ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  dmpdkx6                          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  wx7lxku                      ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3                  ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kh3ruz                  ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                      ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                          ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  2kbiux7                  ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx                  ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  qy73stt      ^py-numpy@1.20.3%intel@19.1.2.254+blas+lapack patches=873745d7b547857fcfec9cae90b09c133b42a4f0c23b6c2d84cf37e2dd816604 arch=cray-cnl7-haswell
+[+]  rwfypyn          ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  zjsrrrc          ^py-cython@0.29.22%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  w7pjk6m      ^py-periodictable@1.5.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vc3t3a7          ^py-pyparsing@2.4.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  qim4fe6      ^py-picmistandard@develop%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  zmxvi7l      ^py-wheel@0.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  fc7j45m      ^warpx@21.05%intel@19.1.2.254+app~ascent~eb~ipo+lib+mpi+mpithreadmultiple+openpmd+psatd+qed~qedtablegen+shared+tprof build_type=RelWithDebInfo compute=omp dims=2 precision=double arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  uboown4          ^fftw@3.3.9%intel@19.1.2.254+mpi~openmp~pfft_patches precision=double,float arch=cray-cnl7-haswell
+[+]  ap3nysb          ^openpmd-api@0.13.4%intel@19.1.2.254~adios1+adios2+hdf5~ipo+mpi~python+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  55hpsi7              ^adios2@2.7.1%intel@19.1.2.254+blosc+bzip2~dataman~dataspaces~endian_reverse+fortran~hdf5~ipo+mpi+pic+png~python+shared+ssc+sst+sz+zfp build_type=Release arch=cray-cnl7-haswell
+[+]  t2lvl3r                  ^c-blosc@1.21.0%intel@19.1.2.254+avx2~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  4fhfrxl                      ^lz4@1.9.3%intel@19.1.2.254 libs=shared,static arch=cray-cnl7-haswell
+[+]  5bux37h                      ^snappy@1.1.8%intel@19.1.2.254~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb1f7a623418590cf4e00ae7d308d1c3faeb15046c2e5090e38221da7cd arch=cray-cnl7-haswell
+[+]  azq4s7p                      ^zstd@1.4.9%intel@19.1.2.254~ipo~legacy~lz4~lzma+multithread+programs+shared+static~zlib build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  jafznn3                  ^libfabric@1.12.1%intel@19.1.2.254~kdreg fabrics=rxm,sockets,tcp,udp arch=cray-cnl7-haswell
+[+]  ozfaj2q                  ^libpng@1.6.37%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  nnjkj5c                  ^sz@2.1.11.1%intel@19.1.2.254~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  d3dhydi                  ^zfp@0.5.5%intel@19.1.2.254~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  lsstklm              ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  axdiejy                  ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3                      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y                      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi                      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dabx6r6              ^mpark-variant@1.4.0%intel@19.1.2.254~ipo build_type=RelWithDebInfo patches=21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7,4e173fe8c853eb92956a40371688b4a19498189fe65b7ceac30f6b9d6663a985,b3501f726fd40129b4aaa11453a5891c8953a34af8ac84f5ab10a22afa5e7b9b arch=cray-cnl7-haswell
+[+]  4z2vxxe              ^nlohmann-json@3.9.1%intel@19.1.2.254~ipo+single_header build_type=RelWithDebInfo arch=cray-cnl7-haswell
+
+==> Concretized py-warpx@21.05 ^warpx dims=3
+[+]  6qrrwhh  py-warpx@21.05%intel@19.1.2.254+mpi arch=cray-cnl7-haswell
+[+]  xdmqbrf      ^py-mpi4py@3.0.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  5vy4cdj          ^py-setuptools@50.3.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ayh2kbw              ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq                  ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4                      ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                          ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  weafgyi                  ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                      ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  sd4ltxa                  ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b                      ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                          ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  dmpdkx6                          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  wx7lxku                      ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3                  ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kh3ruz                  ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                      ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                          ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  2kbiux7                  ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx                  ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  qy73stt      ^py-numpy@1.20.3%intel@19.1.2.254+blas+lapack patches=873745d7b547857fcfec9cae90b09c133b42a4f0c23b6c2d84cf37e2dd816604 arch=cray-cnl7-haswell
+[+]  rwfypyn          ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  zjsrrrc          ^py-cython@0.29.22%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  w7pjk6m      ^py-periodictable@1.5.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vc3t3a7          ^py-pyparsing@2.4.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  qim4fe6      ^py-picmistandard@develop%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  zmxvi7l      ^py-wheel@0.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  oyo4feo      ^warpx@21.05%intel@19.1.2.254+app~ascent~eb~ipo+lib+mpi+mpithreadmultiple+openpmd+psatd+qed~qedtablegen+shared+tprof build_type=RelWithDebInfo compute=omp dims=3 precision=double arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  uboown4          ^fftw@3.3.9%intel@19.1.2.254+mpi~openmp~pfft_patches precision=double,float arch=cray-cnl7-haswell
+[+]  ap3nysb          ^openpmd-api@0.13.4%intel@19.1.2.254~adios1+adios2+hdf5~ipo+mpi~python+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  55hpsi7              ^adios2@2.7.1%intel@19.1.2.254+blosc+bzip2~dataman~dataspaces~endian_reverse+fortran~hdf5~ipo+mpi+pic+png~python+shared+ssc+sst+sz+zfp build_type=Release arch=cray-cnl7-haswell
+[+]  t2lvl3r                  ^c-blosc@1.21.0%intel@19.1.2.254+avx2~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  4fhfrxl                      ^lz4@1.9.3%intel@19.1.2.254 libs=shared,static arch=cray-cnl7-haswell
+[+]  5bux37h                      ^snappy@1.1.8%intel@19.1.2.254~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb1f7a623418590cf4e00ae7d308d1c3faeb15046c2e5090e38221da7cd arch=cray-cnl7-haswell
+[+]  azq4s7p                      ^zstd@1.4.9%intel@19.1.2.254~ipo~legacy~lz4~lzma+multithread+programs+shared+static~zlib build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  jafznn3                  ^libfabric@1.12.1%intel@19.1.2.254~kdreg fabrics=rxm,sockets,tcp,udp arch=cray-cnl7-haswell
+[+]  ozfaj2q                  ^libpng@1.6.37%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  nnjkj5c                  ^sz@2.1.11.1%intel@19.1.2.254~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  d3dhydi                  ^zfp@0.5.5%intel@19.1.2.254~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  lsstklm              ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  axdiejy                  ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3                      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y                      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi                      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dabx6r6              ^mpark-variant@1.4.0%intel@19.1.2.254~ipo build_type=RelWithDebInfo patches=21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7,4e173fe8c853eb92956a40371688b4a19498189fe65b7ceac30f6b9d6663a985,b3501f726fd40129b4aaa11453a5891c8953a34af8ac84f5ab10a22afa5e7b9b arch=cray-cnl7-haswell
+[+]  4z2vxxe              ^nlohmann-json@3.9.1%intel@19.1.2.254~ipo+single_header build_type=RelWithDebInfo arch=cray-cnl7-haswell
+
+==> Concretized py-warpx@21.05 ^warpx dims=rz
+[+]  jg3x6et  py-warpx@21.05%intel@19.1.2.254+mpi arch=cray-cnl7-haswell
+[+]  xdmqbrf      ^py-mpi4py@3.0.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  5vy4cdj          ^py-setuptools@50.3.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ayh2kbw              ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq                  ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4                      ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                          ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  weafgyi                  ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                      ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  sd4ltxa                  ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b                      ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                          ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  dmpdkx6                          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  wx7lxku                      ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3                  ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kh3ruz                  ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                      ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                          ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  2kbiux7                  ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx                  ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  qy73stt      ^py-numpy@1.20.3%intel@19.1.2.254+blas+lapack patches=873745d7b547857fcfec9cae90b09c133b42a4f0c23b6c2d84cf37e2dd816604 arch=cray-cnl7-haswell
+[+]  rwfypyn          ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  zjsrrrc          ^py-cython@0.29.22%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  w7pjk6m      ^py-periodictable@1.5.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vc3t3a7          ^py-pyparsing@2.4.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  qim4fe6      ^py-picmistandard@develop%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  zmxvi7l      ^py-wheel@0.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  fh54ptg      ^warpx@21.05%intel@19.1.2.254+app~ascent~eb~ipo+lib+mpi+mpithreadmultiple+openpmd+psatd+qed~qedtablegen+shared+tprof build_type=RelWithDebInfo compute=omp dims=rz precision=double arch=cray-cnl7-haswell
+[+]  tmqnx77          ^blaspp@2021.04.01%intel@19.1.2.254~cuda~ipo+openmp~rocm+shared amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  ozzivdg              ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  uboown4          ^fftw@3.3.9%intel@19.1.2.254+mpi~openmp~pfft_patches precision=double,float arch=cray-cnl7-haswell
+[+]  rgbw7qr          ^lapackpp@2021.04.00%intel@19.1.2.254~ipo+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ap3nysb          ^openpmd-api@0.13.4%intel@19.1.2.254~adios1+adios2+hdf5~ipo+mpi~python+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  55hpsi7              ^adios2@2.7.1%intel@19.1.2.254+blosc+bzip2~dataman~dataspaces~endian_reverse+fortran~hdf5~ipo+mpi+pic+png~python+shared+ssc+sst+sz+zfp build_type=Release arch=cray-cnl7-haswell
+[+]  t2lvl3r                  ^c-blosc@1.21.0%intel@19.1.2.254+avx2~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  4fhfrxl                      ^lz4@1.9.3%intel@19.1.2.254 libs=shared,static arch=cray-cnl7-haswell
+[+]  5bux37h                      ^snappy@1.1.8%intel@19.1.2.254~ipo+pic+shared build_type=RelWithDebInfo patches=c9cfecb1f7a623418590cf4e00ae7d308d1c3faeb15046c2e5090e38221da7cd arch=cray-cnl7-haswell
+[+]  azq4s7p                      ^zstd@1.4.9%intel@19.1.2.254~ipo~legacy~lz4~lzma+multithread+programs+shared+static~zlib build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  jafznn3                  ^libfabric@1.12.1%intel@19.1.2.254~kdreg fabrics=rxm,sockets,tcp,udp arch=cray-cnl7-haswell
+[+]  ozfaj2q                  ^libpng@1.6.37%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  nnjkj5c                  ^sz@2.1.11.1%intel@19.1.2.254~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  d3dhydi                  ^zfp@0.5.5%intel@19.1.2.254~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  lsstklm              ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  axdiejy                  ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3                      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y                      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi                      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dabx6r6              ^mpark-variant@1.4.0%intel@19.1.2.254~ipo build_type=RelWithDebInfo patches=21a4f8de3525204ee6db2e53758a3e3fd9c13817df29d2926d24376858a369e7,4e173fe8c853eb92956a40371688b4a19498189fe65b7ceac30f6b9d6663a985,b3501f726fd40129b4aaa11453a5891c8953a34af8ac84f5ab10a22afa5e7b9b arch=cray-cnl7-haswell
+[+]  4z2vxxe              ^nlohmann-json@3.9.1%intel@19.1.2.254~ipo+single_header build_type=RelWithDebInfo arch=cray-cnl7-haswell
+
+==> Concretized qthreads@1.16 scheduler=distrib
+[+]  cuokerr  qthreads@1.16%intel@19.1.2.254+hwloc~spawn_cache+static scheduler=distrib stack_size=4096 arch=cray-cnl7-haswell
+[+]  me6oy3k      ^hwloc@2.4.1%intel@19.1.2.254~cairo~cuda~gl~libudev+libxml2~netloc~nvml+pci+shared arch=cray-cnl7-haswell
+[+]  rvbsgeu          ^libpciaccess@0.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi              ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                  ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                      ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  cv7idp5              ^util-macros@1.19.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jdqp43b          ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  krx463u              ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  zuprcda              ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+
+==> Concretized raja@0.13.0
+[+]  stwyeu7  raja@0.13.0%intel@19.1.2.254~cuda+examples+exercises~ipo+openmp~rocm+shared~tests amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  psjkvev      ^blt@0.3.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                  ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                      ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                      ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                          ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  uxncdwi      ^camp@0.1.0%intel@19.1.2.254~cuda~ipo~rocm~tests amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized scr@3.0rc1
+[+]  ngg4y4e  scr@3.0rc1%intel@19.1.2.254~bbapi_fallback+dtcmp+fortran~ipo+libyogrt async_api=NONE build_type=RelWithDebInfo cache_base=/dev/shm cntl_base=/dev/shm copy_config=none file_lock=FLOCK resource_manager=SLURM scr_config=scr.conf arch=cray-cnl7-haswell
+[+]  p5hsiov      ^axl@0.4.0%intel@19.1.2.254~bbapi_fallback~ipo async_api=daemon build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                  ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                      ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                      ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                          ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jxoj77f          ^kvtree@1.1.1%intel@19.1.2.254~ipo+mpi build_type=RelWithDebInfo file_lock=FLOCK arch=cray-cnl7-haswell
+[+]  jymud43              ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  y2k45uw      ^dtcmp@1.1.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  3tdbbfd          ^lwgrp@1.0.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  tcsw5gt      ^er@0.0.4%intel@19.1.2.254~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  gpgl3ha          ^rankstr@0.0.3%intel@19.1.2.254~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  tnj7y7n          ^redset@0.0.5%intel@19.1.2.254~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  lo4slpe          ^shuffile@0.0.4%intel@19.1.2.254~ipo build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  sxr7zns      ^libyogrt@1.24%intel@19.1.2.254~static scheduler=slurm arch=cray-cnl7-haswell
+[+]  xvuoviu          ^slurm@20-02-4-1%intel@19.1.2.254~gtk~hdf5~hwloc~mariadb~pmix+readline~restd sysconfdir=PREFIX/etc arch=cray-cnl7-haswell
+[+]  oa26w52      ^pdsh@2.31%intel@19.1.2.254+ssh+static_modules arch=cray-cnl7-haswell
+[+]  xoz2a6v      ^spath@0.0.2%intel@19.1.2.254~ipo+mpi build_type=RelWithDebInfo arch=cray-cnl7-haswell
+
+==> Concretized slepc@3.15.0
+[+]  yfiitqq  slepc@3.15.0%intel@19.1.2.254+arpack~blopex arch=cray-cnl7-haswell
+[+]  ipq7dw2      ^arpack-ng@3.8.0%intel@19.1.2.254+mpi+shared arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                  ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                      ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                      ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                          ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  rwfypyn          ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  pn3whcl      ^petsc@3.15.0%intel@19.1.2.254~X~batch~cgns~complex~cuda~debug+double~exodusii~fftw~giflib+hdf5+hypre~int64~jpeg~knl~libpng~libyaml~memkind+metis~mkl-pardiso~moab~mpfr+mpi~mumps~p4est~ptscotch~random123~saws+shared~suite-sparse+superlu-dist~trilinos~valgrind clanguage=C arch=cray-cnl7-haswell
+[+]  2lrqsx4          ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u              ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  lsstklm          ^hdf5@1.10.7%intel@19.1.2.254~cxx~debug+fortran+hl~java+mpi+pic+shared~szip~threadsafe api=none arch=cray-cnl7-haswell
+[+]  axdiejy              ^numactl@2.0.14%intel@19.1.2.254 patches=4e1d78cbbb85de625bad28705e748856033eaafab92a66dffd383a3d7e00cc94,62fc8a8bf7665a60e8f4c93ebbd535647cebf74198f7afafec4c085a8825c006 arch=cray-cnl7-haswell
+[+]  slo6op3                  ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc                      ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw                          ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y                  ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi                  ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  x7mitev          ^hypre@2.20.0%intel@19.1.2.254~complex~cuda~debug~int64~internal-superlu~mixedint+mpi~openmp+shared~superlu-dist~unified-memory cuda_arch=none patches=6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059 arch=cray-cnl7-haswell
+[+]  5y3wwpg          ^metis@5.1.0%intel@19.1.2.254~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-cnl7-haswell
+[+]  qq4bnvl          ^parmetis@4.0.3%intel@19.1.2.254~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=cray-cnl7-haswell
+[+]  ayh2kbw          ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq              ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  weafgyi              ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol                  ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  sd4ltxa              ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b                  ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                      ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  wx7lxku                  ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3              ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kbiux7              ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx              ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  lo2by2v          ^superlu-dist@6.4.0%intel@19.1.2.254~cuda~int64~ipo~openmp+shared build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized stc@0.9.0
+[+]  kilrnz2  stc@0.9.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2qog37e      ^ant@1.10.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2vtmocc          ^openjdk@11.0.8_10%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  slo6op3      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ny2l4ci      ^turbine@1.3.0%intel@19.1.2.254~hdf5~python~r arch=cray-cnl7-haswell
+[+]  hcdasgt          ^adlbx@1.0.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dvlywgo              ^exmcutils@0.6.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43              ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  5l3dftc          ^swig@4.0.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  gdntejx              ^pcre@8.44%intel@19.1.2.254~jit+multibyte+utf arch=cray-cnl7-haswell
+[+]  grp2a2n          ^tcl@8.6.11%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  krim3ex          ^zsh@5.8%intel@19.1.2.254+skip-tcsetpgrp-test arch=cray-cnl7-haswell
+
+==> Concretized strumpack@5.1.1~slate
+[+]  lttb6ap  strumpack@5.1.1%intel@19.1.2.254~build_dev_tests~build_tests+butterflypack+c_interface~count_flops~cuda~ipo+mpi+openmp+parmetis~rocm~scotch~shared~slate~task_timers+zfp amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  zqxl7p6      ^butterflypack@1.2.1%intel@19.1.2.254~ipo+shared build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ipq7dw2          ^arpack-ng@3.8.0%intel@19.1.2.254+mpi+shared arch=cray-cnl7-haswell
+[+]  ozzivdg              ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm                  ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                      ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz                  ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                      ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                          ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                          ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                              ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                      ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jymud43              ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  rwfypyn              ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  jksvcku          ^netlib-scalapack@2.1.0%intel@19.1.2.254~ipo~pic+shared build_type=Release patches=1c9ce5fee1451a08c2de3cc87f446aeda0b818ebbce4ad0d980ddf2f2a0b2dc4,f2baedde688ffe4c20943c334f580eb298e04d6f35c86b90a1f4e8cb7ae344a2 arch=cray-cnl7-haswell
+[+]  5y3wwpg      ^metis@5.1.0%intel@19.1.2.254~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-cnl7-haswell
+[+]  qq4bnvl      ^parmetis@4.0.3%intel@19.1.2.254~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=cray-cnl7-haswell
+[+]  d3dhydi      ^zfp@0.5.5%intel@19.1.2.254~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized sundials@5.7.0
+[+]  74bnkru  sundials@5.7.0%intel@19.1.2.254+ARKODE+CVODE+CVODES+IDA+IDAS+KINSOL~cuda+examples+examples-install~f2003~fcmix+generic-math~hypre~int64~ipo~klu~lapack~monitoring+mpi~openmp~petsc~pthread~raja~rocm+shared+static~superlu-dist~superlu-mt~trilinos amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none patches=8b29a47fac55346cdadfa133c51aa9314ae8c53ffdff5a8ecdc3dcea3ac26403 precision=double arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized superlu-dist@6.4.0
+[+]  lo2by2v  superlu-dist@6.4.0%intel@19.1.2.254~cuda~int64~ipo~openmp+shared build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  5y3wwpg      ^metis@5.1.0%intel@19.1.2.254~gdb~int64~real64+shared build_type=Release patches=4991da938c1d3a1d3dea78e49bbebecba00273f98df2a656e38b83d55b281da1 arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  rwfypyn      ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  qq4bnvl      ^parmetis@4.0.3%intel@19.1.2.254~gdb~int64~ipo+shared build_type=RelWithDebInfo patches=4f892531eb0a807eb1b82e683a416d3e35154a455274cf9b162fb02054d11a5b,50ed2081bc939269689789942067c58b3e522c269269a430d5d34c00edbc5870,704b84f7c7444d4372cb59cca6e1209df4ef3b033bc4ee3cf50f369bce972a9d arch=cray-cnl7-haswell
+
+==> Concretized superlu@5.2.1
+[+]  mht7iro  superlu@5.2.1%intel@19.1.2.254+pic arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  rwfypyn      ^openblas@0.3.10%intel@19.1.2.254~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=00230a6b2bc50d7722d4aad49c0c06091176910b942cd51980b345e2935300b0,2bc1db38b52435f4bbb211b9532549a8ffd0accaf3bd8f3f0d3dd39cf606151c,865703b4f405543bbd583413fdeff2226dfda908be33639276c06e5aa7ae2cae threads=openmp arch=cray-cnl7-haswell
+[+]  usz2xrr      ^tcsh@6.22.02%intel@19.1.2.254 patches=392615011adb7afeb0010152409a37b150f03dbde5b534503e9cd7363b742a19,3a4e60fe56a450632140c48acbf14d22850c1d72835bf441e3f8514d6c617a9f arch=cray-cnl7-haswell
+
+==> Concretized swig@4.0.2
+[+]  5l3dftc  swig@4.0.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  gdntejx      ^pcre@8.44%intel@19.1.2.254~jit+multibyte+utf arch=cray-cnl7-haswell
+[+]  hsctoyo      ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized swig@4.0.2-fortran
+[+]  e2hifvv  swig@4.0.2-fortran%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  slo6op3      ^autoconf@2.69%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5ykizii          ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl              ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c              ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                  ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                      ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  wzf4l2y      ^automake@1.16.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  c4fk7hr      ^bison@3.7.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2lrqsx4          ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u              ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi      ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  gdntejx      ^pcre@8.44%intel@19.1.2.254~jit+multibyte+utf arch=cray-cnl7-haswell
+
+==> Concretized sz@2.1.11.1
+[+]  nnjkj5c  sz@2.1.11.1%intel@19.1.2.254~fortran~hdf5~ipo~netcdf~pastri~python~random_access+shared~stats~time_compression build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  azq4s7p      ^zstd@1.4.9%intel@19.1.2.254~ipo~legacy~lz4~lzma+multithread+programs+shared+static~zlib build_type=RelWithDebInfo arch=cray-cnl7-haswell
+
+==> Concretized tasmanian@7.5
+[+]  v67z3fc  tasmanian@7.5%intel@19.1.2.254~blas~cuda~fortran~ipo~magma+mpi+openmp~python~rocm~xsdkflags amdgpu_target=none build_type=Release cuda_arch=none arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+
+==> Concretized tau@2.30.1
+[+]  guvxy7l  tau@2.30.1%intel@19.1.2.254~adios2+binutils~comm~craycnl~cuda+elf+fortran~gasnet+io~level_zero+libdwarf+libunwind~likwid+mpi~ompt~opari~opencl~openmp+otf2+papi+pdt~phase~ppc64le~profileparam+pthreads~python~rocm~rocprofiler~scorep~shmem~sqlite~x86_64 arch=cray-cnl7-haswell
+[+]  dw6wtxg      ^binutils@2.33.1%intel@19.1.2.254~gas+gold+headers~interwork+ld+libiberty~lto~nls+plugins libs=shared,static arch=cray-cnl7-haswell
+[+]  2lrqsx4          ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u              ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  jiy2vg6      ^elfutils@0.182%intel@19.1.2.254+bzip2~debuginfod~nls+xz arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  vt7yinc          ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw              ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  zuprcda          ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  me6oy3k      ^hwloc@2.4.1%intel@19.1.2.254~cairo~cuda~gl~libudev+libxml2~netloc~nvml+pci+shared arch=cray-cnl7-haswell
+[+]  rvbsgeu          ^libpciaccess@0.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  4cu2gwi              ^libtool@2.4.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  cv7idp5              ^util-macros@1.19.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jdqp43b          ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  mqhgmmc      ^libdwarf@20180129%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  nizkxm3      ^libunwind@1.5.0%intel@19.1.2.254+pic+xz~zlib arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  3geny3f      ^otf2@2.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  nqo6g7e      ^papi@6.0.0.1%intel@19.1.2.254~cuda+example~infiniband~lmsensors~nvml~powercap~rapl~sde+shared~static_tools arch=cray-cnl7-haswell
+[+]  g3yuqij      ^pdt@3.25.1%intel@19.1.2.254~pic arch=cray-cnl7-haswell
+
+==> Concretized turbine@1.3.0
+[+]  ny2l4ci  turbine@1.3.0%intel@19.1.2.254~hdf5~python~r arch=cray-cnl7-haswell
+[+]  hcdasgt      ^adlbx@1.0.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dvlywgo          ^exmcutils@0.6.0%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  jymud43          ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  vt7yinc      ^m4@1.4.18%intel@19.1.2.254+sigsegv patches=3877ab548f88597ab2327a2230ee048d2d07ace1062efe81fc92e91b7f39cd00,fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8 arch=cray-cnl7-haswell
+[+]  g7ijdxw          ^libsigsegv@2.12%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  5l3dftc      ^swig@4.0.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  gdntejx          ^pcre@8.44%intel@19.1.2.254~jit+multibyte+utf arch=cray-cnl7-haswell
+[+]  hsctoyo          ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  grp2a2n      ^tcl@8.6.11%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6          ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  krim3ex      ^zsh@5.8%intel@19.1.2.254+skip-tcsetpgrp-test arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+
+==> Concretized umap@2.1.0
+[+]  hheaqqf  umap@2.1.0%intel@19.1.2.254~ipo~logging~tests build_type=RelWithDebInfo arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+
+==> Concretized umpire@4.1.2
+[+]  b2gtygk  umpire@4.1.2%intel@19.1.2.254+c~cuda~deviceconst+examples~fortran~ipo~numa~openmp~rocm+shared amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none patches=7d912d31cd293df005ba74cb96c6f3e32dc3d84afff49b14509714283693db08 tests=none arch=cray-cnl7-haswell
+[+]  psjkvev      ^blt@0.3.6%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  ozzivdg          ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm              ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                  ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz              ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii                  ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                      ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                      ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                          ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  uxncdwi      ^camp@0.1.0%intel@19.1.2.254~cuda~ipo~rocm~tests amdgpu_target=none build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+
+==> Concretized upcxx@2021.3.0
+[+]  jk3bopl  upcxx@2021.3.0%intel@19.1.2.254~cuda~gasnet+mpi cross=cray-aries-slurm arch=cray-cnl7-haswell
+[+]  jymud43      ^mpich@3.1%intel@19.1.2.254~argobots+fortran+hwloc+hydra+libxml2+pci+romio~slurm~verbs+wrapperrpath device=ch4 netmod=ofi pmi=pmi arch=cray-cnl7-haswell
+[+]  ayh2kbw      ^python@3.8.10%intel@19.1.2.254+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87,ebdca648c9c1d25f586d7e2a495b62e6d91973b55264a13d89eda1beff72ef56 arch=cray-cnl7-haswell
+[+]  hnl63mq          ^bzip2@1.0.8%intel@19.1.2.254~debug~pic+shared arch=cray-cnl7-haswell
+[+]  2lrqsx4              ^diffutils@3.7%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  krx463u                  ^libiconv@1.16%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  weafgyi          ^expat@2.2.10%intel@19.1.2.254+libbsd arch=cray-cnl7-haswell
+[+]  qjolxol              ^libbsd@0.10.0%intel@19.1.2.254 patches=71b49f52a01420ab632f23373135853a2565f88725fb77e625a7fbf7ea812eef arch=cray-cnl7-haswell
+[+]  6tjah2c          ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6              ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  vdm4hvm                  ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo                      ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  sd4ltxa          ^gettext@0.21%intel@19.1.2.254+bzip2+curses+git~libunistring+libxml2+tar+xz arch=cray-cnl7-haswell
+[+]  jdqp43b              ^libxml2@2.9.10%intel@19.1.2.254~python arch=cray-cnl7-haswell
+[+]  zuprcda                  ^xz@5.2.5%intel@19.1.2.254+pic libs=shared,static arch=cray-cnl7-haswell
+[+]  dmpdkx6                  ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+[+]  wx7lxku              ^tar@1.32%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  kovv5y3          ^libffi@3.3%intel@19.1.2.254 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  2kbiux7          ^sqlite@3.34.0%intel@19.1.2.254+column_metadata+fts~functions~rtree arch=cray-cnl7-haswell
+[+]  b42nkkx          ^util-linux-uuid@2.36.2%intel@19.1.2.254 arch=cray-cnl7-haswell
+
+==> Concretized zfp@0.5.5
+[+]  d3dhydi  zfp@0.5.5%intel@19.1.2.254~aligned~c~cuda~fasthash~fortran~ipo~openmp~profile~python+shared~strided~twoway bsws=64 build_type=RelWithDebInfo cuda_arch=none arch=cray-cnl7-haswell
+[+]  ozzivdg      ^cmake@3.20.2%intel@19.1.2.254~doc+ncurses+openssl+ownlibs~qt build_type=Release arch=cray-cnl7-haswell
+[+]  vdm4hvm          ^ncurses@6.2%intel@19.1.2.254~symlinks+termlib abi=none arch=cray-cnl7-haswell
+[+]  hsctoyo              ^pkgconf@1.7.3%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  2kh3ruz          ^openssl@1.1.1k%intel@19.1.2.254~docs+systemcerts arch=cray-cnl7-haswell
+[+]  5ykizii              ^perl@5.32.0%intel@19.1.2.254+cpanm+shared+threads arch=cray-cnl7-haswell
+[+]  fwmmhcl                  ^berkeley-db@18.1.40%intel@19.1.2.254+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=cray-cnl7-haswell
+[+]  6tjah2c                  ^gdbm@1.18.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  yge2ol6                      ^readline@8.1%intel@19.1.2.254 arch=cray-cnl7-haswell
+[+]  dmpdkx6              ^zlib@1.2.11%intel@19.1.2.254+optimize+pic+shared arch=cray-cnl7-haswell
+

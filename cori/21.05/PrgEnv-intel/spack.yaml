@@ -1,15 +1,6 @@
 spack:
-
   view: false
   concretization: separately
-
-  # config:
-  #   install_tree:
-  #     root: /global/common/software/spackecp/e4s-21.05/software
-  #   module_roots:
-  #     tcl: /global/common/software/spackecp/e4s-21.05/modules/
-  #   build_stage: $tempdir/user/spack-stage
-
   modules:
     enable:
     - tcl
@@ -41,10 +32,6 @@ spack:
         boost cxxstd=17: '{name}/{version}-cxxstd=17'
         kokkos +openmp: '{name}/{version}-openmp'
         kokkos ~openmp: '{name}/{version}'
-
-  # mirrors:
-  #   cori-e4s-21.05: https://cache.e4s.io/21.05
-
   compilers:
   - compiler:
       spec: intel@19.1.2.254
@@ -61,7 +48,6 @@ spack:
       - intel/19.1.2.254
       environment: {}
       extra_rpaths: []
-
   packages:
     all:
       compiler: [intel@19.1.2.254]
