@@ -24,6 +24,8 @@ spack:
     default:
       'enable:': [lmod]
       lmod:
+        defaults:
+        - mvapich2@2.3.7
         core_compilers: [gcc@9.4.0]
         blacklist_implicits: true
         verbose: true
