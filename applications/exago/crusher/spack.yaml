@@ -239,11 +239,11 @@ spack:
   definitions:
   - exago-no-ipopt:
     - exago@develop +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a ~ipopt
-    - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a ~ipopt
+    # - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a ~ipopt
 
   - exago-ipopt:
     - exago@develop +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a +ipopt
-    - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a +ipopt
+    # - exago@5-18-2022-snapshot +mpi +python +raja +hiop +rocm amdgpu_target=gfx90a +ipopt
 
   - ipopt:
     - ^ipopt +metis +coinhsl ~mumps
@@ -254,11 +254,11 @@ spack:
     - ^hiop@0.6.2 +sparse +mpi +raja +rocm amdgpu_target=gfx90a
     - ^hiop@0.6.2 +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
 
-  - hiop-no-sparse:
-    - ^hiop@develop ~sparse +mpi +raja +rocm amdgpu_target=gfx90a
-    - ^hiop@develop ~sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
-    - ^hiop@0.6.2 ~sparse +mpi +raja +rocm amdgpu_target=gfx90a
-    - ^hiop@0.6.2 ~sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
+  # - hiop-no-sparse:
+  #   - ^hiop@develop ~sparse +mpi +raja +rocm amdgpu_target=gfx90a
+  #   - ^hiop@develop ~sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
+  #   - ^hiop@0.6.2 ~sparse +mpi +raja +rocm amdgpu_target=gfx90a
+  #   - ^hiop@0.6.2 ~sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
 
   - coinhsl:
     - ^coinhsl@2015.06.23
@@ -267,7 +267,9 @@ spack:
   - raja:
     - ^raja@0.14.0
 
+
   specs:
+
   - matrix:
     - - $exago-ipopt
     - - $ipopt
@@ -276,18 +278,18 @@ spack:
     - - $raja
 
   - matrix:
-    - - $exago-ipopt
-    - - $ipopt
-    - - $hiop-no-sparse
-    - - $raja
-
-  - matrix:
     - - $exago-no-ipopt
     - - $hiop-sparse
     - - $coinhsl
     - - $raja
 
-  - matrix:
-    - - $exago-no-ipopt
-    - - $hiop-no-sparse
-    - - $raja
+  # - matrix:
+  #   - - $exago-ipopt
+  #   - - $ipopt
+  #   - - $hiop-no-sparse
+  #   - - $raja
+
+  # - matrix:
+  #   - - $exago-no-ipopt
+  #   - - $hiop-no-sparse
+  #   - - $raja
