@@ -1,11 +1,12 @@
-# spack/develop d6fabd1533e436cebc94a74fd6d6716f152419fb
-# Wed Jun 8 19:03:18 2022 +0200
+# spack/develop dac31ef3c405709aadd467eab21686f5a51930db
+# Tue Jul 5 14:48:32 2022 +0200
 
 spack:
 
   view: false
 
   concretizer:
+    reuse: false
     unify: false
 
   config:
