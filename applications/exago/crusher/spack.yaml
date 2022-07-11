@@ -248,8 +248,8 @@ spack:
     - ^ipopt +metis +coinhsl ~mumps
 
   - hiop-sparse:
-    - ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a
-    - ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
+    #- ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a
+    #- ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
     - ^hiop@0.6.2 +sparse +mpi +raja +rocm amdgpu_target=gfx90a
     - ^hiop@0.6.2 +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
 
