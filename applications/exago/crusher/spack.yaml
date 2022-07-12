@@ -248,8 +248,8 @@ spack:
     - ^ipopt +metis +coinhsl ~mumps
 
   - hiop-sparse:
-    #- ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a
-    #- ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
+    #- ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a # CMake Error at CMakeLists.txt:171: Flang is required to link with ROCm bitcode library
+    #- ^hiop@develop +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron # CMake Error at CMakeLists.txt:171: Flang is required to link with ROCm bitcode library
     - ^hiop@0.6.2 +sparse +mpi +raja +rocm amdgpu_target=gfx90a
     - ^hiop@0.6.2 +sparse +mpi +raja +rocm amdgpu_target=gfx90a +kron
 
