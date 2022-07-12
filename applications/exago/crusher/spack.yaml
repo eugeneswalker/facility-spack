@@ -255,7 +255,7 @@ spack:
 
   - coinhsl:
     - ^coinhsl@2015.06.23
-    - ^coinhsl@2019.05.21
+    #- ^coinhsl@2019.05.21 # configure: Provided package HSL is not working or does not contain MA27
 
   - raja:
     - ^raja@0.14.0
