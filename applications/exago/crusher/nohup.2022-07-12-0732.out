@@ -1,0 +1,364 @@
+==> Installing environment /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/pkgconf-1.8.0-pysfq3qg5zsbzztoxmfn6nzqzu35ym2t
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ca-certificates-mozilla-2022-03-29-yf7gt5bffawbsrswkkqmaxeiy5bl3ygt
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/berkeley-db-18.1.40-kjdztqco4yrg2bcbefokdklp6zufpgbj
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libiconv-1.16-po4cjxv3tenhcne6m6jeibyn2gzp7iy3
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/zlib-1.2.12-ymk6b64y6cp65why5fpmer6joa6enbzj
+==> cray-mpich@8.1.16 : has external module in ['cray-mpich/8.1.16', 'libfabric/1.15.0.0']
+[+] /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1 (external cray-mpich-8.1.16-yfbzrpgldvgb3ov2jkps5gvmt43nnvxu)
+[+] /opt/rocm-5.1.0/hip (external hip-5.1.0-i7olkhevmse7gmki2gb5x5zov3wes6be)
+[+] /opt/rocm-5.1.0/ (external hipblas-5.1.0-wrl5n2humvqv77m6jh5lrgl7cblgi5bb)
+[+] /opt/rocm-5.1.0/ (external hipsparse-5.1.0-34u4bqbtqrhzw5mm7txk6xpwoghff32m)
+[+] /opt/rocm-5.1.0/ (external hsa-rocr-dev-5.1.0-ie65xrx5ihigdba4cyuguy4kico25vnv)
+[+] /opt/rocm-5.1.0/llvm (external llvm-amdgpu-5.1.0-3fioa2xazttgry4fxszqydgluidmqti4)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libmd-1.0.4-nzueemplqjae4i3cxrlh3qtaxv7fxk22
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/xz-5.2.5-2lfzggyfnsrxbr7zsqid65um5qu6rmiq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/zstd-1.5.2-4cs4kkyxdqyfhsxsgq6jgbwpqec6uyey
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libffi-3.4.2-46izinnfxyvbjwdmixcuki46n6denrhf
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libsigsegv-2.13-42yhbvchp2tkoagkkoqjxipc7guhxdjy
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/autoconf-archive-2022.02.11-2dtzsavws7lrkje6idvdvs3dw4oepwz6
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/util-linux-uuid-2.37.4-pgmt2lrytxk6di5p3n4w4ars5ysz22zh
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ncurses-6.2-l3i6g6nbw565tt7nmhfgammw6l4pwynu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/diffutils-3.8-3s2io655efou2vapuwusinaqzszb3bxt
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/pigz-2.7-5yysicjw7n7rjloen7p62zghjtc2yafn
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libbsd-0.11.5-6ii42bxrvzzsveo3bqsaaoue3slfz5id
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libxml2-2.9.13-eah4olssvlohyry5o73u5pxtsr4jvjwo
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/m4-1.4.19-hi4ophtgactvrzk4fqn2crkvvycm5rbg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/readline-8.1-cbeda6fpxggb3vn46vozqtwrybysbjea
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/bzip2-1.0.8-rll2prrsftrmm2xaucu6kfxy6wuqetpv
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/expat-2.4.8-kb64bk6o2cckjbrtljdify463b45bina
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libtool-2.4.7-rkellfzfybmtsbnriwv7wbeitnoehxiz
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/sqlite-3.38.5-we7idpurbuw3j5pcnfnlju5y3f2nnagi
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gdbm-1.19-em6kjes3b5xezzlv4jy3zpk4lpfh4zrs
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/tar-1.34-cqnm2ntx35276m24cskuqh3pq35odbo7
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/perl-5.34.1-43zfhu7xlttmw2lav2st5vusj3vzltng
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gettext-0.21-vw4xp77atyql2razpof6lg4i4c6gfp6w
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openssl-1.1.1p-6an4aptla26263g7cdtq45crkeikmufq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/autoconf-2.69-56lf6yfgaoht62snzyfid26kn3zcxpc4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/texinfo-6.5-ha52otixmc5xlanjdkrrcynk2os7azmx
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/cmake-3.20.6-okk2wdw6x7yqfqtyyjl3ua4fnibbg3x5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/python-3.8.12-kpovupgvb2rfvapalll4qkbef5gihfnp
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hypre-2.25.0-voumli4dj6gv7artnwgfanq77xkkpn4l
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2015.06.23-ue74alojshy6sz4sa3i6sj2edbus2gxw
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/automake-1.16.5-6ls3tijydsxdudqay5f6go4jjx33ryyi
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hdf5-1.12.2-y6ftru5oeo272ru342zpi6is2sj5itim
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/blt-0.4.1-7zrxb4t4vmoiln4c4d45lockbfr5elp2
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-pip-21.3.1-bjkraj34bom57jioetfjnepbjddogald
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gmp-6.2.1-neujg3ftg7qnx4vrbjxo3hqhx7rl2do6
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/parmetis-4.0.3-6symnpolocsskt6bddlxbxwc3jfllqye
+==> Installing ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib
+==> No binary for ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib found: installing from source
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/var/spack/cache/_source-cache/archive/9e/9ebbbbf14a64e998e3fba5d2662a8f9bd03f97b1406017e78ae54e5d105ae932.tar.gz
+==> No patches needed for ipopt
+==> ipopt: Executing phase: 'autoreconf'
+==> ipopt: Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/tmp/lpeyrala/spack-stage/spack-stage-ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib/spack-src/configure' '--prefix=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib' '--prefix=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib' '--enable-shared' 'coin_skip_warn_cxxflags=yes' '--with-lapack-lflags=-L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas' '--with-hsl' '--with-hsl-lflags=-ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas' '--with-hsl-cflags=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/include' '--disable-debug'
+
+1 error found in build log:
+     132    checking for function MA27AD_ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-
+            7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.
+            3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     133    checking for function MA27AD in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7
+            kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3
+            .20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     134    checking for function ma27ad__ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21
+            -7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0
+            .3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     135    checking for function ma27ad_ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-
+            7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.
+            3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     136    checking for function MA27AD__ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21
+            -7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0
+            .3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     137    checking for function MA27AD_ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-
+            7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.
+            3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+  >> 138    configure: error: Provided package HSL is not working or does not contain MA27.
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib/spack-build-out.txt
+
+==> Warning: Skipping build of exago-develop-ozgzbhncc4w72rwu3f4duct557ginsbq since ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib failed
+==> Warning: Skipping build of exago-develop-uafhfnx5g6wlhdln5layu2dyjnncm3f7 since ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib failed
+==> Warning: Skipping build of exago-develop-xgp73ll3ppk6nxouqpqx4czjljnug3by since ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib failed
+==> Warning: Skipping build of exago-develop-ekssw6j2jwpgx7rg4y4psynuduvz3mxi since ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib failed
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ipopt-3.14.5-ufjh4v7x63indod3ovwbfj5iv6mdmotj
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-wheel-0.37.0-ok5siwp3xlcmycy2unx5it5bms36elju
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-setuptools-62.4.0-qhvt7g6pvhrmohgotxb2sp6wdftqqe2r
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/mpfr-4.1.0-gkfuiofmnhnulcrt3a5q2jqkt5u6vftu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/superlu-dist-7.2.0-z4vxxqxc66rn6g74yhmd6x6im3iwao3f
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-tomli-1.2.2-c5jx5plfn3dub3b7npooxavrjl3jikqt
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-flit-core-3.6.0-t45la2taeehozbksxnqc2hwmdwo26spr
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-iniconfig-1.1.1-jr2qdyg3xtox3r5iciggpds2bgcdrhc4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-pyparsing-3.0.6-zxp2ez46bwiouwcrr76ru6ojjrkv5lsu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-toml-0.10.2-m7yvyi355kg7vzye7vrw3zx5z5hxmoqg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-attrs-21.4.0-4t2awtzc2g7spce43wd2onv7hvix7sql
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-mpi4py-3.1.2-hxg32mwgjtzp6yldfjmjzletxbbswjk4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/suite-sparse-5.10.1-h4n4ahypig2ocwwmxqrb3zk6l4xuttui
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/petsc-3.16.6-2mhen5mwppmkvdgnrgg4nzhv2wztunpp
+==> Installing hiop-develop-p5tjc2bbar2qctmjxsciifgvdebfq3nb
+==> No binary for hiop-develop-p5tjc2bbar2qctmjxsciifgvdebfq3nb found: installing from source
+==> No patches needed for hiop
+==> hiop: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-p5tjc2bbar2qctmjxsciifgvdebfq3nb' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-p5tjc2bbar2qctmjxsciifgvdebfq3nb/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-p5tjc2bbar2qctmjxsciifgvdebfq3nb/lib64;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib;/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib;/opt/rocm-5.1.0/hip/lib;/opt/rocm-5.1.0/lib;/opt/rocm-5.1.0/llvm/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5/lib;/opt/rocm-5.1.0/lib64;/opt/cray/pe/gcc/11.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/blt-0.4.1-7zrxb4t4vmoiln4c4d45lockbfr5elp2;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/cmake-3.20.6-okk2wdw6x7yqfqtyyjl3ua4fnibbg3x5;/opt/rocm-5.1.0/llvm;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/hip;/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1' '-DHIOP_USE_GPU:BOOL=ON' '-DHIOP_USE_MAGMA:BOOL=ON' '-DHIOP_MAGMA_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe' '-DHIOP_BUILD_STATIC:BOOL=ON' '-DLAPACK_FOUND:BOOL=ON' '-DLAPACK_LIBRARIES:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib/libopenblas.so' '-DHIOP_BUILD_SHARED:BOOL=OFF' '-DHIOP_USE_MPI:BOOL=ON' '-DHIOP_DEEPCHECKS:BOOL=OFF' '-DHIOP_USE_CUDA:BOOL=OFF' '-DHIOP_USE_HIP:BOOL=ON' '-DHIOP_USE_RAJA:BOOL=ON' '-DHIOP_USE_UMPIRE:BOOL=ON' '-DHIOP_WITH_KRON_REDUCTION:BOOL=OFF' '-DHIOP_SPARSE:BOOL=ON' '-DHIOP_USE_COINHSL:BOOL=ON' '-DHIOP_TEST_WITH_BSUB:BOOL=OFF' '-DHIOP_USE_GINKGO:BOOL=OFF' '-DHIOP_USE_CUSOLVER:BOOL=OFF' '-DMPI_HOME:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1' '-DMPI_C_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpicc' '-DMPI_CXX_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpicxx' '-DMPI_Fortran_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpif90' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.1.0/hip/bin/hipcc' '-DGPU_TARGETS:STRING=gfx90a' '-DAMDGPU_TARGETS:STRING=gfx90a' '-DHIOP_USE_STRUMPACK:BOOL=OFF' '-DHIOP_COINHSL_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha' '/tmp/lpeyrala/spack-stage/spack-stage-hiop-develop-p5tjc2bbar2qctmjxsciifgvdebfq3nb/spack-src'
+
+1 error found in build log:
+     23    -- Detecting Fortran/C Interface
+     24    -- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+     25    -- Found MPI_C: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libmpi_gnu
+           _91.so (found version "3.1")
+     26    -- Found MPI_CXX: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libmpi_g
+           nu_91.so (found version "3.1")
+     27    -- Found MPI_Fortran: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libm
+           pifort_gnu_91.so (found version "3.1")
+     28    -- Found MPI: TRUE (found version "3.1")
+  >> 29    CMake Error at CMakeLists.txt:171 (message):
+     30      Flang is required to link with ROCm bitcode library.
+     31    
+     32    
+     33    -- Looking for Fortran sgemm
+     34    -- Looking for Fortran sgemm - not found
+     35    -- Looking for pthread.h
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-hiop-develop-p5tjc2bbar2qctmjxsciifgvdebfq3nb/spack-build-out.txt
+
+==> Warning: Skipping build of exago-develop-kxoqbfqrulht452v6pgadpistndkk5vh since hiop-develop-p5tjc2bbar2qctmjxsciifgvdebfq3nb failed
+==> Installing hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j
+==> No binary for hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j found: installing from source
+==> No patches needed for hiop
+==> hiop: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j/lib64;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2015.06.23-ue74alojshy6sz4sa3i6sj2edbus2gxw/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib;/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib;/opt/rocm-5.1.0/hip/lib;/opt/rocm-5.1.0/lib;/opt/rocm-5.1.0/llvm/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5/lib;/opt/rocm-5.1.0/lib64;/opt/cray/pe/gcc/11.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/blt-0.4.1-7zrxb4t4vmoiln4c4d45lockbfr5elp2;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2015.06.23-ue74alojshy6sz4sa3i6sj2edbus2gxw;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/cmake-3.20.6-okk2wdw6x7yqfqtyyjl3ua4fnibbg3x5;/opt/rocm-5.1.0/llvm;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/hip;/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1' '-DHIOP_USE_GPU:BOOL=ON' '-DHIOP_USE_MAGMA:BOOL=ON' '-DHIOP_MAGMA_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe' '-DHIOP_BUILD_STATIC:BOOL=ON' '-DLAPACK_FOUND:BOOL=ON' '-DLAPACK_LIBRARIES:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib/libopenblas.so' '-DHIOP_BUILD_SHARED:BOOL=OFF' '-DHIOP_USE_MPI:BOOL=ON' '-DHIOP_DEEPCHECKS:BOOL=OFF' '-DHIOP_USE_CUDA:BOOL=OFF' '-DHIOP_USE_HIP:BOOL=ON' '-DHIOP_USE_RAJA:BOOL=ON' '-DHIOP_USE_UMPIRE:BOOL=ON' '-DHIOP_WITH_KRON_REDUCTION:BOOL=OFF' '-DHIOP_SPARSE:BOOL=ON' '-DHIOP_USE_COINHSL:BOOL=ON' '-DHIOP_TEST_WITH_BSUB:BOOL=OFF' '-DHIOP_USE_GINKGO:BOOL=OFF' '-DHIOP_USE_CUSOLVER:BOOL=OFF' '-DMPI_HOME:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1' '-DMPI_C_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpicc' '-DMPI_CXX_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpicxx' '-DMPI_Fortran_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpif90' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.1.0/hip/bin/hipcc' '-DGPU_TARGETS:STRING=gfx90a' '-DAMDGPU_TARGETS:STRING=gfx90a' '-DHIOP_USE_STRUMPACK:BOOL=OFF' '-DHIOP_COINHSL_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2015.06.23-ue74alojshy6sz4sa3i6sj2edbus2gxw' '/tmp/lpeyrala/spack-stage/spack-stage-hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j/spack-src'
+
+1 error found in build log:
+     23    -- Detecting Fortran/C Interface
+     24    -- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+     25    -- Found MPI_C: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libmpi_gnu
+           _91.so (found version "3.1")
+     26    -- Found MPI_CXX: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libmpi_g
+           nu_91.so (found version "3.1")
+     27    -- Found MPI_Fortran: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libm
+           pifort_gnu_91.so (found version "3.1")
+     28    -- Found MPI: TRUE (found version "3.1")
+  >> 29    CMake Error at CMakeLists.txt:171 (message):
+     30      Flang is required to link with ROCm bitcode library.
+     31    
+     32    
+     33    -- Looking for Fortran sgemm
+     34    -- Looking for Fortran sgemm - not found
+     35    -- Looking for pthread.h
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j/spack-build-out.txt
+
+==> Warning: Skipping build of exago-develop-rfxieee62l5c3gondcvdaymlbs43p2z6 since hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j failed
+==> Warning: Skipping build of exago-develop-qgjrq273u5hwlikl2ee2ckfavbsg6orc since hiop-develop-ncgtfw6azlkl7sfz46wpsir6xrgxqs2j failed
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-0.6.2-xjud4xekzg2nu6ezeh56z4puac6ui4h4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-typing-extensions-4.2.0-fiezzxy2r7plg4xzn7goisxbqpvnlpvy
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-packaging-21.3-a6nm2ez335gd2hwxqgkxslvrzuri53qj
+==> Installing hiop-develop-3xwqyju4aitltly5i6mpk2eh3ysuekmb
+==> No binary for hiop-develop-3xwqyju4aitltly5i6mpk2eh3ysuekmb found: installing from source
+==> No patches needed for hiop
+==> hiop: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-3xwqyju4aitltly5i6mpk2eh3ysuekmb' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-3xwqyju4aitltly5i6mpk2eh3ysuekmb/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-3xwqyju4aitltly5i6mpk2eh3ysuekmb/lib64;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib;/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib;/opt/rocm-5.1.0/hip/lib;/opt/rocm-5.1.0/lib;/opt/rocm-5.1.0/llvm/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/suite-sparse-5.10.1-h4n4ahypig2ocwwmxqrb3zk6l4xuttui/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gmp-6.2.1-neujg3ftg7qnx4vrbjxo3hqhx7rl2do6/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/mpfr-4.1.0-gkfuiofmnhnulcrt3a5q2jqkt5u6vftu/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5/lib;/opt/rocm-5.1.0/lib64;/opt/cray/pe/gcc/11.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/suite-sparse-5.10.1-h4n4ahypig2ocwwmxqrb3zk6l4xuttui;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/mpfr-4.1.0-gkfuiofmnhnulcrt3a5q2jqkt5u6vftu;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gmp-6.2.1-neujg3ftg7qnx4vrbjxo3hqhx7rl2do6;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/blt-0.4.1-7zrxb4t4vmoiln4c4d45lockbfr5elp2;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/cmake-3.20.6-okk2wdw6x7yqfqtyyjl3ua4fnibbg3x5;/opt/rocm-5.1.0/llvm;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/hip;/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1' '-DHIOP_USE_GPU:BOOL=ON' '-DHIOP_USE_MAGMA:BOOL=ON' '-DHIOP_MAGMA_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe' '-DHIOP_BUILD_STATIC:BOOL=ON' '-DLAPACK_FOUND:BOOL=ON' '-DLAPACK_LIBRARIES:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib/libopenblas.so' '-DHIOP_BUILD_SHARED:BOOL=OFF' '-DHIOP_USE_MPI:BOOL=ON' '-DHIOP_DEEPCHECKS:BOOL=OFF' '-DHIOP_USE_CUDA:BOOL=OFF' '-DHIOP_USE_HIP:BOOL=ON' '-DHIOP_USE_RAJA:BOOL=ON' '-DHIOP_USE_UMPIRE:BOOL=ON' '-DHIOP_WITH_KRON_REDUCTION:BOOL=ON' '-DHIOP_SPARSE:BOOL=ON' '-DHIOP_USE_COINHSL:BOOL=ON' '-DHIOP_TEST_WITH_BSUB:BOOL=OFF' '-DHIOP_USE_GINKGO:BOOL=OFF' '-DHIOP_USE_CUSOLVER:BOOL=OFF' '-DMPI_HOME:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1' '-DMPI_C_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpicc' '-DMPI_CXX_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpicxx' '-DMPI_Fortran_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpif90' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.1.0/hip/bin/hipcc' '-DGPU_TARGETS:STRING=gfx90a' '-DAMDGPU_TARGETS:STRING=gfx90a' '-DHIOP_UMFPACK_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/suite-sparse-5.10.1-h4n4ahypig2ocwwmxqrb3zk6l4xuttui' '-DHIOP_USE_STRUMPACK:BOOL=OFF' '-DHIOP_COINHSL_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha' '/tmp/lpeyrala/spack-stage/spack-stage-hiop-develop-3xwqyju4aitltly5i6mpk2eh3ysuekmb/spack-src'
+
+1 error found in build log:
+     23    -- Detecting Fortran/C Interface
+     24    -- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+     25    -- Found MPI_C: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libmpi_gnu
+           _91.so (found version "3.1")
+     26    -- Found MPI_CXX: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libmpi_g
+           nu_91.so (found version "3.1")
+     27    -- Found MPI_Fortran: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libm
+           pifort_gnu_91.so (found version "3.1")
+     28    -- Found MPI: TRUE (found version "3.1")
+  >> 29    CMake Error at CMakeLists.txt:171 (message):
+     30      Flang is required to link with ROCm bitcode library.
+     31    
+     32    
+     33    -- Looking for Fortran sgemm
+     34    -- Looking for Fortran sgemm - not found
+     35    -- Looking for pthread.h
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-hiop-develop-3xwqyju4aitltly5i6mpk2eh3ysuekmb/spack-build-out.txt
+
+==> Warning: Skipping build of exago-develop-bidlv47vvu3pojfpf6zzg4rumymyftja since hiop-develop-3xwqyju4aitltly5i6mpk2eh3ysuekmb failed
+==> Installing hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km
+==> No binary for hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km found: installing from source
+==> No patches needed for hiop
+==> hiop: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km/lib64;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2015.06.23-ue74alojshy6sz4sa3i6sj2edbus2gxw/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib;/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib;/opt/rocm-5.1.0/hip/lib;/opt/rocm-5.1.0/lib;/opt/rocm-5.1.0/llvm/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/suite-sparse-5.10.1-h4n4ahypig2ocwwmxqrb3zk6l4xuttui/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gmp-6.2.1-neujg3ftg7qnx4vrbjxo3hqhx7rl2do6/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/mpfr-4.1.0-gkfuiofmnhnulcrt3a5q2jqkt5u6vftu/lib;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5/lib;/opt/rocm-5.1.0/lib64;/opt/cray/pe/gcc/11.2.0/snos' '-DCMAKE_PREFIX_PATH:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/suite-sparse-5.10.1-h4n4ahypig2ocwwmxqrb3zk6l4xuttui;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/mpfr-4.1.0-gkfuiofmnhnulcrt3a5q2jqkt5u6vftu;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gmp-6.2.1-neujg3ftg7qnx4vrbjxo3hqhx7rl2do6;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/blt-0.4.1-7zrxb4t4vmoiln4c4d45lockbfr5elp2;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2015.06.23-ue74alojshy6sz4sa3i6sj2edbus2gxw;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg;/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/cmake-3.20.6-okk2wdw6x7yqfqtyyjl3ua4fnibbg3x5;/opt/rocm-5.1.0/llvm;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/;/opt/rocm-5.1.0/hip;/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1' '-DHIOP_USE_GPU:BOOL=ON' '-DHIOP_USE_MAGMA:BOOL=ON' '-DHIOP_MAGMA_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe' '-DHIOP_BUILD_STATIC:BOOL=ON' '-DLAPACK_FOUND:BOOL=ON' '-DLAPACK_LIBRARIES:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib/libopenblas.so' '-DHIOP_BUILD_SHARED:BOOL=OFF' '-DHIOP_USE_MPI:BOOL=ON' '-DHIOP_DEEPCHECKS:BOOL=OFF' '-DHIOP_USE_CUDA:BOOL=OFF' '-DHIOP_USE_HIP:BOOL=ON' '-DHIOP_USE_RAJA:BOOL=ON' '-DHIOP_USE_UMPIRE:BOOL=ON' '-DHIOP_WITH_KRON_REDUCTION:BOOL=ON' '-DHIOP_SPARSE:BOOL=ON' '-DHIOP_USE_COINHSL:BOOL=ON' '-DHIOP_TEST_WITH_BSUB:BOOL=OFF' '-DHIOP_USE_GINKGO:BOOL=OFF' '-DHIOP_USE_CUSOLVER:BOOL=OFF' '-DMPI_HOME:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1' '-DMPI_C_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpicc' '-DMPI_CXX_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpicxx' '-DMPI_Fortran_COMPILER:STRING=/opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/bin/mpif90' '-DCMAKE_CXX_COMPILER:STRING=/opt/rocm-5.1.0/hip/bin/hipcc' '-DGPU_TARGETS:STRING=gfx90a' '-DAMDGPU_TARGETS:STRING=gfx90a' '-DHIOP_UMFPACK_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/suite-sparse-5.10.1-h4n4ahypig2ocwwmxqrb3zk6l4xuttui' '-DHIOP_USE_STRUMPACK:BOOL=OFF' '-DHIOP_COINHSL_DIR:STRING=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2015.06.23-ue74alojshy6sz4sa3i6sj2edbus2gxw' '/tmp/lpeyrala/spack-stage/spack-stage-hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km/spack-src'
+
+1 error found in build log:
+     23    -- Detecting Fortran/C Interface
+     24    -- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+     25    -- Found MPI_C: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libmpi_gnu
+           _91.so (found version "3.1")
+     26    -- Found MPI_CXX: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libmpi_g
+           nu_91.so (found version "3.1")
+     27    -- Found MPI_Fortran: /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1/lib/libm
+           pifort_gnu_91.so (found version "3.1")
+     28    -- Found MPI: TRUE (found version "3.1")
+  >> 29    CMake Error at CMakeLists.txt:171 (message):
+     30      Flang is required to link with ROCm bitcode library.
+     31    
+     32    
+     33    -- Looking for Fortran sgemm
+     34    -- Looking for Fortran sgemm - not found
+     35    -- Looking for pthread.h
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km/spack-build-out.txt
+
+==> Warning: Skipping build of exago-develop-vtnzqff3sxsrcuv7q2n5rn3z7anfqqnx since hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km failed
+==> Warning: Skipping build of exago-develop-st2mvdkql5zt475365pzfnkto2oblxfp since hiop-develop-hydvk7pdjvadp6pm247opyscisigc6km failed
+==> Error: exago-develop-rfxieee62l5c3gondcvdaymlbs43p2z6: Package was not installed
+==> Error: exago-develop-ozgzbhncc4w72rwu3f4duct557ginsbq: Package was not installed
+==> Error: exago-develop-vtnzqff3sxsrcuv7q2n5rn3z7anfqqnx: Package was not installed
+==> Error: exago-develop-ekssw6j2jwpgx7rg4y4psynuduvz3mxi: Package was not installed
+==> Error: exago-develop-uafhfnx5g6wlhdln5layu2dyjnncm3f7: Package was not installed
+==> Error: exago-develop-xgp73ll3ppk6nxouqpqx4czjljnug3by: Package was not installed
+==> Error: exago-develop-qgjrq273u5hwlikl2ee2ckfavbsg6orc: Package was not installed
+==> Error: exago-develop-kxoqbfqrulht452v6pgadpistndkk5vh: Package was not installed
+==> Error: exago-develop-st2mvdkql5zt475365pzfnkto2oblxfp: Package was not installed
+==> Error: exago-develop-bidlv47vvu3pojfpf6zzg4rumymyftja: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-0.6.2-sxsfyoyemurpxgel3t7cbz6ac56v4dop
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-setuptools-scm-7.0.3-fsdbnvexytd6r5yjfnnrn5q6wt7wxg42
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-py-1.11.0-hiuhd3hgfslnzburz2fk4za7puidzn4m
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-pluggy-1.0.0-y2vowvlaegcbgmbl3pddoofjk3qwhyme
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-pytest-6.2.5-rodiapdl2mocw77rxa43cchrisxb33kp
+
+real	69m53.417s
+user	2m8.612s
+sys	0m49.090s
+==> Installing environment /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/pkgconf-1.8.0-pysfq3qg5zsbzztoxmfn6nzqzu35ym2t
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ca-certificates-mozilla-2022-03-29-yf7gt5bffawbsrswkkqmaxeiy5bl3ygt
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/berkeley-db-18.1.40-kjdztqco4yrg2bcbefokdklp6zufpgbj
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libiconv-1.16-po4cjxv3tenhcne6m6jeibyn2gzp7iy3
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/zlib-1.2.12-ymk6b64y6cp65why5fpmer6joa6enbzj
+==> cray-mpich@8.1.16 : has external module in ['cray-mpich/8.1.16', 'libfabric/1.15.0.0']
+[+] /opt/cray/pe/mpich/8.1.16/ofi/gnu/9.1 (external cray-mpich-8.1.16-yfbzrpgldvgb3ov2jkps5gvmt43nnvxu)
+[+] /opt/rocm-5.1.0/hip (external hip-5.1.0-i7olkhevmse7gmki2gb5x5zov3wes6be)
+[+] /opt/rocm-5.1.0/ (external hipblas-5.1.0-wrl5n2humvqv77m6jh5lrgl7cblgi5bb)
+[+] /opt/rocm-5.1.0/ (external hipsparse-5.1.0-34u4bqbtqrhzw5mm7txk6xpwoghff32m)
+[+] /opt/rocm-5.1.0/ (external hsa-rocr-dev-5.1.0-ie65xrx5ihigdba4cyuguy4kico25vnv)
+[+] /opt/rocm-5.1.0/llvm (external llvm-amdgpu-5.1.0-3fioa2xazttgry4fxszqydgluidmqti4)
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libmd-1.0.4-nzueemplqjae4i3cxrlh3qtaxv7fxk22
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/xz-5.2.5-2lfzggyfnsrxbr7zsqid65um5qu6rmiq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/zstd-1.5.2-4cs4kkyxdqyfhsxsgq6jgbwpqec6uyey
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libffi-3.4.2-46izinnfxyvbjwdmixcuki46n6denrhf
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libsigsegv-2.13-42yhbvchp2tkoagkkoqjxipc7guhxdjy
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/autoconf-archive-2022.02.11-2dtzsavws7lrkje6idvdvs3dw4oepwz6
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/util-linux-uuid-2.37.4-pgmt2lrytxk6di5p3n4w4ars5ysz22zh
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ncurses-6.2-l3i6g6nbw565tt7nmhfgammw6l4pwynu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/diffutils-3.8-3s2io655efou2vapuwusinaqzszb3bxt
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/pigz-2.7-5yysicjw7n7rjloen7p62zghjtc2yafn
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libbsd-0.11.5-6ii42bxrvzzsveo3bqsaaoue3slfz5id
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libxml2-2.9.13-eah4olssvlohyry5o73u5pxtsr4jvjwo
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/m4-1.4.19-hi4ophtgactvrzk4fqn2crkvvycm5rbg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/readline-8.1-cbeda6fpxggb3vn46vozqtwrybysbjea
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/bzip2-1.0.8-rll2prrsftrmm2xaucu6kfxy6wuqetpv
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/expat-2.4.8-kb64bk6o2cckjbrtljdify463b45bina
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/libtool-2.4.7-rkellfzfybmtsbnriwv7wbeitnoehxiz
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gdbm-1.19-em6kjes3b5xezzlv4jy3zpk4lpfh4zrs
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/sqlite-3.38.5-we7idpurbuw3j5pcnfnlju5y3f2nnagi
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/tar-1.34-cqnm2ntx35276m24cskuqh3pq35odbo7
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/perl-5.34.1-43zfhu7xlttmw2lav2st5vusj3vzltng
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gettext-0.21-vw4xp77atyql2razpof6lg4i4c6gfp6w
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openssl-1.1.1p-6an4aptla26263g7cdtq45crkeikmufq
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/texinfo-6.5-ha52otixmc5xlanjdkrrcynk2os7azmx
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/autoconf-2.69-56lf6yfgaoht62snzyfid26kn3zcxpc4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/cmake-3.20.6-okk2wdw6x7yqfqtyyjl3ua4fnibbg3x5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/python-3.8.12-kpovupgvb2rfvapalll4qkbef5gihfnp
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hypre-2.25.0-voumli4dj6gv7artnwgfanq77xkkpn4l
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/automake-1.16.5-6ls3tijydsxdudqay5f6go4jjx33ryyi
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/metis-5.1.0-fa2bbls2kkyrgi4anaxhtl3gprkoxmti
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hdf5-1.12.2-y6ftru5oeo272ru342zpi6is2sj5itim
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/magma-2.6.2-qbzdj7ml6qz55egd2wigrlfzjhzf5cqe
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/blt-0.4.1-7zrxb4t4vmoiln4c4d45lockbfr5elp2
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-pip-21.3.1-bjkraj34bom57jioetfjnepbjddogald
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/gmp-6.2.1-neujg3ftg7qnx4vrbjxo3hqhx7rl2do6
+==> Installing ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib
+==> No binary for ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib found: installing from source
+==> Using cached archive: /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/var/spack/cache/_source-cache/archive/9e/9ebbbbf14a64e998e3fba5d2662a8f9bd03f97b1406017e78ae54e5d105ae932.tar.gz
+==> No patches needed for ipopt
+==> ipopt: Executing phase: 'autoreconf'
+==> ipopt: Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/tmp/lpeyrala/spack-stage/spack-stage-ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib/spack-src/configure' '--prefix=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib' '--prefix=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib' '--enable-shared' 'coin_skip_warn_cxxflags=yes' '--with-lapack-lflags=-L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas' '--with-hsl' '--with-hsl-lflags=-ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas' '--with-hsl-cflags=/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/include' '--disable-debug'
+
+1 error found in build log:
+     132    checking for function MA27AD_ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinh
+            sl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15
+            -zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     133    checking for function MA27AD in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinhs
+            l-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-
+            zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     134    checking for function ma27ad__ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coin
+            hsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles1
+            5-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     135    checking for function ma27ad_ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinh
+            sl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15
+            -zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     136    checking for function MA27AD__ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coin
+            hsl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles1
+            5-zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+     137    checking for function MA27AD_ in  -ldl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/coinh
+            sl-2019.05.21-7kagy6dyl2nkuytwur2vnce3jpslx6ha/lib -lcoinhsl -L/gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15
+            -zen3/gcc-11.2.0/openblas-0.3.20-dco3tosgwukf7m66pv6sc7l4h6of52dg/lib -lopenblas  ... no
+  >> 138    configure: error: Provided package HSL is not working or does not contain MA27.
+
+See build log for details:
+  /tmp/lpeyrala/spack-stage/spack-stage-ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib/spack-build-out.txt
+
+==> Warning: Skipping build of exago-develop-uafhfnx5g6wlhdln5layu2dyjnncm3f7 since ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib failed
+==> Warning: Skipping build of exago-develop-xgp73ll3ppk6nxouqpqx4czjljnug3by since ipopt-3.14.5-rpcqqgwjsjxudjfhaoik2t2rhfqgjwib failed
+==> Error: exago-develop-uafhfnx5g6wlhdln5layu2dyjnncm3f7: Package was not installed
+==> Error: exago-develop-xgp73ll3ppk6nxouqpqx4czjljnug3by: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/parmetis-4.0.3-6symnpolocsskt6bddlxbxwc3jfllqye
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/camp-0.2.2-qn46zzcunmzjhwcuif47m7w2mapmh5sd
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-wheel-0.37.0-ok5siwp3xlcmycy2unx5it5bms36elju
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-setuptools-62.4.0-qhvt7g6pvhrmohgotxb2sp6wdftqqe2r
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/mpfr-4.1.0-gkfuiofmnhnulcrt3a5q2jqkt5u6vftu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/superlu-dist-7.2.0-z4vxxqxc66rn6g74yhmd6x6im3iwao3f
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/raja-0.14.0-jmm6cp7fngz5zxysuyelw7szutegb3zu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/umpire-6.0.0-cgngyvb6f6nqowqfhibtgjdtu4u23ah5
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-tomli-1.2.2-c5jx5plfn3dub3b7npooxavrjl3jikqt
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-flit-core-3.6.0-t45la2taeehozbksxnqc2hwmdwo26spr
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-pyparsing-3.0.6-zxp2ez46bwiouwcrr76ru6ojjrkv5lsu
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-attrs-21.4.0-4t2awtzc2g7spce43wd2onv7hvix7sql
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-toml-0.10.2-m7yvyi355kg7vzye7vrw3zx5z5hxmoqg
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-iniconfig-1.1.1-jr2qdyg3xtox3r5iciggpds2bgcdrhc4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-mpi4py-3.1.2-hxg32mwgjtzp6yldfjmjzletxbbswjk4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/suite-sparse-5.10.1-h4n4ahypig2ocwwmxqrb3zk6l4xuttui
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/petsc-3.16.6-2mhen5mwppmkvdgnrgg4nzhv2wztunpp
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-0.6.2-xjud4xekzg2nu6ezeh56z4puac6ui4h4
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-typing-extensions-4.2.0-fiezzxy2r7plg4xzn7goisxbqpvnlpvy
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-packaging-21.3-a6nm2ez335gd2hwxqgkxslvrzuri53qj
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/hiop-0.6.2-sxsfyoyemurpxgel3t7cbz6ac56v4dop
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-setuptools-scm-7.0.3-fsdbnvexytd6r5yjfnnrn5q6wt7wxg42
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-pluggy-1.0.0-y2vowvlaegcbgmbl3pddoofjk3qwhyme
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-py-1.11.0-hiuhd3hgfslnzburz2fk4za7puidzn4m
+[+] /gpfs/alpine/csc439/world-shared/E4S/ParaTools/exago/spack/opt/spack/cray-sles15-zen3/gcc-11.2.0/py-pytest-6.2.5-rodiapdl2mocw77rxa43cchrisxb33kp
+
+real	0m43.335s
+user	0m25.885s
+sys	0m12.272s
