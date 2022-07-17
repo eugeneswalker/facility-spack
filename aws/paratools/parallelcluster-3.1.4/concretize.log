@@ -1,0 +1,56 @@
+==> Bootstrapping clingo from pre-built binaries
+==> Fetching https://mirror.spack.io/bootstrap/github-actions/v0.2/build_cache/linux-centos7-x86_64-gcc-10.2.1-clingo-bootstrap-spack-shqedxgvjnhiwdcdrvjhbd73jaevv7wt.spec.json
+==> Fetching https://mirror.spack.io/bootstrap/github-actions/v0.2/build_cache/linux-centos7-x86_64/gcc-10.2.1/clingo-bootstrap-spack/linux-centos7-x86_64-gcc-10.2.1-clingo-bootstrap-spack-shqedxgvjnhiwdcdrvjhbd73jaevv7wt.spack
+==> Installing "clingo-bootstrap@spack%gcc@10.2.1~docs~ipo+python+static_libstdcpp build_type=Release arch=linux-centos7-x86_64" from a buildcache
+==> Bootstrapping patchelf from pre-built binaries
+==> Bootstrapping patchelf@0.13.1:0.13.99 %gcc target=x86_64 from sources
+==> Installing patchelf-0.13.1-qx2avscyrc4hs5epjwaqgukctkm6uyfq
+==> No binary for patchelf-0.13.1-qx2avscyrc4hs5epjwaqgukctkm6uyfq found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/08/08c0237e89be74d61ddf8f6ff218439cdd62af572d568fb38913b53e222831de.tar.gz
+==> No patches needed for patchelf
+==> patchelf: Executing phase: 'autoreconf'
+==> patchelf: Executing phase: 'configure'
+==> patchelf: Executing phase: 'build'
+==> patchelf: Executing phase: 'install'
+==> patchelf: Successfully installed patchelf-0.13.1-qx2avscyrc4hs5epjwaqgukctkm6uyfq
+  Fetch: 0.04s.  Build: 13.64s.  Total: 13.68s.
+[+] /home/ubuntu/.spack/bootstrap/store/linux-ubuntu20.04-x86_64/gcc-9.4.0/patchelf-0.13.1-qx2avscyrc4hs5epjwaqgukctkm6uyfq
+==> Concretized mpich
+ -   xjhs4uv  mpich@4.0.2%gcc@9.4.0~argobots~cuda+fortran+hwloc+hydra+libxml2+pci~rocm+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath datatype-engine=auto device=ch4 netmod=ofi pmi=pmi arch=linux-ubuntu20.04-x86_64
+ -   2meaymk      ^findutils@4.9.0%gcc@9.4.0 patches=440b954 arch=linux-ubuntu20.04-x86_64
+ -   dsvxq6r      ^hwloc@2.7.1%gcc@9.4.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm+shared arch=linux-ubuntu20.04-x86_64
+ -   q4psrtu          ^libpciaccess@0.16%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   4o7qnns              ^libtool@2.4.7%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   qr7lniy                  ^m4@1.4.19%gcc@9.4.0+sigsegv patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+ -   n2fjcg5                      ^diffutils@3.8%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   c75f7vl                          ^libiconv@1.16%gcc@9.4.0 libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   xu34agk                      ^libsigsegv@2.13%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   jodzku6              ^pkgconf@1.8.0%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   kgquruf              ^util-macros@1.19.3%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   62mjjhz          ^libxml2@2.9.13%gcc@9.4.0~python arch=linux-ubuntu20.04-x86_64
+ -   vgfga2v              ^xz@5.2.5%gcc@9.4.0~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   2jmcbiq              ^zlib@1.2.12%gcc@9.4.0+optimize+pic+shared patches=0d38234 arch=linux-ubuntu20.04-x86_64
+ -   a4ubgt3          ^ncurses@6.2%gcc@9.4.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+ -   z4rechl      ^libfabric@1.13.2%gcc@9.4.0~debug~kdreg fabrics=efa,mrail,rxd,rxm,shm,sockets,tcp,udp,verbs arch=linux-ubuntu20.04-x86_64
+ -   xgem6wx      ^yaksa@0.2%gcc@9.4.0~cuda~rocm arch=linux-ubuntu20.04-x86_64
+ -   3t4uzpf          ^autoconf@2.69%gcc@9.4.0 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+ -   flz5ces              ^perl@5.34.1%gcc@9.4.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64
+ -   5ddr2oz                  ^berkeley-db@18.1.40%gcc@9.4.0+cxx~docs+stl patches=b231fcc arch=linux-ubuntu20.04-x86_64
+ -   sy4wi34                  ^bzip2@1.0.8%gcc@9.4.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+ -   yqalfud                  ^gdbm@1.19%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   lyqqg2r                      ^readline@8.1.2%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   vodojbl          ^automake@1.16.5%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   iovziis          ^python@3.9.13%gcc@9.4.0+bz2+ctypes+dbm~debug+ensurepip+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060 arch=linux-ubuntu20.04-x86_64
+ -   pbxuaiv              ^expat@2.4.8%gcc@9.4.0+libbsd arch=linux-ubuntu20.04-x86_64
+ -   b7nutcv                  ^libbsd@0.11.5%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   htenkly                      ^libmd@1.0.4%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   e5utq4r              ^gettext@0.21%gcc@9.4.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-ubuntu20.04-x86_64
+ -   sa43tf4                  ^tar@1.34%gcc@9.4.0 zip=pigz arch=linux-ubuntu20.04-x86_64
+ -   w6zbzih                      ^pigz@2.7%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   wcgrbus                      ^zstd@1.5.2%gcc@9.4.0+programs compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64
+ -   radstyc              ^libffi@3.4.2%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   gs5f3ei              ^openssl@1.1.1q%gcc@9.4.0~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+ -   ncnjyog                  ^ca-certificates-mozilla@2022-03-29%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+ -   ijvr2i2              ^sqlite@3.38.5%gcc@9.4.0+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-ubuntu20.04-x86_64
+ -   sxnm7rp              ^util-linux-uuid@2.37.4%gcc@9.4.0 arch=linux-ubuntu20.04-x86_64
+
