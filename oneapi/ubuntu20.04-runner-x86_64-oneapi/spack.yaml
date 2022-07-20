@@ -140,7 +140,6 @@ spack:
   - qthreads@1.16 scheduler=distrib
   - raja@0.14.0
   - rempi@1.1.0
-  - scr@3.0rc2
   - slate@2021.05.02 ~cuda
   - slepc@3.17.1
   - stc@0.9.0
@@ -196,6 +195,7 @@ spack:
   #- py-warpx@22.05 ^warpx dims=2 # hdf5, adios2
   #- py-warpx@22.05 ^warpx dims=3 # hdf5, adios2
   #- py-warpx@22.05 ^warpx dims=rz # hdf5, adios2
+  #- scr # scr
   #- stat@4.1.0
   #- tau@2.31 +mpi +python # binutils
   #- trilinos@13.0.1 +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long # boost@1.79
@@ -203,6 +203,8 @@ spack:
   #- variorum@0.4.1 # variorum
   #- veloc@1.5 # boost@1.79
   #- vtk-m@1.7.1 # vtk-m
+
+  # BUILD FAILED - CPU - ERROR ANNOTATIONS
   # adios2: /usr/bin/ld: ../../lib/libadios2_fortran.so.2.8.2: version node not found for symbol adios2_adios_init_mod@adios2_adios_init_serial_smod._; /usr/bin/ld: failed to set dynamic section sizes: bad value
   # axom: /usr/bin/ld: /lib/x86_64-linux-gnu/crt1.o: in function `_start': (.text+0x24): undefined reference to `main'
   # binutils: gold/powerpc.cc:3590: undefined reference to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbol_table::Compute_final_value_status*) const'
@@ -220,6 +222,7 @@ spack:
   # py-numpy: numpy/distutils/checks/cpu_avx512_knm.c:24:7: error: assigning to '__m512i' (vector of 8 'long long' values) from incompatible type 'int'
   # ruby: limits.c:415:34: error: invalid suffix 'D' on floating constant
   # rust: /usr/bin/ld: /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin/libimf.a(libm_feature_flag.o): in function `__libm_feature_flag_init': libm_feature_flag.c:(.text+0x25): undefined reference to `__intel_cpu_feature_indicator_x'
+  # scr: scr_globals.h:81:10: fatal error: 'spath_mpi.h' file not found: #include "spath_mpi.h"
   # variorum: ld: Intel/CMakeFiles/variorum_intel.dir/msr_core.c.o:(.bss+0x0): multiple definition of `g_platform'; CMakeFiles/variorum.dir/config_architecture.c.o:(.bss+0x0): first defined here
   # vtk-m: clang++: error: clang frontend command failed with exit code 139 (use -v to see invocation)
 
@@ -230,4 +233,6 @@ spack:
   #- hpctoolkit@2022.04.15 +level_zero
   #- sundials@6.2.0 +sycl
   #- tau@2.31.1 +mpi +opencl +level_zero ~pdt %oneapi ^binutils%gcc@9.4.0 ^papi%gcc@9.4.0 # tau
+
+  # BUILD FAILED - GPU - ERROR ANNOTATIONS
   # tau@2.31.1 +opencl +level_zero: requires libdrm
