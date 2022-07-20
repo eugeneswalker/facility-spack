@@ -143,7 +143,6 @@ spack:
   - slate@2021.05.02 ~cuda
   - slepc@3.17.1
   - stc@0.9.0
-  - strumpack@6.3.1 ~slate
   - sundials@6.2.0
   - superlu@5.3.0
   - superlu-dist@7.2.0
@@ -163,46 +162,47 @@ spack:
   - kokkos@3.6.00 +sycl +openmp std=17 +tests +examples %oneapi
 
   # BUILD FAILED - CPU
-  #- adios2@2.8.0 # adios2
-  #- archer@2.0.0 # binutils
-  #- ascent@0.8.0 # vtk-m
-  #- axom@0.6.1 # axom
-  #- butterflypack@2.1.1 # butterflypack
-  #- cabana@0.4.0 # cabana
-  #- catalyst@5.6.0                                        # https://github.com/spack/spack/issues/30478
-  #- charliecloud@0.26 # charliecloud
-  #- datatransferkit@3.1-rc3 # boost@1.79
+  #- adios2@2.8.0                                     # adios2
+  #- archer@2.0.0                                     # binutils
+  #- ascent@0.8.0                                     # vtk-m
+  #- axom@0.6.1                                       # axom
+  #- butterflypack@2.1.1                              # butterflypack
+  #- cabana@0.4.0                                     # cabana
+  #- catalyst@5.6.0                                   # https://github.com/spack/spack/issues/30478
+  #- charliecloud@0.26                                # charliecloud
+  #- datatransferkit@3.1-rc3                          # boost@1.79
   #- dealii@9.3.3
-  #- dyninst@12.1.0 # intel-tbb
-  #- exaworks@0.1.0 # boost@1.79
-  #- faodel@1.2108.1 # boost@1.79
-  #- flecsi@1.4.2 # boost@1.79; pfunit
-  #- fortrilinos@2.0.0 # boost@1.79
-  #- geopm@1.1.0 # ruby
-  #- gptune@3.0.0 # intel-tbb
-  #- h5bench@1.2 # h5bench
-  #- hdf5@1.10.7 +fortran +hl +shared # hdf5
-  #- hpctoolkit@2022.04.15 # binutils
-  #- hpx@1.7.1 networking=mpi # boost@1.79
-  #- metall@0.20 # boost@1.79
-  #- omega-h@9.34.1 # boost@1.79
-  #- openpmd-api@0.14.4 # hdf5, adios2
-  #- paraview@5.10.1 +qt # binutils
-  #- phist@1.9.5 # phist
-  #- precice@2.4.0 # boost@1.79
-  #- pruners-ninja@1.0.1 # pruners-ninja
-  #- py-jupyterhub@1.4.1 # rust
-  #- py-warpx@22.05 ^warpx dims=2 # hdf5, adios2
-  #- py-warpx@22.05 ^warpx dims=3 # hdf5, adios2
-  #- py-warpx@22.05 ^warpx dims=rz # hdf5, adios2
-  #- scr # scr
+  #- dyninst@12.1.0                                   # intel-tbb
+  #- exaworks@0.1.0                                   # boost@1.79
+  #- faodel@1.2108.1                                  # boost@1.79
+  #- flecsi@1.4.2                                     # boost@1.79; pfunit
+  #- fortrilinos@2.0.0                                # boost@1.79
+  #- geopm@1.1.0                                      # ruby
+  #- gptune@3.0.0                                     # intel-tbb
+  #- h5bench@1.2                                      # h5bench
+  #- hdf5@1.10.7 +fortran +hl +shared                 # hdf5
+  #- hpctoolkit@2022.04.15                            # binutils
+  #- hpx@1.7.1 networking=mpi                         # boost@1.79
+  #- metall@0.20                                      # boost@1.79
+  #- omega-h@9.34.1                                   # boost@1.79
+  #- openpmd-api@0.14.4                               # hdf5, adios2
+  #- paraview@5.10.1 +qt                              # binutils
+  #- phist@1.9.5                                      # phist
+  #- precice@2.4.0                                    # boost@1.79
+  #- pruners-ninja@1.0.1                              # pruners-ninja
+  #- py-jupyterhub@1.4.1                              # rust
+  #- py-warpx@22.05 ^warpx dims=2                     # hdf5, adios2
+  #- py-warpx@22.05 ^warpx dims=3                     # hdf5, adios2
+  #- py-warpx@22.05 ^warpx dims=rz                    # hdf5, adios2
+  #- scr                                              # scr
   #- stat@4.1.0
-  #- tau@2.31 +mpi +python # binutils
+  #- strumpack@6.3.1 ~slate                           # butterflypack
+  #- tau@2.31 +mpi +python                            # binutils
   #- trilinos@13.0.1 +amesos +amesos2 +anasazi +aztec +belos +boost +epetra +epetraext +ifpack +ifpack2 +intrepid +intrepid2 +isorropia +kokkos +ml +minitensor +muelu +nox +piro +phalanx +rol +rythmos +sacado +stk +shards +shylu +stokhos +stratimikos +teko +tempus +tpetra +trilinoscouplings +zoltan +zoltan2 +superlu-dist gotype=long_long # boost@1.79
-  #- unifyfs@0.9.2 # boost@1.79
-  #- variorum@0.4.1 # variorum
-  #- veloc@1.5 # boost@1.79
-  #- vtk-m@1.7.1 # vtk-m
+  #- unifyfs@0.9.2                                    # boost@1.79
+  #- variorum@0.4.1                                   # variorum
+  #- veloc@1.5                                        # boost@1.79
+  #- vtk-m@1.7.1                                      # vtk-m
 
   # BUILD FAILED - CPU - ERROR ANNOTATIONS
   # adios2: /usr/bin/ld: ../../lib/libadios2_fortran.so.2.8.2: version node not found for symbol adios2_adios_init_mod@adios2_adios_init_serial_smod._; /usr/bin/ld: failed to set dynamic section sizes: bad value
@@ -225,6 +225,7 @@ spack:
   # scr: scr_globals.h:81:10: fatal error: 'spath_mpi.h' file not found: #include "spath_mpi.h"
   # variorum: ld: Intel/CMakeFiles/variorum_intel.dir/msr_core.c.o:(.bss+0x0): multiple definition of `g_platform'; CMakeFiles/variorum.dir/config_architecture.c.o:(.bss+0x0): first defined here
   # vtk-m: clang++: error: clang frontend command failed with exit code 139 (use -v to see invocation)
+
 
   # BUILD FAILED - GPU
   #- arborx@1.2 +sycl ^kokkos@3.6.00 +sycl +openmp std=17 +tests +examples
