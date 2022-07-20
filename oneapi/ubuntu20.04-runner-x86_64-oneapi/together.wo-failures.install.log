@@ -1,0 +1,363 @@
+==> Installing environment /
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pkgconf-1.8.0-euvcz47c2ohoholjxebiqhgid57g6efi
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ca-certificates-mozilla-2022-03-29-z4bgvwrpuiezemrqagrotdgdxqorr2g6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/berkeley-db-18.1.40-ahtnphg3u6stxzfefgzgmb2lgcbzyfzy
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libiconv-1.16-sohfg2fg2ss47uvlwzdjbifbjdbeg4wd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/findutils-4.9.0-rltl5edieudigtabvkqxlhux5xkjkwxn
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libsigsegv-2.13-q56bku4kealygzwdfxmejeduvznwy3sj
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/util-macros-1.19.3-iwdrk44dimz4ywn5honna6uk5m3iiei4
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/xz-5.2.5-rzbnd7f7m36t6pzuzonb5l23snzdyiwo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libfabric-1.14.1-mpntixmudnncnkwv5gtdnwsuaqfqj7n6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libmd-1.0.4-uxmtkavhqds4kmkxsm4nbgqpeom64kra
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zstd-1.5.2-rg3ig4lozwmvlm3rmo4yaj3xsvpelp5q
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libffi-3.4.2-maq3kzwfeuheet4lwjov56zdrb7lrlyp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/antlr-2.7.7-hrlloba73smm3dgnjjokgoprlpjtwqxc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/gsl-2.7.1-xsr33sl7ug4ts54s4lpg762ai4rj73uv
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libsodium-1.0.18-2ltnwuinkfktspzwbm5f26kjkdsagxtc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libyaml-0.2.5-rytewyucpqkonhht5my62u7ro32euzrn
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/nasm-2.15.05-dc4gy42d2e5wyo3r56tnhtw4nmsgdgfu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/alsa-lib-1.2.3.2-iqblbimdzniba6bmyd6hq4cag4q3kj3o
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yasm-1.3.0-5dkanoburq2dixhmbhiwdfycetj7kiav
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ncurses-6.2-gvjgiszsximd4475r2md2tnuyf2xzsab
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/util-linux-uuid-2.37.4-k3c4qk3jkt42cergu6brehszwtkkbwoc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/diffutils-3.8-uli7acep5reahqi2j3jcbm3c5ll7nhgk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpng-1.6.37-e22xkdmnfvxozlpgpmjvrdhj4fg6dmip
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pigz-2.7-fisjzhzkbnpy4mfhcypve34z7waq36rf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libxml2-2.9.13-26ddtb3dr52u2hrp3kf6ilkmuuwpf4yp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libbsd-0.11.5-flwxuwxerrclotxz5kxrp7smb7ocd2bd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/readline-8.1.2-cd2lgldfv63ukoivqwbagvzv33xzm7vd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/m4-1.4.19-agucw5dt2xkxn3dkxzyfg43jyx54wqfm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/bzip2-1.0.8-44yzgywnukmmteey7ch3wxx746lbc7b7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/expat-2.4.8-ijry5ro74qcefgnq67gi2gth557dn5di
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libzmq-4.3.4-vr472o7eqzsmlczi2b6wqykwpwpvmfa7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/gdbm-1.19-mnowgf4th7au6wdkufgdntdxdye4xhpf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/sqlite-3.38.5-7edvlefvhakfj76hqg2bipy7gwvnjvoc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libtool-2.4.7-5n46ly5edmdl7dxdzjbzhwc6bkb4an7a
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ffmpeg-4.4.1-2ekxolf6sspccwq6iktxeo67yyzirffz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/freetype-2.11.1-ezbhqhhlfuevna4m4kzqyopqpzfgat3g
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/tar-1.34-l522upsa7u2zzv3rnsl25xumej43xfhf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/udunits-2.2.28-4w7bwokizt47ogomu272wzmxt42jefip
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/perl-5.34.1-v42mrbvtiopxexysmbhoy3o4uc7aetyc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpciaccess-0.16-ky5qiazdkxxis6hklky25q5rvusgnzus
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/gettext-0.21-vssrimxhjggzoncmhdxey5rf3g7scorp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openssl-1.1.1q-rzfiqzdrfvmaceawgt32tcj4gl2v6vgw
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/bison-3.8.2-iugu5yj5fijfux55p2phuqaac6v6vmzv
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/autoconf-2.69-svyjqmojaejeao5azwnqxrwi4v2iylvb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/python-3.8.13-hlscqijtdjzwnlauczkcmoxi6kqxrndq
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/flex-2.6.3-kxujaos2rympjrykjwuhpehseu3e6uaz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/automake-1.16.5-lvuo5rbtqnpbdcatfoqnnsbnkxbxd52f
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/qhull-2020.2-4qqwascxlvmopgdkiffjybvuusyvfojv
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libjpeg-turbo-2.1.3-ixdv7b4xxs2au5m5vs7zaacghitdxtog
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pip-22.1.2-4waoxxjuydwrs3xnfscdutp7ova5toj6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ninja-1.11.0-thkso4ky6rtvm7buihshiulowmbfecvf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaksa-0.2-4vuond4x45htguu6dtl3jcwsaxzqydtz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-setuptools-63.0.0-57tejpd45xvjlvkw64uvh4rzcmc3ecfb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-wheel-0.37.0-ns7t2zi66rftl5sdwhs3mmqxv25eei6q
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyrsistent-0.18.0-q3vzfdsdnj5csbtksljlmdpzsssljoqj
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-webencodings-0.5.1-pzwzo5gyebyxifred2jjlyzy44y4ngdw
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-tornado-6.1-rair3tsivydmkhbypro3s2mrvcucfwva
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pickleshare-0.7.5-rbdsqsfuvj6e4jycnhgrb26th2uhnr6g
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-cycler-0.11.0-6uvwjw2tx6rruzhaj2rh34k6mr6qnis5
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-mistune-0.8.4-fk2zgvkkd33zafwk5c47weqp6ldnfzta
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-charset-normalizer-2.0.12-evvcvl5f5fysjsn2wvbmdoflhf7mq65t
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pytz-2021.3-tvhsmm3wm6wnmqhhuvyltluqdbjnamcv
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-attrs-21.4.0-5bdvqnjnkh5xw66g74luwiupsh62tscm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-greenlet-1.1.2-kn4o6stv6dslroqgjjl4tjhlr3336awu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-ipython-genutils-0.2.0-fukl7w5wknf6e5ckrtmglcmyzxk2lhaj
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pycparser-2.20-bik3dkaaae6k3lixn32o7qwnn32bmnkp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-toml-0.10.2-kv7a74vejslsvxomi6ormuc6pxwj4mx4
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-wcwidth-0.2.5-6sk4lqs2ttpkv2w2odwpo7rbbgmns3ft
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pybind11-2.9.1-66xttruznkpj2w4b4duthnswkaeijdd7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-prometheus-client-0.12.0-rberzmegkmdcisd4n7pybrme4d76gwlc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-poetry-core-1.0.8-zd5sbwh3ka6xktwtwzxk5rd7y6uyvqdd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-urllib3-1.26.6-4pqqjkqmjwrvcvoqaefzlqs2n7p5oktb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-decorator-5.1.1-tge7vo26rbczwojhn27jxqtixlwyvk4o
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-click-8.0.3-oife2vmzt53murun5kqd3xa5t3n3cmsm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-debugpy-1.5.1-cze7tiig26xlk4fkr5ntcvm2rjawmzbt
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-cppy-1.1.0-deyye2nohahjjqfsxd2qq5uc5abaudyy
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-identify-1.4.7-uv7oyv6e6ryg3re2rsryywmrr7ynnbl3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-mypy-extensions-0.4.3-axmwjyiigdpjyai6bbhm7mphjf5lmvmq
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pillow-9.2.0-wf7r6s5t26qga7fsh5c2rlycy2lt5ir7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-websocket-client-1.2.1-u2tlap2d2esiawnmyztcqoqnsq73rmco
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-flit-core-3.6.0-fwoxv6rwvy7x4oymr7dkr4q4eeyx4wff
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-markupsafe-2.0.1-dpe2vbxkjnco3bkfgbl4a3qcxwkvto6e
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-certifi-2021.10.8-jiobriop5dvaorwuqimfuremwl6jvhtt
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyparsing-3.0.6-gllis2ekkn3elj5xgmafm25u7piwheof
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-parso-0.8.2-ahhzpleaxyc6hawvq7g46h4cnmoxnwj4
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-sniffio-1.2.0-xxb74uu4qwclz52zrmu24tim34rvtm3k
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-distlib-0.3.4-ei7jsxfwnqlhl6oq4hzhfdwbf4zznbbk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-editables-0.3-fyznkmcg7dy7dfhoy2hyfzot7rb2jx57
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-fonttools-4.31.2-urlnubhkl2oiqowugihfunlp7ag75bmq
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-cython-0.29.30-6f74xq72ji3ykuo63ekbbugh5p5wbmjg
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pandocfilters-1.5.0-mucea2adn6zjghqabrvhhuwvrbgz5rmb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-json5-0.9.6-p3aui5ro47r6wrzgabtpln3emjngx4uc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-fastjsonschema-2.15.1-5cna2nvaj3nnxjsiso77md44eqjicjxe
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-send2trash-1.8.0-bcgphvmusedpigpye3pjdme35ut2rzgt
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-idna-3.3-5pgt2bpl7vnsu56oezjopgjj4rtxzcho
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pathspec-0.9.0-px3cn7fcudsnifubb3pszyqajx3amoy6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-networkx-2.7.1-nii3e4kgtm5rgdhoaz22jl4nuanw73qb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-nodeenv-1.3.3-2fbv4pqzp4ugtdcm5wjv6acei2g72ic3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pygments-2.10.0-gghnpufzsoml6rbaydplty262zuox6gu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-soupsieve-2.2.1-hxntxinhahihrfzc5uq2tpxob2sr45ko
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-defusedxml-0.7.1-5rcpag7ykbdzobc2wfexo7khc6zbz5bb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-six-1.16.0-zhnzzbjeb3qkfxjqtg544jm3c2qwkmjk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-tomli-1.2.2-pr63wuufl3qatlcuetsqhpbmq6gjs3t7
+==> Installing parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk
+==> No binary for parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/3e/3ef1411875b07955f519a5b03278c31e566976357ddfc74c2493a1076e7d7c74.tar.gz
+==> No patches needed for parallel-netcdf
+==> parallel-netcdf: Executing phase: 'autoreconf'
+==> parallel-netcdf: Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/tmp/root/spack-stage/spack-stage-parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk/spack-src/configure' '--prefix=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk' '--with-mpi=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq' 'SEQ_CC=/spack/lib/spack/env/oneapi/icx' '--enable-cxx' '--enable-fortran' 'CFLAGS=-fPIC' 'CXXFLAGS=-fPIC' 'FCFLAGS=-fPIC' 'FFLAGS=-fPIC' '--enable-relax-coord-bound' '--enable-shared' '--enable-static' '--disable-silent-rules'
+
+1 error found in build log:
+     244    checking for /usr/bin/nm... /usr/bin/nm -B
+     245    checking nm flags...
+     246    checking for C-equivalent to Fortran routine "SUB"... sub_
+     247    checking for Fortran "integer*1"... yes
+     248    checking for Fortran "integer*2"... yes
+     249    checking for Fortran "integer*8"... yes
+  >> 250    checking if Fortran "integer*1" is ... configure: error: Could not link conftestf.o and conftest.o
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hypre-2.24.0-36zts3kj7bkosnphb25fg6ligoepaacl
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-mpi4py-3.1.2-pn5s46vanko6ahekdfefezmxyfbcmtsp
+==> Installing hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu
+==> No binary for hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/87/87d8c82eba5cf766d97cd06c054f4639c1049c4adeaa3a79f77f8bd374f80f37.tar.gz
+==> Applied patch /spack/var/spack/repos/builtin/packages/hdf5/h5public-skip-mpicxx.patch
+==> Applied patch /spack/var/spack/repos/builtin/packages/hdf5/hdf5_1.8_gcc10.patch
+==> Ran patch() for hdf5
+==> hdf5: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu/lib64;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpciaccess-0.16-ky5qiazdkxxis6hklky25q5rvusgnzus/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libxml2-2.9.13-26ddtb3dr52u2hrp3kf6ilkmuuwpf4yp/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libiconv-1.16-sohfg2fg2ss47uvlwzdjbifbjdbeg4wd/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/xz-5.2.5-rzbnd7f7m36t6pzuzonb5l23snzdyiwo/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ncurses-6.2-gvjgiszsximd4475r2md2tnuyf2xzsab/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libfabric-1.14.1-mpntixmudnncnkwv5gtdnwsuaqfqj7n6/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaksa-0.2-4vuond4x45htguu6dtl3jcwsaxzqydtz/lib' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaksa-0.2-4vuond4x45htguu6dtl3jcwsaxzqydtz;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libfabric-1.14.1-mpntixmudnncnkwv5gtdnwsuaqfqj7n6;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libxml2-2.9.13-26ddtb3dr52u2hrp3kf6ilkmuuwpf4yp;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/xz-5.2.5-rzbnd7f7m36t6pzuzonb5l23snzdyiwo;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpciaccess-0.16-ky5qiazdkxxis6hklky25q5rvusgnzus;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libiconv-1.16-sohfg2fg2ss47uvlwzdjbifbjdbeg4wd;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ncurses-6.2-gvjgiszsximd4475r2md2tnuyf2xzsab' '-DALLOW_UNSUPPORTED:BOOL=ON' '-DHDF5_BUILD_EXAMPLES:BOOL=OFF' '-DBUILD_TESTING:BOOL=OFF' '-DHDF5_ENABLE_Z_LIB_SUPPORT:BOOL=ON' '-DHDF5_ENABLE_SZIP_SUPPORT:BOOL=OFF' '-DHDF5_ENABLE_SZIP_ENCODING:BOOL=OFF' '-DBUILD_SHARED_LIBS:BOOL=ON' '-DONLY_SHARED_LIBS:BOOL=OFF' '-DHDF5_ENABLE_PARALLEL:BOOL=ON' '-DHDF5_ENABLE_THREADSAFE:BOOL=OFF' '-DHDF5_BUILD_HL_LIB:BOOL=ON' '-DHDF5_BUILD_CPP_LIB:BOOL=OFF' '-DHDF5_BUILD_FORTRAN:BOOL=ON' '' '-DHDF5_BUILD_TOOLS:BOOL=ON' '-DCMAKE_C_COMPILER:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpicc' '-DCMAKE_Fortran_COMPILER:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90' '/tmp/root/spack-stage/spack-stage-hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu/spack-src'
+
+4 errors found in build log:
+     368    -- Filter ZLIB is ON
+     369    -- The Fortran compiler identification is IntelLLVM 2022.1.0
+     370    -- Detecting Fortran compiler ABI info
+     371    -- Detecting Fortran compiler ABI info - failed
+     372    -- Check for working Fortran compiler: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90
+     373    -- Check for working Fortran compiler: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 - broken
+  >> 374    CMake Error at /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x/share/cmake-3.23/Modules/CMakeTestFortranCo
+            mpiler.cmake:61 (message):
+     375      The Fortran compiler
+     376    
+     377        "/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90"
+     378    
+     379      is not able to compile a simple test program.
+     380    
+
+     ...
+
+     387        Building Fortran object CMakeFiles/cmTC_48554.dir/testFortranCompiler.f.o
+     388        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90   -fPIE -c /tmp/root/spack-stage/spack-stage
+            -hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu/spack-build-2ncfu2q/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_48554.dir/testFortranCompiler.f.o
+     389        Linking Fortran executable cmTC_48554
+     390        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48554.d
+            ir/link.txt --verbose=1
+     391        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 CMakeFiles/cmTC_48554.dir/testFortranCompile
+            r.f.o -o cmTC_48554
+     392        ifx: command line warning #10006: ignoring unknown option '-rpath'
+  >> 393    ld: cannot find /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib: file format not recognized
+  >> 394        make[1]: *** [CMakeFiles/cmTC_48554.dir/build.make:99: cmTC_48554] Error 1
+     395        make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu/spack-build-2ncfu2q/CMakeFiles/CMakeTmp'
+  >> 396        make: *** [Makefile:127: cmTC_48554/fast] Error 2
+     397    
+     398    
+     399    
+     400    
+     401    
+     402      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/arpack-ng-3.8.0-gidha3j4aoo4l3sxxblmtipax2tk2nlp
+==> Installing wannier90-3.1.0-4pox75kyco2qo3u5eeywenb3kueulkuj
+==> No binary for wannier90-3.1.0-4pox75kyco2qo3u5eeywenb3kueulkuj found: installing from source
+==> Warning: Skipping build of py-cinemasci-1.7.0-wntgbnkwg6yicfljgsmfmhcik5gdk5ho since hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu failed
+==> Warning: Skipping build of pflotran-3.0.2-tahyrxepoy6lrbsumzwrq37ulzvtb3ee since hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu failed
+==> Warning: Skipping build of alquimia-1.0.9-znaf7uudilxvq4ff63cv2k3du6fb7ilu since pflotran-3.0.2-tahyrxepoy6lrbsumzwrq37ulzvtb3ee failed
+==> Warning: Skipping build of conduit-0.8.3-wp2fix7sjmn3764fq2bz3xhf5hsykhce since hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu failed
+==> Warning: Skipping build of petsc-3.17.1-ytg3t6n7e77svgejjnm362ipsasodjvl since hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu failed
+==> Warning: Skipping build of py-petsc4py-3.17.1-jxq2bzljccszkubpnzgsnh4kujs6palu since petsc-3.17.1-ytg3t6n7e77svgejjnm362ipsasodjvl failed
+==> Warning: Skipping build of slepc-3.17.1-xqnxie42dkh6m7ly3t6japwzdlwoijth since petsc-3.17.1-ytg3t6n7e77svgejjnm362ipsasodjvl failed
+==> Warning: Skipping build of py-h5py-3.6.0-bdyni3vms2jdwtc2kdr4wnctesti4gyz since hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu failed
+==> Warning: Skipping build of netcdf-c-4.8.1-ja3a2bhxilx2a6qz2kkowlcmkqhyfcq2 since hdf5-1.8.21-2ncfu2ql566icomympazpkxce4q6ahfu failed
+==> Warning: Skipping build of nccmp-1.9.0.1-f5ejngvrxwklwd6yrobbzg5szqq55kzv since netcdf-c-4.8.1-ja3a2bhxilx2a6qz2kkowlcmkqhyfcq2 failed
+==> Warning: Skipping build of nco-5.0.1-o4lxkiixjcpq363pxqf7ngttgwqckpml since netcdf-c-4.8.1-ja3a2bhxilx2a6qz2kkowlcmkqhyfcq2 failed
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/40/40651a9832eb93dec20a8360dd535262c261c34e13c41b6755fa6915c936b254.tar.gz
+==> No patches needed for wannier90
+==> wannier90: Executing phase: 'edit'
+==> wannier90: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' 'wannier' 'post' 'lib' 'w90chk2chk' 'w90vdw' 'dynlib'
+
+3 errors found in build log:
+     23    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 -DMPI -O2 -fpic -c ../transport.F90
+     24    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-wannier90-3.1.0-4pox75kyco2qo3u5eeywenb3kueulkuj/spack-src/src/obj'
+     25    (cd ./src/obj && make -f ../Makefile.2 wannier)
+     26    make[1]: Entering directory '/tmp/root/spack-stage/spack-stage-wannier90-3.1.0-4pox75kyco2qo3u5eeywenb3kueulkuj/spack-src/src/obj'
+     27    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 ../wannier_prog.F90 -DMPI -O2 -fpic constants.o i
+           o.o utility.o parameters.o hamiltonian.o overlap.o kmesh.o disentangle.o ws_distance.o wannierise.o plot.o transport.o sitesym.o comms.o /spack/opt/spack/linux-ubu
+           ntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z/lib/libopenblas.so /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich
+           -4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib/libmpich.so -o ../../wannier90.x
+     28    ifx: command line warning #10006: ignoring unknown option '-rpath'
+  >> 29    ld: cannot find /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib: file format not recognized
+  >> 30    make[1]: *** [../Makefile.2:42: ../../wannier90.x] Error 1
+     31    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-wannier90-3.1.0-4pox75kyco2qo3u5eeywenb3kueulkuj/spack-src/src/obj'
+  >> 32    make: *** [Makefile:37: wannier] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-wannier90-3.1.0-4pox75kyco2qo3u5eeywenb3kueulkuj/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/parmetis-4.0.3-7k7kmefyaoqnhigelovllym5ixi4dxjo
+==> Installing rempi-1.1.0-5tw2crdlhweo4j3fzsn7vnsuq2j7tkwl
+==> No binary for rempi-1.1.0-5tw2crdlhweo4j3fzsn7vnsuq2j7tkwl found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/4f/4fd94fca52311fd19dc04a32547841e6c1c1656b7999b2f76f537d6ec24efccc.tar.gz
+==> No patches needed for rempi
+==> rempi: Executing phase: 'autoreconf'
+==> rempi: Executing phase: 'configure'
+==> rempi: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16' 'V=1'
+
+7 errors found in build log:
+     1056                                 ^~~~~~~~
+     1057    libtool: link: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 -g -o rempi_test_master_worker_f
+             ortran rempi_test_master_worker_fortran.o  -lz
+     1058    mv -f .deps/rempi_test_master_worker.Tpo .deps/rempi_test_master_worker.Po
+     1059    /bin/bash ../libtool  --tag=CC   --mode=link /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpicc -g 
+             -rdynamic -g -O2   -o rempi_test_master_worker rempi_test_master_worker.o rempi_test_util.o  -lz -lz
+     1060    ifx: command line warning #10006: ignoring unknown option '-rpath'
+     1061    libtool: link: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 -g -o rempi_test_units_fortran r
+             empi_test_units_fortran.o rempi_test_util.o  -lz
+  >> 1062    ld: cannot find /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib: file format not recognized
+  >> 1063    make[3]: *** [Makefile:582: rempi_test_master_worker_fortran] Error 1
+     1064    make[3]: *** Waiting for unfinished jobs....
+     1065    ifx: command line warning #10006: ignoring unknown option '-rpath'
+     1066    1 warning generated.
+     1067    libtool: link: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpicc -g -rdynamic -g -O2 -o rempi_test
+             _master_worker rempi_test_master_worker.o rempi_test_util.o  -lz
+     1068    mv -f .deps/rempi_test_mini_mcb.Tpo .deps/rempi_test_mini_mcb.Po
+  >> 1069    ld: cannot find /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib: file format not recognized
+  >> 1070    make[3]: *** [Makefile:614: rempi_test_units_fortran] Error 1
+     1071    mv -f .deps/rempi_test_hypre_parasails.Tpo .deps/rempi_test_hypre_parasails.Po
+     1072    mv -f .deps/rempi_test_msg_race.Tpo .deps/rempi_test_msg_race.Po
+     1073    mv -f .deps/rempi_test_units.Tpo .deps/rempi_test_units.Po
+     1074    make[3]: Leaving directory '/tmp/root/spack-stage/spack-stage-rempi-1.1.0-5tw2crdlhweo4j3fzsn7vnsuq2j7tkwl/spack-src/test'
+  >> 1075    make[2]: *** [Makefile:680: all-recursive] Error 1
+     1076    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-rempi-1.1.0-5tw2crdlhweo4j3fzsn7vnsuq2j7tkwl/spack-src/test'
+  >> 1077    make[1]: *** [Makefile:415: all-recursive] Error 1
+     1078    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-rempi-1.1.0-5tw2crdlhweo4j3fzsn7vnsuq2j7tkwl/spack-src'
+  >> 1079    make: *** [Makefile:346: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-rempi-1.1.0-5tw2crdlhweo4j3fzsn7vnsuq2j7tkwl/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-babel-2.9.1-ns447uatjemt3l4j5zdgtfut6efilzta
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-cffi-1.15.0-p3oypm6wwxlgjjusdxzqgfn62cn7mxfk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-prompt-toolkit-3.0.29-r5x2vwnagnuhhge2a4aemayykikab3je
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pkgconfig-1.5.5-trhkly6d55yqywmv4g7ljx6nrzg3huq2
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-tomlkit-0.11.0-2cdi4ongph3tg7krfgm2ax6w7ydmochf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-kiwisolver-1.3.2-v5shfrmuehbqdb7hkk3yruqfr7bfm5jb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-ptyprocess-0.7.0-fijsecfgsz2gpfcytwdjyvqumih3zp2j
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-backcall-0.2.0-hh3gy45ydicusts63rpkxylf2t4w236z
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-typing-extensions-4.3.0-yddnbbzqp6hh6nyahqt5rnpvhuhxmx7p
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-tinycss2-1.1.1-k6omxfjt3ucwjph3jqlewcdj2a2bg5wy
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-entrypoints-0.4-2pm23h3l4rp2vjvl3l72bih3gauty4zx
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jinja2-3.0.3-cd3yl2br6csffxyhlrdqixehmde663fs
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-packaging-21.3-kwpdscdkpwnc2l3fdsvz6jyhzgc5l7j3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jedi-0.18.1-yzxhv5dprqb7svxp7allhdygxnhbzck7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-numpy-1.22.4-tj75nyctkqy57d74yvsbreznzqgiq5wr
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyyaml-6.0-7zrwwkuacny5bss6mx24k4lv4my25rjd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-requests-2.26.0-cjbeuizuyxe2sexabtubor3yo35nhnj7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyterlab-pygments-0.1.2-666r6bhdch5uwottknlvcqszgg4h37mr
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-beautifulsoup4-4.10.0-6fyxsrg5ihnsk43ar3vojb2z55nrck7s
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-cfgv-2.0.1-q4kwvmpl45ehi45puezhjun2aoax6btc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/superlu-dist-7.2.0-6tn2tykzswttzpcyk3agkxnsukdg5o3s
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-gevent-1.5.0-s2fk2ksduqtxty5cwdpqjob6vkgmuikq
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-terminado-0.12.1-u7riarmehnvuuwlz5vnjpdan75hw57i3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pexpect-4.8.0-yin6ntdea2hevy57auygvkza2utsyiru
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-deprecation-2.1.0-k4vdg5glr4wbuidxyu6tft2uv24pbbas
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-bleach-4.1.0-ugrhsd3zvcruxnxpbof6oiki2lhnokww
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-setuptools-scm-7.0.3-wi2kt6znvjpon4vk3sj6x7a3scu3muxc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyter-packaging7-0.7.12-tarufx3fkv32dxablieki6ahwe3rvgiz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-tifffile-2021.11.2-ibdxeegmnytdhl2m5tqrbc7svottzae6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-bottleneck-1.3.2-xcbabeomib6iy6wagzygoyzj2gu3fwn6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-numexpr-2.7.3-o7hl5usbgmmkxcrfywgvhhxts6trylqn
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pywavelets-1.1.1-mi6glzvrr7zvp5sruc3zkh3q56cesozl
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-imageio-2.16.0-ayjiep7xtbtqdx2oummvywblrhyyh373
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-scipy-1.5.4-mycrqwfek2ovowea5ilg6ugp4dfmnzkx
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyter-packaging11-0.12.0-2fq2i7ylyibmukldvofgaxnurbwrnbsk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-asttokens-2.0.5-jly2mqzcezhll4poriekknxt7jugouoa
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-nest-asyncio-1.5.4-ysz2rverjbar7sc4xukxuq7vvh4byd4f
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-executing-0.8.2-sg6hjs6i4fjnammkykkxzndwglzhwqqm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-filelock-3.5.0-oqfdsoqysrgnq4unpsachfkwgstt7boh
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-setuptools-scm-git-archive-1.1-vbw6zq3rnd673kpsr6k5icozixxihvmb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-anyio-3.5.0-kstygdk6pf2jugo5epd4gfiav7oiwz6b
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pure-eval-0.2.2-7gtbnwgrokcreorwvbcwbt2uflb6d42s
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-backports-entry-points-selectable-1.1.1-cj6gyy55uqkrqgkcgy4fy5tjzhmzwdho
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-py-1.11.0-ppwrqrz75w4bwud6tmrlxx7l6p2r2z6c
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-python-dateutil-2.8.2-nepij6ivgcriukmgktji7rqjobmisfei
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pluggy-1.0.0-leglm6byzgbmjzyseqrk6bj6rsbkpfl3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-zipp-3.6.0-lo6alx7ajlv2paa7zc5a2eetg42grbs3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-platformdirs-2.4.0-ls37hi4xw5wpyu5tlu7nfiddkrkcngej
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-argon2-cffi-bindings-21.2.0-nhbaospbnejp67ba2coeqfx72emv57k3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-stack-data-0.2.0-kwdu37gsahvb6gcxmjgkd4juvaujlhya
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyzmq-22.3.0-fqu7od6yjrm4jav4nkmpqrusu3rttk3a
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pandas-1.4.3-4cig57mcjramsdl5vqzcj27c264geu4o
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-matplotlib-3.5.2-2avp2frhkf2dvbstg4x23fscxfhbcttw
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-hatchling-1.4.1-3jxznwiguu76spqbszqcmlh3ywbj5gpk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-importlib-resources-5.3.0-7sdpipsbke3vlef42tggyeavtadhscxa
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-virtualenv-20.10.0-oqjdaj5putj7a2m7grpc7jjp74twa3ms
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-black-22.6.0-batzrwoooydtwcttjlv7h5gm2hixgzzo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-argon2-cffi-21.3.0-zudrr3mdsze5bcpuwddg4tbxuianrcea
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-scikit-image-0.18.3-hz3f5ph4tmo67cwt4m2vaubkguttebxs
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-traitlets-5.3.0-v5phl4cf2ue3kgvqnvjrt265h7yi5i4h
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jsonschema-4.4.0-uhpmyaa6qx4ap35uyn5367sndmlgz3vo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pre-commit-2.17.0-mddftiv6rae3guopbbdsl2xkioz3mv3i
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyter-core-4.9.2-isk4uzwlo3hnudwn65llc772mwb2reed
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-matplotlib-inline-0.1.3-e5rjjcyrsedmi3an67w4hjcajw7v4pb7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyter-client-7.1.2-4hb2pvjb2nladzfvvlhgiawga6u2djdd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-nbformat-5.4.0-xlndbvwcldeykxelltsu3b6pvnn2vosv
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-ipython-8.0.1-4qhjnjapqyixnq5mao5t7yp3ahfqm4r5
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-nbclient-0.6.6-ekz4douawz6rwbulmsx7wf4wk7enawn3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-ipykernel-6.9.1-i3sqq7ismnbrvty4f55i37gtdcx5nags
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-nbconvert-6.5.0-4h5tcywcrxc6x22xvqubmctzb7z6skjy
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-notebook-6.4.11-bqody44qmgq27es4xy3a4nj77jta6qow
+==> Error: parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk: ProcessError: Command exited with status 1:
+    '/tmp/root/spack-stage/spack-stage-parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk/spack-src/configure' '--prefix=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk' '--with-mpi=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq' 'SEQ_CC=/spack/lib/spack/env/oneapi/icx' '--enable-cxx' '--enable-fortran' 'CFLAGS=-fPIC' 'CXXFLAGS=-fPIC' 'FCFLAGS=-fPIC' 'FFLAGS=-fPIC' '--enable-relax-coord-bound' '--enable-shared' '--enable-static' '--disable-silent-rules'
+==> Error: wannier90-3.1.0-4pox75kyco2qo3u5eeywenb3kueulkuj: ProcessError: Command exited with status 2:
+    'make' 'wannier' 'post' 'lib' 'w90chk2chk' 'w90vdw' 'dynlib'
+==> Error: rempi-1.1.0-5tw2crdlhweo4j3fzsn7vnsuq2j7tkwl: ProcessError: Command exited with status 2:
+    'make' '-j16' 'V=1'
+==> Error: alquimia-1.0.9-znaf7uudilxvq4ff63cv2k3du6fb7ilu: Package was not installed
+==> Error: conduit-0.8.3-wp2fix7sjmn3764fq2bz3xhf5hsykhce: Package was not installed
+==> Error: nccmp-1.9.0.1-f5ejngvrxwklwd6yrobbzg5szqq55kzv: Package was not installed
+==> Error: nco-5.0.1-o4lxkiixjcpq363pxqf7ngttgwqckpml: Package was not installed
+==> Error: parallel-netcdf-1.12.2-gkeu5ogvq6irwthoewwfu6se7kxhwltk: Package was not installed
+==> Error: petsc-3.17.1-ytg3t6n7e77svgejjnm362ipsasodjvl: Package was not installed
+==> Error: py-cinemasci-1.7.0-wntgbnkwg6yicfljgsmfmhcik5gdk5ho: Package was not installed
+==> Error: py-petsc4py-3.17.1-jxq2bzljccszkubpnzgsnh4kujs6palu: Package was not installed
+==> Error: rempi-1.1.0-5tw2crdlhweo4j3fzsn7vnsuq2j7tkwl: Package was not installed
+==> Error: slepc-3.17.1-xqnxie42dkh6m7ly3t6japwzdlwoijth: Package was not installed
+==> Error: wannier90-3.1.0-4pox75kyco2qo3u5eeywenb3kueulkuj: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyter-server-1.17.0-q2xeniq425ywvx7ewutmw224d4r5flrm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-widgetsnbextension-3.6.0-3rdntzj6yirkbihtf443zqs36rfhoac5
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyterlab-server-2.10.3-yczlskmii4azjswpedcn6s5aqbyzgxrs
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-nbclassic-0.3.5-ptccwlk36sxakylfnfhbhrsq5ytnkpvb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyterlab-3.4.2-lylhceluyxtl25qub2zdpfzfmgdk4hlh
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jupyterlab-widgets-1.1.0-4dsilncyujkb2hfsy5w3dxuzvgrn4pvu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-ipywidgets-7.7.0-rcr4gnprj35ffyj3gkmotel4vstqjhd3
