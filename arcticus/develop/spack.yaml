@@ -134,7 +134,6 @@ spack:
   - arborx
   - argobots
   - bolt
-  - bricks
   - chai ~benchmarks ~tests
   - darshan-runtime
   - darshan-util
@@ -197,6 +196,7 @@ spack:
   #- ascent@0.8.0                                     # vtk-m
   #- axom@0.6.1                                       # axom
   #- butterflypack@2.1.1                              # butterflypack
+  #- bricks                                           # bricks
   #- cabana@0.4.0                                     # cabana
   #- charliecloud@0.26                                # charliecloud
   #- conduit@0.8.3                                    # hdf5@1.8.21
@@ -249,6 +249,7 @@ spack:
   # axom: /usr/bin/ld: /lib/x86_64-linux-gnu/crt1.o: in function `_start': (.text+0x24): undefined reference to `main'
   # binutils: gold/powerpc.cc:3590: undefined reference to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbol_table::Compute_final_value_status*) const'
   # boost @1.79.0: clang++: error: unsupported argument 'h-create' to option '-pc'
+  # bricks: stage/fetch error: clone succeeds but checkout fails
   # butterflypack: SRC_COMPLEX/cMAGMA_utilities.f90(353): error #5192: Lead underscore not allowed
   # cabana: cajita/src/Cajita_SparseIndexSpace.hpp:156:22: error: SYCL kernel cannot call a recursive function
   # charliecloud: RuntimeError: configure script not found in ...
