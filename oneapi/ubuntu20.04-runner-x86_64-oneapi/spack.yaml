@@ -215,7 +215,6 @@ spack:
   # charliecloud: RuntimeError: configure script not found in ...
   # h5bench: commons/h5bench_util.h:196: multiple definition of `has_vol_async';
   # hdf5@1.10.7: CMake Error at ...: Fortran compiler not able to compile test program
-  # hdf5@1.12.2: CMake Error at ...: Fortran compiler not able to compile test program
   # hdf5@1.12.2: MakeTestFortranCompiler.cmake:61: Fortran compiler not able to compile simple test program
   # hdf5@1.8.21: MakeTestFortranCompiler.cmake:61: Fortran compiler not able to compile simple test program
   # intel-tbb: clang++clang++clang++clang++clang++clang++clang++: : : : : : : clang++error: : unknown argument: '-flifetime-dse=1'
