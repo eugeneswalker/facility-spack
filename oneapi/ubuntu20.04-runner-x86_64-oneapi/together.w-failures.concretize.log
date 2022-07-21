@@ -3874,7 +3874,7 @@
 [+]  j6v4yvp              ^libevent@2.1.12%oneapi@2022.1.0+openssl arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized scr
- -   pc25igg  scr@2.0.0%oneapi@2022.1.0+dtcmp+fortran~ipo+libyogrt async_api=NONE build_type=RelWithDebInfo cache_base=/dev/shm cntl_base=/dev/shm copy_config=none file_lock=FLOCK resource_manager=SLURM scr_config=scr.conf arch=linux-ubuntu20.04-x86_64
+[+]  pc25igg  scr@2.0.0%oneapi@2022.1.0+dtcmp+fortran~ipo+libyogrt async_api=NONE build_type=RelWithDebInfo cache_base=/dev/shm cntl_base=/dev/shm copy_config=none file_lock=FLOCK resource_manager=SLURM scr_config=scr.conf arch=linux-ubuntu20.04-x86_64
 [+]  4522tfk      ^cmake@3.23.2%oneapi@2022.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
 [+]  gvjgisz          ^ncurses@6.2%oneapi@2022.1.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
 [+]  euvcz47              ^pkgconf@1.8.0%oneapi@2022.1.0 arch=linux-ubuntu20.04-x86_64
