@@ -1,0 +1,775 @@
+==> Installing environment /
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/findutils-4.9.0-rltl5edieudigtabvkqxlhux5xkjkwxn
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libiconv-1.16-sohfg2fg2ss47uvlwzdjbifbjdbeg4wd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libsigsegv-2.13-q56bku4kealygzwdfxmejeduvznwy3sj
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pkgconf-1.8.0-euvcz47c2ohoholjxebiqhgid57g6efi
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/util-macros-1.19.3-iwdrk44dimz4ywn5honna6uk5m3iiei4
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/xz-5.2.5-rzbnd7f7m36t6pzuzonb5l23snzdyiwo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libfabric-1.14.1-mpntixmudnncnkwv5gtdnwsuaqfqj7n6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/berkeley-db-18.1.40-ahtnphg3u6stxzfefgzgmb2lgcbzyfzy
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libmd-1.0.4-uxmtkavhqds4kmkxsm4nbgqpeom64kra
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zstd-1.5.2-rg3ig4lozwmvlm3rmo4yaj3xsvpelp5q
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libffi-3.4.2-maq3kzwfeuheet4lwjov56zdrb7lrlyp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ca-certificates-mozilla-2022-03-29-z4bgvwrpuiezemrqagrotdgdxqorr2g6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libsodium-1.0.18-2ltnwuinkfktspzwbm5f26kjkdsagxtc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/lz4-1.9.3-73r4kabaljcfkoljuufjbsqwte7mtmai
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/lzo-2.10-xux6r4nhmwyerkjaekdqzmvdbqrey4ws
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mbedtls-2.28.0-kmbt3mtnuz3rzklgwr5unjsjgfgmujsv
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/unzip-6.0-bkymhem6niwqzjcon6kpi5qysy6bgpza
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libyaml-0.2.5-rytewyucpqkonhht5my62u7ro32euzrn
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openjdk-11.0.15_10-ci67idcxzrvbd6gxvwhuv6m3nmm3hohr
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/exmcutils-0.6.0-mweskmv2fl3jca65dokqzktbakebfhkf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pcre-8.45-lq2mstvnk5boj4af2w7utdtopvhulzu5
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cinch-master-2awjumbiyz3kkpe4jxhavcunhxwtdz2b
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pcre2-10.39-ixh6neg2nih2rwqodgxy43lgzlnycdmg
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/argobots-1.1-c7huo7wucx256kkvm2pah5s4z6jhb76l
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libunistring-0.9.10-titxsnr64lixqoz7j67pf4anhxrvm6sp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/diffutils-3.8-uli7acep5reahqi2j3jcbm3c5ll7nhgk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ncurses-6.2-gvjgiszsximd4475r2md2tnuyf2xzsab
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/util-linux-uuid-2.37.4-k3c4qk3jkt42cergu6brehszwtkkbwoc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libunwind-1.6.2-tefybvgm6dp56bzhq6mgbmikkkwvywel
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libxml2-2.9.13-26ddtb3dr52u2hrp3kf6ilkmuuwpf4yp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/pigz-2.7-fisjzhzkbnpy4mfhcypve34z7waq36rf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/tcl-8.6.12-23b4js2dygby5k6laffh2zomajva6yuz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libbsd-0.11.5-flwxuwxerrclotxz5kxrp7smb7ocd2bd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ant-1.10.7-egfoar4dkby7gwnhb5bl3v24pg7d2lvb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/swig-4.0.2-5tbdxraomuai5vhht2dp6gijq7v3npi7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libidn2-2.3.0-ldytin4uryrnhcyda3flaesuzwuvazwu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/bzip2-1.0.8-44yzgywnukmmteey7ch3wxx746lbc7b7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/m4-1.4.19-agucw5dt2xkxn3dkxzyfg43jyx54wqfm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zsh-5.8-lwzofj3yy3wr7wkclhk7pbw6pladiqve
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libedit-3.1-20210216-ly34neieniswpvfm74idxbougtholvgo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/readline-8.1.2-cd2lgldfv63ukoivqwbagvzv33xzm7vd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/gperftools-2.10-eo4req3r4dvlpwdekhjlifljvqygpk33
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/docbook-xml-4.5-5rzv5zbkogfasa52qwbrsdniivlgre3b
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/expat-2.4.8-ijry5ro74qcefgnq67gi2gth557dn5di
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libzmq-4.3.4-vr472o7eqzsmlczi2b6wqykwpwpvmfa7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libarchive-3.5.2-i3udcznmvsxenkvpwglmuryjxxtdjh6o
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/tar-1.34-l522upsa7u2zzv3rnsl25xumej43xfhf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libtool-2.4.7-5n46ly5edmdl7dxdzjbzhwc6bkb4an7a
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/gdbm-1.19-mnowgf4th7au6wdkufgdntdxdye4xhpf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/sqlite-3.38.5-7edvlefvhakfj76hqg2bipy7gwvnjvoc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/docbook-xsl-1.79.2-wzsnbdxyyy62tnqh6gtu652ka6tau4sg
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/gettext-0.21-vssrimxhjggzoncmhdxey5rf3g7scorp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpciaccess-0.16-ky5qiazdkxxis6hklky25q5rvusgnzus
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/perl-5.34.1-v42mrbvtiopxexysmbhoy3o4uc7aetyc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openssl-1.1.1q-rzfiqzdrfvmaceawgt32tcj4gl2v6vgw
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/bison-3.8.2-iugu5yj5fijfux55p2phuqaac6v6vmzv
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/autoconf-2.69-svyjqmojaejeao5azwnqxrwi4v2iylvb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/texinfo-6.5-uq5eebe5ug6osfpvjyvzbuf7azat5k2q
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/curl-7.83.0-hjyduxh42qp5xczoyvk3qmn6s7tzoiyg
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/python-3.8.13-hlscqijtdjzwnlauczkcmoxi6kqxrndq
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/krb5-1.19.3-i5eawpifzcggjczldqvh574k2prvu566
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/automake-1.16.5-lvuo5rbtqnpbdcatfoqnnsbnkxbxd52f
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/gmake-4.3-thi7ilasbs7hbtlefc25eil7focqjyf3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/lua-5.3.5-gjugfx7ixibxuiclct666bookm4glg5v
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pip-22.1.2-4waoxxjuydwrs3xnfscdutp7ova5toj6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ninja-1.11.0-thkso4ky6rtvm7buihshiulowmbfecvf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/gotcha-1.0.3-sib54xonrkdgwbhdlywyi5hwscf3htaf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/eigen-3.4.0-4c3gdw7sgcl3nvtynefqakfvnlckzqbm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libssh2-1.10.0-d2aj7u23vxkaahsys56hwtpxgrm2354j
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/googletest-1.8.1-tyiepot2s3ejuhxz65lkryq5bpuhpss7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/spath-0.2.0-yu5jduio6sxgkahhnpgsvhemsjg45tb3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/jansson-2.13.1-sdcwsgg44eji2uypvexuvsbwje3c3dcm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openssh-9.0p1-h6wml75yo3kocyl2y3auun5rqhwdaqgd
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaksa-0.2-4vuond4x45htguu6dtl3jcwsaxzqydtz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/czmq-4.1.1-yxpfia6hluqaejkv53qynzgmf2qqyb3g
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/lua-luaposix-35.0-4zatrbfqp4qpgtvbrznjmjxp6ilec3jb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-wheel-0.37.0-ns7t2zi66rftl5sdwhs3mmqxv25eei6q
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-setuptools-63.0.0-57tejpd45xvjlvkw64uvh4rzcmc3ecfb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libgit2-1.3.1-dahftyvmeno7its4azgiomglvmjlphr2
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/git-2.37.0-ags2peedpsgotyrbja566ji4dbttmmcu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-flit-core-3.6.0-fwoxv6rwvy7x4oymr7dkr4q4eeyx4wff
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-tomli-1.2.2-pr63wuufl3qatlcuetsqhpbmq6gjs3t7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-colorama-0.4.4-f7u3y65lfv6aj2edxto6m4ag6726btxw
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-certifi-2021.10.8-jiobriop5dvaorwuqimfuremwl6jvhtt
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyrsistent-0.18.0-q3vzfdsdnj5csbtksljlmdpzsssljoqj
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-tblib-1.6.0-rsqn7acgo5wswsvfwh52vzvz2u3qjzli
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pymongo-3.12.1-qn6ghstir2ptzzxhqn2pd3oiwjrsyfcn
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-docutils-0.18.1-ifm6of7u4knjzh4jdmug7eizuu66bsji
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-idna-3.3-5pgt2bpl7vnsu56oezjopgjj4rtxzcho
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-six-1.16.0-zhnzzbjeb3qkfxjqtg544jm3c2qwkmjk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-psutil-5.8.0-6ar7767kdgl5webzsh26axmqid6edf22
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-ntplib-0.4.0-ufyrvutdrwzx2enpomulxcbgeaqh4mp6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-attrs-21.4.0-5bdvqnjnkh5xw66g74luwiupsh62tscm
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-toml-0.10.2-kv7a74vejslsvxomi6ormuc6pxwj4mx4
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-regex-2020.11.13-sfibgebu6wjwopkmw5a7h6p2wtzd3dvo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-msgpack-1.0.3-wnvc4iaqmjqrok3wi7zaxpie2ilrj2pp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-greenlet-1.1.2-kn4o6stv6dslroqgjjl4tjhlr3336awu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-setproctitle-1.1.10-t6kn7iet3p65getf7lffmz3wfvqf3mbu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-urllib3-1.26.6-4pqqjkqmjwrvcvoqaefzlqs2n7p5oktb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-cython-3.0.0a9-nmetydskrycva4toq52dbd4iwec45h4u
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-charset-normalizer-2.0.12-evvcvl5f5fysjsn2wvbmdoflhf7mq65t
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-dill-0.3.4-olkdcdqqitfk6bjwqgkiaytd3db5mjuo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-netifaces-0.10.5-htqtqlb3yy3ojxbqrvwrechkznpz2xn7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-apache-libcloud-1.2.1-gzhnzjyxhikhfgkwcyocc5fgzoses2ju
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-parse-1.18.0-2sl2raalqeeifjeepeh23j4sgcbhy7nx
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-zope-interface-5.4.0-qo2njj22ujihcs3iqpvk6qfj2jxyaty5
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pycparser-2.20-bik3dkaaae6k3lixn32o7qwnn32bmnkp
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-semantic-version-2.8.2-jfobrklk6k2flbch6pbwngjhar4gwm3w
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-zope-event-4.5.0-g5ymnedd6pyilzxtpca5e7apxidbep6n
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pika-0.13.0-lriqrktvhejio4oh3naxxxcnf7ikoyrg
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyparsing-3.0.6-gllis2ekkn3elj5xgmafm25u7piwheof
+==> Installing rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o
+==> No binary for rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/20/20ca826d1cf674daf8e22c4f8c4b9743af07973211c839b85839742314c838b7.tar.gz
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/b8/b8a4c3959367d053825e31f90a5eb86418eb0d80cacda52bfa80b078e18150d5.tar.gz
+==> Moving resource stage
+	source: /tmp/root/spack-stage/resource-rust-1.60.0-x86_64-unknown-linux-gnu-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/
+	destination: /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap_stage/rust-1.60.0-x86_64-unknown-linux-gnu
+==> Ran patch() for rust
+==> rust: Executing phase: 'configure'
+==> rust: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 1:
+    '/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/python-3.8.13-hlscqijtdjzwnlauczkcmoxi6kqxrndq/bin/python3.8' './x.py' 'build'
+
+9 errors found in build log:
+     12136    warning: `toml` (lib) generated 1 warning
+     12137         Running `BUILD_TRIPLE=x86_64-unknown-linux-gnu CARGO=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bi
+              n/cargo CARGO_BIN_NAME=rustc CARGO_CRATE_NAME=rustc CARGO_MANIFEST_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/src/b
+              ootstrap CARGO_PKG_AUTHORS='' CARGO_PKG_DESCRIPTION='' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE='' CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAME=bootstrap CARGO_PKG_REPOSI
+              TORY='' CARGO_PKG_VERSION=0.0.0 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=0 CARGO_PKG_VERSION_PATCH=0 CARGO_PKG_VERSION_PRE='' CARGO_PRIMARY_PACKAGE=1 LD_LIB
+              RARY_PATH='/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps:/tmp/root/spack-stage/spack-stage-rust
+              -1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib:' OUT_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack
+              -src/build/bootstrap/debug/build/bootstrap-33f78b56da37b5dc/out RUSTC=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_
+              bootstrap/bin/rustc /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bin/rustc --crate-name rustc --edition=2
+              021 src/bootstrap/bin/rustc.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=n
+              o -C debuginfo=1 -C metadata=ff0319c2d0cb7f34 -C extra-filename=-ff0319c2d0cb7f34 --out-dir /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ek
+              xgx4o/spack-src/build/bootstrap/debug/deps -C incremental=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/de
+              bug/incremental -L dependency=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps --extern bootstrap=
+              /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbootstrap-828529116b66fdec.rlib --extern build
+              _helper=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbuild_helper-1475e9bd537fc31e.rlib --e
+              xtern cc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcc-2615cb024ee5cc17.rlib --extern cma
+              ke=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcmake-8f8e78e606f04f9e.rlib --extern fileti
+              me=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libfiletime-462f1e930de5d2a1.rlib --extern get
+              opts=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libgetopts-f870092b27dfe3e2.rlib --extern ig
+              nore=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libignore-702d5e994b48897b.rlib --extern lib
+              c=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/liblibc-daabb8f62ef6429a.rlib --extern num_cpus
+              =/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libnum_cpus-ce6c717e8bedc9f6.rlib --extern once_
+              cell=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libonce_cell-64d579f6a66162f5.rlib --extern 
+              opener=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libopener-4355cef788ec8650.rlib --extern s
+              erde=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde-1ecec1ea32dff501.rlib --extern serd
+              e_json=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde_json-38de4095927b4fa7.rlib --exte
+              rn toml=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libtoml-a55531f38cb57eb1.rlib -Wrust_2018
+              _idioms -Wunused_lifetimes -Wsemicolon_in_expressions_from_macros -Dwarnings`
+     12138         Running `BUILD_TRIPLE=x86_64-unknown-linux-gnu CARGO=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bi
+              n/cargo CARGO_BIN_NAME=llvm-config-wrapper CARGO_CRATE_NAME=llvm_config_wrapper CARGO_MANIFEST_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3byt
+              sbzt2ekxgx4o/spack-src/src/bootstrap CARGO_PKG_AUTHORS='' CARGO_PKG_DESCRIPTION='' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE='' CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAM
+              E=bootstrap CARGO_PKG_REPOSITORY='' CARGO_PKG_VERSION=0.0.0 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=0 CARGO_PKG_VERSION_PATCH=0 CARGO_PKG_VERSION_PRE='' CA
+              RGO_PRIMARY_PACKAGE=1 LD_LIBRARY_PATH='/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps:/tmp/root/
+              spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib:' OUT_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqw
+              ttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/build/bootstrap-33f78b56da37b5dc/out RUSTC=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3byts
+              bzt2ekxgx4o/spack-src/spack_bootstrap/bin/rustc /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bin/rustc --
+              crate-name llvm_config_wrapper --edition=2021 src/bootstrap/bin/llvm-config-wrapper.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat 
+              --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=1 -C metadata=90e8fe646b9ef921 -C extra-filename=-90e8fe646b9ef921 --out-dir /tmp/root/spack-s
+              tage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps -C incremental=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqe
+              pgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/incremental -L dependency=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/
+              spack-src/build/bootstrap/debug/deps --extern bootstrap=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debu
+              g/deps/libbootstrap-828529116b66fdec.rlib --extern build_helper=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootst
+              rap/debug/deps/libbuild_helper-1475e9bd537fc31e.rlib --extern cc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/boots
+              trap/debug/deps/libcc-2615cb024ee5cc17.rlib --extern cmake=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/d
+              ebug/deps/libcmake-8f8e78e606f04f9e.rlib --extern filetime=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/d
+              ebug/deps/libfiletime-462f1e930de5d2a1.rlib --extern getopts=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap
+              /debug/deps/libgetopts-f870092b27dfe3e2.rlib --extern ignore=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap
+              /debug/deps/libignore-702d5e994b48897b.rlib --extern libc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/de
+              bug/deps/liblibc-daabb8f62ef6429a.rlib --extern num_cpus=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/deb
+              ug/deps/libnum_cpus-ce6c717e8bedc9f6.rlib --extern once_cell=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap
+              /debug/deps/libonce_cell-64d579f6a66162f5.rlib --extern opener=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstr
+              ap/debug/deps/libopener-4355cef788ec8650.rlib --extern serde=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap
+              /debug/deps/libserde-1ecec1ea32dff501.rlib --extern serde_json=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstr
+              ap/debug/deps/libserde_json-38de4095927b4fa7.rlib --extern toml=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootst
+              rap/debug/deps/libtoml-a55531f38cb57eb1.rlib -Wrust_2018_idioms -Wunused_lifetimes -Wsemicolon_in_expressions_from_macros -Dwarnings`
+     12139         Running `BUILD_TRIPLE=x86_64-unknown-linux-gnu CARGO=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bi
+              n/cargo CARGO_BIN_NAME=rustdoc CARGO_CRATE_NAME=rustdoc CARGO_MANIFEST_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/s
+              rc/bootstrap CARGO_PKG_AUTHORS='' CARGO_PKG_DESCRIPTION='' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE='' CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAME=bootstrap CARGO_PKG_RE
+              POSITORY='' CARGO_PKG_VERSION=0.0.0 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=0 CARGO_PKG_VERSION_PATCH=0 CARGO_PKG_VERSION_PRE='' CARGO_PRIMARY_PACKAGE=1 LD
+              _LIBRARY_PATH='/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps:/tmp/root/spack-stage/spack-stage-
+              rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib:' OUT_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/s
+              pack-src/build/bootstrap/debug/build/bootstrap-33f78b56da37b5dc/out RUSTC=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/sp
+              ack_bootstrap/bin/rustc /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bin/rustc --crate-name rustdoc --edi
+              tion=2021 src/bootstrap/bin/rustdoc.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-b
+              itcode=no -C debuginfo=1 -C metadata=e48cbca2ac4ed513 -C extra-filename=-e48cbca2ac4ed513 --out-dir /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3by
+              tsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps -C incremental=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/boot
+              strap/debug/incremental -L dependency=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps --extern bo
+              otstrap=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbootstrap-828529116b66fdec.rlib --exte
+              rn build_helper=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbuild_helper-1475e9bd537fc31e.
+              rlib --extern cc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcc-2615cb024ee5cc17.rlib --ex
+              tern cmake=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcmake-8f8e78e606f04f9e.rlib --exter
+              n filetime=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libfiletime-462f1e930de5d2a1.rlib --ex
+              tern getopts=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libgetopts-f870092b27dfe3e2.rlib --e
+              xtern ignore=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libignore-702d5e994b48897b.rlib --ex
+              tern libc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/liblibc-daabb8f62ef6429a.rlib --extern 
+              num_cpus=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libnum_cpus-ce6c717e8bedc9f6.rlib --exte
+              rn once_cell=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libonce_cell-64d579f6a66162f5.rlib -
+              -extern opener=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libopener-4355cef788ec8650.rlib --
+              extern serde=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde-1ecec1ea32dff501.rlib --ext
+              ern serde_json=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde_json-38de4095927b4fa7.rli
+              b --extern toml=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libtoml-a55531f38cb57eb1.rlib -Wr
+              ust_2018_idioms -Wunused_lifetimes -Wsemicolon_in_expressions_from_macros -Dwarnings`
+     12140         Running `BUILD_TRIPLE=x86_64-unknown-linux-gnu CARGO=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bi
+              n/cargo CARGO_BIN_NAME=sccache-plus-cl CARGO_CRATE_NAME=sccache_plus_cl CARGO_MANIFEST_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekx
+              gx4o/spack-src/src/bootstrap CARGO_PKG_AUTHORS='' CARGO_PKG_DESCRIPTION='' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE='' CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAME=bootst
+              rap CARGO_PKG_REPOSITORY='' CARGO_PKG_VERSION=0.0.0 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=0 CARGO_PKG_VERSION_PATCH=0 CARGO_PKG_VERSION_PRE='' CARGO_PRIM
+              ARY_PACKAGE=1 LD_LIBRARY_PATH='/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps:/tmp/root/spack-st
+              age/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib:' OUT_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3b
+              ytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/build/bootstrap-33f78b56da37b5dc/out RUSTC=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxg
+              x4o/spack-src/spack_bootstrap/bin/rustc /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bin/rustc --crate-na
+              me sccache_plus_cl --edition=2021 src/bootstrap/bin/sccache-plus-cl.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin
+               --emit=dep-info,link -C embed-bitcode=no -C debuginfo=1 -C metadata=03cda53b5e89a654 -C extra-filename=-03cda53b5e89a654 --out-dir /tmp/root/spack-stage/spack-stage
+              -rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps -C incremental=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3byts
+              bzt2ekxgx4o/spack-src/build/bootstrap/debug/incremental -L dependency=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/
+              bootstrap/debug/deps --extern bootstrap=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbootst
+              rap-828529116b66fdec.rlib --extern build_helper=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/l
+              ibbuild_helper-1475e9bd537fc31e.rlib --extern cc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/
+              libcc-2615cb024ee5cc17.rlib --extern cmake=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcma
+              ke-8f8e78e606f04f9e.rlib --extern filetime=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libfil
+              etime-462f1e930de5d2a1.rlib --extern getopts=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libg
+              etopts-f870092b27dfe3e2.rlib --extern ignore=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libi
+              gnore-702d5e994b48897b.rlib --extern libc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/liblibc
+              -daabb8f62ef6429a.rlib --extern num_cpus=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libnum_c
+              pus-ce6c717e8bedc9f6.rlib --extern once_cell=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libo
+              nce_cell-64d579f6a66162f5.rlib --extern opener=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/li
+              bopener-4355cef788ec8650.rlib --extern serde=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libs
+              erde-1ecec1ea32dff501.rlib --extern serde_json=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/li
+              bserde_json-38de4095927b4fa7.rlib --extern toml=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/l
+              ibtoml-a55531f38cb57eb1.rlib -Wrust_2018_idioms -Wunused_lifetimes -Wsemicolon_in_expressions_from_macros -Dwarnings`
+     12141         Running `BUILD_TRIPLE=x86_64-unknown-linux-gnu CARGO=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bi
+              n/cargo CARGO_BIN_NAME=bootstrap CARGO_CRATE_NAME=bootstrap CARGO_MANIFEST_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-s
+              rc/src/bootstrap CARGO_PKG_AUTHORS='' CARGO_PKG_DESCRIPTION='' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE='' CARGO_PKG_LICENSE_FILE='' CARGO_PKG_NAME=bootstrap CARGO_PK
+              G_REPOSITORY='' CARGO_PKG_VERSION=0.0.0 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=0 CARGO_PKG_VERSION_PATCH=0 CARGO_PKG_VERSION_PRE='' CARGO_PRIMARY_PACKAGE=
+              1 LD_LIBRARY_PATH='/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps:/tmp/root/spack-stage/spack-st
+              age-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib:' OUT_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx
+              4o/spack-src/build/bootstrap/debug/build/bootstrap-33f78b56da37b5dc/out RUSTC=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-sr
+              c/spack_bootstrap/bin/rustc /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bin/rustc --crate-name bootstrap
+               --edition=2021 src/bootstrap/bin/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embe
+              d-bitcode=no -C debuginfo=1 -C metadata=5326d883be50cfa5 -C extra-filename=-5326d883be50cfa5 --out-dir /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj
+              3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps -C incremental=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/b
+              ootstrap/debug/incremental -L dependency=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps --extern
+               bootstrap=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbootstrap-828529116b66fdec.rlib --e
+              xtern build_helper=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbuild_helper-1475e9bd537fc3
+              1e.rlib --extern cc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcc-2615cb024ee5cc17.rlib -
+              -extern cmake=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcmake-8f8e78e606f04f9e.rlib --ex
+              tern filetime=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libfiletime-462f1e930de5d2a1.rlib -
+              -extern getopts=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libgetopts-f870092b27dfe3e2.rlib 
+              --extern ignore=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libignore-702d5e994b48897b.rlib -
+              -extern libc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/liblibc-daabb8f62ef6429a.rlib --exte
+              rn num_cpus=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libnum_cpus-ce6c717e8bedc9f6.rlib --e
+              xtern once_cell=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libonce_cell-64d579f6a66162f5.rli
+              b --extern opener=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libopener-4355cef788ec8650.rlib
+               --extern serde=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde-1ecec1ea32dff501.rlib --
+              extern serde_json=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde_json-38de4095927b4fa7.
+              rlib --extern toml=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libtoml-a55531f38cb57eb1.rlib 
+              -Wrust_2018_idioms -Wunused_lifetimes -Wsemicolon_in_expressions_from_macros -Dwarnings`
+  >> 12142    error: linking with `cc` failed: exit status: 1
+     12143      |
+     12144      = note: "cc" "-m64" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/bootstrap-5326d883be50cfa5
+              .11fpyy1uauzgus0g.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/bootstrap-5326d883be50
+              cfa5.18xtps5t9ehn11y7.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/bootstrap-5326d883
+              be50cfa5.192oy16kbaytxdzu.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/bootstrap-5326
+              d883be50cfa5.1ek01fchp4idydh5.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/bootstrap-
+              5326d883be50cfa5.1sxhbdzvh9izm924.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/bootst
+              rap-5326d883be50cfa5.1xebxok3dl2yli0a.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/bo
+              otstrap-5326d883be50cfa5.1y6b7o4d8t1pa4zb.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/dep
+              s/bootstrap-5326d883be50cfa5.20fvic5fxylysygc.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug
+              /deps/bootstrap-5326d883be50cfa5.2bdoein0xzjmpfl9.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/d
+              ebug/deps/bootstrap-5326d883be50cfa5.2kfsx9rq18qcngya.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstr
+              ap/debug/deps/bootstrap-5326d883be50cfa5.2l2z8fwkgz8pegr2.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/boo
+              tstrap/debug/deps/bootstrap-5326d883be50cfa5.304bfo7c87wpilc7.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build
+              /bootstrap/debug/deps/bootstrap-5326d883be50cfa5.3mvysnxn1uyia85b.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/b
+              uild/bootstrap/debug/deps/bootstrap-5326d883be50cfa5.4bvve9l8mjzvhvwm.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-s
+              rc/build/bootstrap/debug/deps/bootstrap-5326d883be50cfa5.4fclkwmkyomfxr28.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spa
+              ck-src/build/bootstrap/debug/deps/bootstrap-5326d883be50cfa5.4yxxfpn447gvz85p.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o
+              /spack-src/build/bootstrap/debug/deps/bootstrap-5326d883be50cfa5.5b9bcupv8id8fr9.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxg
+              x4o/spack-src/build/bootstrap/debug/deps/bootstrap-5326d883be50cfa5.gz3p3gxzkdw0dfj.rcgu.o" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2e
+              kxgx4o/spack-src/build/bootstrap/debug/deps/bootstrap-5326d883be50cfa5.525yns8crnzg23f7.rcgu.o" "-Wl,--as-needed" "-L" "/tmp/root/spack-stage/spack-stage-rust-1.60.0
+              -e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps" "-L" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-sr
+              c/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib" "-Wl,-Bstatic" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/
+              build/bootstrap/debug/deps/libbootstrap-828529116b66fdec.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootst
+              rap/debug/deps/libcmake-8f8e78e606f04f9e.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/l
+              ibopener-4355cef788ec8650.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libnum_cpus-ce6c
+              717e8bedc9f6.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libtoml-a55531f38cb57eb1.rlib
+              " "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde_json-38de4095927b4fa7.rlib" "/tmp/roo
+              t/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libryu-5c13a92f87cbdfd0.rlib" "/tmp/root/spack-stage/spac
+              k-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libitoa-4e8db9424f419980.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60
+              .0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcc-2615cb024ee5cc17.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj
+              3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libignore-702d5e994b48897b.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4
+              o/spack-src/build/bootstrap/debug/deps/libcrossbeam_utils-00f12147ec35605f.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spac
+              k-src/build/bootstrap/debug/deps/libwalkdir-f443a27e3279d9b1.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bo
+              otstrap/debug/deps/libthread_local-e8b7ffd65589e2e0.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/d
+              ebug/deps/libsame_file-8408ad7513c6db6f.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/li
+              bglobset-129d6743bab4bef4.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libregex-c02f62e
+              2f11b4d83.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libregex_syntax-dd81adc57bf314c6
+              .rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/liblog-2ecd3e410c2896e1.rlib" "/tmp/root/
+              spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libfnv-630442ae21e6318e.rlib" "/tmp/root/spack-stage/spack-
+              stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbstr-d1f1bd213dbe2486.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0
+              -e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libregex_automata-c7dfaac0814d286e.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqep
+              giqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/liblazy_static-bfadae7e04375802.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj
+              3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libaho_corasick-61f7035b955f7f1e.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2
+              ekxgx4o/spack-src/build/bootstrap/debug/deps/libmemchr-0a6347eb8885bfe5.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-s
+              rc/build/bootstrap/debug/deps/libgetopts-f870092b27dfe3e2.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/boots
+              trap/debug/deps/libunicode_width-a2affbbc013d6aed.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/deb
+              ug/deps/libserde-1ecec1ea32dff501.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libonce_
+              cell-64d579f6a66162f5.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libfiletime-462f1e93
+              0de5d2a1.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/liblibc-daabb8f62ef6429a.rlib" "/
+              tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcfg_if-44aaf163f2065d5e.rlib" "/tmp/root/spack-
+              stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbuild_helper-1475e9bd537fc31e.rlib" "-Wl,--start-group" "/tmp/
+              root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-8d61b92a0a02f53a.
+              rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unw
+              ind-fc45202bb435016b.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux
+              -gnu/lib/libminiz_oxide-f2400674c7513725.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/
+              x86_64-unknown-linux-gnu/lib/libadler-605c3a7d1a5d300d.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstra
+              p/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-3d4fb4efa907e4e8.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src
+              /spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-65207f030ab23308.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ek
+              xgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-76ca199cb0186109.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiq
+              wttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-1e3e01ed4f561dc1.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.
+              60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-dd8dddcba7c13fee.rlib" "/tmp/root/spack-st
+              age/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-00b13d31c3420656.rlib" 
+              "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-e4c84
+              60b81557bd5.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/
+              librustc_std_workspace_alloc-600d46e5f0005455.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rus
+              tlib/x86_64-unknown-linux-gnu/lib/libunwind-e4a08a2585b62d37.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bo
+              otstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-fbc21ec567cb9dc7.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spa
+              ck-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-10b3fa8e49bd978f.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbz
+              t2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-64625b73694ffce7.rlib" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiq
+              wttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-fb6b78ac543a58ee.rlib" "/tmp/root/spack-stage/
+              spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-1d1f2d1bec6f51b8.rlib" "-Wl,--end
+              -group" "/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompile
+              r_builtins-acf5ff6e9595d982.rlib" "-Wl,-Bdynamic" "-lgcc_s" "-lutil" "-lrt" "-lpthread" "-lm" "-ldl" "-lc" "-Wl,--eh-frame-hdr" "-Wl,-znoexecstack" "-L" "/tmp/root/s
+              pack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib/rustlib/x86_64-unknown-linux-gnu/lib" "-o" "/tmp/root/spack-stage/s
+              pack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/bootstrap-5326d883be50cfa5" "-Wl,--gc-sections" "-pie" "-Wl,-zrelro,-zno
+              w" "-nodefaultlibs"
+     12145      = note: /usr/bin/ld: /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin/libimf.a(libm_feature_flag.o): in function `__libm_feature_flag
+              _init':
+  >> 12146              libm_feature_flag.c:(.text+0x25): undefined reference to `__intel_cpu_feature_indicator_x'
+  >> 12147              /usr/bin/ld: libm_feature_flag.c:(.text+0x5e): undefined reference to `__intel_cpu_features_init_x'
+  >> 12148              /usr/bin/ld: libm_feature_flag.c:(.text+0x87): undefined reference to `__intel_cpu_features_init_x'
+  >> 12149              /usr/bin/ld: libm_feature_flag.c:(.text+0xaf): undefined reference to `__intel_cpu_features_init_x'
+  >> 12150              /usr/bin/ld: libm_feature_flag.c:(.text+0xd2): undefined reference to `__intel_cpu_features_init_x'
+  >> 12151              /usr/bin/ld: libm_feature_flag.c:(.text+0xf5): undefined reference to `__intel_cpu_features_init_x'
+     12152              /usr/bin/ld: /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin/libimf.a(libm_feature_flag.o):libm_feature_flag.c:(.text+0x118)
+              : more undefined references to `__intel_cpu_features_init_x' follow
+  >> 12153              clang: error: linker command failed with exit code 1 (use -v to see invocation)
+     12154    
+     12155      = help: some `extern` functions couldn't be found; some native libraries may need to be installed or have their path specified
+     12156      = note: use the `-l` flag to specify native libraries to link
+     12157      = note: use the `cargo:rustc-link-lib` directive to specify the native libraries to link with Cargo (see https://doc.rust-lang.org/cargo/reference/build-scripts.ht
+              ml#cargorustc-link-libkindname)
+     12158    
+  >> 12159    error: could not compile `bootstrap` due to previous error
+     12160    
+     12161    Caused by:
+     12162      process didn't exit successfully: `BUILD_TRIPLE=x86_64-unknown-linux-gnu CARGO=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack
+              -src/spack_bootstrap/bin/cargo CARGO_BIN_NAME=bootstrap CARGO_CRATE_NAME=bootstrap CARGO_MANIFEST_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3
+              bytsbzt2ekxgx4o/spack-src/src/bootstrap CARGO_PKG_AUTHORS='' CARGO_PKG_DESCRIPTION='' CARGO_PKG_HOMEPAGE='' CARGO_PKG_LICENSE='' CARGO_PKG_LICENSE_FILE='' CARGO_PKG_
+              NAME=bootstrap CARGO_PKG_REPOSITORY='' CARGO_PKG_VERSION=0.0.0 CARGO_PKG_VERSION_MAJOR=0 CARGO_PKG_VERSION_MINOR=0 CARGO_PKG_VERSION_PATCH=0 CARGO_PKG_VERSION_PRE=''
+               CARGO_PRIMARY_PACKAGE=1 LD_LIBRARY_PATH='/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps:/tmp/ro
+              ot/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/lib:' OUT_DIR=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepg
+              iqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/build/bootstrap-33f78b56da37b5dc/out RUSTC=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3b
+              ytsbzt2ekxgx4o/spack-src/spack_bootstrap/bin/rustc /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/spack_bootstrap/bin/rustc
+               --crate-name bootstrap --edition=2021 src/bootstrap/bin/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emi
+              t=dep-info,link -C embed-bitcode=no -C debuginfo=1 -C metadata=5326d883be50cfa5 -C extra-filename=-5326d883be50cfa5 --out-dir /tmp/root/spack-stage/spack-stage-rust-
+              1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps -C incremental=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ek
+              xgx4o/spack-src/build/bootstrap/debug/incremental -L dependency=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootst
+              rap/debug/deps --extern bootstrap=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbootstrap-82
+              8529116b66fdec.rlib --extern build_helper=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libbuil
+              d_helper-1475e9bd537fc31e.rlib --extern cc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcc-
+              2615cb024ee5cc17.rlib --extern cmake=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libcmake-8f8
+              e78e606f04f9e.rlib --extern filetime=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libfiletime-
+              462f1e930de5d2a1.rlib --extern getopts=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libgetopts
+              -f870092b27dfe3e2.rlib --extern ignore=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libignore-
+              702d5e994b48897b.rlib --extern libc=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/liblibc-daabb
+              8f62ef6429a.rlib --extern num_cpus=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libnum_cpus-ce
+              6c717e8bedc9f6.rlib --extern once_cell=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libonce_ce
+              ll-64d579f6a66162f5.rlib --extern opener=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libopene
+              r-4355cef788ec8650.rlib --extern serde=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde-1
+              ecec1ea32dff501.rlib --extern serde_json=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libserde
+              _json-38de4095927b4fa7.rlib --extern toml=/tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-src/build/bootstrap/debug/deps/libtoml
+              -a55531f38cb57eb1.rlib -Wrust_2018_idioms -Wunused_lifetimes -Wsemicolon_in_expressions_from_macros -Dwarnings` (exit status: 1)
+     12163    Traceback (most recent call last):
+     12164      File "./x.py", line 27, in <module>
+     12165        bootstrap.main()
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-bxrq63yfunsjh72xg3t45rketyacqokn
+==> Installing boost-1.79.0-gmppog3l3mgfqqmzo3aksfqgq5sx2zzn
+==> No binary for boost-1.79.0-gmppog3l3mgfqqmzo3aksfqgq5sx2zzn found: installing from source
+==> Warning: Skipping build of py-setuptools-rust-0.12.1-fqksw3eed3kc2mkm7ql3ekukermqh7ch since rust-1.60.0-e4kqepgiqwttqsaj3bytsbzt2ekxgx4o failed
+==> Warning: Skipping build of py-cryptography-3.4.8-5qs7izght7ghmzptdpinithwkd3bva2w since py-setuptools-rust-0.12.1-fqksw3eed3kc2mkm7ql3ekukermqh7ch failed
+==> Warning: Skipping build of py-pyjwt-2.1.0-7wfb3ncykjqhfmmje5n4s555nhmvvor6 since py-cryptography-3.4.8-5qs7izght7ghmzptdpinithwkd3bva2w failed
+==> Warning: Skipping build of py-globus-sdk-3.0.2-ehs2w6eedr4clgf4xqe5osopo2lumau2 since py-pyjwt-2.1.0-7wfb3ncykjqhfmmje5n4s555nhmvvor6 failed
+==> Warning: Skipping build of py-parsl-1.1.0-pb6yae5l75ngty3at4q56skv2kkrl56w since py-globus-sdk-3.0.2-ehs2w6eedr4clgf4xqe5osopo2lumau2 failed
+==> Warning: Skipping build of exaworks-0.1.0-nkkcyvagbpgcfivuw656fqwka6cjimc2 since py-parsl-1.1.0-pb6yae5l75ngty3at4q56skv2kkrl56w failed
+==> Warning: Skipping build of py-paramiko-2.7.1-66zruntdizmcpvs4kxacnyc2ntjmc2jn since py-cryptography-3.4.8-5qs7izght7ghmzptdpinithwkd3bva2w failed
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/47/475d589d51a7f8b3ba2ba4eda022b170e562ca3b760ee922c146b6c65856ef39.tar.bz2
+==> Applied patch /spack/var/spack/repos/builtin/packages/boost/python_jam-1_77.patch
+==> Applied patch /spack/var/spack/repos/builtin/packages/boost/bootstrap-compiler.patch
+==> Ran patch() for boost
+==> boost: Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    './b2' 'install' 'threading=multi' '-j' '16' '--user-config=/tmp/root/spack-stage/spack-stage-boost-1.79.0-gmppog3l3mgfqqmzo3aksfqgq5sx2zzn/spack-src/user-config.jam' 'variant=release' '--disable-icu' '-s' 'BZIP2_INCLUDE=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/bzip2-1.0.8-44yzgywnukmmteey7ch3wxx746lbc7b7/include' '-s' 'BZIP2_LIBPATH=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/bzip2-1.0.8-44yzgywnukmmteey7ch3wxx746lbc7b7/lib' '-s' 'ZLIB_INCLUDE=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za/include' '-s' 'ZLIB_LIBPATH=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za/lib' '-s' 'NO_LZMA=1' '-s' 'NO_ZSTD=1' 'link=static,shared' '--layout=system' 'toolset=intel-linux' 'cxxstd=17' 'visibility=hidden'
+
+4 errors found in build log:
+     640      intel-linux.compile.c++.pch bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden/pch.pchi
+     641      icpx: command line warning #10430: Unsupported command line options encountered
+     642      These options as listed are not supported.
+     643      For more information, use '-qnextgen-diag'.
+     644      option list:
+     645      	-ip
+  >> 646      clang++: error: no such file or directory: 'bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden/pch.pchi'
+  >> 647      clang++: error: unsupported argument 'h-create' to option '-pc'
+     648      
+     649          rm -f "bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden/pch.pchi" &&  "/spack/lib/spack/env/oneapi
+              /icpx" -x c++-header -std=c++17 -fvisibility-inlines-hidden -m64 -pthread -fvisibility=hidden -inline-level=2 -O3 -ip -Wall -fvisibility=hidden -DBOOST_ALL_NO_LIB=1 
+              -DBOOST_BUILD_PCH_ENABLED -DNDEBUG -I"." -I"libs/math/src/tr1" -c -pch-create "bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threadin
+              g-multi/visibility-hidden/pch.pchi" "libs/math/build/../src/tr1/pch.hpp"
+     650      
+     651      ...failed intel-linux.compile.c++.pch bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden/pch.pchi...
+     652      ...skipped <pbin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden>acosh.o for lack of <pbin.v2/libs/math/b
+              uild/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden>pch.pchi...
+     653      ...skipped <pbin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden>asinh.o for lack of <pbin.v2/libs/math/b
+              uild/intel-linux-2022.1.0/release/cxxstd-17-iso/link-static/threading-multi/visibility-hidden>pch.pchi...
+
+     ...
+
+     19581    intel-linux.compile.c++.pch bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/threading-multi/visibility-hidden/pch.pchi
+     19582    icpx: command line warning #10430: Unsupported command line options encountered
+     19583    These options as listed are not supported.
+     19584    For more information, use '-qnextgen-diag'.
+     19585    option list:
+     19586    	-ip
+  >> 19587    clang++: error: no such file or directory: 'bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/threading-multi/visibility-hidden/pch.pchi'
+  >> 19588    clang++: error: unsupported argument 'h-create' to option '-pc'
+     19589    
+     19590        rm -f "bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/threading-multi/visibility-hidden/pch.pchi" &&  "/spack/lib/spack/env/oneapi/icpx" -x c+
+              +-header -std=c++17 -fvisibility-inlines-hidden -fPIC -m64 -pthread -fvisibility=hidden -inline-level=2 -O3 -ip -Wall -fvisibility=hidden -DBOOST_ALL_NO_LIB=1 -DBOOS
+              T_BUILD_PCH_ENABLED -DBOOST_MATH_TR1_DYN_LINK=1 -DNDEBUG -I"." -I"libs/math/src/tr1" -c -pch-create "bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-is
+              o/threading-multi/visibility-hidden/pch.pchi" "libs/math/build/../src/tr1/pch.hpp"
+     19591    
+     19592    ...failed intel-linux.compile.c++.pch bin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/threading-multi/visibility-hidden/pch.pchi...
+     19593    ...skipped <pbin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/threading-multi/visibility-hidden>acosh.o for lack of <pbin.v2/libs/math/build/intel-l
+              inux-2022.1.0/release/cxxstd-17-iso/threading-multi/visibility-hidden>pch.pchi...
+     19594    ...skipped <pbin.v2/libs/math/build/intel-linux-2022.1.0/release/cxxstd-17-iso/threading-multi/visibility-hidden>asinh.o for lack of <pbin.v2/libs/math/build/intel-l
+              inux-2022.1.0/release/cxxstd-17-iso/threading-multi/visibility-hidden>pch.pchi...
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-boost-1.79.0-gmppog3l3mgfqqmzo3aksfqgq5sx2zzn/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-y6zb4a33lpaw6ifdukals7khxcfglsyw
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-x7des7ae5z2k6x2k7iqdd5y3cgq5bo5o
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/adlbx-1.0.0-tyngrl7gmyi43gwdmm2jzmtoc3shdacf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/parmetis-4.0.3-7k7kmefyaoqnhigelovllym5ixi4dxjo
+==> Installing pfunit-3.3.3-doli2haj5kxtzzjnqkuvk4yhfyzrydpa
+==> No binary for pfunit-3.3.3-doli2haj5kxtzzjnqkuvk4yhfyzrydpa found: installing from source
+==> Warning: Skipping build of asio-1.21.0-w6pwnuciwkbxqljvk6bwwvrn6okloetk since boost-1.79.0-gmppog3l3mgfqqmzo3aksfqgq5sx2zzn failed
+==> Warning: Skipping build of hpx-1.7.1-czdjpsyt47qve4or2zqgq37sn6xwi5il since asio-1.21.0-w6pwnuciwkbxqljvk6bwwvrn6okloetk failed
+==> Error: InstallError: Unsupported compiler.
+
+/spack/var/spack/repos/builtin/packages/pfunit/package.py:112, in compiler_vendor:
+        109        for key, value in vendors.items():
+        110            if self.spec.satisfies(key):
+        111                return value
+  >>    112        raise InstallError('Unsupported compiler.')
+
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-rnxgl3ds7xaovqk3wxfjffnh46atlnfo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hypre-2.25.0-tf2i4r4cpuiqhderpgjc7pi76vkmitz5
+==> Installing hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh
+==> No binary for hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh found: installing from source
+==> Warning: Skipping build of flecsi-1.4.2-jbtrynwta772dfkjmsstujatawqpmlcf since pfunit-3.3.3-doli2haj5kxtzzjnqkuvk4yhfyzrydpa failed
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/2a/2a89af03d56ce7502dcae18232c241281ad1773561ec00c0f0e8ee2463910f14.tar.gz
+==> Ran patch() for hdf5
+==> hdf5: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh/lib64;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpciaccess-0.16-ky5qiazdkxxis6hklky25q5rvusgnzus/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libxml2-2.9.13-26ddtb3dr52u2hrp3kf6ilkmuuwpf4yp/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libiconv-1.16-sohfg2fg2ss47uvlwzdjbifbjdbeg4wd/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/xz-5.2.5-rzbnd7f7m36t6pzuzonb5l23snzdyiwo/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ncurses-6.2-gvjgiszsximd4475r2md2tnuyf2xzsab/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libfabric-1.14.1-mpntixmudnncnkwv5gtdnwsuaqfqj7n6/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaksa-0.2-4vuond4x45htguu6dtl3jcwsaxzqydtz/lib' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaksa-0.2-4vuond4x45htguu6dtl3jcwsaxzqydtz;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libfabric-1.14.1-mpntixmudnncnkwv5gtdnwsuaqfqj7n6;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libxml2-2.9.13-26ddtb3dr52u2hrp3kf6ilkmuuwpf4yp;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/xz-5.2.5-rzbnd7f7m36t6pzuzonb5l23snzdyiwo;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpciaccess-0.16-ky5qiazdkxxis6hklky25q5rvusgnzus;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libiconv-1.16-sohfg2fg2ss47uvlwzdjbifbjdbeg4wd;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ncurses-6.2-gvjgiszsximd4475r2md2tnuyf2xzsab' '-DALLOW_UNSUPPORTED:BOOL=ON' '-DHDF5_BUILD_EXAMPLES:BOOL=OFF' '-DBUILD_TESTING:BOOL=OFF' '-DHDF5_ENABLE_Z_LIB_SUPPORT:BOOL=ON' '-DHDF5_ENABLE_SZIP_SUPPORT:BOOL=OFF' '-DHDF5_ENABLE_SZIP_ENCODING:BOOL=OFF' '-DBUILD_SHARED_LIBS:BOOL=ON' '-DONLY_SHARED_LIBS:BOOL=OFF' '-DHDF5_ENABLE_PARALLEL:BOOL=ON' '-DHDF5_ENABLE_THREADSAFE:BOOL=OFF' '-DHDF5_BUILD_HL_LIB:BOOL=ON' '-DHDF5_BUILD_CPP_LIB:BOOL=OFF' '-DHDF5_BUILD_FORTRAN:BOOL=ON' '-DHDF5_BUILD_JAVA:BOOL=OFF' '-DHDF5_BUILD_TOOLS:BOOL=ON' '-DCMAKE_C_COMPILER:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpicc' '-DCMAKE_Fortran_COMPILER:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90' '/tmp/root/spack-stage/spack-stage-hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh/spack-src'
+
+4 errors found in build log:
+     324    -- Found ZLIB: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za/lib/libz.so (found version "1.2.12")
+     325    -- The Fortran compiler identification is IntelLLVM 2022.1.0
+     326    -- Detecting Fortran compiler ABI info
+     327    -- Detecting Fortran compiler ABI info - failed
+     328    -- Check for working Fortran compiler: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90
+     329    -- Check for working Fortran compiler: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 - broken
+  >> 330    CMake Error at /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x/share/cmake-3.23/Modules/CMakeTestFortranCompile
+            r.cmake:61 (message):
+     331      The Fortran compiler
+     332    
+     333        "/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90"
+     334    
+     335      is not able to compile a simple test program.
+     336    
+
+     ...
+
+     343        Building Fortran object CMakeFiles/cmTC_83c36.dir/testFortranCompiler.f.o
+     344        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90   -fPIE -c /tmp/root/spack-stage/spack-stage-hdf5
+            -1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh/spack-build-5knfqdf/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_83c36.dir/testFortranCompiler.f.o
+     345        Linking Fortran executable cmTC_83c36
+     346        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c36.dir/li
+            nk.txt --verbose=1
+     347        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 CMakeFiles/cmTC_83c36.dir/testFortranCompiler.f.o
+             -o cmTC_83c36
+     348        ifx: command line warning #10006: ignoring unknown option '-rpath'
+  >> 349    ld: cannot find /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib: file format not recognized
+  >> 350        make[1]: *** [CMakeFiles/cmTC_83c36.dir/build.make:99: cmTC_83c36] Error 1
+     351        make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh/spack-build-5knfqdf/CMakeFiles/CMakeTmp'
+  >> 352        make: *** [Makefile:127: cmTC_83c36/fast] Error 2
+     353    
+     354    
+     355    
+     356    
+     357    
+     358      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-kgz2zuni2idmju3j4xgbqikqy5urj3zn
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-typing-extensions-4.3.0-yddnbbzqp6hh6nyahqt5rnpvhuhxmx7p
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyyaml-6.0-56iosqynokicm34kivk6ee4my7rfbmy6
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-requests-2.26.0-cjbeuizuyxe2sexabtubor3yo35nhnj7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-cffi-1.15.0-p3oypm6wwxlgjjusdxzqgfn62cn7mxfk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-packaging-21.3-kwpdscdkpwnc2l3fdsvz6jyhzgc5l7j3
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mercury-2.1.0-whhtwczqhcr4k6baxe255fncszox4uce
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/turbine-1.3.0-x4yay2bui6mbccm6jkjd6lwtbbq45l3c
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/superlu-dist-7.2.0-6tn2tykzswttzpcyk3agkxnsukdg5o3s
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-gevent-21.12.0-ocvnuinqznomcwr5owmkwnsm45zwi6oe
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-bcrypt-3.2.0-w6vpnqqcixqvgq55jipdpkm5p4qvuec4
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pynacl-1.4.0-h4mlpb4qc4gr2c4ahphbq46ye76znqtg
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-setuptools-scm-7.0.3-wi2kt6znvjpon4vk3sj6x7a3scu3muxc
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mochi-margo-0.9.10-xfl3qrzphd37s2box32bouuepqi5tzjb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/stc-0.9.0-x3dfvdioiakgtu7t3d3lkkv6ukjwx4gt
+==> Installing trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3
+==> No binary for trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3 found: installing from source
+==> Warning: Skipping build of petsc-3.17.3-q6dzvahrr7g7tuf6ajod6w4us7ahe5t2 since hdf5-1.12.2-5knfqdfki4jrjesrls2xjz5pxgwap4qh failed
+==> Warning: Skipping build of precice-2.4.0-patgbfezixsxzsywpubw5ih6wboplboi since petsc-3.17.3-q6dzvahrr7g7tuf6ajod6w4us7ahe5t2 failed
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/0b/0bce7066c27e83085bc189bf524e535e5225636c9ee4b16291a38849d6c2216d.tar.gz
+==> No patches needed for trilinos
+==> trilinos: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    'cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3/lib64;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-kgz2zuni2idmju3j4xgbqikqy5urj3zn/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpciaccess-0.16-ky5qiazdkxxis6hklky25q5rvusgnzus/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libxml2-2.9.13-26ddtb3dr52u2hrp3kf6ilkmuuwpf4yp/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libiconv-1.16-sohfg2fg2ss47uvlwzdjbifbjdbeg4wd/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/xz-5.2.5-rzbnd7f7m36t6pzuzonb5l23snzdyiwo/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ncurses-6.2-gvjgiszsximd4475r2md2tnuyf2xzsab/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libfabric-1.14.1-mpntixmudnncnkwv5gtdnwsuaqfqj7n6/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaksa-0.2-4vuond4x45htguu6dtl3jcwsaxzqydtz/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/parmetis-4.0.3-7k7kmefyaoqnhigelovllym5ixi4dxjo/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/superlu-dist-7.2.0-6tn2tykzswttzpcyk3agkxnsukdg5o3s/lib' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/superlu-dist-7.2.0-6tn2tykzswttzpcyk3agkxnsukdg5o3s;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/parmetis-4.0.3-7k7kmefyaoqnhigelovllym5ixi4dxjo;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-kgz2zuni2idmju3j4xgbqikqy5urj3zn;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaksa-0.2-4vuond4x45htguu6dtl3jcwsaxzqydtz;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libfabric-1.14.1-mpntixmudnncnkwv5gtdnwsuaqfqj7n6;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/ncurses-6.2-gvjgiszsximd4475r2md2tnuyf2xzsab;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libxml2-2.9.13-26ddtb3dr52u2hrp3kf6ilkmuuwpf4yp;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/xz-5.2.5-rzbnd7f7m36t6pzuzonb5l23snzdyiwo;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libpciaccess-0.16-ky5qiazdkxxis6hklky25q5rvusgnzus;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/libiconv-1.16-sohfg2fg2ss47uvlwzdjbifbjdbeg4wd' '-DTrilinos_VERBOSE_CONFIGURE:BOOL=OFF' '-DBUILD_SHARED_LIBS:BOOL=ON' '-DTrilinos_ENABLE_ALL_OPTIONAL_PACKAGES:BOOL=OFF' '-DTrilinos_ENABLE_ALL_PACKAGES:BOOL=OFF' '-DTrilinos_ENABLE_CXX11:BOOL=ON' '-DTrilinos_ENABLE_DEBUG:BOOL=OFF' '-DTrilinos_ENABLE_EXAMPLES:BOOL=OFF' '-DTrilinos_ENABLE_SECONDARY_TESTED_CODE:BOOL=ON' '-DTrilinos_ENABLE_TESTS:BOOL=OFF' '-DTrilinos_ENABLE_Fortran:BOOL=ON' '-DTrilinos_ENABLE_OpenMP:BOOL=OFF' '-DTrilinos_ENABLE_EXPLICIT_INSTANTIATION:BOOL=ON' '-DCMAKE_CXX_STANDARD:STRING=14' '-DTrilinos_ENABLE_Adelus:BOOL=OFF' '-DTrilinos_ENABLE_Amesos:BOOL=ON' '-DTrilinos_ENABLE_Amesos2:BOOL=ON' '-DTrilinos_ENABLE_Anasazi:BOOL=ON' '-DTrilinos_ENABLE_AztecOO:BOOL=ON' '-DTrilinos_ENABLE_Belos:BOOL=ON' '-DTrilinos_ENABLE_Epetra:BOOL=ON' '-DTrilinos_ENABLE_EpetraExt:BOOL=ON' '-DTrilinos_ENABLE_FEI:BOOL=OFF' '-DTrilinos_ENABLE_Gtest:BOOL=OFF' '-DTrilinos_ENABLE_Ifpack:BOOL=ON' '-DTrilinos_ENABLE_Ifpack2:BOOL=ON' '-DTrilinos_ENABLE_Intrepid:BOOL=ON' '-DTrilinos_ENABLE_Intrepid2:BOOL=ON' '-DTrilinos_ENABLE_Isorropia:BOOL=ON' '-DTrilinos_ENABLE_Kokkos:BOOL=ON' '-DTrilinos_ENABLE_MiniTensor:BOOL=ON' '-DTrilinos_ENABLE_Mesquite:BOOL=OFF' '-DTrilinos_ENABLE_ML:BOOL=ON' '-DTrilinos_ENABLE_MueLu:BOOL=ON' '-DTrilinos_ENABLE_NOX:BOOL=ON' '-DTrilinos_ENABLE_Pamgen:BOOL=OFF' '-DTrilinos_ENABLE_Panzer:BOOL=OFF' '-DTrilinos_ENABLE_Pike:BOOL=OFF' '-DTrilinos_ENABLE_Piro:BOOL=ON' '-DTrilinos_ENABLE_Phalanx:BOOL=ON' '-DTrilinos_ENABLE_PyTrilinos:BOOL=OFF' '-DTrilinos_ENABLE_ROL:BOOL=ON' '-DTrilinos_ENABLE_Rythmos:BOOL=ON' '-DTrilinos_ENABLE_Sacado:BOOL=ON' '-DTrilinos_ENABLE_SCOREC:BOOL=OFF' '-DTrilinos_ENABLE_Shards:BOOL=ON' '-DTrilinos_ENABLE_ShyLU:BOOL=ON' '-DTrilinos_ENABLE_STK:BOOL=ON' '-DTrilinos_ENABLE_Stokhos:BOOL=ON' '-DTrilinos_ENABLE_Stratimikos:BOOL=ON' '-DTrilinos_ENABLE_Teko:BOOL=ON' '-DTrilinos_ENABLE_Tempus:BOOL=ON' '-DTrilinos_ENABLE_Thyra:BOOL=ON' '-DTrilinos_ENABLE_Tpetra:BOOL=ON' '-DTrilinos_ENABLE_TrilinosCouplings:BOOL=ON' '-DTrilinos_ENABLE_Triutils:BOOL=ON' '-DTrilinos_ENABLE_Zoltan:BOOL=ON' '-DTrilinos_ENABLE_Zoltan2:BOOL=ON' '-DEpetraExt_BUILD_BTF:BOOL=OFF' '-DEpetraExt_BUILD_EXPERIMENTAL:BOOL=OFF' '-DEpetraExt_BUILD_GRAPH_REORDERINGS:BOOL=OFF' '-DAmesos2_ENABLE_Basker:BOOL=OFF' '-DAmesos2_ENABLE_LAPACK:BOOL=ON' '-DTrilinos_ENABLE_SEACASExodus:BOOL=OFF' '-DTrilinos_ENABLE_SEACASIoss:BOOL=OFF' '-DTrilinos_ENABLE_SEACASChaco:BOOL=OFF' '-DTrilinos_ENABLE_SEACASNemslice:BOOL=OFF' '-DTrilinos_ENABLE_ThyraEpetraAdapters:BOOL=ON' '-DTrilinos_ENABLE_ThyraEpetraExtAdapters:BOOL=ON' '-DTrilinos_ENABLE_ThyraTpetraAdapters:BOOL=ON' '-DTPL_ENABLE_ADIOS2:BOOL=OFF' '-DTPL_ENABLE_Boost:BOOL=ON' '-DBoost_INCLUDE_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-kgz2zuni2idmju3j4xgbqikqy5urj3zn/include' '-DBoost_ROOT:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-kgz2zuni2idmju3j4xgbqikqy5urj3zn' '-DBoost_LIBRARY_NAMES:STRING=boost_graph_parallel;boost_graph;boost_graph_parallel-mt;boost_graph-mt;boost_mpi;boost_mpi-mt;boost_stacktrace_noop;boost_stacktrace_basic;boost_stacktrace_addr2line;boost_stacktrace_noop-mt;boost_stacktrace_basic-mt;boost_stacktrace_addr2line-mt' '-DBoost_LIBRARY_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-kgz2zuni2idmju3j4xgbqikqy5urj3zn/lib' '-DTPL_ENABLE_CUDA:BOOL=OFF' '-DTPL_ENABLE_HDF5:BOOL=OFF' '-DTPL_ENABLE_HYPRE:BOOL=OFF' '-DTPL_ENABLE_MUMPS:BOOL=OFF' '-DTPL_ENABLE_UMFPACK:BOOL=OFF' '-DTPL_ENABLE_SuperLU:BOOL=OFF' '-DTPL_ENABLE_SuperLUDist:BOOL=ON' '-DSuperLUDist_INCLUDE_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/superlu-dist-7.2.0-6tn2tykzswttzpcyk3agkxnsukdg5o3s/include' '-DSuperLUDist_ROOT:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/superlu-dist-7.2.0-6tn2tykzswttzpcyk3agkxnsukdg5o3s' '-DSuperLUDist_LIBRARY_NAMES:STRING=superlu_dist' '-DSuperLUDist_LIBRARY_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/superlu-dist-7.2.0-6tn2tykzswttzpcyk3agkxnsukdg5o3s/lib' '-DTPL_ENABLE_X11:BOOL=OFF' '-DTPL_ENABLE_BLAS:BOOL=ON' '-DBLAS_INCLUDE_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z/include' '-DBLAS_ROOT:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z' '-DBLAS_LIBRARY_NAMES:STRING=openblas' '-DBLAS_LIBRARY_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z/lib' '-DTPL_ENABLE_CGNS:BOOL=OFF' '-DTPL_ENABLE_LAPACK:BOOL=ON' '-DLAPACK_INCLUDE_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z/include' '-DLAPACK_ROOT:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z' '-DLAPACK_LIBRARY_NAMES:STRING=openblas' '-DLAPACK_LIBRARY_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/openblas-0.3.20-ygdgwsa2sz3gzijkrgq2panhwwcs2q6z/lib' '-DTPL_ENABLE_Matio:BOOL=OFF' '-DTPL_ENABLE_METIS:BOOL=ON' '-DMETIS_INCLUDE_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta/include' '-DMETIS_ROOT:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta' '-DMETIS_LIBRARY_NAMES:STRING=metis' '-DMETIS_LIBRARY_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta/lib' '-DTPL_ENABLE_Netcdf:BOOL=OFF' '-DTPL_ENABLE_SCALAPACK:BOOL=OFF' '-DTPL_ENABLE_Zlib:BOOL=ON' '-DZlib_INCLUDE_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za/include' '-DZlib_ROOT:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za' '-DZlib_LIBRARY_NAMES:STRING=z' '-DZlib_LIBRARY_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/zlib-1.2.12-5jz7ihytig5qwohkhtyl6iqi3qppg4za/lib' '-DTPL_ENABLE_Pnetcdf:BOOL=OFF' '-DTPL_ENABLE_HWLOC:BOOL=ON' '-DHWLOC_INCLUDE_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r/include' '-DHWLOC_ROOT:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r' '-DHWLOC_LIBRARY_NAMES:STRING=hwloc' '-DHWLOC_LIBRARY_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/hwloc-2.7.1-casux644lp5f3spbsvn42akt52npij7r/lib' '-DTPL_ENABLE_MPI:BOOL=ON' '-DCMAKE_C_COMPILER:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpicc' '-DCMAKE_CXX_COMPILER:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpic++' '-DCMAKE_Fortran_COMPILER:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90' '-DMPI_BASE_DIR:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq' '-DTPL_ENABLE_ParMETIS:BOOL=ON' '-DParMETIS_LIBRARY_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/parmetis-4.0.3-7k7kmefyaoqnhigelovllym5ixi4dxjo/lib;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta/lib' '-DParMETIS_LIBRARY_NAMES:STRING=parmetis;metis' '-DTPL_ParMETIS_INCLUDE_DIRS:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/parmetis-4.0.3-7k7kmefyaoqnhigelovllym5ixi4dxjo/include;/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/metis-5.1.0-izfcwp7i63zk4ti27qteddz5wnka4nta/include' '-DHAVE_SUPERLUDIST_LUSTRUCTINIT_2ARG:BOOL=ON' '-DTPL_ENABLE_Cholmod:BOOL=OFF' '-DTeuchos_ENABLE_COMPLEX:BOOL=OFF' '-DTeuchos_ENABLE_FLOAT:BOOL=OFF' '-DTpetra_INST_OPENMP:BOOL=OFF' '-DTpetra_INST_DOUBLE:BOOL=ON' '-DTpetra_INST_COMPLEX_DOUBLE:BOOL=OFF' '-DTpetra_INST_COMPLEX_FLOAT:BOOL=OFF' '-DTpetra_INST_FLOAT:BOOL=OFF' '-DTpetra_INST_SERIAL:BOOL=ON' '-DTpetra_INST_INT_INT:BOOL=OFF' '-DTpetra_INST_INT_LONG:BOOL=OFF' '-DTpetra_INST_INT_LONG_LONG:BOOL=ON' '-DKokkos_ENABLE_CUDA:BOOL=OFF' '-DKokkos_ENABLE_OPENMP:BOOL=OFF' '-DCMAKE_INSTALL_NAME_DIR:STRING=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3/lib' '/tmp/root/spack-stage/spack-stage-trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3/spack-src'
+
+4 errors found in build log:
+     584    -- CMAKE_CXX_COMPILER_VERSION='2022.1.0'
+     585    -- The Fortran compiler identification is IntelLLVM 2022.1.0
+     586    -- Detecting Fortran compiler ABI info
+     587    -- Detecting Fortran compiler ABI info - failed
+     588    -- Check for working Fortran compiler: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90
+     589    -- Check for working Fortran compiler: /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 - broken
+  >> 590    CMake Error at /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x/share/cmake-3.23/Modules/CMakeTestFortranCompile
+            r.cmake:61 (message):
+     591      The Fortran compiler
+     592    
+     593        "/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90"
+     594    
+     595      is not able to compile a simple test program.
+     596    
+
+     ...
+
+     603        Building Fortran object CMakeFiles/cmTC_e44e2.dir/testFortranCompiler.f.o
+     604        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90    -c /tmp/root/spack-stage/spack-stage-trilinos-
+            13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3/spack-build-ifbrrqv/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_e44e2.dir/testFortranCompiler.f.o
+     605        Linking Fortran executable cmTC_e44e2
+     606        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/cmake-3.23.2-4522tfkc3hkawky76rjynn3nkgkz3u2x/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e44e2.dir/li
+            nk.txt --verbose=1
+     607        /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/bin/mpif90 CMakeFiles/cmTC_e44e2.dir/testFortranCompiler.f.o
+             -o cmTC_e44e2
+     608        ifx: command line warning #10006: ignoring unknown option '-rpath'
+  >> 609    ld: cannot find /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/lib: file format not recognized
+  >> 610        make[1]: *** [CMakeFiles/cmTC_e44e2.dir/build.make:99: cmTC_e44e2] Error 1
+     611        make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3/spack-build-ifbrrqv/CMakeFiles/CMakeTmp'
+  >> 612        make: *** [Makefile:127: cmTC_e44e2/fast] Error 2
+     613    
+     614    
+     615    
+     616    
+     617    
+     618      CMake will not be able to correctly generate this project.
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-py-1.11.0-ppwrqrz75w4bwud6tmrlxx7l6p2r2z6c
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-typeguard-2.12.1-awbd62gmljnqu2azufy2f4gk57hewmls
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-zipp-3.6.0-lo6alx7ajlv2paa7zc5a2eetg42grbs3
+==> Installing unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3
+==> No binary for unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3 found: installing from source
+==> Warning: Skipping build of datatransferkit-3.1-rc3-mv3vfs4djgile6ttxvtjwrvm3nwi56za since trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3 failed
+==> Warning: Skipping build of omega-h-9.34.1-6q4f3mshpvvgd2efsg2qhd7rys7zwjt2 since trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3 failed
+==> Warning: Skipping build of fortrilinos-2.0.0-jf3dek4w3vs45mn5eri3mp7fqpijn7k4 since trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3 failed
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/70/7046625dc0677535f5d960187cb2e2d58a6f8cfb4dc6a3604f825257eb0891aa.tar.gz
+==> Applied patch /spack/var/spack/repos/builtin/packages/unifyfs/include-sys-sysmacros.h.patch
+==> unifyfs: Executing phase: 'autoreconf'
+==> unifyfs: Executing phase: 'configure'
+==> unifyfs: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' 'V=1'
+
+5 errors found in build log:
+     430    /bin/bash ../../libtool  --tag=CC   --mode=compile /spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx
+            67j3xq5sve6mgyodd3/spack-src/client/src -I../..  -I../../client -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/common/src
+              -Wall -Wno-strict-aliasing -Werror -DSYSCONFDIR="/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/etc" -I/spa
+            ck/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mochi-margo-0.9.10-xfl3qrzphd37s2box32bouuepqi5tzjb/include -pthread -I/spack/opt/spack/linux-ubuntu20.04-x86_64/
+            oneapi-2022.1.0/mercury-2.1.0-whhtwczqhcr4k6baxe255fncszox4uce/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-bxrq63yfunsjh72xg3t45rk
+            etyacqokn/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04
+            -x86_64/oneapi-2022.1.0/argobots-1.1-c7huo7wucx256kkvm2pah5s4z6jhb76l/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wb
+            vc2sx47mtni5pqm/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm/include/json-c    -I/spack/opt/spack/l
+            inux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-ss
+            kl3e7jafbxqzrmufsjoaxapp6r23yq/include -g -O2 -MT libunifyfs_la-margo_client.lo -MD -MP -MF .deps/libunifyfs_la-margo_client.Tpo -c -o libunifyfs_la-margo_client.lo `t
+            est -f 'margo_client.c' || echo '/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/client/src/'`margo_client.c
+     431    libtool: compile:  /spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/cli
+            ent/src -I../.. -I../../client -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/common/src -Wall -Wno-strict-aliasing -Werr
+            or -DSYSCONFDIR=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/etc -I/spack/opt/spack/linux-ubuntu20.04-x86_6
+            4/oneapi-2022.1.0/mochi-margo-0.9.10-xfl3qrzphd37s2box32bouuepqi5tzjb/include -pthread -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mercury-2.1.0-whhtwc
+            zqhcr4k6baxe255fncszox4uce/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-bxrq63yfunsjh72xg3t45rketyacqokn/include -I/spack/opt/spack
+            /linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/argobots-1.1
+            -c7huo7wucx256kkvm2pah5s4z6jhb76l/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm/include -I/spack/opt
+            /spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm/include/json-c -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0
+            /mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include 
+            -g -O2 -MT libunifyfs_la-margo_client.lo -MD -MP -MF .deps/libunifyfs_la-margo_client.Tpo -c /tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6m
+            gyodd3/spack-src/client/src/margo_client.c  -fPIC -DPIC -o .libs/libunifyfs_la-margo_client.o
+     432    libtool: compile:  /spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/cli
+            ent/src -I../.. -I../../client -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/common/src -Wall -Wno-strict-aliasing -Werr
+            or -DSYSCONFDIR=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/etc -I/spack/opt/spack/linux-ubuntu20.04-x86_6
+            4/oneapi-2022.1.0/mochi-margo-0.9.10-xfl3qrzphd37s2box32bouuepqi5tzjb/include -pthread -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mercury-2.1.0-whhtwc
+            zqhcr4k6baxe255fncszox4uce/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-bxrq63yfunsjh72xg3t45rketyacqokn/include -I/spack/opt/spack
+            /linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/argobots-1.1
+            -c7huo7wucx256kkvm2pah5s4z6jhb76l/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm/include -I/spack/opt
+            /spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm/include/json-c -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0
+            /mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include 
+            -g -O2 -MT libunifyfs_la-margo_client.lo -MD -MP -MF .deps/libunifyfs_la-margo_client.Tpo -c /tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6m
+            gyodd3/spack-src/client/src/margo_client.c -o libunifyfs_la-margo_client.o >/dev/null 2>&1
+     433    mv -f .deps/libunifyfs_la-margo_client.Tpo .deps/libunifyfs_la-margo_client.Plo
+     434    /bin/bash ../../libtool  --tag=CC   --mode=compile /spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx
+            67j3xq5sve6mgyodd3/spack-src/client/src -I../..  -I../../client -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/common/src
+              -Wall -Wno-strict-aliasing -Werror -DSYSCONFDIR="/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/etc" -I/spa
+            ck/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mochi-margo-0.9.10-xfl3qrzphd37s2box32bouuepqi5tzjb/include -pthread -I/spack/opt/spack/linux-ubuntu20.04-x86_64/
+            oneapi-2022.1.0/mercury-2.1.0-whhtwczqhcr4k6baxe255fncszox4uce/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-bxrq63yfunsjh72xg3t45rk
+            etyacqokn/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04
+            -x86_64/oneapi-2022.1.0/argobots-1.1-c7huo7wucx256kkvm2pah5s4z6jhb76l/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wb
+            vc2sx47mtni5pqm/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm/include/json-c    -I/spack/opt/spack/l
+            inux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-ss
+            kl3e7jafbxqzrmufsjoaxapp6r23yq/include -g -O2 -MT libunifyfs_la-unifyfs.lo -MD -MP -MF .deps/libunifyfs_la-unifyfs.Tpo -c -o libunifyfs_la-unifyfs.lo `test -f 'unifyfs
+            .c' || echo '/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/client/src/'`unifyfs.c
+     435    libtool: compile:  /spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/cli
+            ent/src -I../.. -I../../client -I/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/common/src -Wall -Wno-strict-aliasing -Werr
+            or -DSYSCONFDIR=/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/etc -I/spack/opt/spack/linux-ubuntu20.04-x86_6
+            4/oneapi-2022.1.0/mochi-margo-0.9.10-xfl3qrzphd37s2box32bouuepqi5tzjb/include -pthread -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mercury-2.1.0-whhtwc
+            zqhcr4k6baxe255fncszox4uce/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/boost-1.79.0-bxrq63yfunsjh72xg3t45rketyacqokn/include -I/spack/opt/spack
+            /linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/argobots-1.1
+            -c7huo7wucx256kkvm2pah5s4z6jhb76l/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm/include -I/spack/opt
+            /spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/json-c-0.15-if4wlc2bki7m4t4wbvc2sx47mtni5pqm/include/json-c -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0
+            /mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include -I/spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/mpich-4.0.2-sskl3e7jafbxqzrmufsjoaxapp6r23yq/include 
+            -g -O2 -MT libunifyfs_la-unifyfs.lo -MD -MP -MF .deps/libunifyfs_la-unifyfs.Tpo -c /tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spa
+            ck-src/client/src/unifyfs.c  -fPIC -DPIC -o .libs/libunifyfs_la-unifyfs.o
+  >> 436    /tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/client/src/unifyfs.c:1502:7: error: unused function 'next_page_align' [-Werr
+            or,-Wunused-function]
+     437    char* next_page_align(char* ptr)
+     438          ^
+     439    1 error generated.
+  >> 440    make[3]: *** [Makefile:938: libunifyfs_la-unifyfs.lo] Error 1
+     441    make[3]: Leaving directory '/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/spack-build/client/src'
+  >> 442    make[2]: *** [Makefile:469: all-recursive] Error 1
+     443    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/spack-build/client'
+  >> 444    make[1]: *** [Makefile:497: all-recursive] Error 1
+     445    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-src/spack-build'
+  >> 446    make: *** [Makefile:408: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-pyzmq-22.3.0-iyug4icgbmai5zhrykbqhwsrgjrl6y2c
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-importlib-resources-5.3.0-7sdpipsbke3vlef42tggyeavtadhscxa
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-radical-utils-1.14.0-732wcjiffpah4cgy33s5trjiezw5rx3y
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-jsonschema-4.4.0-uhpmyaa6qx4ap35uyn5367sndmlgz3vo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-radical-saga-1.14.0-xsaihuzqtsi57slsh6mlweizar5kxpw7
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-radical-gtod-1.13.0-rjxzmwt56epvrx33ztxvzrnfawwtdelt
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/flux-core-0.40.0-2j4lyefrb5rg363b23re3jnkkhg5ufpf
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-radical-pilot-1.14.0-sdoolruundm2tgqju7fr67jmcl6tfwzv
+==> Installing flux-sched-0.23.0-hpalmxerd6bsvq4c4mtodix7kq24gdfu
+==> No binary for flux-sched-0.23.0-hpalmxerd6bsvq4c4mtodix7kq24gdfu found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/15/159b62cc4d25ef3d5da5338511ff38449a893d8adca13383cda7b322295acc1c.tar.gz
+==> No patches needed for flux-sched
+==> flux-sched: Executing phase: 'autoreconf'
+==> flux-sched: Executing phase: 'configure'
+==> flux-sched: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16' 'V=1'
+
+10 errors found in build log:
+     348    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:171:24: warning: comparison with i
+            nfinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+     349          } else if (value == -std::numeric_limits<T>::infinity()) {
+     350                     ~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     351    In file included from /tmp/root/spack-stage/spack-stage-flux-sched-0.23.0-hpalmxerd6bsvq4c4mtodix7kq24gdfu/spack-src/resource/libjobspec/jobspec.cpp:11:
+     352    In file included from /tmp/root/spack-stage/spack-stage-flux-sched-0.23.0-hpalmxerd6bsvq4c4mtodix7kq24gdfu/spack-src/resource/libjobspec/jobspec.hpp:38:
+     353    In file included from /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/yaml.h:11:
+  >> 354    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:164:9: error: comparison with NaN 
+            always evaluates to false in fast floating point modes [-Werror,-Wtautological-constant-compare]
+     355            std::isnan(value)) {
+     356            ^~~~~~~~~~~~~~~~~
+     357    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:260:18: note: in instantiation of 
+            function template specialization 'YAML::Emitter::WriteStreamable<float>' requested here
+     358      return emitter.WriteStreamable(v);
+     359                     ^
+  >> 360    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:168:17: error: comparison with inf
+            inity always evaluates to false in fast floating point modes [-Werror,-Wtautological-constant-compare]
+     361          if (value == std::numeric_limits<T>::infinity()) {
+     362              ~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  >> 363    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:171:24: error: comparison with inf
+            inity always evaluates to false in fast floating point modes [-Werror,-Wtautological-constant-compare]
+     364          } else if (value == -std::numeric_limits<T>::infinity()) {
+     365                     ~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  >> 366    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:164:9: error: comparison with NaN 
+            always evaluates to false in fast floating point modes [-Werror,-Wtautological-constant-compare]
+     367            std::isnan(value)) {
+     368            ^~~~~~~~~~~~~~~~~
+     369    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:263:18: note: in instantiation of 
+            function template specialization 'YAML::Emitter::WriteStreamable<double>' requested here
+     370      return emitter.WriteStreamable(v);
+     371                     ^
+  >> 372    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:168:17: error: comparison with inf
+            inity always evaluates to false in fast floating point modes [-Werror,-Wtautological-constant-compare]
+     373          if (value == std::numeric_limits<T>::infinity()) {
+     374              ~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  >> 375    /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/yaml-cpp-0.6.3-t2tdr63retzkajtl2l5uiefrtchrapx7/include/yaml-cpp/emitter.h:171:24: error: comparison with inf
+            inity always evaluates to false in fast floating point modes [-Werror,-Wtautological-constant-compare]
+     376          } else if (value == -std::numeric_limits<T>::infinity()) {
+     377                     ~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     378    6 errors generated.
+  >> 379    make[3]: *** [Makefile:523: libjobspec_conv_la-jobspec.lo] Error 1
+     380    make[3]: *** Waiting for unfinished jobs....
+     381    6 warnings generated.
+     382    make[3]: Leaving directory '/tmp/root/spack-stage/spack-stage-flux-sched-0.23.0-hpalmxerd6bsvq4c4mtodix7kq24gdfu/spack-src/spack-build/resource/libjobspec'
+  >> 383    make[2]: *** [Makefile:1043: all-recursive] Error 1
+     384    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-flux-sched-0.23.0-hpalmxerd6bsvq4c4mtodix7kq24gdfu/spack-src/spack-build/resource'
+  >> 385    make[1]: *** [Makefile:507: all-recursive] Error 1
+     386    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-flux-sched-0.23.0-hpalmxerd6bsvq4c4mtodix7kq24gdfu/spack-src/spack-build'
+  >> 387    make: *** [Makefile:439: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-flux-sched-0.23.0-hpalmxerd6bsvq4c4mtodix7kq24gdfu/spack-build-out.txt
+
+==> Error: unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3: ProcessError: Command exited with status 2:
+    'make' 'V=1'
+==> Error: datatransferkit-3.1-rc3-mv3vfs4djgile6ttxvtjwrvm3nwi56za: Package was not installed
+==> Error: exaworks-0.1.0-nkkcyvagbpgcfivuw656fqwka6cjimc2: Package was not installed
+==> Error: flecsi-1.4.2-jbtrynwta772dfkjmsstujatawqpmlcf: Package was not installed
+==> Error: fortrilinos-2.0.0-jf3dek4w3vs45mn5eri3mp7fqpijn7k4: Package was not installed
+==> Error: hpx-1.7.1-czdjpsyt47qve4or2zqgq37sn6xwi5il: Package was not installed
+==> Error: omega-h-9.34.1-6q4f3mshpvvgd2efsg2qhd7rys7zwjt2: Package was not installed
+==> Error: precice-2.4.0-patgbfezixsxzsywpubw5ih6wboplboi: Package was not installed
+==> Error: trilinos-13.0.1-ifbrrqvq5tcav56ucn4wbafg43g4fta3: Package was not installed
+==> Error: unifyfs-0.9.2-t62r74razv4uhx67j3xq5sve6mgyodd3: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/oneapi-2022.1.0/py-radical-entk-1.14.0-h7f6nt7jy6qtcf7s7dik5yqinq6ey5fi
