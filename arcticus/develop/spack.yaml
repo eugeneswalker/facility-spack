@@ -141,7 +141,6 @@ spack:
   - mpark-variant
   - mpifileutils ~xattr
   - netlib-scalapack
-  - papi
   - papyrus
   - parsec ~cuda
   - pdt
@@ -199,6 +198,7 @@ spack:
   #- nrm@0.1.0                                        # py-numpy
   #- omega-h@9.34.1                                   # boost@1.79
   #- openpmd-api@0.14.4                               # hdf5, adios2
+  #- papi                                             # papi
   #- parallel-netcdf@1.12.2                           # parallel-netcdf
   #- paraview@5.10.1 +qt                              # binutils
   #- petsc@3.17.1                                     # hdf5@1.12.2
@@ -240,6 +240,7 @@ spack:
   # hdf5@1.12.2: MakeTestFortranCompiler.cmake:61: Fortran compiler not able to compile simple test program
   # hdf5@1.8.21: MakeTestFortranCompiler.cmake:61: Fortran compiler not able to compile simple test program
   # intel-tbb: clang++clang++clang++clang++clang++clang++clang++: : : : : : : clang++error: : unknown argument: '-flifetime-dse=1'
+  # papi: pfmlib_common.c:1752:12: error: variable 'n' set but not used [-Werror,-Wunused-but-set-variable]
   # parallel-netcdf: checking if Fortran "integer*1" is ... configure: error: Could not link conftestf.o and conftest.o
   # pfunit: oneapi is unsupported compiler
   # phist: fortran_bindings/test/kernels.F90(63): error #8284: If the actual argument is scalar, the dummy argument shall be scalar unless the actual argument is of type character or is an element of an array that is not assumed shape, pointer, or polymorphic.   [ARGV]
