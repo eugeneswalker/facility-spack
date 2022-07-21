@@ -106,6 +106,26 @@ spack:
     mesa:
       version: [21.3.8]
 
+    # EXTERNALS
+    libfabric:
+      buildable: false
+      externals:
+      - spec: libfabric@1.14.0 fabrics=psm3,rxm,shm,sockets,tcp,udp,verbs ~kdreg ~debug
+        prefix: /soft/packaging/spack-builds/linux-opensuse_leap15-x86_64/gcc-10.2.0/libfabric-1.14.0-hp2bsvalxnpwh364mev25uz7ctjnyg6r
+        modules:
+        - spack/linux-opensuse_leap15-x86_64
+        - libfabric/1.14.0-gcc-10.2.0-hp2bsva
+    mpich:
+      buildable: false
+      externals:
+      - spec: mpich@4.0a2~hydra device=ch4
+        prefix: /soft/restricted/CNDA/mpich/drop45.3/mpich-ofi-sockets-icc-default-ats-drop45
+        modules:
+        - oneapi/eng-compiler/2022.01.30.007
+        - mpi/aurora_mpich/icc-sockets/45.3
+        - spack/linux-opensuse_leap15-x86_64
+        - libfabric/1.14.0-gcc-10.2.0-hp2bsva
+
   specs:
   # CPU
   - adios
@@ -133,7 +153,7 @@ spack:
   - lammps
   - legion
   - libnrm
-  - libquo ^mpich@4.0.2
+  - libquo
   - libunwind
   - loki
   - mercury
@@ -157,7 +177,7 @@ spack:
   - swig@4.0.2-fortran
   - sz
   - tasmanian
-  - turbine ^mpich@4.0.2
+  - turbine
   - umap
   - umpire
   - upcxx
