@@ -76,12 +76,10 @@ spack:
       providers:
         blas: [openblas]
         mpi: [mpich]
-      target: [x86_64]
+      target: [icelake]
       variants: +mpi
     binutils:
       variants: +ld +gold +headers +libiberty ~nls
-    cuda:
-      version: [11.4.2]
     elfutils:
       variants: +bzip2 ~nls +xz
     hdf5:
