@@ -133,7 +133,7 @@ spack:
   - lammps
   - legion
   - libnrm
-  - libquo
+  - libquo ^mpich@4.0.2
   - libunwind
   - loki
   - mercury
@@ -157,7 +157,7 @@ spack:
   - swig@4.0.2-fortran
   - sz
   - tasmanian
-  - turbine
+  - turbine ^mpich@4.0.2
   - umap
   - umpire
   - upcxx
