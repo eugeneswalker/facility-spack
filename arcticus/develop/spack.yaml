@@ -140,7 +140,6 @@ spack:
   - darshan-util
   - faodel
   - flit
-  - flux-core
   - gasnet
   - ginkgo
   - globalarrays
@@ -201,6 +200,7 @@ spack:
   #- cabana@0.4.0                                     # cabana
   #- charliecloud@0.26                                # charliecloud
   #- conduit@0.8.3                                    # hdf5@1.8.21
+  #- flux-core                                        # czmq
   #- datatransferkit@3.1-rc3                          # trilinos
   #- dyninst@12.1.0                                   # intel-tbb
   #- exaworks@0.1.0                                   # rust, flux-sched
@@ -252,6 +252,7 @@ spack:
   # butterflypack: SRC_COMPLEX/cMAGMA_utilities.f90(353): error #5192: Lead underscore not allowed
   # cabana: cajita/src/Cajita_SparseIndexSpace.hpp:156:22: error: SYCL kernel cannot call a recursive function
   # charliecloud: RuntimeError: configure script not found in ...
+  # czmq: src/zsys.c:1523:20: error: a function declaration without a prototype is deprecated in all versions of C [-Werror,-Wstrict-prototypes]
   # flux-sched: include/yaml-cpp/emitter.h:164:9: error: comparison with NaN always evaluates to false in fast floating point modes [-Werror,-Wtautological-constant-compare]
   # h5bench: commons/h5bench_util.h:196: multiple definition of `has_vol_async';
   # hdf5@1.10.7: CMake Error at ...: Fortran compiler not able to compile test program
